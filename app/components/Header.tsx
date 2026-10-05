@@ -4,9 +4,10 @@ import QuoteModal from "./QuoteModal";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white/95 backdrop-blur md:block">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-3">
+    <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+        {/* LOGO */}
+        <Link href="/" className="flex items-center gap-4">
           <Image
             src="/jin-yang-hu-logo.png"
             alt="JIN YANG HU"
@@ -16,13 +17,17 @@ export default function Header() {
             priority
           />
 
-          <div className="hidden text-sm text-zinc-500 lg:block">
+          <span className="hidden text-sm text-zinc-500 lg:block">
             Industrial Lifting Solutions
-          </div>
+          </span>
         </Link>
 
-        <nav className="flex items-center gap-8 text-sm font-medium">
-          <Link href="/" className="transition hover:text-orange-500">
+        {/* NAVIGATION */}
+        <nav className="hidden items-center gap-10 text-base font-medium text-zinc-900 md:flex">
+          <Link
+            href="/"
+            className="transition hover:text-orange-500"
+          >
             Home
           </Link>
 
@@ -48,7 +53,10 @@ export default function Header() {
           </Link>
         </nav>
 
-        <QuoteModal />
+        {/* CTA */}
+        <div className="hidden md:block">
+          <QuoteModal />
+        </div>
       </div>
     </header>
   );
