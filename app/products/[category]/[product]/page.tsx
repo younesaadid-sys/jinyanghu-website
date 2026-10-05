@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Icon } from "@iconify/react";
+
 import QuoteModal from "@/app/components/QuoteModal";
 import ProductGallery from "@/app/components/ProductGallery";
 import ProductOptions from "@/app/components/ProductOptions";
+
 const gallery = [
   {
     src: "/products/ja-series/ja-main.jpg",
@@ -80,21 +81,6 @@ const applications = [
 export default function JASeriesPage() {
   return (
     <main className="min-h-screen bg-white text-zinc-900">
-      {/* TOP NAV */}
-      <header className="border-b border-zinc-200 bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-     <Link
-  href="/products/electric-heavy-duty-movers"
-  className="flex items-center gap-2 text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
->
-  <Icon icon="mdi:arrow-left" className="text-xl" />
-  Back to Products
-</Link>
-
-          <QuoteModal />
-        </div>
-      </header>
-
       {/* PRODUCT HERO */}
       <section className="bg-zinc-950 text-white">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-start">
@@ -112,14 +98,15 @@ export default function JASeriesPage() {
             </h1>
 
             <p className="mt-5 text-lg leading-8 text-zinc-300">
-             Electric Machinery Skates Dolly, 360° Mobile Mechanical Transporters, Machine Skates Dolly with 2pcs Straight Auxiliary Wheels Skates 
-             (60t - with a Pair of Auxiliary Wheels)
-
+              Electric Machinery Skates Dolly, 360° Mobile Mechanical
+              Transporters, Machine Skates Dolly with 2pcs Straight Auxiliary
+              Wheels Skates (60t - with a Pair of Auxiliary Wheels)
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
                 <div className="text-sm text-zinc-400">Load Capacity</div>
+
                 <div className="mt-2 text-3xl font-black text-orange-500">
                   10T–60T
                 </div>
@@ -127,6 +114,7 @@ export default function JASeriesPage() {
 
               <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
                 <div className="text-sm text-zinc-400">Drive Type</div>
+
                 <div className="mt-2 text-2xl font-black text-white">
                   Electric
                 </div>
@@ -138,22 +126,34 @@ export default function JASeriesPage() {
 
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 <div className="flex items-center gap-3 text-zinc-300">
-                  <Icon icon="mdi:check-circle" className="text-xl text-orange-500" />
+                  <Icon
+                    icon="mdi:check-circle"
+                    className="text-xl text-orange-500"
+                  />
                   360° rotating platform
                 </div>
 
                 <div className="flex items-center gap-3 text-zinc-300">
-                  <Icon icon="mdi:check-circle" className="text-xl text-orange-500" />
+                  <Icon
+                    icon="mdi:check-circle"
+                    className="text-xl text-orange-500"
+                  />
                   Heavy-duty steel body
                 </div>
 
                 <div className="flex items-center gap-3 text-zinc-300">
-                  <Icon icon="mdi:check-circle" className="text-xl text-orange-500" />
+                  <Icon
+                    icon="mdi:check-circle"
+                    className="text-xl text-orange-500"
+                  />
                   Dual copper-core motors
                 </div>
 
                 <div className="flex items-center gap-3 text-zinc-300">
-                  <Icon icon="mdi:check-circle" className="text-xl text-orange-500" />
+                  <Icon
+                    icon="mdi:check-circle"
+                    className="text-xl text-orange-500"
+                  />
                   Built-in LED lighting
                 </div>
               </div>
@@ -166,6 +166,7 @@ export default function JASeriesPage() {
         </div>
       </section>
 
+      {/* PRODUCT OPTIONS */}
       <ProductOptions />
 
       {/* KEY FEATURES */}
@@ -194,13 +195,9 @@ export default function JASeriesPage() {
                   />
                 </div>
 
-                <h3 className="mt-5 text-xl font-black">
-                  {feature.title}
-                </h3>
+                <h3 className="mt-5 text-xl font-black">{feature.title}</h3>
 
-                <p className="mt-3 leading-7 text-zinc-600">
-                  {feature.text}
-                </p>
+                <p className="mt-3 leading-7 text-zinc-600">{feature.text}</p>
               </div>
             ))}
           </div>
@@ -258,6 +255,7 @@ export default function JASeriesPage() {
                   icon="mdi:check-circle-outline"
                   className="shrink-0 text-2xl text-orange-500"
                 />
+
                 <span className="font-semibold">{application}</span>
               </div>
             ))}
