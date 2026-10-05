@@ -203,37 +203,53 @@ export default function JASeriesPage() {
           </div>
         </div>
       </section>
+{/* TECHNICAL SPECIFICATIONS */}
+<section className="bg-white">
+  <div className="mx-auto max-w-7xl px-6 py-20">
+    <div className="max-w-2xl">
+      <p className="font-semibold uppercase tracking-wider text-orange-500">
+        Technical Specifications
+      </p>
 
-      {/* PRODUCT DETAILS */}
-      <section className="mx-auto max-w-7xl px-6 py-20">
-        <div className="mb-10 max-w-2xl">
-          <p className="font-semibold uppercase tracking-wider text-orange-500">
-            Product Details
-          </p>
+      <h2 className="mt-3 text-4xl font-black">
+        JA Series Product Specifications
+      </h2>
 
-          <h2 className="mt-3 text-4xl font-black">
-            Explore the JA Series in detail
-          </h2>
-        </div>
+      <p className="mt-4 leading-7 text-zinc-600">
+        Key technical information for selecting the suitable JA Series
+        configuration for your industrial application.
+      </p>
+    </div>
 
-        <div className="grid gap-8 md:grid-cols-2">
-          {gallery.slice(1).map((image) => (
-            <div
-              key={image.src}
-              className="overflow-hidden rounded-2xl border border-zinc-200 bg-white"
-            >
-              <Image
-                src={image.src}
-                alt={image.alt}
-                width={900}
-                height={900}
-                className="h-auto w-full"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
+    <div className="mt-10 overflow-hidden rounded-2xl border border-zinc-200">
+      <div className="grid sm:grid-cols-2">
+        {[
+          ["Load Capacity", "10T–60T"],
+          ["Drive Type", "Electric"],
+          ["Platform", "360° Rotation"],
+          ["Control", "Remote Control"],
+          ["Material", "Manganese Steel"],
+          ["Motor", "Dual Copper-Core Motors"],
+          ["Wheel Type", "Heavy-Duty Polyurethane"],
+          ["Lighting", "Built-In LED Headlights"],
+        ].map(([label, value], index) => (
+          <div
+            key={label}
+            className={`flex items-center justify-between gap-6 px-6 py-5 ${
+              index % 2 === 0 ? "bg-zinc-50" : "bg-white"
+            } border-b border-zinc-200`}
+          >
+            <span className="font-semibold text-zinc-500">{label}</span>
 
+            <span className="text-right font-bold text-zinc-900">
+              {value}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
       {/* APPLICATIONS */}
       <section className="bg-zinc-950 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20">
