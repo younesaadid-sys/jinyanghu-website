@@ -1,11 +1,157 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 import QuoteModal from "./QuoteModal";
 
+const categories = [
+  {
+    name: "Electric Heavy-Duty Movers",
+    slug: "electric-heavy-duty-movers",
+  },
+  {
+    name: "Manual Heavy-Duty Movers",
+    slug: "manual-heavy-duty-movers",
+  },
+  {
+    name: "Jacks",
+    slug: "jacks",
+  },
+  {
+    name: "Stair-Climbing Carts",
+    slug: "stair-climbing-carts",
+  },
+  {
+    name: "Pallet Trucks",
+    slug: "pallet-trucks",
+  },
+  {
+    name: "Stackers",
+    slug: "stackers",
+  },
+  {
+    name: "All-Terrain Transporters",
+    slug: "all-terrain-transporters",
+  },
+  {
+    name: "Gantry Cranes",
+    slug: "gantry-cranes",
+  },
+  {
+    name: "Freight Lifts & Aerial Work Equipment",
+    slug: "freight-lifts-aerial-work-equipment",
+  },
+  {
+    name: "Small Lifting Equipment",
+    slug: "small-lifting-equipment",
+  },
+  {
+    name: "Lifting Rigging",
+    slug: "lifting-rigging",
+  },
+  {
+    name: "Electronic Weighing Scales",
+    slug: "electronic-weighing-scales",
+  },
+  {
+    name: "Line-Work Tools",
+    slug: "line-work-tools",
+  },
+  {
+    name: "Pipeline Tools",
+    slug: "pipeline-tools",
+  },
+  {
+    name: "Drilling & Punching Equipment",
+    slug: "drilling-punching-equipment",
+  },
+  {
+    name: "Other Specialized Products",
+    slug: "other-specialized-products",
+  },
+];
+
+const products: Record<
+  string,
+  {
+    name: string;
+    slug: string;
+    description: string;
+  }[]
+> = {
+  "electric-heavy-duty-movers": [
+    {
+      name: "JA Series",
+      slug: "ja-series-electric-tank-transporters",
+      description: "10T–60T electric tank transporters",
+    },
+    {
+      name: "JA-B Series",
+      slug: "ja-b-series-electric-tank-transporters",
+      description: "Heavy-duty electric transporter series",
+    },
+    {
+      name: "JS Series",
+      slug: "js-series-electric-tank-transporters",
+      description: "Stable electric machinery transport system",
+    },
+    {
+      name: "JD Series",
+      slug: "jd-series-electric-tank-transporters",
+      description: "Industrial heavy-load moving equipment",
+    },
+    {
+      name: "JX Series",
+      slug: "jx-series-electric-tank-transporters",
+      description: "Factory and warehouse transport solution",
+    },
+    {
+      name: "JZ Series",
+      slug: "jz-series-heavy-duty-load-movers",
+      description: "High-capacity heavy-duty load movers",
+    },
+    {
+      name: "JQ Series",
+      slug: "jq-series-low-profile-tank-transporters",
+      description: "Low-profile industrial transporters",
+    },
+  ],
+
+  "manual-heavy-duty-movers": [],
+  jacks: [],
+  "stair-climbing-carts": [],
+  "pallet-trucks": [],
+  stackers: [],
+  "all-terrain-transporters": [],
+  "gantry-cranes": [],
+  "freight-lifts-aerial-work-equipment": [],
+  "small-lifting-equipment": [],
+  "lifting-rigging": [],
+  "electronic-weighing-scales": [],
+  "line-work-tools": [],
+  "pipeline-tools": [],
+  "drilling-punching-equipment": [],
+  "other-specialized-products": [],
+};
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const [activeCategory, setActiveCategory] = useState(
+    "electric-heavy-duty-movers"
+  );
+
+  const activeCategoryInfo = categories.find(
+    (category) => category.slug === activeCategory
+  );
+
+  const activeProducts = products[activeCategory] || [];
+
   return (
-    <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+    <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white md:block">
+      <div className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         {/* LOGO */}
         <Link href="/" className="flex items-center gap-4">
           <Image
@@ -23,7 +169,7 @@ export default function Header() {
         </Link>
 
         {/* NAVIGATION */}
-        <nav className="hidden items-center gap-10 text-base font-medium text-zinc-900 md:flex">
+        <nav className="flex items-center gap-10 text-base font-medium text-zinc-900">
           <Link
             href="/"
             className="transition hover:text-orange-500"
@@ -31,12 +177,185 @@ export default function Header() {
             Home
           </Link>
 
-          <Link
-            href="/products"
-            className="transition hover:text-orange-500"
+          {/* PRODUCTS MEGA MENU */}
+          <div
+            className="relative"
+            onMouseEnter={() => setMenuOpen(true)}
+            onMouseLeave={() => setMenuOpen(false)}
           >
-            Products
-          </Link>
+            <Link
+              href="/products"
+              className="flex items-center gap-1 py-6 transition hover:text-orange-500"
+            >
+              Products
+
+              <span
+                className={`text-xs transition ${
+                  menuOpen ? "rotate-180" : ""
+                }`}
+              >
+                ▼
+              </span>
+            </Link>
+
+            {menuOpen && (
+              <div
+                className="
+                  absolute
+                  left-1/2
+                  top-full
+                  z-[100]
+                  w-[900px]
+                  -translate-x-1/2
+                  overflow-hidden
+                  rounded-2xl
+                  border
+                  border-zinc-200
+                  bg-white
+                  shadow-2xl
+                "
+              >
+                <div className="grid grid-cols-[320px_1fr]">
+                  {/* LEFT SIDE - CATEGORIES */}
+                  <div className="border-r border-zinc-200 bg-zinc-50 p-4">
+                    <p className="mb-3 px-3 text-xs font-bold uppercase tracking-wider text-zinc-400">
+                      Product Categories
+                    </p>
+
+                    <div className="max-h-[500px] overflow-y-auto">
+                      {categories.map((category) => (
+                        <button
+                          key={category.slug}
+                          type="button"
+                          onMouseEnter={() =>
+                            setActiveCategory(category.slug)
+                          }
+                          className={`
+                            flex
+                            w-full
+                            items-center
+                            justify-between
+                            rounded-lg
+                            px-3
+                            py-3
+                            text-left
+                            text-sm
+                            transition
+
+                            ${
+                              activeCategory === category.slug
+                                ? "bg-orange-500 font-semibold text-white"
+                                : "text-zinc-700 hover:bg-zinc-200"
+                            }
+                          `}
+                        >
+                          <span>{category.name}</span>
+
+                          <span>›</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* RIGHT SIDE - PRODUCTS */}
+                  <div className="p-7">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-wider text-orange-500">
+                          Category
+                        </p>
+
+                        <h3 className="mt-1 text-2xl font-black text-zinc-900">
+                          {activeCategoryInfo?.name}
+                        </h3>
+                      </div>
+
+                      <Link
+                        href={`/products/${activeCategory}`}
+                        className="text-sm font-semibold text-orange-500 transition hover:text-orange-600"
+                      >
+                        View Category →
+                      </Link>
+                    </div>
+
+                    {activeProducts.length > 0 ? (
+                      <div className="mt-6 grid grid-cols-2 gap-3">
+                        {activeProducts.map((product) => (
+                          <Link
+                            key={product.slug}
+                            href={`/products/${activeCategory}/${product.slug}`}
+                            className="
+                              group
+                              rounded-xl
+                              border
+                              border-zinc-200
+                              p-4
+                              transition
+                              hover:border-orange-300
+                              hover:bg-orange-50
+                            "
+                          >
+                            <div className="flex items-center justify-between">
+                              <h4 className="font-bold text-zinc-900 group-hover:text-orange-500">
+                                {product.name}
+                              </h4>
+
+                              <span className="text-orange-500">
+                                →
+                              </span>
+                            </div>
+
+                            <p className="mt-2 text-sm leading-6 text-zinc-500">
+                              {product.description}
+                            </p>
+                          </Link>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="mt-8 rounded-xl border border-zinc-200 bg-zinc-50 p-8">
+                        <p className="font-semibold text-zinc-900">
+                          Products will be added soon.
+                        </p>
+
+                        <p className="mt-2 text-sm leading-6 text-zinc-500">
+                          Explore this category page for available products and
+                          future updates.
+                        </p>
+
+                        <Link
+                          href={`/products/${activeCategory}`}
+                          className="mt-4 inline-block font-semibold text-orange-500"
+                        >
+                          Open Category →
+                        </Link>
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* BOTTOM BAR */}
+                <div className="flex items-center justify-between border-t border-zinc-200 bg-zinc-950 px-6 py-4 text-white">
+                  <div>
+                    <p className="font-semibold">
+                      Need help choosing the right equipment?
+                    </p>
+
+                    <p className="mt-1 text-xs text-zinc-400">
+                      Our sales team can recommend the suitable model for your
+                      application.
+                    </p>
+                  </div>
+
+                  <Link
+                    href="/#contact"
+                    className="rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-orange-600"
+                  >
+                    Contact Sales
+                  </Link>
+                </div>
+              </div>
+            )}
+          </div>
 
           <Link
             href="/#about"
@@ -53,8 +372,8 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* CTA */}
-        <div className="hidden md:block">
+        {/* QUOTE BUTTON */}
+        <div>
           <QuoteModal />
         </div>
       </div>
