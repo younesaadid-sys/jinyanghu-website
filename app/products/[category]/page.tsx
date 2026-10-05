@@ -109,11 +109,13 @@ export default async function CategoryPage({
                 key={product.slug}
                 className="overflow-hidden rounded-2xl border border-zinc-200 bg-white transition hover:-translate-y-1 hover:shadow-xl"
               >
-                <div className="flex h-56 items-center justify-center bg-zinc-100">
-                  <span className="text-zinc-400">
-                    Product Image
-                  </span>
-                </div>
+                <div className="h-56 overflow-hidden bg-zinc-100">
+  <img
+    src="/products/ja-series/ja-main.jpg"
+    alt="JA Series Electric Tank Transporters"
+    className="h-full w-full object-contain p-4"
+  />
+</div>
 
                 <div className="p-6">
                   <h2 className="text-2xl font-bold">
@@ -125,11 +127,11 @@ export default async function CategoryPage({
                   </p>
 
                   <a
-  href={`/products/${category}/${product.slug}`}
-  className="mt-5 inline-block font-semibold text-orange-500 hover:text-orange-600"
->
-  View Details →
-</a>
+                    href={`/products/${category}/${product.slug}`}
+                    className="mt-5 inline-block font-semibold text-orange-500 hover:text-orange-600"
+                  >
+                    View Details →
+                  </a>
                 </div>
               </div>
             ))}
