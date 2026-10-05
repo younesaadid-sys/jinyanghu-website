@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Icon } from "@iconify/react";
 
 import QuoteModal from "@/app/components/QuoteModal";
@@ -69,6 +68,49 @@ const features = [
   },
 ];
 
+const specifications = [
+  {
+    icon: "mdi:weight-lifter",
+    label: "Load Capacity",
+    value: "10T–60T",
+  },
+  {
+    icon: "mdi:cog-outline",
+    label: "Drive Type",
+    value: "Electric",
+  },
+  {
+    icon: "mdi:rotate-360",
+    label: "Platform",
+    value: "360° Rotation",
+  },
+  {
+    icon: "mdi:remote",
+    label: "Control",
+    value: "Remote Control",
+  },
+  {
+    icon: "mdi:factory",
+    label: "Material",
+    value: "Manganese Steel",
+  },
+  {
+    icon: "mdi:engine-outline",
+    label: "Motor",
+    value: "Dual Copper-Core Motors",
+  },
+  {
+    icon: "mdi:car-tire-alert",
+    label: "Wheel Type",
+    value: "Heavy-Duty Polyurethane",
+  },
+  {
+    icon: "mdi:lightbulb-on-outline",
+    label: "Lighting",
+    value: "Built-In LED Headlights",
+  },
+];
+
 const applications = [
   "Factory machinery moving",
   "Warehouse material handling",
@@ -105,7 +147,9 @@ export default function JASeriesPage() {
 
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
-                <div className="text-sm text-zinc-400">Load Capacity</div>
+                <div className="text-sm text-zinc-400">
+                  Load Capacity
+                </div>
 
                 <div className="mt-2 text-3xl font-black text-orange-500">
                   10T–60T
@@ -113,7 +157,9 @@ export default function JASeriesPage() {
               </div>
 
               <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
-                <div className="text-sm text-zinc-400">Drive Type</div>
+                <div className="text-sm text-zinc-400">
+                  Drive Type
+                </div>
 
                 <div className="mt-2 text-2xl font-black text-white">
                   Electric
@@ -122,7 +168,9 @@ export default function JASeriesPage() {
             </div>
 
             <div className="mt-8">
-              <h2 className="text-lg font-bold">Key Advantages</h2>
+              <h2 className="text-lg font-bold">
+                Key Advantages
+              </h2>
 
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 <div className="flex items-center gap-3 text-zinc-300">
@@ -195,61 +243,88 @@ export default function JASeriesPage() {
                   />
                 </div>
 
-                <h3 className="mt-5 text-xl font-black">{feature.title}</h3>
+                <h3 className="mt-5 text-xl font-black">
+                  {feature.title}
+                </h3>
 
-                <p className="mt-3 leading-7 text-zinc-600">{feature.text}</p>
+                <p className="mt-3 leading-7 text-zinc-600">
+                  {feature.text}
+                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
-{/* TECHNICAL SPECIFICATIONS */}
-<section className="bg-white">
-  <div className="mx-auto max-w-7xl px-6 py-20">
-    <div className="max-w-2xl">
-      <p className="font-semibold uppercase tracking-wider text-orange-500">
-        Technical Specifications
-      </p>
 
-      <h2 className="mt-3 text-4xl font-black">
-        JA Series Product Specifications
-      </h2>
+      {/* PRODUCT SPECIFICATIONS */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-20">
+          <div className="max-w-2xl">
+            <p className="font-semibold uppercase tracking-wider text-orange-500">
+              Product Specifications
+            </p>
 
-      <p className="mt-4 leading-7 text-zinc-600">
-        Key technical information for selecting the suitable JA Series
-        configuration for your industrial application.
-      </p>
-    </div>
+            <h2 className="mt-3 text-4xl font-black">
+              Technical details at a glance
+            </h2>
 
-    <div className="mt-10 overflow-hidden rounded-2xl border border-zinc-200">
-      <div className="grid sm:grid-cols-2">
-        {[
-          ["Load Capacity", "10T–60T"],
-          ["Drive Type", "Electric"],
-          ["Platform", "360° Rotation"],
-          ["Control", "Remote Control"],
-          ["Material", "Manganese Steel"],
-          ["Motor", "Dual Copper-Core Motors"],
-          ["Wheel Type", "Heavy-Duty Polyurethane"],
-          ["Lighting", "Built-In LED Headlights"],
-        ].map(([label, value], index) => (
-          <div
-            key={label}
-            className={`flex items-center justify-between gap-6 px-6 py-5 ${
-              index % 2 === 0 ? "bg-zinc-50" : "bg-white"
-            } border-b border-zinc-200`}
-          >
-            <span className="font-semibold text-zinc-500">{label}</span>
-
-            <span className="text-right font-bold text-zinc-900">
-              {value}
-            </span>
+            <p className="mt-4 leading-7 text-zinc-600">
+              Review the main technical characteristics of the JA Series to
+              help you choose the right configuration for your application.
+            </p>
           </div>
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
+
+          <div className="mt-10 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm">
+            <div className="border-b border-zinc-800 bg-zinc-950 px-6 py-5 text-white">
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-orange-500/10">
+                  <Icon
+                    icon="mdi:clipboard-text-outline"
+                    className="text-2xl text-orange-500"
+                  />
+                </div>
+
+                <div>
+                  <h3 className="font-bold">
+                    JA Series Specifications
+                  </h3>
+
+                  <p className="mt-1 text-sm text-zinc-400">
+                    Electric Tank Transporter
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2">
+              {specifications.map((spec) => (
+                <div
+                  key={spec.label}
+                  className="flex items-center gap-4 border-b border-zinc-200 px-6 py-5 md:border-r"
+                >
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-orange-50">
+                    <Icon
+                      icon={spec.icon}
+                      className="text-2xl text-orange-500"
+                    />
+                  </div>
+
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                      {spec.label}
+                    </p>
+
+                    <p className="mt-1 font-bold text-zinc-900">
+                      {spec.value}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* APPLICATIONS */}
       <section className="bg-zinc-950 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20">
@@ -272,7 +347,9 @@ export default function JASeriesPage() {
                   className="shrink-0 text-2xl text-orange-500"
                 />
 
-                <span className="font-semibold">{application}</span>
+                <span className="font-semibold">
+                  {application}
+                </span>
               </div>
             ))}
           </div>
