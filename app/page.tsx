@@ -1,9 +1,9 @@
+import OurProducts from "./components/OurProducts";
 import { Icon } from "@iconify/react";
 import HomeBanner from "./components/HomeBanner";
 import QuoteModal from "./components/QuoteModal";
 import Image from "next/image";
 import { Anton } from "next/font/google";
-
 const anton = Anton({
   weight: "400",
   subsets: ["latin"],
@@ -195,8 +195,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PRODUCTS PREVIEW */}
-   
 
       {/* ABOUT */}
       <section id="about" className="bg-zinc-100">
