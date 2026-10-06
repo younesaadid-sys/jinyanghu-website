@@ -388,14 +388,14 @@ const productData = {
   driveType: "Electric",
 
   gallery: [
-    {
-      src: "/products/jz-series/jz-main.jpg",
-      alt: "JZ Series Electric Pallet Truck",
-    },
-    {
-      src: "/products/jz-series/jz-use-cases.jpg",
-      alt: "JZ Series warehouse use case",
-    },
+   {
+  src: "/products/jz-series/jz-main.png",
+  alt: "JZ Series Electric Pallet Truck",
+},
+{
+  src: "/products/jz-series/jz-use-cases.png",
+  alt: "JZ Series warehouse use case",
+},
     {
       src: "/products/jz-series/jz-why-choose-us.jpg",
       alt: "JZ Series advantages and quality",
