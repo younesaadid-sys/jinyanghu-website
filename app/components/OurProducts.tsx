@@ -49,59 +49,76 @@ const scrollingProducts = [...products, ...products];
 
 export default function OurProducts() {
   return (
-    <section className="overflow-hidden bg-white py-20">
+    <section className="overflow-hidden bg-zinc-950 py-24 text-white">
       <div className="mx-auto max-w-7xl px-6">
-        <p className="font-semibold uppercase tracking-wider text-orange-500">
-          Our Products
-        </p>
+        <div className="max-w-3xl">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-orange-500">
+            Our Products
+          </p>
 
-        <div className="mt-3 flex items-end justify-between gap-6">
-          <div>
-            <h2 className="text-4xl font-black text-zinc-900">
-              Heavy-duty solutions for industrial movement
-            </h2>
+          <h2 className="mt-4 text-4xl font-black leading-tight md:text-5xl">
+            Heavy-duty solutions built for serious industrial work
+          </h2>
 
-            <p className="mt-4 max-w-2xl leading-7 text-zinc-600">
-              Explore our industrial transport equipment designed for moving
-              heavy machinery safely, precisely and efficiently.
-            </p>
-          </div>
+          <p className="mt-5 max-w-2xl text-base leading-7 text-zinc-400">
+            Explore our equipment range designed for moving, lifting and
+            positioning heavy machinery safely and efficiently.
+          </p>
         </div>
       </div>
 
-      {/* MOVING PRODUCTS */}
-      <div className="mt-12 overflow-hidden">
+      <div className="mt-14 overflow-hidden">
         <div className="products-marquee flex w-max gap-5 px-6">
           {scrollingProducts.map((product, index) => (
             <Link
               key={`${product.name}-${index}`}
               href={product.href}
-              className="group w-[300px] shrink-0 rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-orange-300 hover:shadow-xl"
+              className="
+                group
+                relative
+                w-[320px]
+                shrink-0
+                overflow-hidden
+                rounded-2xl
+                border
+                border-zinc-800
+                bg-zinc-900
+                p-6
+                transition
+                duration-300
+                hover:-translate-y-2
+                hover:border-orange-500/60
+                hover:shadow-2xl
+              "
             >
+              <div className="absolute left-0 top-0 h-1 w-full bg-gradient-to-r from-orange-500 to-orange-300" />
+
               <div className="flex items-center justify-between">
-                <span className="rounded-full bg-orange-50 px-3 py-1 text-xs font-bold uppercase tracking-wide text-orange-500">
+                <span className="rounded-full border border-orange-500/20 bg-orange-500/10 px-3 py-1 text-xs font-bold uppercase tracking-wide text-orange-400">
                   Electric
                 </span>
 
-                <span className="text-xl text-orange-500 transition group-hover:translate-x-1">
+                <span className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-700 text-orange-400 transition group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-white">
                   →
                 </span>
               </div>
 
-              <h3 className="mt-7 text-2xl font-black text-zinc-900">
-                {product.name}
-              </h3>
+              <div className="mt-10">
+                <h3 className="text-3xl font-black text-white">
+                  {product.name}
+                </h3>
 
-              <p className="mt-2 text-sm font-medium text-zinc-400">
-                {product.category}
-              </p>
+                <p className="mt-2 text-sm font-medium text-zinc-500">
+                  {product.category}
+                </p>
 
-              <p className="mt-5 min-h-[48px] text-sm leading-6 text-zinc-600">
-                {product.description}
-              </p>
+                <p className="mt-6 min-h-[52px] text-sm leading-6 text-zinc-300">
+                  {product.description}
+                </p>
+              </div>
 
-              <div className="mt-7 border-t border-zinc-100 pt-5">
-                <span className="font-bold text-orange-500">
+              <div className="mt-8 border-t border-zinc-800 pt-5">
+                <span className="font-bold text-orange-400 transition group-hover:text-orange-300">
                   View Product →
                 </span>
               </div>
