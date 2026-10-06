@@ -196,53 +196,7 @@ export default function Home() {
       </section>
 
       {/* PRODUCTS PREVIEW */}
-      <section id="products" className="mx-auto max-w-7xl px-6 py-24">
-        <div className="max-w-2xl">
-          <p className="font-semibold uppercase tracking-wider text-orange-500">
-            Product Range
-          </p>
-
-          <h2 className="mt-3 text-4xl font-black">
-            Industrial Equipment Categories
-          </h2>
-
-          <p className="mt-4 text-lg leading-8 text-zinc-600">
-            Professional solutions for lifting, moving and handling heavy
-            equipment safely and efficiently.
-          </p>
-        </div>
-
-        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {categories.map((category, index) => (
-            <div
-              key={category}
-              className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white transition hover:-translate-y-1 hover:shadow-xl"
-            >
-              <div className="flex h-56 items-center justify-center bg-zinc-100">
-                <span className="text-sm text-zinc-400">
-                  Product image {index + 1}
-                </span>
-              </div>
-
-              <div className="p-6">
-                <h3 className="text-xl font-bold">{category}</h3>
-
-                <p className="mt-3 leading-7 text-zinc-600">
-                  Heavy-duty equipment engineered for professional industrial
-                  use.
-                </p>
-
-                <a
-                  href="/products"
-                  className="mt-5 inline-block font-semibold text-orange-500 hover:text-orange-600"
-                >
-                  View Products →
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+   
 
       {/* ABOUT */}
       <section id="about" className="bg-zinc-100">
