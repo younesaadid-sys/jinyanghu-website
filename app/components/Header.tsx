@@ -120,7 +120,7 @@ const products: Record<
       name: "JZ Series",
       slug: "jz-series-electric-pallet-truck",
       description: "Heavy-duty electric pallet truck for industrial transport",
-      image: "/products/jz-series/jz-main.jpg",
+      image: "/products/jz-series/jz-main.png",
     },
   ],
 
