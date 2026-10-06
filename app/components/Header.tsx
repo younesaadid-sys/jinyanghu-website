@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
 import QuoteModal from "./QuoteModal";
 
 const categories = [
@@ -89,41 +88,40 @@ const products: Record<
       description: "10T–60T electric tank transporters",
       image: "/products/ja-series/ja-main.jpg",
     },
+
     {
       name: "JA-B Series",
       slug: "ja-b-series-electric-tank-transporters",
       description: "Heavy-duty electric transporter series",
       image: "/products/ja-b-series/ja-b-main.jpg",
     },
+
     {
       name: "JS Series",
       slug: "js-series-electric-tank-transporters",
       description: "Stable electric machinery transport system",
     },
+
     {
       name: "JD Series",
       slug: "jd-series-electric-tank-transporters",
       description: "Industrial heavy-load moving equipment",
       image: "/products/jd-series/jd-main.jpg",
     },
+
     {
-  name: "JX Series",
-  slug: "jx-series-electric-machinery-skate-dolly",
-  description: "Remote-controlled heavy-duty machinery transporter",
-  image: "/products/jx-series/jx-main.jpg",
-},
+      name: "JX Series",
+      slug: "jx-series-electric-machinery-skate-dolly",
+      description: "Remote-controlled heavy-duty machinery transporter",
+      image: "/products/jx-series/jx-main.jpg",
+    },
+
     {
-  name: "JZ Series",
-  slug: "jz-series-electric-pallet-truck",
-  description: "Heavy-duty electric pallet truck for industrial transport",
-  image: "/products/jz-series/jz-main.jpg",
-},
-{
-  name: "JZ Series",
-  slug: "jz-series-electric-pallet-truck",
-  description: "Heavy-duty electric pallet truck for industrial transport",
-  image: "/products/jz-series/jz-main.jpg",
-},
+      name: "JZ Series",
+      slug: "jz-series-electric-pallet-truck",
+      description: "Heavy-duty electric pallet truck for industrial transport",
+      image: "/products/jz-series/jz-main.jpg",
+    },
   ],
 
   "manual-heavy-duty-movers": [],
@@ -159,6 +157,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white md:block">
       <div className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+
         {/* LOGO */}
         <Link href="/" className="flex items-center gap-4">
           <Image
@@ -177,6 +176,7 @@ export default function Header() {
 
         {/* NAVIGATION */}
         <nav className="flex items-center gap-10 text-base font-medium text-zinc-900">
+
           <Link
             href="/"
             className="transition hover:text-orange-500"
@@ -216,7 +216,8 @@ export default function Header() {
                 "
               >
                 <div className="grid grid-cols-[320px_1fr]">
-                  {/* LEFT SIDE - CATEGORIES */}
+
+                  {/* LEFT SIDE */}
                   <div className="border-r border-zinc-200 bg-zinc-50 p-4">
                     <p className="mb-3 px-3 text-xs font-bold uppercase tracking-wider text-zinc-400">
                       Product Categories
@@ -255,7 +256,7 @@ export default function Header() {
                     </div>
                   </div>
 
-                  {/* RIGHT SIDE - PRODUCTS */}
+                  {/* RIGHT SIDE */}
                   <div className="p-7">
                     <div>
                       <p className="text-xs font-semibold uppercase tracking-wider text-orange-500">
@@ -288,12 +289,13 @@ export default function Header() {
                           >
                             {/* PRODUCT IMAGE */}
                             {product.image && (
-                              <div className="relative h-32 w-full overflow-hidden bg-zinc-100">
+                              <div className="relative h-32 w-full overflow-hidden bg-white">
                                 <Image
                                   src={product.image}
                                   alt={product.name}
                                   fill
-                                  className="object-cover transition duration-300 group-hover:scale-105"
+                                  sizes="300px"
+                                  className="object-contain p-2 transition duration-300 group-hover:scale-105"
                                 />
                               </div>
                             )}
