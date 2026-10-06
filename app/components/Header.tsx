@@ -107,10 +107,11 @@ const products: Record<
       image: "/products/jd-series/jd-main.jpg",
     },
     {
-      name: "JX Series",
-      slug: "jx-series-electric-tank-transporters",
-      description: "Factory and warehouse transport solution",
-    },
+  name: "JX Series",
+  slug: "jx-series-electric-machinery-skate-dolly",
+  description: "Remote-controlled heavy-duty machinery transporter",
+  image: "/products/jx-series/jx-main.jpg",
+},
     {
       name: "JZ Series",
       slug: "jz-series-heavy-duty-load-movers",

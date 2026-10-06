@@ -185,6 +185,7 @@ const productData = {
         title: "Industrial Heavy-Duty Build",
         text: "Robust structure designed for professional heavy-load applications.",
       },
+    
     ],
 
     applications: [
@@ -286,6 +287,96 @@ const productData = {
       "Heavy-load transport",
     ],
   },
+"jx-series-electric-machinery-skate-dolly": {
+  name: "JX Series Electric Machinery Skate Dolly",
+  shortName: "JX Series",
+
+  description:
+    "Remote-controlled electric machinery skate dolly engineered for heavy industrial load movement, precise positioning and safe material handling.",
+
+  loadCapacity: "20T–60T",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/jx-series/jx-main.jpg",
+      alt: "JX Series Electric Machinery Skate Dolly",
+    },
+    {
+      src: "/products/jx-series/jx-product-overview.jpg",
+      alt: "JX Series product overview",
+    },
+    {
+      src: "/products/jx-series/jx-load-capacity.jpg",
+      alt: "JX Series heavy load capacity",
+    },
+    {
+      src: "/products/jx-series/jx-remote-range.jpg",
+      alt: "JX Series long range remote control",
+    },
+    {
+      src: "/products/jx-series/jx-remote-operation.jpg",
+      alt: "JX Series remote control operation",
+    },
+    {
+      src: "/products/jx-series/jx-premium-quality.jpg",
+      alt: "JX Series premium quality construction",
+    },
+    {
+      src: "/products/jx-series/jx-applications.jpg",
+      alt: "JX Series industrial applications",
+    },
+  ],
+
+  advantages: [
+    "Long-range wireless remote control",
+    "20T–60T heavy-load capacity",
+    "High-capacity battery system",
+    "Heavy-duty industrial construction",
+  ],
+
+  features: [
+    {
+      icon: "mdi:remote",
+      title: "Long-Range Remote Control",
+      text: "Wireless remote control enables safe and convenient operation from a distance.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "20T–60T Load Capacity",
+      text: "Designed for demanding heavy-load moving and industrial equipment handling.",
+    },
+    {
+      icon: "mdi:battery-high",
+      title: "High-Capacity Battery",
+      text: "High-capacity battery system supports reliable operation during demanding industrial work.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Heavy-Duty Construction",
+      text: "Robust steel construction designed for demanding industrial environments.",
+    },
+    {
+      icon: "mdi:car-tire-alert",
+      title: "Precision Wheels",
+      text: "Heavy-duty wheel system provides smooth, stable and controlled movement.",
+    },
+    {
+      icon: "mdi:controller-classic-outline",
+      title: "Easy Operation",
+      text: "Intuitive controls provide accurate movement and efficient machinery positioning.",
+    },
+  ],
+
+  applications: [
+    "Production workshops",
+    "Industrial equipment handling",
+    "Ship maintenance",
+    "Construction material handling",
+    "Factory machinery relocation",
+    "Warehouse heavy-load transport",
+  ],
+},
 };
 
 export default async function ProductPage({
