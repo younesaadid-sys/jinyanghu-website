@@ -100,12 +100,12 @@ const products: Record<
       slug: "js-series-electric-tank-transporters",
       description: "Stable electric machinery transport system",
     },
-  {
-  name: "JD Series",
-  slug: "jd-series-electric-tank-transporters",
-  description: "Industrial heavy-load moving equipment",
-  image: "/products/Jd-series/jd-main.jpg",
-},
+    {
+      name: "JD Series",
+      slug: "jd-series-electric-tank-transporters",
+      description: "Industrial heavy-load moving equipment",
+      image: "/products/jd-series/jd-main.jpg",
+    },
     {
       name: "JX Series",
       slug: "jx-series-electric-tank-transporters",
