@@ -275,7 +275,7 @@ export default function Header() {
                     </div>
 
                     {activeProducts.length > 0 ? (
-                      <div className="mt-6 grid grid-cols-2 gap-4">
+                      <div className="mt-6 grid grid-cols-3 gap-4">
                         {activeProducts.map((product) => (
                           <Link
                             key={product.slug}
@@ -295,7 +295,7 @@ export default function Header() {
                           >
                             {/* PRODUCT IMAGE */}
                             {product.image && (
-                              <div className="relative h-32 w-full overflow-hidden bg-white">
+                              <div className="relative h-24 w-full overflow-hidden bg-white">
                                 <Image
                                   src={product.image}
                                   alt={product.name}
