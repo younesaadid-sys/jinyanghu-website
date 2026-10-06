@@ -104,7 +104,7 @@ const products: Record<
   name: "JD Series",
   slug: "jd-series-electric-tank-transporters",
   description: "Industrial heavy-load moving equipment",
-  image: "/products/jd-series/jd-main.jpg",
+  image: "/products/Jd-series/jd-main.jpg",
 },
     {
       name: "JX Series",
