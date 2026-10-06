@@ -183,20 +183,13 @@ export default function Header() {
             onMouseEnter={() => setMenuOpen(true)}
             onMouseLeave={() => setMenuOpen(false)}
           >
-            <Link
-              href="/products"
-              className="flex items-center gap-1 py-6 transition hover:text-orange-500"
-            >
-              Products
-
-              <span
-                className={`text-xs transition ${
-                  menuOpen ? "rotate-180" : ""
-                }`}
-              >
-                ▼
-              </span>
-            </Link>
+            <button
+  type="button"
+  className="flex items-center gap-1 py-6 transition hover:text-orange-500"
+>
+  Products
+  <span className="text-xs">▼</span>
+</button>
 
             {menuOpen && (
               <div
@@ -270,12 +263,6 @@ export default function Header() {
                         </h3>
                       </div>
 
-                      <Link
-                        href={`/products/${activeCategory}`}
-                        className="text-sm font-semibold text-orange-500 transition hover:text-orange-600"
-                      >
-                        View Category →
-                      </Link>
                     </div>
 
                     {activeProducts.length > 0 ? (
