@@ -130,7 +130,53 @@ const products: Record<
     },
   ],
 
-  "manual-heavy-duty-movers": [],
+"manual-heavy-duty-movers": [
+  {
+    name: "CRA Series",
+    slug: "cra-series-tank-transporters",
+    description: "Manual heavy-duty tank transporters",
+  },
+  {
+    name: "CWA Series",
+    slug: "cwa-series-tank-transporters",
+    description: "Manual heavy-duty tank transporters",
+  },
+  {
+    name: "CRD Series",
+    slug: "crd-series-tank-transporters",
+    description: "Manual heavy-duty tank transporters",
+  },
+  {
+    name: "CX+Y Series",
+    slug: "cx-y-series-tank-transporters",
+    description: "Manual heavy-duty tank transporter system",
+  },
+  {
+    name: "CRP Series",
+    slug: "crp-series-tank-transporters",
+    description: "Manual heavy-duty tank transporters",
+  },
+  {
+    name: "CRQ Series",
+    slug: "crq-series-tank-transporters",
+    description: "Manual heavy-duty tank transporters",
+  },
+  {
+    name: "CRM Series",
+    slug: "crm-series-tank-transporters",
+    description: "Manual heavy-duty tank transporters",
+  },
+  {
+    name: "CRF Series",
+    slug: "crf-series-tank-transporters",
+    description: "Manual heavy-duty tank transporters",
+  },
+  {
+    name: "CRW Series",
+    slug: "crw-series-tank-transporters",
+    description: "Manual heavy-duty tank transporters",
+  },
+],
   jacks: [],
   "stair-climbing-carts": [],
   "pallet-trucks": [],
