@@ -1,16 +1,23 @@
 import { Icon } from "@iconify/react";
+
 import QuoteModal from "@/app/components/QuoteModal";
 import ProductGallery from "@/app/components/ProductGallery";
 import ProductOptions from "@/app/components/ProductOptions";
 
 const productData = {
+  // =========================================================
+  // JA SERIES
+  // =========================================================
   "ja-series-electric-tank-transporters": {
     name: "JA Series Electric Tank Transporters",
     shortName: "JA Series",
+
     description:
       "Electric Machinery Skates Dolly, 360° Mobile Mechanical Transporters, Machine Skates Dolly with 2pcs Straight Auxiliary Wheels Skates (60t - with a Pair of Auxiliary Wheels)",
+
     loadCapacity: "10T–60T",
     driveType: "Electric",
+
     gallery: [
       {
         src: "/products/ja-series/ja-main.jpg",
@@ -41,12 +48,14 @@ const productData = {
         alt: "JA Series heavy-duty wheels",
       },
     ],
+
     advantages: [
       "360° rotating platform",
       "Heavy-duty steel body",
       "Dual copper-core motors",
       "Built-in LED lighting",
     ],
+
     features: [
       {
         icon: "mdi:rotate-360",
@@ -79,6 +88,7 @@ const productData = {
         text: "Heavy-duty wheel and bearing design for smooth and stable operation.",
       },
     ],
+
     applications: [
       "Factory machinery moving",
       "Warehouse material handling",
@@ -89,13 +99,19 @@ const productData = {
     ],
   },
 
+  // =========================================================
+  // JA-B SERIES
+  // =========================================================
   "ja-b-series-electric-tank-transporters": {
     name: "JA-B Series Electric Tank Transporters",
     shortName: "JA-B Series",
+
     description:
       "Heavy-duty electric transporter series designed for industrial machinery handling, flexible steering and high-capacity load movement.",
+
     loadCapacity: "10T–100T",
     driveType: "Electric",
+
     gallery: [
       {
         src: "/products/ja-b-series/ja-b-main.jpg",
@@ -130,12 +146,14 @@ const productData = {
         alt: "JA-B Series heavy-duty load moving",
       },
     ],
+
     advantages: [
       "360° rotating turntable",
       "10T–100T load capacity",
       "High-power dual-channel brushless motor",
       "Heavy-duty industrial structure",
     ],
+
     features: [
       {
         icon: "mdi:rotate-360",
@@ -168,6 +186,7 @@ const productData = {
         text: "Robust structure designed for professional heavy-load applications.",
       },
     ],
+
     applications: [
       "Factory machinery moving",
       "Warehouse transport",
@@ -176,92 +195,96 @@ const productData = {
       "Industrial workshops",
       "Manufacturing facilities",
     ],
-"jd-series-electric-tank-transporters": {
-  name: "JD Series Electric Machinery Skate Dolly",
-  shortName: "JD Series",
+  },
 
-  description:
-    "Electric heavy-duty machinery skate dolly designed for safe and efficient movement of industrial equipment, with wireless remote control and flexible 360° positioning.",
+  // =========================================================
+  // JD SERIES
+  // =========================================================
+  "jd-series-electric-tank-transporters": {
+    name: "JD Series Electric Machinery Skate Dolly",
+    shortName: "JD Series",
 
-  loadCapacity: "10T–60T",
-  driveType: "Electric",
+    description:
+      "Electric heavy-duty machinery skate dolly designed for safe and efficient movement of industrial equipment, with wireless remote control and flexible 360° positioning.",
 
-  gallery: [
-    {
-      src: "/products/jd-series/jd-main.jpg",
-      alt: "JD Series Electric Machinery Skate Dolly",
-    },
-    {
-      src: "/products/jd-series/jd-charging-box.jpg",
-      alt: "JD Series removable charging power box",
-    },
-    {
-      src: "/products/jd-series/jd-remote-control.jpg",
-      alt: "JD Series wireless remote control",
-    },
-    {
-      src: "/products/jd-series/jd-anti-slip-platform.jpg",
-      alt: "JD Series 360 degree anti-slip platform",
-    },
-    {
-      src: "/products/jd-series/jd-wheels.jpg",
-      alt: "JD Series heavy-duty polyurethane wheels",
-    },
-    {
-      src: "/products/jd-series/jd-specifications.jpg",
-      alt: "JD Series technical specifications",
-    },
-  ],
+    loadCapacity: "10T–60T",
+    driveType: "Electric",
 
-  advantages: [
-    "Wireless remote control",
-    "360° rotating platform",
-    "Removable charging power box",
-    "Heavy-duty polyurethane wheels",
-  ],
+    gallery: [
+      {
+        src: "/products/jd-series/jd-main.jpg",
+        alt: "JD Series Electric Machinery Skate Dolly",
+      },
+      {
+        src: "/products/jd-series/jd-charging-box.jpg",
+        alt: "JD Series removable charging power box",
+      },
+      {
+        src: "/products/jd-series/jd-remote-control.jpg",
+        alt: "JD Series wireless remote control",
+      },
+      {
+        src: "/products/jd-series/jd-anti-slip-platform.jpg",
+        alt: "JD Series 360 degree anti-slip platform",
+      },
+      {
+        src: "/products/jd-series/jd-wheels.jpg",
+        alt: "JD Series heavy-duty polyurethane wheels",
+      },
+      {
+        src: "/products/jd-series/jd-specifications.jpg",
+        alt: "JD Series technical specifications",
+      },
+    ],
 
-  features: [
-    {
-      icon: "mdi:remote",
-      title: "Wireless Remote Control",
-      text: "Industrial wireless remote control provides convenient and precise material handling.",
-    },
-    {
-      icon: "mdi:rotate-360",
-      title: "360° Rotating Platform",
-      text: "Anti-slip rotating platform improves maneuverability and load positioning.",
-    },
-    {
-      icon: "mdi:battery-charging",
-      title: "Convenient Charging",
-      text: "Removable power distribution box makes charging and maintenance more convenient.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "10T–60T Capacity",
-      text: "Multiple configurations are available for different industrial load requirements.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Heavy-Duty Wheels",
-      text: "Polyurethane wheel system provides strong grip, durability and stable movement.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Industrial Construction",
-      text: "Built for demanding factory, machinery-moving and warehouse applications.",
-    },
-  ],
+    advantages: [
+      "Wireless remote control",
+      "360° rotating platform",
+      "Removable charging power box",
+      "Heavy-duty polyurethane wheels",
+    ],
 
-  applications: [
-    "Factory machinery moving",
-    "Heavy equipment relocation",
-    "Warehouse material handling",
-    "Industrial equipment installation",
-    "Manufacturing plants",
-    "Heavy-load transport",
-  ],
-},
+    features: [
+      {
+        icon: "mdi:remote",
+        title: "Wireless Remote Control",
+        text: "Industrial wireless remote control provides convenient and precise material handling.",
+      },
+      {
+        icon: "mdi:rotate-360",
+        title: "360° Rotating Platform",
+        text: "Anti-slip rotating platform improves maneuverability and load positioning.",
+      },
+      {
+        icon: "mdi:battery-charging",
+        title: "Convenient Charging",
+        text: "Removable power distribution box makes charging and maintenance more convenient.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "10T–60T Capacity",
+        text: "Multiple configurations are available for different industrial load requirements.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Heavy-Duty Wheels",
+        text: "Polyurethane wheel system provides strong grip, durability and stable movement.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Industrial Construction",
+        text: "Built for demanding factory, machinery-moving and warehouse applications.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery moving",
+      "Heavy equipment relocation",
+      "Warehouse material handling",
+      "Industrial equipment installation",
+      "Manufacturing plants",
+      "Heavy-load transport",
+    ],
   },
 };
 
@@ -283,6 +306,7 @@ export default async function ProductPage({
       <main className="flex min-h-screen items-center justify-center bg-zinc-950 text-white">
         <div className="text-center">
           <h1 className="text-4xl font-black">Product not found</h1>
+
           <p className="mt-3 text-zinc-400">
             This product page is not available yet.
           </p>
@@ -293,7 +317,9 @@ export default async function ProductPage({
 
   return (
     <main className="min-h-screen bg-white text-zinc-900">
-      {/* PRODUCT HERO */}
+      {/* =====================================================
+          PRODUCT HERO
+      ====================================================== */}
       <section className="bg-zinc-950 text-white">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-start">
           {/* LEFT */}
@@ -313,6 +339,7 @@ export default async function ProductPage({
               {currentProduct.description}
             </p>
 
+            {/* PRODUCT MAIN SPECS */}
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
                 <div className="text-sm text-zinc-400">
@@ -335,8 +362,11 @@ export default async function ProductPage({
               </div>
             </div>
 
+            {/* KEY ADVANTAGES */}
             <div className="mt-8">
-              <h2 className="text-lg font-bold">Key Advantages</h2>
+              <h2 className="text-lg font-bold">
+                Key Advantages
+              </h2>
 
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 {currentProduct.advantages.map((advantage) => (
@@ -346,15 +376,16 @@ export default async function ProductPage({
                   >
                     <Icon
                       icon="mdi:check-circle"
-                      className="text-xl text-orange-500"
+                      className="shrink-0 text-xl text-orange-500"
                     />
 
-                    {advantage}
+                    <span>{advantage}</span>
                   </div>
                 ))}
               </div>
             </div>
 
+            {/* QUOTE BUTTON */}
             <div className="mt-8">
               <QuoteModal />
             </div>
@@ -362,10 +393,14 @@ export default async function ProductPage({
         </div>
       </section>
 
-      {/* PRODUCT OPTIONS */}
+      {/* =====================================================
+          PRODUCT OPTIONS
+      ====================================================== */}
       <ProductOptions />
 
-      {/* KEY FEATURES */}
+      {/* =====================================================
+          KEY FEATURES
+      ====================================================== */}
       <section className="bg-zinc-100">
         <div className="mx-auto max-w-7xl px-6 py-20">
           <div className="max-w-2xl">
@@ -404,7 +439,9 @@ export default async function ProductPage({
         </div>
       </section>
 
-      {/* APPLICATIONS */}
+      {/* =====================================================
+          APPLICATIONS
+      ====================================================== */}
       <section className="bg-zinc-950 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20">
           <p className="font-semibold uppercase tracking-wider text-orange-500">
@@ -435,7 +472,9 @@ export default async function ProductPage({
         </div>
       </section>
 
-      {/* FINAL CTA */}
+      {/* =====================================================
+          FINAL CTA
+      ====================================================== */}
       <section className="bg-orange-500 text-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-8 px-6 py-16 md:flex-row md:items-center md:justify-between">
           <div>
