@@ -176,6 +176,92 @@ const productData = {
       "Industrial workshops",
       "Manufacturing facilities",
     ],
+"jd-series-electric-tank-transporters": {
+  name: "JD Series Electric Machinery Skate Dolly",
+  shortName: "JD Series",
+
+  description:
+    "Electric heavy-duty machinery skate dolly designed for safe and efficient movement of industrial equipment, with wireless remote control and flexible 360° positioning.",
+
+  loadCapacity: "10T–60T",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/jd-series/jd-main.jpg",
+      alt: "JD Series Electric Machinery Skate Dolly",
+    },
+    {
+      src: "/products/jd-series/jd-charging-box.jpg",
+      alt: "JD Series removable charging power box",
+    },
+    {
+      src: "/products/jd-series/jd-remote-control.jpg",
+      alt: "JD Series wireless remote control",
+    },
+    {
+      src: "/products/jd-series/jd-anti-slip-platform.jpg",
+      alt: "JD Series 360 degree anti-slip platform",
+    },
+    {
+      src: "/products/jd-series/jd-wheels.jpg",
+      alt: "JD Series heavy-duty polyurethane wheels",
+    },
+    {
+      src: "/products/jd-series/jd-specifications.jpg",
+      alt: "JD Series technical specifications",
+    },
+  ],
+
+  advantages: [
+    "Wireless remote control",
+    "360° rotating platform",
+    "Removable charging power box",
+    "Heavy-duty polyurethane wheels",
+  ],
+
+  features: [
+    {
+      icon: "mdi:remote",
+      title: "Wireless Remote Control",
+      text: "Industrial wireless remote control provides convenient and precise material handling.",
+    },
+    {
+      icon: "mdi:rotate-360",
+      title: "360° Rotating Platform",
+      text: "Anti-slip rotating platform improves maneuverability and load positioning.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Convenient Charging",
+      text: "Removable power distribution box makes charging and maintenance more convenient.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "10T–60T Capacity",
+      text: "Multiple configurations are available for different industrial load requirements.",
+    },
+    {
+      icon: "mdi:car-tire-alert",
+      title: "Heavy-Duty Wheels",
+      text: "Polyurethane wheel system provides strong grip, durability and stable movement.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Industrial Construction",
+      text: "Built for demanding factory, machinery-moving and warehouse applications.",
+    },
+  ],
+
+  applications: [
+    "Factory machinery moving",
+    "Heavy equipment relocation",
+    "Warehouse material handling",
+    "Industrial equipment installation",
+    "Manufacturing plants",
+    "Heavy-load transport",
+  ],
+},
   },
 };
 
