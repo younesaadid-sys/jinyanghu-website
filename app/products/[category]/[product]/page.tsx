@@ -377,6 +377,92 @@ const productData = {
     "Warehouse heavy-load transport",
   ],
 },
+"jz-series-electric-pallet-truck": {
+  name: "JZ Series Electric Pallet Truck",
+  shortName: "JZ Series",
+
+  description:
+    "Heavy-duty electric pallet truck designed for efficient warehouse transport, industrial material handling and high-capacity load movement.",
+
+  loadCapacity: "8000 kg / 17,600 lbs",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/jz-series/jz-main.jpg",
+      alt: "JZ Series Electric Pallet Truck",
+    },
+    {
+      src: "/products/jz-series/jz-use-cases.jpg",
+      alt: "JZ Series warehouse use case",
+    },
+    {
+      src: "/products/jz-series/jz-why-choose-us.jpg",
+      alt: "JZ Series advantages and quality",
+    },
+    {
+      src: "/products/jz-series/jz-applications.jpg",
+      alt: "JZ Series industrial applications",
+    },
+    {
+      src: "/products/jz-series/jz-craftsmanship.jpg",
+      alt: "JZ Series craftsmanship and component details",
+    },
+    {
+      src: "/products/jz-series/jz-specifications.jpg",
+      alt: "JZ Series technical specifications",
+    },
+  ],
+
+  advantages: [
+    "8000 kg rated load capacity",
+    "48V / 60Ah battery system",
+    "Heavy-duty polyurethane wheels",
+    "Electric travel and lifting system",
+  ],
+
+  features: [
+    {
+      icon: "mdi:weight-lifter",
+      title: "8000 kg Load Capacity",
+      text: "Designed for moving heavy palletized loads in demanding warehouse and industrial environments.",
+    },
+    {
+      icon: "mdi:battery-high",
+      title: "48V / 60Ah Battery",
+      text: "High-capacity battery system provides reliable power for industrial material handling operations.",
+    },
+    {
+      icon: "mdi:engine-outline",
+      title: "Electric Drive System",
+      text: "Powered travel and lifting functions reduce operator effort and improve handling efficiency.",
+    },
+    {
+      icon: "mdi:car-tire-alert",
+      title: "Heavy-Duty Wheels",
+      text: "Durable polyurethane wheels with metal cores provide stable movement under heavy loads.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Industrial Construction",
+      text: "Robust steel construction designed for long-term operation in demanding work environments.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Versatile Applications",
+      text: "Suitable for warehouses, logistics operations, construction sites and industrial facilities.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material handling",
+    "Logistics and distribution",
+    "Construction sites",
+    "Industrial workshops",
+    "Factory transport",
+    "Heavy pallet movement",
+  ],
+},
 };
 
 export default async function ProductPage({

@@ -113,10 +113,11 @@ const products: Record<
   image: "/products/jx-series/jx-main.jpg",
 },
     {
-      name: "JZ Series",
-      slug: "jz-series-heavy-duty-load-movers",
-      description: "High-capacity heavy-duty load movers",
-    },
+  name: "JZ Series",
+  slug: "jz-series-electric-pallet-truck",
+  description: "Heavy-duty electric pallet truck for industrial transport",
+  image: "/products/jz-series/jz-main.jpg",
+},
     {
       name: "JQ Series",
       slug: "jq-series-low-profile-tank-transporters",
