@@ -79,6 +79,7 @@ const products: Record<
     name: string;
     slug: string;
     description: string;
+    image?: string;
   }[]
 > = {
   "electric-heavy-duty-movers": [
@@ -86,11 +87,13 @@ const products: Record<
       name: "JA Series",
       slug: "ja-series-electric-tank-transporters",
       description: "10T–60T electric tank transporters",
+      image: "/products/ja-series/ja-main.jpg",
     },
     {
       name: "JA-B Series",
       slug: "ja-b-series-electric-tank-transporters",
       description: "Heavy-duty electric transporter series",
+      image: "/products/ja-b-series/ja-b-main.jpg",
     },
     {
       name: "JS Series",
@@ -184,12 +187,12 @@ export default function Header() {
             onMouseLeave={() => setMenuOpen(false)}
           >
             <button
-  type="button"
-  className="flex items-center gap-1 py-6 transition hover:text-orange-500"
->
-  Products
-  <span className="text-xs">▼</span>
-</button>
+              type="button"
+              className="flex items-center gap-1 py-6 transition hover:text-orange-500"
+            >
+              Products
+              <span className="text-xs">▼</span>
+            </button>
 
             {menuOpen && (
               <div
@@ -198,7 +201,7 @@ export default function Header() {
                   left-1/2
                   top-full
                   z-[100]
-                  w-[900px]
+                  w-[960px]
                   -translate-x-1/2
                   overflow-hidden
                   rounded-2xl
@@ -234,7 +237,6 @@ export default function Header() {
                             text-left
                             text-sm
                             transition
-
                             ${
                               activeCategory === category.slug
                                 ? "bg-orange-500 font-semibold text-white"
@@ -243,7 +245,6 @@ export default function Header() {
                           `}
                         >
                           <span>{category.name}</span>
-
                           <span>›</span>
                         </button>
                       ))}
@@ -252,49 +253,63 @@ export default function Header() {
 
                   {/* RIGHT SIDE - PRODUCTS */}
                   <div className="p-7">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-wider text-orange-500">
-                          Category
-                        </p>
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wider text-orange-500">
+                        Category
+                      </p>
 
-                        <h3 className="mt-1 text-2xl font-black text-zinc-900">
-                          {activeCategoryInfo?.name}
-                        </h3>
-                      </div>
-
+                      <h3 className="mt-1 text-2xl font-black text-zinc-900">
+                        {activeCategoryInfo?.name}
+                      </h3>
                     </div>
 
                     {activeProducts.length > 0 ? (
-                      <div className="mt-6 grid grid-cols-2 gap-3">
+                      <div className="mt-6 grid grid-cols-2 gap-4">
                         {activeProducts.map((product) => (
                           <Link
                             key={product.slug}
                             href={`/products/${activeCategory}/${product.slug}`}
                             className="
                               group
+                              overflow-hidden
                               rounded-xl
                               border
                               border-zinc-200
-                              p-4
+                              bg-white
                               transition
                               hover:border-orange-300
                               hover:bg-orange-50
+                              hover:shadow-md
                             "
                           >
-                            <div className="flex items-center justify-between">
-                              <h4 className="font-bold text-zinc-900 group-hover:text-orange-500">
-                                {product.name}
-                              </h4>
+                            {/* PRODUCT IMAGE */}
+                            {product.image && (
+                              <div className="relative h-32 w-full overflow-hidden bg-zinc-100">
+                                <Image
+                                  src={product.image}
+                                  alt={product.name}
+                                  fill
+                                  className="object-cover transition duration-300 group-hover:scale-105"
+                                />
+                              </div>
+                            )}
 
-                              <span className="text-orange-500">
-                                →
-                              </span>
+                            {/* PRODUCT INFO */}
+                            <div className="p-4">
+                              <div className="flex items-center justify-between">
+                                <h4 className="font-bold text-zinc-900 group-hover:text-orange-500">
+                                  {product.name}
+                                </h4>
+
+                                <span className="text-orange-500">
+                                  →
+                                </span>
+                              </div>
+
+                              <p className="mt-2 text-sm leading-6 text-zinc-500">
+                                {product.description}
+                              </p>
                             </div>
-
-                            <p className="mt-2 text-sm leading-6 text-zinc-500">
-                              {product.description}
-                            </p>
                           </Link>
                         ))}
                       </div>
@@ -305,16 +320,9 @@ export default function Header() {
                         </p>
 
                         <p className="mt-2 text-sm leading-6 text-zinc-500">
-                          Explore this category page for available products and
-                          future updates.
+                          New products for this category will be available here
+                          soon.
                         </p>
-
-                        <Link
-                          href={`/products/${activeCategory}`}
-                          className="mt-4 inline-block font-semibold text-orange-500"
-                        >
-                          Open Category →
-                        </Link>
                       </div>
                     )}
                   </div>
