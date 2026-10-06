@@ -122,6 +122,12 @@ const products: Record<
       description: "Heavy-duty electric pallet truck for industrial transport",
       image: "/products/jz-series/jz-main.png",
     },
+
+    {
+      name: "JQ Series",
+      slug: "jq-series-low-profile-tank-transporters",
+      description: "Low-profile heavy-duty electric transporters",
+    },
   ],
 
   "manual-heavy-duty-movers": [],
