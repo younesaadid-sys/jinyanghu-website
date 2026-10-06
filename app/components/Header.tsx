@@ -128,11 +128,6 @@ const products: Record<
       slug: "jq-series-low-profile-tank-transporters",
       description: "Low-profile heavy-duty electric transporters",
     },
-    {
-  name: "JQ Series",
-  slug: "jq-series-low-profile-tank-transporters",
-  description: "Low-profile heavy-duty electric transporters",
-},
   ],
 
   "manual-heavy-duty-movers": [],
