@@ -20,12 +20,12 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-white text-zinc-900">
-
+<main className="min-h-screen bg-white text-zinc-900">
 
       {/* AUTOMATIC BANNER */}
       <HomeBanner />
-
+{/* OUR PRODUCTS */}
+<OurProducts />
       {/* HERO */}
       <section
         id="home"
