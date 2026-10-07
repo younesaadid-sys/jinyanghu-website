@@ -412,6 +412,7 @@ const productData = {
       src: "/products/jz-series/jz-specifications.jpg",
       alt: "JZ Series technical specifications",
     },
+    
   ],
 
   advantages: [
@@ -461,6 +462,92 @@ const productData = {
     "Industrial workshops",
     "Factory transport",
     "Heavy pallet movement",
+  ],
+},
+"cra-series-tank-transporters": {
+  name: "CRA Series Cargo Moving Skates",
+  shortName: "CRA Series",
+
+  description:
+    "Manual heavy-duty cargo moving skates designed for stable, smooth and controlled movement of industrial machinery and equipment.",
+
+  loadCapacity: "6T–25T",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/cra-series/cra-main.jpg",
+      alt: "CRA Series Cargo Moving Skates",
+    },
+    {
+      src: "/products/cra-series/cra-load-capacity.jpg",
+      alt: "CRA Series model comparison and load capacity",
+    },
+    {
+      src: "/products/cra-series/cra-construction-details.jpg",
+      alt: "CRA Series key construction details",
+    },
+    {
+      src: "/products/cra-series/cra-load-moving-solution.jpg",
+      alt: "CRA Series industrial load moving solution",
+    },
+    {
+      src: "/products/cra-series/cra-wheel-options.jpg",
+      alt: "CRA Series wheel options",
+    },
+    {
+      src: "/products/cra-series/cra-complete-set.jpg",
+      alt: "CRA Series complete set for heavy load handling",
+    },
+  ],
+
+  advantages: [
+    "6T–25T load capacity range",
+    "360° rotating top plate",
+    "Heavy-duty steel frame",
+    "Steel and nylon wheel options",
+  ],
+
+  features: [
+    {
+      icon: "mdi:rotate-360",
+      title: "360° Rotating Top Plate",
+      text: "Rotating top plate allows flexible positioning and controlled movement under heavy machinery.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "6T–25T Load Capacity",
+      text: "Multiple CRA models are available for different heavy-load handling requirements.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Heavy-Duty Steel Frame",
+      text: "Industrial-grade steel construction provides strength and stability during load movement.",
+    },
+    {
+      icon: "mdi:car-tire-alert",
+      title: "Multiple Wheel Options",
+      text: "Steel and nylon wheel configurations are available for different working environments.",
+    },
+    {
+      icon: "mdi:arrow-expand-horizontal",
+      title: "Smooth Horizontal Movement",
+      text: "Low-profile design supports stable load distribution and smooth horizontal transport.",
+    },
+    {
+      icon: "mdi:tools",
+      title: "Complete Manual System",
+      text: "Push rod, support plate and wheel assembly provide a practical manual moving solution.",
+    },
+  ],
+
+  applications: [
+    "Factory machinery relocation",
+    "Industrial equipment moving",
+    "Warehouse heavy-load transport",
+    "Machine installation",
+    "Workshop equipment handling",
+    "Production line relocation",
   ],
 },
 };

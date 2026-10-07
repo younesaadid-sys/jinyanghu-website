@@ -132,10 +132,11 @@ const products: Record<
 
 "manual-heavy-duty-movers": [
   {
-    name: "CRA Series",
-    slug: "cra-series-tank-transporters",
-    description: "Manual heavy-duty tank transporters",
-  },
+  name: "CRA Series",
+  slug: "cra-series-tank-transporters",
+  description: "Manual heavy-duty cargo moving skates",
+  image: "/products/cra-series/cra-main.jpg",
+},
   {
     name: "CWA Series",
     slug: "cwa-series-tank-transporters",
