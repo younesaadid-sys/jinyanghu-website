@@ -549,6 +549,43 @@ const productData = {
     "Workshop equipment handling",
     "Production line relocation",
   ],
+  "cwa-series-tank-transporters": {
+  name: "CWA Series Tank Transporters",
+  category: "Manual Heavy-Duty Movers",
+  badge: "Manual Heavy-Duty Movers",
+  description:
+    "CWA Series tank transporters are designed for controlled movement of heavy equipment and machinery. They provide flexible steering, stable load distribution, and durable construction for workshops, factories, and industrial relocation tasks.",
+
+  mainImage: "/products/cwa-series/cwa-main.jpg",
+
+  gallery: [
+    "/products/cwa-series/cwa-main.jpg",
+    "/products/cwa-series/cwa-workshop-layout.jpg",
+    "/products/cwa-series/cwa-wheel-assembly.jpg",
+    "/products/cwa-series/cwa-construction-details.jpg",
+    "/products/cwa-series/cwa-steering-operation.jpg",
+    "/products/cwa-series/cwa-specifications.jpg",
+  ],
+
+  loadCapacity: "6T–30T",
+  driveType: "Manual",
+
+  advantages: [
+    "Flexible steering operation for accurate positioning",
+    "Stable load distribution for heavy equipment movement",
+    "Heavy-duty steel construction for industrial use",
+    "Multiple wheel configurations for different capacities",
+  ],
+
+  specifications: [
+    { label: "Model Range", value: "WA-6 / WA-10 / WA-15 / WA-20 / WA-25 / WA-30" },
+    { label: "Capacity Range", value: "6T–30T" },
+    { label: "Operation Type", value: "Manual" },
+    { label: "Application", value: "Heavy equipment moving and machinery relocation" },
+    { label: "Steering Type", value: "Flexible manual steering" },
+    { label: "Construction", value: "Heavy-duty steel frame" },
+  ],
+},
 },
 };
 
