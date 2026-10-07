@@ -185,7 +185,6 @@ const productData = {
         title: "Industrial Heavy-Duty Build",
         text: "Robust structure designed for professional heavy-load applications.",
       },
-    
     ],
 
     applications: [
@@ -287,306 +286,370 @@ const productData = {
       "Heavy-load transport",
     ],
   },
-"jx-series-electric-machinery-skate-dolly": {
-  name: "JX Series Electric Machinery Skate Dolly",
-  shortName: "JX Series",
 
-  description:
-    "Remote-controlled electric machinery skate dolly engineered for heavy industrial load movement, precise positioning and safe material handling.",
+  // =========================================================
+  // JX SERIES
+  // =========================================================
+  "jx-series-electric-machinery-skate-dolly": {
+    name: "JX Series Electric Machinery Skate Dolly",
+    shortName: "JX Series",
 
-  loadCapacity: "20T–60T",
-  driveType: "Electric",
+    description:
+      "Remote-controlled electric machinery skate dolly engineered for heavy industrial load movement, precise positioning and safe material handling.",
 
-  gallery: [
-    {
-      src: "/products/jx-series/jx-main.jpg",
-      alt: "JX Series Electric Machinery Skate Dolly",
-    },
-    {
-      src: "/products/jx-series/jx-product-overview.jpg",
-      alt: "JX Series product overview",
-    },
-    {
-      src: "/products/jx-series/jx-load-capacity.jpg",
-      alt: "JX Series heavy load capacity",
-    },
-    {
-      src: "/products/jx-series/jx-remote-range.jpg",
-      alt: "JX Series long range remote control",
-    },
-    {
-      src: "/products/jx-series/jx-remote-operation.jpg",
-      alt: "JX Series remote control operation",
-    },
-    {
-      src: "/products/jx-series/jx-premium-quality.jpg",
-      alt: "JX Series premium quality construction",
-    },
-    {
-      src: "/products/jx-series/jx-applications.jpg",
-      alt: "JX Series industrial applications",
-    },
-  ],
+    loadCapacity: "20T–60T",
+    driveType: "Electric",
 
-  advantages: [
-    "Long-range wireless remote control",
-    "20T–60T heavy-load capacity",
-    "High-capacity battery system",
-    "Heavy-duty industrial construction",
-  ],
+    gallery: [
+      {
+        src: "/products/jx-series/jx-main.jpg",
+        alt: "JX Series Electric Machinery Skate Dolly",
+      },
+      {
+        src: "/products/jx-series/jx-product-overview.jpg",
+        alt: "JX Series product overview",
+      },
+      {
+        src: "/products/jx-series/jx-load-capacity.jpg",
+        alt: "JX Series heavy load capacity",
+      },
+      {
+        src: "/products/jx-series/jx-remote-range.jpg",
+        alt: "JX Series long range remote control",
+      },
+      {
+        src: "/products/jx-series/jx-remote-operation.jpg",
+        alt: "JX Series remote control operation",
+      },
+      {
+        src: "/products/jx-series/jx-premium-quality.jpg",
+        alt: "JX Series premium quality construction",
+      },
+      {
+        src: "/products/jx-series/jx-applications.jpg",
+        alt: "JX Series industrial applications",
+      },
+    ],
 
-  features: [
-    {
-      icon: "mdi:remote",
-      title: "Long-Range Remote Control",
-      text: "Wireless remote control enables safe and convenient operation from a distance.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "20T–60T Load Capacity",
-      text: "Designed for demanding heavy-load moving and industrial equipment handling.",
-    },
-    {
-      icon: "mdi:battery-high",
-      title: "High-Capacity Battery",
-      text: "High-capacity battery system supports reliable operation during demanding industrial work.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Heavy-Duty Construction",
-      text: "Robust steel construction designed for demanding industrial environments.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Precision Wheels",
-      text: "Heavy-duty wheel system provides smooth, stable and controlled movement.",
-    },
-    {
-      icon: "mdi:controller-classic-outline",
-      title: "Easy Operation",
-      text: "Intuitive controls provide accurate movement and efficient machinery positioning.",
-    },
-  ],
+    advantages: [
+      "Long-range wireless remote control",
+      "20T–60T heavy-load capacity",
+      "High-capacity battery system",
+      "Heavy-duty industrial construction",
+    ],
 
-  applications: [
-    "Production workshops",
-    "Industrial equipment handling",
-    "Ship maintenance",
-    "Construction material handling",
-    "Factory machinery relocation",
-    "Warehouse heavy-load transport",
-  ],
-},
-"jz-series-electric-pallet-truck": {
-  name: "JZ Series Electric Pallet Truck",
-  shortName: "JZ Series",
+    features: [
+      {
+        icon: "mdi:remote",
+        title: "Long-Range Remote Control",
+        text: "Wireless remote control enables safe and convenient operation from a distance.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "20T–60T Load Capacity",
+        text: "Designed for demanding heavy-load moving and industrial equipment handling.",
+      },
+      {
+        icon: "mdi:battery-high",
+        title: "High-Capacity Battery",
+        text: "High-capacity battery system supports reliable operation during demanding industrial work.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Heavy-Duty Construction",
+        text: "Robust steel construction designed for demanding industrial environments.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Precision Wheels",
+        text: "Heavy-duty wheel system provides smooth, stable and controlled movement.",
+      },
+      {
+        icon: "mdi:controller-classic-outline",
+        title: "Easy Operation",
+        text: "Intuitive controls provide accurate movement and efficient machinery positioning.",
+      },
+    ],
 
-  description:
-    "Heavy-duty electric pallet truck designed for efficient warehouse transport, industrial material handling and high-capacity load movement.",
+    applications: [
+      "Production workshops",
+      "Industrial equipment handling",
+      "Ship maintenance",
+      "Construction material handling",
+      "Factory machinery relocation",
+      "Warehouse heavy-load transport",
+    ],
+  },
 
-  loadCapacity: "8000 kg / 17,600 lbs",
-  driveType: "Electric",
+  // =========================================================
+  // JZ SERIES
+  // =========================================================
+  "jz-series-electric-pallet-truck": {
+    name: "JZ Series Electric Pallet Truck",
+    shortName: "JZ Series",
 
-  gallery: [
-   {
-  src: "/products/jz-series/jz-main.png",
-  alt: "JZ Series Electric Pallet Truck",
-},
-{
-  src: "/products/jz-series/jz-use-cases.png",
-  alt: "JZ Series warehouse use case",
-},
-    {
-      src: "/products/jz-series/jz-why-choose-us.jpg",
-      alt: "JZ Series advantages and quality",
-    },
-    {
-      src: "/products/jz-series/jz-applications.jpg",
-      alt: "JZ Series industrial applications",
-    },
-    {
-      src: "/products/jz-series/jz-craftsmanship.jpg",
-      alt: "JZ Series craftsmanship and component details",
-    },
-    {
-      src: "/products/jz-series/jz-specifications.jpg",
-      alt: "JZ Series technical specifications",
-    },
-    
-  ],
+    description:
+      "Heavy-duty electric pallet truck designed for efficient warehouse transport, industrial material handling and high-capacity load movement.",
 
-  advantages: [
-    "8000 kg rated load capacity",
-    "48V / 60Ah battery system",
-    "Heavy-duty polyurethane wheels",
-    "Electric travel and lifting system",
-  ],
+    loadCapacity: "8000 kg / 17,600 lbs",
+    driveType: "Electric",
 
-  features: [
-    {
-      icon: "mdi:weight-lifter",
-      title: "8000 kg Load Capacity",
-      text: "Designed for moving heavy palletized loads in demanding warehouse and industrial environments.",
-    },
-    {
-      icon: "mdi:battery-high",
-      title: "48V / 60Ah Battery",
-      text: "High-capacity battery system provides reliable power for industrial material handling operations.",
-    },
-    {
-      icon: "mdi:engine-outline",
-      title: "Electric Drive System",
-      text: "Powered travel and lifting functions reduce operator effort and improve handling efficiency.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Heavy-Duty Wheels",
-      text: "Durable polyurethane wheels with metal cores provide stable movement under heavy loads.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Industrial Construction",
-      text: "Robust steel construction designed for long-term operation in demanding work environments.",
-    },
-    {
-      icon: "mdi:warehouse",
-      title: "Versatile Applications",
-      text: "Suitable for warehouses, logistics operations, construction sites and industrial facilities.",
-    },
-  ],
+    gallery: [
+      {
+        src: "/products/jz-series/jz-main.png",
+        alt: "JZ Series Electric Pallet Truck",
+      },
+      {
+        src: "/products/jz-series/jz-use-cases.png",
+        alt: "JZ Series warehouse use case",
+      },
+      {
+        src: "/products/jz-series/jz-why-choose-us.jpg",
+        alt: "JZ Series advantages and quality",
+      },
+      {
+        src: "/products/jz-series/jz-applications.jpg",
+        alt: "JZ Series industrial applications",
+      },
+      {
+        src: "/products/jz-series/jz-craftsmanship.jpg",
+        alt: "JZ Series craftsmanship and component details",
+      },
+      {
+        src: "/products/jz-series/jz-specifications.jpg",
+        alt: "JZ Series technical specifications",
+      },
+    ],
 
-  applications: [
-    "Warehouse material handling",
-    "Logistics and distribution",
-    "Construction sites",
-    "Industrial workshops",
-    "Factory transport",
-    "Heavy pallet movement",
-  ],
-},
-"cra-series-tank-transporters": {
-  name: "CRA Series Cargo Moving Skates",
-  shortName: "CRA Series",
+    advantages: [
+      "8000 kg rated load capacity",
+      "48V / 60Ah battery system",
+      "Heavy-duty polyurethane wheels",
+      "Electric travel and lifting system",
+    ],
 
-  description:
-    "Manual heavy-duty cargo moving skates designed for stable, smooth and controlled movement of industrial machinery and equipment.",
+    features: [
+      {
+        icon: "mdi:weight-lifter",
+        title: "8000 kg Load Capacity",
+        text: "Designed for moving heavy palletized loads in demanding warehouse and industrial environments.",
+      },
+      {
+        icon: "mdi:battery-high",
+        title: "48V / 60Ah Battery",
+        text: "High-capacity battery system provides reliable power for industrial material handling operations.",
+      },
+      {
+        icon: "mdi:engine-outline",
+        title: "Electric Drive System",
+        text: "Powered travel and lifting functions reduce operator effort and improve handling efficiency.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Heavy-Duty Wheels",
+        text: "Durable polyurethane wheels with metal cores provide stable movement under heavy loads.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Industrial Construction",
+        text: "Robust steel construction designed for long-term operation in demanding work environments.",
+      },
+      {
+        icon: "mdi:warehouse",
+        title: "Versatile Applications",
+        text: "Suitable for warehouses, logistics operations, construction sites and industrial facilities.",
+      },
+    ],
 
-  loadCapacity: "6T–25T",
-  driveType: "Manual",
+    applications: [
+      "Warehouse material handling",
+      "Logistics and distribution",
+      "Construction sites",
+      "Industrial workshops",
+      "Factory transport",
+      "Heavy pallet movement",
+    ],
+  },
 
-  gallery: [
-    {
-      src: "/products/cra-series/cra-main.jpg",
-      alt: "CRA Series Cargo Moving Skates",
-    },
-    {
-      src: "/products/cra-series/cra-load-capacity.jpg",
-      alt: "CRA Series model comparison and load capacity",
-    },
-    {
-      src: "/products/cra-series/cra-construction-details.jpg",
-      alt: "CRA Series key construction details",
-    },
-    {
-      src: "/products/cra-series/cra-load-moving-solution.jpg",
-      alt: "CRA Series industrial load moving solution",
-    },
-    {
-      src: "/products/cra-series/cra-wheel-options.jpg",
-      alt: "CRA Series wheel options",
-    },
-    {
-      src: "/products/cra-series/cra-complete-set.jpg",
-      alt: "CRA Series complete set for heavy load handling",
-    },
-  ],
+  // =========================================================
+  // CRA SERIES
+  // =========================================================
+  "cra-series-tank-transporters": {
+    name: "CRA Series Cargo Moving Skates",
+    shortName: "CRA Series",
 
-  advantages: [
-    "6T–25T load capacity range",
-    "360° rotating top plate",
-    "Heavy-duty steel frame",
-    "Steel and nylon wheel options",
-  ],
+    description:
+      "Manual heavy-duty cargo moving skates designed for stable, smooth and controlled movement of industrial machinery and equipment.",
 
-  features: [
-    {
-      icon: "mdi:rotate-360",
-      title: "360° Rotating Top Plate",
-      text: "Rotating top plate allows flexible positioning and controlled movement under heavy machinery.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "6T–25T Load Capacity",
-      text: "Multiple CRA models are available for different heavy-load handling requirements.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Heavy-Duty Steel Frame",
-      text: "Industrial-grade steel construction provides strength and stability during load movement.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Multiple Wheel Options",
-      text: "Steel and nylon wheel configurations are available for different working environments.",
-    },
-    {
-      icon: "mdi:arrow-expand-horizontal",
-      title: "Smooth Horizontal Movement",
-      text: "Low-profile design supports stable load distribution and smooth horizontal transport.",
-    },
-    {
-      icon: "mdi:tools",
-      title: "Complete Manual System",
-      text: "Push rod, support plate and wheel assembly provide a practical manual moving solution.",
-    },
-  ],
+    loadCapacity: "6T–25T",
+    driveType: "Manual",
 
-  applications: [
-    "Factory machinery relocation",
-    "Industrial equipment moving",
-    "Warehouse heavy-load transport",
-    "Machine installation",
-    "Workshop equipment handling",
-    "Production line relocation",
-  ],
+    gallery: [
+      {
+        src: "/products/cra-series/cra-main.jpg",
+        alt: "CRA Series Cargo Moving Skates",
+      },
+      {
+        src: "/products/cra-series/cra-load-capacity.jpg",
+        alt: "CRA Series model comparison and load capacity",
+      },
+      {
+        src: "/products/cra-series/cra-construction-details.jpg",
+        alt: "CRA Series key construction details",
+      },
+      {
+        src: "/products/cra-series/cra-load-moving-solution.jpg",
+        alt: "CRA Series industrial load moving solution",
+      },
+      {
+        src: "/products/cra-series/cra-wheel-options.jpg",
+        alt: "CRA Series wheel options",
+      },
+      {
+        src: "/products/cra-series/cra-complete-set.jpg",
+        alt: "CRA Series complete set for heavy load handling",
+      },
+    ],
+
+    advantages: [
+      "6T–25T load capacity range",
+      "360° rotating top plate",
+      "Heavy-duty steel frame",
+      "Steel and nylon wheel options",
+    ],
+
+    features: [
+      {
+        icon: "mdi:rotate-360",
+        title: "360° Rotating Top Plate",
+        text: "Rotating top plate allows flexible positioning and controlled movement under heavy machinery.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "6T–25T Load Capacity",
+        text: "Multiple CRA models are available for different heavy-load handling requirements.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Heavy-Duty Steel Frame",
+        text: "Industrial-grade steel construction provides strength and stability during load movement.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Multiple Wheel Options",
+        text: "Steel and nylon wheel configurations are available for different working environments.",
+      },
+      {
+        icon: "mdi:arrow-expand-horizontal",
+        title: "Smooth Horizontal Movement",
+        text: "Low-profile design supports stable load distribution and smooth horizontal transport.",
+      },
+      {
+        icon: "mdi:tools",
+        title: "Complete Manual System",
+        text: "Push rod, support plate and wheel assembly provide a practical manual moving solution.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery relocation",
+      "Industrial equipment moving",
+      "Warehouse heavy-load transport",
+      "Machine installation",
+      "Workshop equipment handling",
+      "Production line relocation",
+    ],
+  },
+
+  // =========================================================
+  // CWA SERIES
+  // =========================================================
   "cwa-series-tank-transporters": {
-  name: "CWA Series Tank Transporters",
-  category: "Manual Heavy-Duty Movers",
-  badge: "Manual Heavy-Duty Movers",
-  description:
-    "CWA Series tank transporters are designed for controlled movement of heavy equipment and machinery. They provide flexible steering, stable load distribution, and durable construction for workshops, factories, and industrial relocation tasks.",
+    name: "CWA Series Tank Transporters",
+    shortName: "CWA Series",
 
-  mainImage: "/products/cwa-series/cwa-main.jpg",
+    description:
+      "Manual heavy-duty tank transporters designed for controlled movement of industrial machinery, with flexible steering, stable load distribution and rugged steel construction.",
 
-  gallery: [
-    "/products/cwa-series/cwa-main.jpg",
-    "/products/cwa-series/cwa-workshop-layout.jpg",
-    "/products/cwa-series/cwa-wheel-assembly.jpg",
-    "/products/cwa-series/cwa-construction-details.jpg",
-    "/products/cwa-series/cwa-steering-operation.jpg",
-    "/products/cwa-series/cwa-specifications.jpg",
-  ],
+    loadCapacity: "6T–30T",
+    driveType: "Manual",
 
-  loadCapacity: "6T–30T",
-  driveType: "Manual",
+    gallery: [
+      {
+        src: "/products/cwa-series/cwa-main.png",
+        alt: "CWA Series Tank Transporters",
+      },
+      {
+        src: "/products/cwa-series/cwa-workshop-layout.png",
+        alt: "CWA Series workshop layout application",
+      },
+      {
+        src: "/products/cwa-series/cwa-wheel-assembly.png",
+        alt: "CWA Series wheel assembly and load distribution",
+      },
+      {
+        src: "/products/cwa-series/cwa-construction-details.png",
+        alt: "CWA Series key construction details",
+      },
+      {
+        src: "/products/cwa-series/cwa-steering-operation.png",
+        alt: "CWA Series flexible steering operation",
+      },
+      {
+        src: "/products/cwa-series/cwa-specifications.png",
+        alt: "CWA Series product specifications",
+      },
+    ],
 
-  advantages: [
-    "Flexible steering operation for accurate positioning",
-    "Stable load distribution for heavy equipment movement",
-    "Heavy-duty steel construction for industrial use",
-    "Multiple wheel configurations for different capacities",
-  ],
+    advantages: [
+      "6T–30T load capacity range",
+      "Flexible manual steering",
+      "Stable multi-wheel load distribution",
+      "Heavy-duty steel construction",
+    ],
 
-  specifications: [
-    { label: "Model Range", value: "WA-6 / WA-10 / WA-15 / WA-20 / WA-25 / WA-30" },
-    { label: "Capacity Range", value: "6T–30T" },
-    { label: "Operation Type", value: "Manual" },
-    { label: "Application", value: "Heavy equipment moving and machinery relocation" },
-    { label: "Steering Type", value: "Flexible manual steering" },
-    { label: "Construction", value: "Heavy-duty steel frame" },
-  ],
-},
-},
+    features: [
+      {
+        icon: "mdi:steering",
+        title: "Flexible Steering",
+        text: "Manual steering design helps operators position and redirect heavy equipment with greater control.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "6T–30T Load Capacity",
+        text: "Multiple CWA models are available for different industrial load requirements.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Multi-Wheel Load Distribution",
+        text: "Multiple wheel configurations distribute heavy loads more evenly across contact surfaces.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Heavy-Duty Steel Frame",
+        text: "Rugged steel construction is designed for demanding factories, workshops and warehouses.",
+      },
+      {
+        icon: "mdi:arrow-expand-horizontal",
+        title: "Controlled Movement",
+        text: "The low-profile transporter design supports stable and controlled machinery relocation.",
+      },
+      {
+        icon: "mdi:factory",
+        title: "Workshop Ready",
+        text: "Suitable for machinery reconfiguration, production line changes and heavy equipment relocation.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery relocation",
+      "Workshop layout changes",
+      "Production line reconfiguration",
+      "Warehouse equipment moving",
+      "Heavy machine positioning",
+      "Industrial equipment installation",
+    ],
+  },
 };
 
 export default async function ProductPage({
@@ -606,7 +669,9 @@ export default async function ProductPage({
     return (
       <main className="flex min-h-screen items-center justify-center bg-zinc-950 text-white">
         <div className="text-center">
-          <h1 className="text-4xl font-black">Product not found</h1>
+          <h1 className="text-4xl font-black">
+            Product not found
+          </h1>
 
           <p className="mt-3 text-zinc-400">
             This product page is not available yet.
@@ -618,9 +683,7 @@ export default async function ProductPage({
 
   return (
     <main className="min-h-screen bg-white text-zinc-900">
-      {/* =====================================================
-          PRODUCT HERO
-      ====================================================== */}
+      {/* PRODUCT HERO */}
       <section className="bg-zinc-950 text-white">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-start">
           {/* LEFT */}
@@ -629,7 +692,9 @@ export default async function ProductPage({
           {/* RIGHT */}
           <div className="lg:pt-4">
             <div className="inline-flex rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-2 text-sm font-semibold text-orange-400">
-              Electric Heavy-Duty Movers
+              {currentProduct.driveType === "Manual"
+                ? "Manual Heavy-Duty Movers"
+                : "Electric Heavy-Duty Movers"}
             </div>
 
             <h1 className="mt-5 text-4xl font-black leading-tight md:text-5xl">
@@ -694,14 +759,10 @@ export default async function ProductPage({
         </div>
       </section>
 
-      {/* =====================================================
-          PRODUCT OPTIONS
-      ====================================================== */}
+      {/* PRODUCT OPTIONS */}
       <ProductOptions />
 
-      {/* =====================================================
-          KEY FEATURES
-      ====================================================== */}
+      {/* KEY FEATURES */}
       <section className="bg-zinc-100">
         <div className="mx-auto max-w-7xl px-6 py-20">
           <div className="max-w-2xl">
@@ -740,9 +801,7 @@ export default async function ProductPage({
         </div>
       </section>
 
-      {/* =====================================================
-          APPLICATIONS
-      ====================================================== */}
+      {/* APPLICATIONS */}
       <section className="bg-zinc-950 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20">
           <p className="font-semibold uppercase tracking-wider text-orange-500">
@@ -773,9 +832,7 @@ export default async function ProductPage({
         </div>
       </section>
 
-      {/* =====================================================
-          FINAL CTA
-      ====================================================== */}
+      {/* FINAL CTA */}
       <section className="bg-orange-500 text-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-8 px-6 py-16 md:flex-row md:items-center md:justify-between">
           <div>
