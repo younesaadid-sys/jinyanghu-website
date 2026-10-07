@@ -88,41 +88,35 @@ const products: Record<
       description: "10T–60T electric tank transporters",
       image: "/products/ja-series/ja-main.jpg",
     },
-
     {
       name: "JA-B Series",
       slug: "ja-b-series-electric-tank-transporters",
       description: "Heavy-duty electric transporter series",
       image: "/products/ja-b-series/ja-b-main.jpg",
     },
-
     {
       name: "JS Series",
       slug: "js-series-electric-tank-transporters",
       description: "Stable electric machinery transport system",
     },
-
     {
       name: "JD Series",
       slug: "jd-series-electric-tank-transporters",
       description: "Industrial heavy-load moving equipment",
       image: "/products/jd-series/jd-main.jpg",
     },
-
     {
       name: "JX Series",
       slug: "jx-series-electric-machinery-skate-dolly",
       description: "Remote-controlled heavy-duty machinery transporter",
       image: "/products/jx-series/jx-main.jpg",
     },
-
     {
       name: "JZ Series",
       slug: "jz-series-electric-pallet-truck",
       description: "Heavy-duty electric pallet truck for industrial transport",
       image: "/products/jz-series/jz-main.png",
     },
-
     {
       name: "JQ Series",
       slug: "jq-series-low-profile-tank-transporters",
@@ -130,54 +124,57 @@ const products: Record<
     },
   ],
 
-"manual-heavy-duty-movers": [
-  {
-  name: "CRA Series",
-  slug: "cra-series-tank-transporters",
-  description: "Manual heavy-duty cargo moving skates",
-  image: "/products/cra-series/cra-main.jpg",
-},
-  {
-    name: "CWA Series",
-    slug: "cwa-series-tank-transporters",
-    description: "Manual heavy-duty tank transporters",
-  },
-  {
-    name: "CRD Series",
-    slug: "crd-series-tank-transporters",
-    description: "Manual heavy-duty tank transporters",
-  },
-  {
-    name: "CX+Y Series",
-    slug: "cx-y-series-tank-transporters",
-    description: "Manual heavy-duty tank transporter system",
-  },
-  {
-    name: "CRP Series",
-    slug: "crp-series-tank-transporters",
-    description: "Manual heavy-duty tank transporters",
-  },
-  {
-    name: "CRQ Series",
-    slug: "crq-series-tank-transporters",
-    description: "Manual heavy-duty tank transporters",
-  },
-  {
-    name: "CRM Series",
-    slug: "crm-series-tank-transporters",
-    description: "Manual heavy-duty tank transporters",
-  },
-  {
-    name: "CRF Series",
-    slug: "crf-series-tank-transporters",
-    description: "Manual heavy-duty tank transporters",
-  },
-  {
-    name: "CRW Series",
-    slug: "crw-series-tank-transporters",
-    description: "Manual heavy-duty tank transporters",
-  },
-],
+  "manual-heavy-duty-movers": [
+    {
+      name: "CRA Series",
+      slug: "cra-series-tank-transporters",
+      description: "Manual heavy-duty cargo moving skates",
+      image: "/products/cra-series/cra-main.jpg",
+    },
+    {
+      name: "CWA Series",
+      slug: "cwa-series-tank-transporters",
+      description:
+        "Heavy-duty manual tank transporters for controlled movement of industrial equipment and heavy loads.",
+      image: "/products/cwa-series/cwa-main.png",
+    },
+    {
+      name: "CRD Series",
+      slug: "crd-series-tank-transporters",
+      description: "Manual heavy-duty tank transporters",
+    },
+    {
+      name: "CX+Y Series",
+      slug: "cx-y-series-tank-transporters",
+      description: "Manual heavy-duty tank transporter system",
+    },
+    {
+      name: "CRP Series",
+      slug: "crp-series-tank-transporters",
+      description: "Manual heavy-duty tank transporters",
+    },
+    {
+      name: "CRQ Series",
+      slug: "crq-series-tank-transporters",
+      description: "Manual heavy-duty tank transporters",
+    },
+    {
+      name: "CRM Series",
+      slug: "crm-series-tank-transporters",
+      description: "Manual heavy-duty tank transporters",
+    },
+    {
+      name: "CRF Series",
+      slug: "crf-series-tank-transporters",
+      description: "Manual heavy-duty tank transporters",
+    },
+    {
+      name: "CRW Series",
+      slug: "crw-series-tank-transporters",
+      description: "Manual heavy-duty tank transporters",
+    },
+  ],
+
   jacks: [],
   "stair-climbing-carts": [],
   "pallet-trucks": [],
@@ -210,8 +207,6 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white md:block">
       <div className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-
-        {/* LOGO */}
         <Link href="/" className="flex items-center gap-4">
           <Image
             src="/jin-yang-hu-logo.png"
@@ -227,17 +222,11 @@ export default function Header() {
           </span>
         </Link>
 
-        {/* NAVIGATION */}
         <nav className="flex items-center gap-10 text-base font-medium text-zinc-900">
-
-          <Link
-            href="/"
-            className="transition hover:text-orange-500"
-          >
+          <Link href="/" className="transition hover:text-orange-500">
             Home
           </Link>
 
-          {/* PRODUCTS MEGA MENU */}
           <div
             className="relative"
             onMouseEnter={() => setMenuOpen(true)}
@@ -252,25 +241,8 @@ export default function Header() {
             </button>
 
             {menuOpen && (
-              <div
-                className="
-                  absolute
-                  left-1/2
-                  top-full
-                  z-[100]
-                  w-[960px]
-                  -translate-x-1/2
-                  overflow-hidden
-                  rounded-2xl
-                  border
-                  border-zinc-200
-                  bg-white
-                  shadow-2xl
-                "
-              >
+              <div className="absolute left-1/2 top-full z-[100] w-[960px] -translate-x-1/2 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl">
                 <div className="grid grid-cols-[320px_1fr]">
-
-                  {/* LEFT SIDE */}
                   <div className="border-r border-zinc-200 bg-zinc-50 p-4">
                     <p className="mb-3 px-3 text-xs font-bold uppercase tracking-wider text-zinc-400">
                       Product Categories
@@ -285,16 +257,8 @@ export default function Header() {
                             setActiveCategory(category.slug)
                           }
                           className={`
-                            flex
-                            w-full
-                            items-center
-                            justify-between
-                            rounded-lg
-                            px-3
-                            py-3
-                            text-left
-                            text-sm
-                            transition
+                            flex w-full items-center justify-between rounded-lg
+                            px-3 py-3 text-left text-sm transition
                             ${
                               activeCategory === category.slug
                                 ? "bg-orange-500 font-semibold text-white"
@@ -309,7 +273,6 @@ export default function Header() {
                     </div>
                   </div>
 
-                  {/* RIGHT SIDE */}
                   <div className="p-7">
                     <div>
                       <p className="text-xs font-semibold uppercase tracking-wider text-orange-500">
@@ -327,20 +290,8 @@ export default function Header() {
                           <Link
                             key={product.slug}
                             href={`/products/${activeCategory}/${product.slug}`}
-                            className="
-                              group
-                              overflow-hidden
-                              rounded-xl
-                              border
-                              border-zinc-200
-                              bg-white
-                              transition
-                              hover:border-orange-300
-                              hover:bg-orange-50
-                              hover:shadow-md
-                            "
+                            className="group overflow-hidden rounded-xl border border-zinc-200 bg-white transition hover:border-orange-300 hover:bg-orange-50 hover:shadow-md"
                           >
-                            {/* PRODUCT IMAGE */}
                             {product.image && (
                               <div className="relative h-24 w-full overflow-hidden bg-white">
                                 <Image
@@ -353,16 +304,13 @@ export default function Header() {
                               </div>
                             )}
 
-                            {/* PRODUCT INFO */}
                             <div className="p-4">
                               <div className="flex items-center justify-between">
                                 <h4 className="font-bold text-zinc-900 group-hover:text-orange-500">
                                   {product.name}
                                 </h4>
 
-                                <span className="text-orange-500">
-                                  →
-                                </span>
+                                <span className="text-orange-500">→</span>
                               </div>
 
                               <p className="mt-2 text-sm leading-6 text-zinc-500">
@@ -387,7 +335,6 @@ export default function Header() {
                   </div>
                 </div>
 
-                {/* BOTTOM BAR */}
                 <div className="flex items-center justify-between border-t border-zinc-200 bg-zinc-950 px-6 py-4 text-white">
                   <div>
                     <p className="font-semibold">
@@ -411,22 +358,15 @@ export default function Header() {
             )}
           </div>
 
-          <Link
-            href="/#about"
-            className="transition hover:text-orange-500"
-          >
+          <Link href="/#about" className="transition hover:text-orange-500">
             About Us
           </Link>
 
-          <Link
-            href="/#contact"
-            className="transition hover:text-orange-500"
-          >
+          <Link href="/#contact" className="transition hover:text-orange-500">
             Contact
           </Link>
         </nav>
 
-        {/* QUOTE BUTTON */}
         <div>
           <QuoteModal />
         </div>
