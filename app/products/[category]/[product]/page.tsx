@@ -743,7 +743,8 @@ const productData = {
       "Heavy machine positioning",
       "Industrial equipment installation",
     ],
-    // =========================================================
+  },
+  // =========================================================
 // CX+Y SERIES
 // =========================================================
 "cx-y-series-tank-transporters": {
@@ -836,7 +837,6 @@ const productData = {
     "Large equipment positioning",
   ],
 },
-  },
 };
 
 export default async function ProductPage({
