@@ -151,12 +151,13 @@ const products: Record<
       description: "Hand-cranked heavy-duty machine skates",
       image: "/products/crd-series/crd-main.png",
     },
-    {
+   {
   name: "CX+Y Series",
-  slug: "cx+y-series-tank-transporters",
-  description: "Manual heavy-duty transporter system with steering and straight-running skates",
-  image: "/products/cx+y-series/cx+y-main.png",
-    },
+  slug: "cx-y-series-tank-transporters",
+  description:
+    "Manual heavy-duty transporter system with steering and straight-running skates",
+  image: "/products/CX+Y-series/cx+y-main.png",
+},
     {
       name: "CRP Series",
       slug: "crp-series-tank-transporters",
