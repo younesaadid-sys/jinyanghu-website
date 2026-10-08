@@ -837,6 +837,7 @@ const productData = {
       "Warehouse machinery handling",
       "Large equipment positioning",
     ],
+    },
  // =========================================================
 // CRP SERIES
 // =========================================================
@@ -917,16 +918,16 @@ const productData = {
     },
   ],
 
-  applications: [
-    "Factory machinery relocation",
-    "Industrial equipment positioning",
-    "Workshop machine moving",
-    "Warehouse equipment handling",
-    "Heavy equipment installation",
-    "Production line reconfiguration",
-  ],
+applications: [
+  "Factory machinery relocation",
+  "Industrial equipment positioning",
+  "Workshop machine moving",
+  "Warehouse equipment handling",
+  "Heavy equipment installation",
+  "Production line reconfiguration",
+],
 },
-  },
+
 };
 
 export default async function ProductPage({
