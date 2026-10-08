@@ -157,11 +157,12 @@ const products: Record<
         "Manual heavy-duty transporter system with steering and straight-running skates",
       image: "/products/cx-y-series/cx-y-main.png",
     },
-    {
-      name: "CRP Series",
-      slug: "crp-series-tank-transporters",
-      description: "Manual heavy-duty tank transporters",
-    },
+   {
+  name: "CRP Series",
+  slug: "crp-series-tank-transporters",
+  description: "360° rotating manual machinery moving skate",
+  image: "/products/crp-series/crp-main.png",
+},
     {
       name: "CRQ Series",
       slug: "crq-series-tank-transporters",

@@ -837,6 +837,95 @@ const productData = {
       "Warehouse machinery handling",
       "Large equipment positioning",
     ],
+ // =========================================================
+// CRP SERIES
+// =========================================================
+"crp-series-tank-transporters": {
+  name: "CRP Series Machinery Moving Skate",
+  shortName: "CRP Series",
+
+  description:
+    "Manual heavy-duty machinery moving skate designed for controlled equipment relocation, featuring a 360° rotating platform, durable steel construction and wear-resistant caster wheels.",
+
+  loadCapacity: "3T Rated / 4T Max",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/crp-series/crp-main.png",
+      alt: "CRP Series machinery moving skate",
+    },
+    {
+      src: "/products/crp-series/crp-specifications.png",
+      alt: "CRP Series specifications and dimensions",
+    },
+    {
+      src: "/products/crp-series/crp-rotation.png",
+      alt: "CRP Series 360 degree free rotation",
+    },
+    {
+      src: "/products/crp-series/crp-removable-handle.png",
+      alt: "CRP Series removable handle system",
+    },
+    {
+      src: "/products/crp-series/crp-construction-details.png",
+      alt: "CRP Series construction details",
+    },
+    {
+      src: "/products/crp-series/crp-detail-view.png",
+      alt: "CRP Series detailed product view",
+    },
+  ],
+
+  advantages: [
+    "360° free rotation",
+    "4T maximum load capacity",
+    "Heavy-duty steel construction",
+    "Wear-resistant caster wheels",
+  ],
+
+  features: [
+    {
+      icon: "mdi:rotate-360",
+      title: "360° Free Rotation",
+      text: "The rotating platform allows flexible positioning and directional control during machinery movement.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "4T Maximum Load",
+      text: "CRP-4 supports a maximum load of 4 tons with a rated working load of 3 tons.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Thickened Steel Base",
+      text: "Reinforced steel construction provides strength and stability during heavy equipment relocation.",
+    },
+    {
+      icon: "mdi:car-tire-alert",
+      title: "Wear-Resistant Casters",
+      text: "Durable caster wheels support smooth movement and reliable industrial operation.",
+    },
+    {
+      icon: "mdi:circle-double",
+      title: "Ball Bearing Rotation",
+      text: "Integrated ball bearings support smooth and controlled platform rotation.",
+    },
+    {
+      icon: "mdi:tools",
+      title: "Removable Handle",
+      text: "The detachable handle simplifies positioning, transport and storage when not in use.",
+    },
+  ],
+
+  applications: [
+    "Factory machinery relocation",
+    "Industrial equipment positioning",
+    "Workshop machine moving",
+    "Warehouse equipment handling",
+    "Heavy equipment installation",
+    "Production line reconfiguration",
+  ],
+},
   },
 };
 
