@@ -152,9 +152,10 @@ const products: Record<
       image: "/products/crd-series/crd-main.png",
     },
     {
-      name: "CX+Y Series",
-      slug: "cx-y-series-tank-transporters",
-      description: "Manual heavy-duty tank transporter system",
+  name: "CX+Y Series",
+  slug: "cx-y-series-tank-transporters",
+  description: "Manual heavy-duty transporter system with steering and straight-running skates",
+  image: "/products/cx-y-series/cx-y-main.png",
     },
     {
       name: "CRP Series",
