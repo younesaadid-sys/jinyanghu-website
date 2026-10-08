@@ -153,7 +153,7 @@ const products: Record<
     },
     {
   name: "CX+Y Series",
-  slug: "cx-y-series-tank-transporters",
+  slug: "cx+y-series-tank-transporters",
   description: "Manual heavy-duty transporter system with steering and straight-running skates",
   image: "/products/cx-y-series/cx-y-main.png",
     },
