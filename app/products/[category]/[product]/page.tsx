@@ -758,35 +758,35 @@ const productData = {
   driveType: "Manual",
 
   gallery: [
-    {
-      src: "/products/cx-y-series/cx-y-main.png",
-      alt: "CX+Y Series Tank Transporters",
-    },
-    {
-      src: "/products/cx-y-series/cx-y-specifications.png",
-      alt: "CX+Y Series model specifications and load capacities",
-    },
-    {
-      src: "/products/cx-y-series/cx-y-wheel-options.png",
-      alt: "CX+Y Series alloy steel and polyurethane wheel options",
-    },
-    {
-      src: "/products/cx-y-series/cx-y-anti-slip-platform.png",
-      alt: "CX+Y Series anti-slip threaded platform",
-    },
-    {
-      src: "/products/cx-y-series/cx-y-steel-plate.png",
-      alt: "CX+Y Series thickened steel plate",
-    },
-    {
-      src: "/products/cx-y-series/cx-y-load-bearing-axis.png",
-      alt: "CX+Y Series quenched load-bearing axis",
-    },
-    {
-      src: "/products/cx-y-series/cx-y-flexible-pull-rod.png",
-      alt: "CX+Y Series flexible pull rod",
-    },
-  ],
+  {
+    src: "/products/CX+Y-series/cx+y-main.png",
+    alt: "CX+Y Series Tank Transporters",
+  },
+  {
+    src: "/products/CX+Y-series/cx+y-specifications.png",
+    alt: "CX+Y Series model specifications and load capacities",
+  },
+  {
+    src: "/products/CX+Y-series/cx+y-wheel-options.png",
+    alt: "CX+Y Series alloy steel and polyurethane wheel options",
+  },
+  {
+    src: "/products/CX+Y-series/cx+y-anti-slip-platform.png",
+    alt: "CX+Y Series anti-slip threaded platform",
+  },
+  {
+    src: "/products/CX+Y-series/cx+y-steel-plate.png",
+    alt: "CX+Y Series thickened steel plate",
+  },
+  {
+    src: "/products/CX+Y-series/cx+y-load-bearing-axis.png",
+    alt: "CX+Y Series quenched load-bearing axis",
+  },
+  {
+    src: "/products/CX+Y-series/cx+y-flexible-pull-rod.png",
+    alt: "CX+Y Series flexible pull rod",
+  },
+],
 
   advantages: [
     "4T–32T load capacity range",
