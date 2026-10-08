@@ -744,99 +744,100 @@ const productData = {
       "Industrial equipment installation",
     ],
   },
+
   // =========================================================
-// CX+Y SERIES
-// =========================================================
-"cx-y-series-tank-transporters": {
-  name: "CX+Y Series Tank Transporters",
-  shortName: "CX+Y Series",
+  // CX+Y SERIES
+  // =========================================================
+  "cx-y-series-tank-transporters": {
+    name: "CX+Y Series Tank Transporters",
+    shortName: "CX+Y Series",
 
-  description:
-    "Manual heavy-duty transporter system combining steering and straight-running machine skates for controlled movement of industrial machinery and large equipment.",
+    description:
+      "Manual heavy-duty transporter system combining steering and straight-running machine skates for controlled movement of industrial machinery and large equipment.",
 
-  loadCapacity: "4T–32T",
-  driveType: "Manual",
+    loadCapacity: "4T–32T",
+    driveType: "Manual",
 
-  gallery: [
-  {
-    src: "/products/CX+Y-series/cx+y-main.png",
-    alt: "CX+Y Series Tank Transporters",
-  },
-  {
-    src: "/products/CX+Y-series/cx+y-specifications.png",
-    alt: "CX+Y Series model specifications and load capacities",
-  },
-  {
-    src: "/products/CX+Y-series/cx+y-wheel-options.png",
-    alt: "CX+Y Series alloy steel and polyurethane wheel options",
-  },
-  {
-    src: "/products/CX+Y-series/cx+y-anti-slip-platform.png",
-    alt: "CX+Y Series anti-slip threaded platform",
-  },
-  {
-    src: "/products/CX+Y-series/cx+y-steel-plate.png",
-    alt: "CX+Y Series thickened steel plate",
-  },
-  {
-    src: "/products/CX+Y-series/cx+y-load-bearing-axis.png",
-    alt: "CX+Y Series quenched load-bearing axis",
-  },
-  {
-    src: "/products/CX+Y-series/cx+y-flexible-pull-rod.png",
-    alt: "CX+Y Series flexible pull rod",
-  },
-],
+    gallery: [
+      {
+        src: "/products/CX+Y-series/cx+y-main.png",
+        alt: "CX+Y Series Tank Transporters",
+      },
+      {
+        src: "/products/CX+Y-series/cx+y-specifications.png",
+        alt: "CX+Y Series model specifications and load capacities",
+      },
+      {
+        src: "/products/CX+Y-series/cx+y-wheel-options.png",
+        alt: "CX+Y Series alloy steel and polyurethane wheel options",
+      },
+      {
+        src: "/products/CX+Y-series/cx+y-anti-slip-platform.png",
+        alt: "CX+Y Series anti-slip threaded platform",
+      },
+      {
+        src: "/products/CX+Y-series/cx+y-steel-plate.png",
+        alt: "CX+Y Series thickened steel plate",
+      },
+      {
+        src: "/products/CX+Y-series/cx+y-load-bearing-axis.png",
+        alt: "CX+Y Series quenched load-bearing axis",
+      },
+      {
+        src: "/products/CX+Y-series/cx+y-flexible-pull-rod.png",
+        alt: "CX+Y Series flexible pull rod",
+      },
+    ],
 
-  advantages: [
-    "4T–32T load capacity range",
-    "Steering and straight-running skate combination",
-    "Alloy steel or polyurethane wheel options",
-    "Heavy-duty reinforced construction",
-  ],
+    advantages: [
+      "4T–32T load capacity range",
+      "Steering and straight-running skate combination",
+      "Alloy steel or polyurethane wheel options",
+      "Heavy-duty reinforced construction",
+    ],
 
-  features: [
-    {
-      icon: "mdi:steering",
-      title: "Flexible Steering System",
-      text: "The steering unit works with the straight-running skates to provide controlled positioning during heavy machinery relocation.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "4T–32T Load Capacity",
-      text: "Multiple X+Y configurations are available for different industrial load requirements.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Two Wheel Options",
-      text: "Alloy steel wheels are suitable for hard outdoor surfaces, while polyurethane wheels are designed for indoor flooring.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Anti-Slip Platform",
-      text: "The textured support surface improves load stability during transport and positioning.",
-    },
-    {
-      icon: "mdi:layers-triple-outline",
-      title: "Thickened Steel Plate",
-      text: "Reinforced steel plate construction provides strength and durability under heavy industrial loads.",
-    },
-    {
-      icon: "mdi:axis-arrow",
-      title: "Quenched Load-Bearing Axis",
-      text: "The reinforced load-bearing axis supports stable operation during demanding heavy-load movement.",
-    },
-  ],
+    features: [
+      {
+        icon: "mdi:steering",
+        title: "Flexible Steering System",
+        text: "The steering unit works with the straight-running skates to provide controlled positioning during heavy machinery relocation.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "4T–32T Load Capacity",
+        text: "Multiple X+Y configurations are available for different industrial load requirements.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Two Wheel Options",
+        text: "Alloy steel wheels are suitable for hard outdoor surfaces, while polyurethane wheels are designed for indoor flooring.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Anti-Slip Platform",
+        text: "The textured support surface improves load stability during transport and positioning.",
+      },
+      {
+        icon: "mdi:layers-triple-outline",
+        title: "Thickened Steel Plate",
+        text: "Reinforced steel plate construction provides strength and durability under heavy industrial loads.",
+      },
+      {
+        icon: "mdi:axis-arrow",
+        title: "Quenched Load-Bearing Axis",
+        text: "The reinforced load-bearing axis supports stable operation during demanding heavy-load movement.",
+      },
+    ],
 
-  applications: [
-    "Factory machinery relocation",
-    "Heavy equipment installation",
-    "Industrial workshop transport",
-    "Production line reconfiguration",
-    "Warehouse machinery handling",
-    "Large equipment positioning",
-  ],
-},
+    applications: [
+      "Factory machinery relocation",
+      "Heavy equipment installation",
+      "Industrial workshop transport",
+      "Production line reconfiguration",
+      "Warehouse machinery handling",
+      "Large equipment positioning",
+    ],
+  },
 };
 
 export default async function ProductPage({
