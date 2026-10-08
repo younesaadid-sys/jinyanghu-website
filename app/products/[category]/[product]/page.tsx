@@ -559,99 +559,100 @@ const productData = {
       "Workshop equipment handling",
       "Production line relocation",
     ],
-    // =========================================================
-// CRD SERIES
-// =========================================================
-"crd-series-tank-transporters": {
-  name: "CRD Series Hand-Cranked Machine Skates",
-  shortName: "CRD Series",
+  },
 
-  description:
-    "Manual hand-cranked machine skates designed for controlled movement and positioning of heavy industrial machinery, with a 360° swivel platform and optional nylon or steel wheels.",
+  // =========================================================
+  // CRD SERIES
+  // =========================================================
+  "crd-series-tank-transporters": {
+    name: "CRD Series Hand-Cranked Machine Skates",
+    shortName: "CRD Series",
 
-  loadCapacity: "6T–18T",
-  driveType: "Manual",
+    description:
+      "Manual hand-cranked machine skates designed for controlled movement and positioning of heavy industrial machinery, with a 360° swivel platform and optional nylon or steel wheels.",
 
-  gallery: [
-    {
-      src: "/products/crd-series/crd-main.png",
-      alt: "CRD Series hand-cranked machine skate",
-    },
-    {
-      src: "/products/crd-series/crd-capacity.png",
-      alt: "CRD Series 6T to 18T capacity options",
-    },
-    {
-      src: "/products/crd-series/crd-swivel-platform.png",
-      alt: "CRD Series hand crank and 360 degree swivel platform",
-    },
-    {
-      src: "/products/crd-series/crd-wheel-options.png",
-      alt: "CRD Series nylon and steel wheel options",
-    },
-    {
-      src: "/products/crd-series/crd-usage-method.png",
-      alt: "CRD Series usage method",
-    },
-    {
-      src: "/products/crd-series/crd-real-shot.png",
-      alt: "CRD Series real product display",
-    },
-    {
-      src: "/products/crd-series/crd-applications.png",
-      alt: "CRD Series applicable industrial scenes",
-    },
-  ],
+    loadCapacity: "6T–18T",
+    driveType: "Manual",
 
-  advantages: [
-    "6T–18T load capacity range",
-    "360° swivel platform",
-    "Hand-cranked steering control",
-    "Nylon or steel wheel options",
-  ],
+    gallery: [
+      {
+        src: "/products/crd-series/crd-main.png",
+        alt: "CRD Series hand-cranked machine skate",
+      },
+      {
+        src: "/products/crd-series/crd-capacity.png",
+        alt: "CRD Series 6T to 18T capacity options",
+      },
+      {
+        src: "/products/crd-series/crd-swivel-platform.png",
+        alt: "CRD Series hand crank and 360 degree swivel platform",
+      },
+      {
+        src: "/products/crd-series/crd-wheel-options.png",
+        alt: "CRD Series nylon and steel wheel options",
+      },
+      {
+        src: "/products/crd-series/crd-usage-method.png",
+        alt: "CRD Series usage method",
+      },
+      {
+        src: "/products/crd-series/crd-real-shot.png",
+        alt: "CRD Series real product display",
+      },
+      {
+        src: "/products/crd-series/crd-applications.png",
+        alt: "CRD Series applicable industrial scenes",
+      },
+    ],
 
-  features: [
-    {
-      icon: "mdi:gesture-tap-button",
-      title: "Hand-Cranked Control",
-      text: "Manual crank mechanism provides controlled steering and positioning during heavy equipment movement.",
-    },
-    {
-      icon: "mdi:rotate-360",
-      title: "360° Swivel Platform",
-      text: "Rotating support platform improves maneuverability and allows more flexible load positioning.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "6T–18T Load Capacity",
-      text: "Multiple model capacities are available for different machinery and heavy-load handling requirements.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Optional Wheel Materials",
-      text: "Nylon and steel wheel configurations are available for different surfaces and industrial environments.",
-    },
-    {
-      icon: "mdi:cog-outline",
-      title: "Gear-Driven Wheel System",
-      text: "Integrated gear and roller construction supports controlled movement under heavy loads.",
-    },
-    {
-      icon: "mdi:factory",
-      title: "Industrial Applications",
-      text: "Suitable for factories, construction sites, industrial facilities and heavy equipment relocation.",
-    },
-  ],
+    advantages: [
+      "6T–18T load capacity range",
+      "360° swivel platform",
+      "Hand-cranked steering control",
+      "Nylon or steel wheel options",
+    ],
 
-  applications: [
-    "Factory workshops",
-    "Construction sites",
-    "Industrial facilities",
-    "Ship docks",
-    "Heavy machinery relocation",
-    "Equipment installation",
-  ],
-},
+    features: [
+      {
+        icon: "mdi:gesture-tap-button",
+        title: "Hand-Cranked Control",
+        text: "Manual crank mechanism provides controlled steering and positioning during heavy equipment movement.",
+      },
+      {
+        icon: "mdi:rotate-360",
+        title: "360° Swivel Platform",
+        text: "Rotating support platform improves maneuverability and allows more flexible load positioning.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "6T–18T Load Capacity",
+        text: "Multiple model capacities are available for different machinery and heavy-load handling requirements.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Optional Wheel Materials",
+        text: "Nylon and steel wheel configurations are available for different surfaces and industrial environments.",
+      },
+      {
+        icon: "mdi:cog-outline",
+        title: "Gear-Driven Wheel System",
+        text: "Integrated gear and roller construction supports controlled movement under heavy loads.",
+      },
+      {
+        icon: "mdi:factory",
+        title: "Industrial Applications",
+        text: "Suitable for factories, construction sites, industrial facilities and heavy equipment relocation.",
+      },
+    ],
+
+    applications: [
+      "Factory workshops",
+      "Construction sites",
+      "Industrial facilities",
+      "Ship docks",
+      "Heavy machinery relocation",
+      "Equipment installation",
+    ],
   },
 
   // =========================================================
@@ -844,7 +845,6 @@ export default async function ProductPage({
               </div>
             </div>
 
-            {/* QUOTE BUTTON */}
             <div className="mt-8">
               <QuoteModal />
             </div>
