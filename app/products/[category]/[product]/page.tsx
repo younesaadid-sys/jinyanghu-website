@@ -1121,6 +1121,95 @@ applications: [
     "Construction and industrial equipment movement",
   ],
 },
+// =========================================================
+// CRF SERIES
+// =========================================================
+"crf-series-tank-transporters": {
+  name: "CRF Series Heavy-Duty Machinery Skates",
+  shortName: "CRF Series",
+
+  description:
+    "Manual heavy-duty machinery skates designed for controlled movement and positioning of industrial equipment, featuring a 360° rotating turntable, reinforced steel construction and optional alloy steel or polyurethane wheels.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/crf-series/crf-main.png",
+      alt: "CRF Series heavy-duty machinery skates",
+    },
+    {
+      src: "/products/crf-series/crf-360-rotation.png",
+      alt: "CRF Series 360 degree rotating turntable",
+    },
+    {
+      src: "/products/crf-series/crf-heavy-duty-overview.png",
+      alt: "CRF Series heavy-duty machinery skate overview",
+    },
+    {
+      src: "/products/crf-series/crf-product-details.png",
+      alt: "CRF Series product construction details",
+    },
+    {
+      src: "/products/crf-series/crf-wheel-options.png",
+      alt: "CRF Series alloy steel and polyurethane wheel options",
+    },
+    {
+      src: "/products/crf-series/crf-detachable-handle.png",
+      alt: "CRF Series detachable handle",
+    },
+  ],
+
+  advantages: [
+    "360° rotating turntable",
+    "Heavy-duty reinforced construction",
+    "Alloy steel or polyurethane wheel options",
+    "Detachable handle for flexible operation",
+  ],
+
+  features: [
+    {
+      icon: "mdi:rotate-360",
+      title: "360° Rotating Turntable",
+      text: "The rotating central plate allows flexible steering and easier directional control when positioning heavy machinery.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "Heavy-Duty Load Support",
+      text: "Designed for demanding machinery moving applications requiring stable and controlled heavy-load transport.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Reinforced Steel Construction",
+      text: "The heavy-duty steel frame provides strength, durability and reliable support during industrial use.",
+    },
+    {
+      icon: "mdi:car-tire-alert",
+      title: "Multiple Wheel Options",
+      text: "Available with alloy steel wheels for hard surfaces or polyurethane wheels for smoother indoor floor protection.",
+    },
+    {
+      icon: "mdi:circle-double",
+      title: "Non-Slip Turntable",
+      text: "The textured rotating plate improves grip and load stability during movement and positioning.",
+    },
+    {
+      icon: "mdi:tools",
+      title: "Detachable Handle",
+      text: "The removable handle provides flexible operation and makes the equipment easier to transport and store.",
+    },
+  ],
+
+  applications: [
+    "Factory machinery relocation",
+    "Industrial equipment positioning",
+    "Workshop machine moving",
+    "Production line reconfiguration",
+    "Warehouse equipment handling",
+    "Heavy machinery installation",
+  ],
+},
 };
 
 export default async function ProductPage({

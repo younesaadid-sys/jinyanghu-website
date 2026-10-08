@@ -179,10 +179,12 @@ const products: Record<
   image: "/products/crm-series/crm-product-view.png",
 },
     {
-      name: "CRF Series",
-      slug: "crf-series-tank-transporters",
-      description: "Manual heavy-duty tank transporters",
-    },
+  name: "CRF Series",
+  slug: "crf-series-tank-transporters",
+  description:
+    "Heavy-duty machinery skates with 360° rotating turntable and flexible wheel options",
+  image: "/products/crf-series/crf-main.png",
+},
     {
       name: "CRW Series",
       slug: "crw-series-tank-transporters",
