@@ -117,7 +117,8 @@ const products: Record<
     {
       name: "JZ Series",
       slug: "jz-series-electric-pallet-truck",
-      description: "Heavy-duty electric pallet truck for industrial transport",
+      description:
+        "Heavy-duty electric pallet truck for industrial transport",
       image: "/products/jz-series/jz-main.png",
     },
     {
@@ -155,20 +156,21 @@ const products: Record<
       slug: "cx-y-series-tank-transporters",
       description:
         "Manual heavy-duty transporter system with steering and straight-running skates",
-      image: "/products/CX+Y-series/cx+y-main.png",
+      image: "/products/cx-y-series/cx-y-main.png",
     },
     {
       name: "CRP Series",
       slug: "crp-series-tank-transporters",
-      description: "Manual heavy-duty tank transporters",
+      description: "360° rotating manual machinery moving skate",
+      image: "/products/crp-series/crp-main.png",
     },
-   {
-  name: "CRQ Series",
-  slug: "crq-series-tank-transporters",
-  description:
-    "Heavy-duty universal machinery moving skates for precise positioning",
-  image: "/products/crq-series/crq-main.png",
-},
+    {
+      name: "CRQ Series",
+      slug: "crq-series-tank-transporters",
+      description:
+        "Heavy-duty universal machinery moving skates for precise positioning",
+      image: "/products/crq-series/crq-main.png",
+    },
     {
       name: "CRM Series",
       slug: "crm-series-tank-transporters",
@@ -240,7 +242,7 @@ export default function Header() {
             Home
           </Link>
 
-          {/* PRODUCTS MEGA MENU */}
+          {/* PRODUCTS */}
           <div
             className="relative"
             onMouseEnter={() => setMenuOpen(true)}
@@ -257,7 +259,7 @@ export default function Header() {
             {menuOpen && (
               <div className="absolute left-1/2 top-full z-[100] w-[960px] -translate-x-1/2 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl">
                 <div className="grid grid-cols-[320px_1fr]">
-                  {/* LEFT SIDE */}
+                  {/* LEFT CATEGORIES */}
                   <div className="border-r border-zinc-200 bg-zinc-50 p-4">
                     <p className="mb-3 px-3 text-xs font-bold uppercase tracking-wider text-zinc-400">
                       Product Categories
@@ -288,7 +290,7 @@ export default function Header() {
                     </div>
                   </div>
 
-                  {/* RIGHT SIDE */}
+                  {/* RIGHT PRODUCTS */}
                   <div className="p-7">
                     <div>
                       <p className="text-xs font-semibold uppercase tracking-wider text-orange-500">
@@ -301,14 +303,13 @@ export default function Header() {
                     </div>
 
                     {activeProducts.length > 0 ? (
-                      <div className="mt-6 grid grid-cols-3 gap-4">
+                      <div className="mt-6 grid max-h-[500px] grid-cols-3 gap-4 overflow-y-auto pr-1">
                         {activeProducts.map((product) => (
                           <Link
                             key={product.slug}
                             href={`/products/${activeCategory}/${product.slug}`}
                             className="group overflow-hidden rounded-xl border border-zinc-200 bg-white transition hover:border-orange-300 hover:bg-orange-50 hover:shadow-md"
                           >
-                            {/* PRODUCT IMAGE */}
                             {product.image && (
                               <div className="relative h-24 w-full overflow-hidden bg-white">
                                 <Image
@@ -321,7 +322,6 @@ export default function Header() {
                               </div>
                             )}
 
-                            {/* PRODUCT INFO */}
                             <div className="p-4">
                               <div className="flex items-center justify-between gap-3">
                                 <h4 className="font-bold text-zinc-900 group-hover:text-orange-500">
@@ -394,7 +394,7 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* QUOTE BUTTON */}
+        {/* QUOTE */}
         <div>
           <QuoteModal />
         </div>
