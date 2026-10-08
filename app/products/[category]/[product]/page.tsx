@@ -927,7 +927,99 @@ applications: [
   "Production line reconfiguration",
 ],
 },
+// =========================================================
+// CRQ SERIES
+// =========================================================
+"crq-series-tank-transporters": {
+  name: "CRQ Series Heavy-Duty Universal Skates",
+  shortName: "CRQ Series",
 
+  description:
+    "Manual heavy-duty universal skates designed for industrial equipment moving, machine relocation and precise positioning with multi-directional movement and stable load support.",
+
+  loadCapacity: "6T–16T",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/crq-series/crq-main.png",
+      alt: "CRQ Series heavy-duty universal skates",
+    },
+    {
+      src: "/products/crq-series/crq-application.png",
+      alt: "CRQ Series industrial equipment moving application",
+    },
+    {
+      src: "/products/crq-series/crq-construction-details.png",
+      alt: "CRQ Series key construction details",
+    },
+    {
+      src: "/products/crq-series/crq-product-view.png",
+      alt: "CRQ Series detailed product view",
+    },
+    {
+      src: "/products/crq-series/crq-specifications.png",
+      alt: "CRQ Series product specifications",
+    },
+    {
+      src: "/products/crq-series/crq-size-guide.png",
+      alt: "CRQ Series size selection guide",
+    },
+    {
+      src: "/products/crq-series/crq-load-capacity.png",
+      alt: "CRQ Series load capacity overview",
+    },
+  ],
+
+  advantages: [
+    "6T–16T load capacity range",
+    "Universal multi-direction movement",
+    "Rotating load plate",
+    "Heavy-duty PU wheel system",
+  ],
+
+  features: [
+    {
+      icon: "mdi:rotate-360",
+      title: "Universal Movement",
+      text: "Multi-direction wheel assemblies provide flexible movement and precise positioning of heavy industrial equipment.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "6T–16T Load Capacity",
+      text: "Available in multiple sizes for different heavy-duty machinery relocation requirements.",
+    },
+    {
+      icon: "mdi:circle-slice-8",
+      title: "Rotating Load Plate",
+      text: "The central rotating plate supports smoother positioning and directional adjustment under heavy loads.",
+    },
+    {
+      icon: "mdi:car-tire-alert",
+      title: "Heavy-Duty PU Wheels",
+      text: "Durable polyurethane wheels provide stable movement and reduced friction during industrial transport.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Reinforced Steel Frame",
+      text: "Heavy-duty frame and reinforced support arms are designed for demanding industrial environments.",
+    },
+    {
+      icon: "mdi:target",
+      title: "Precision Positioning",
+      text: "Designed for accurate final positioning of large machines and industrial equipment.",
+    },
+  ],
+
+  applications: [
+    "Factory machinery relocation",
+    "Industrial equipment positioning",
+    "Production line reconfiguration",
+    "Machine installation",
+    "Workshop equipment moving",
+    "Heavy equipment alignment",
+  ],
+},
 };
 
 export default async function ProductPage({
