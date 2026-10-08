@@ -81,6 +81,9 @@ const products: Record<
     image?: string;
   }[]
 > = {
+  // =========================================================
+  // ELECTRIC HEAVY-DUTY MOVERS
+  // =========================================================
   "electric-heavy-duty-movers": [
     {
       name: "JA Series",
@@ -114,7 +117,8 @@ const products: Record<
     {
       name: "JZ Series",
       slug: "jz-series-electric-pallet-truck",
-      description: "Heavy-duty electric pallet truck for industrial transport",
+      description:
+        "Heavy-duty electric pallet truck for industrial transport",
       image: "/products/jz-series/jz-main.png",
     },
     {
@@ -124,13 +128,16 @@ const products: Record<
     },
   ],
 
+  // =========================================================
+  // MANUAL HEAVY-DUTY MOVERS
+  // =========================================================
   "manual-heavy-duty-movers": [
-   {
-  name: "CRD Series",
-  slug: "crd-series-tank-transporters",
-  description: "Hand-cranked heavy-duty machine skates",
-  image: "/products/crd-series/crd-main.png",
-},
+    {
+      name: "CRA Series",
+      slug: "cra-series-tank-transporters",
+      description: "Manual heavy-duty cargo moving skates",
+      image: "/products/cra-series/cra-main.jpg",
+    },
     {
       name: "CWA Series",
       slug: "cwa-series-tank-transporters",
@@ -141,7 +148,8 @@ const products: Record<
     {
       name: "CRD Series",
       slug: "crd-series-tank-transporters",
-      description: "Manual heavy-duty tank transporters",
+      description: "Hand-cranked heavy-duty machine skates",
+      image: "/products/crd-series/crd-main.png",
     },
     {
       name: "CX+Y Series",
@@ -207,6 +215,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white md:block">
       <div className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+        {/* LOGO */}
         <Link href="/" className="flex items-center gap-4">
           <Image
             src="/jin-yang-hu-logo.png"
@@ -222,11 +231,13 @@ export default function Header() {
           </span>
         </Link>
 
+        {/* NAVIGATION */}
         <nav className="flex items-center gap-10 text-base font-medium text-zinc-900">
           <Link href="/" className="transition hover:text-orange-500">
             Home
           </Link>
 
+          {/* PRODUCTS MEGA MENU */}
           <div
             className="relative"
             onMouseEnter={() => setMenuOpen(true)}
@@ -243,6 +254,7 @@ export default function Header() {
             {menuOpen && (
               <div className="absolute left-1/2 top-full z-[100] w-[960px] -translate-x-1/2 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl">
                 <div className="grid grid-cols-[320px_1fr]">
+                  {/* LEFT SIDE */}
                   <div className="border-r border-zinc-200 bg-zinc-50 p-4">
                     <p className="mb-3 px-3 text-xs font-bold uppercase tracking-wider text-zinc-400">
                       Product Categories
@@ -273,6 +285,7 @@ export default function Header() {
                     </div>
                   </div>
 
+                  {/* RIGHT SIDE */}
                   <div className="p-7">
                     <div>
                       <p className="text-xs font-semibold uppercase tracking-wider text-orange-500">
@@ -292,6 +305,7 @@ export default function Header() {
                             href={`/products/${activeCategory}/${product.slug}`}
                             className="group overflow-hidden rounded-xl border border-zinc-200 bg-white transition hover:border-orange-300 hover:bg-orange-50 hover:shadow-md"
                           >
+                            {/* PRODUCT IMAGE */}
                             {product.image && (
                               <div className="relative h-24 w-full overflow-hidden bg-white">
                                 <Image
@@ -304,13 +318,16 @@ export default function Header() {
                               </div>
                             )}
 
+                            {/* PRODUCT INFO */}
                             <div className="p-4">
-                              <div className="flex items-center justify-between">
+                              <div className="flex items-center justify-between gap-3">
                                 <h4 className="font-bold text-zinc-900 group-hover:text-orange-500">
                                   {product.name}
                                 </h4>
 
-                                <span className="text-orange-500">→</span>
+                                <span className="shrink-0 text-orange-500">
+                                  →
+                                </span>
                               </div>
 
                               <p className="mt-2 text-sm leading-6 text-zinc-500">
@@ -335,6 +352,7 @@ export default function Header() {
                   </div>
                 </div>
 
+                {/* BOTTOM BAR */}
                 <div className="flex items-center justify-between border-t border-zinc-200 bg-zinc-950 px-6 py-4 text-white">
                   <div>
                     <p className="font-semibold">
@@ -358,15 +376,22 @@ export default function Header() {
             )}
           </div>
 
-          <Link href="/#about" className="transition hover:text-orange-500">
+          <Link
+            href="/#about"
+            className="transition hover:text-orange-500"
+          >
             About Us
           </Link>
 
-          <Link href="/#contact" className="transition hover:text-orange-500">
+          <Link
+            href="/#contact"
+            className="transition hover:text-orange-500"
+          >
             Contact
           </Link>
         </nav>
 
+        {/* QUOTE BUTTON */}
         <div>
           <QuoteModal />
         </div>
