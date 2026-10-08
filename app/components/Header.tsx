@@ -155,7 +155,7 @@ const products: Record<
       slug: "cx-y-series-tank-transporters",
       description:
         "Manual heavy-duty transporter system with steering and straight-running skates",
-      image: "/products/CX+Y-series/cx+y-main.png",
+      image: "/products/cx-y-series/cx-y-main.png",
     },
     {
       name: "CRP Series",
