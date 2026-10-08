@@ -1020,6 +1020,107 @@ applications: [
     "Heavy equipment alignment",
   ],
 },
+// =========================================================
+// CRM SERIES
+// =========================================================
+"crm-series-tank-transporters": {
+  name: "CRM Series Crawler Machinery Skates",
+  shortName: "CRM Series",
+
+  description:
+    "Manual heavy-duty crawler machinery skates designed for straight-line movement of industrial machinery and extremely heavy loads, featuring alloy steel rollers, anti-slip support pads and reinforced steel construction.",
+
+  loadCapacity: "8T–500T",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/crm-series/crm-product-view.png",
+      alt: "CRM Series crawler machinery skate",
+    },
+    {
+      src: "/products/crm-series/crm-30t-overview.png",
+      alt: "CRM30 30 ton crawler machinery skate overview",
+    },
+    {
+      src: "/products/crm-series/crm-specifications.png",
+      alt: "CRM Series specifications and load capacity table",
+    },
+    {
+      src: "/products/crm-series/crm-anti-slip-pad.png",
+      alt: "CRM Series anti-slip support pad",
+    },
+    {
+      src: "/products/crm-series/crm-alloy-steel-wheels.png",
+      alt: "CRM Series alloy steel rollers",
+    },
+    {
+      src: "/products/crm-series/crm-thickened-steel.png",
+      alt: "CRM Series thickened steel construction",
+    },
+    {
+      src: "/products/crm-series/crm-steel-shaft-casters.png",
+      alt: "CRM Series steel shaft rollers",
+    },
+    {
+      src: "/products/crm-series/crm-real-shot.png",
+      alt: "CRM Series real product display",
+    },
+    {
+      src: "/products/crm-series/crm-applications.png",
+      alt: "CRM Series application scenarios",
+    },
+  ],
+
+  advantages: [
+    "8T–500T load capacity range",
+    "Heavy-duty alloy steel rollers",
+    "Anti-slip load support surface",
+    "Reinforced thickened steel structure",
+  ],
+
+  features: [
+    {
+      icon: "mdi:weight-lifter",
+      title: "8T–500T Load Capacity",
+      text: "The CRM Series is available in multiple models from CRM8 up to CRM500 for very heavy industrial load movement.",
+    },
+    {
+      icon: "mdi:circle-multiple-outline",
+      title: "Alloy Steel Rollers",
+      text: "Precision-cut alloy steel rollers provide high load-bearing strength and durable straight-line movement.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Thickened Steel Structure",
+      text: "The reinforced base and central load-bearing structure are designed for demanding industrial applications.",
+    },
+    {
+      icon: "mdi:shoe-print",
+      title: "Anti-Slip Support Pad",
+      text: "The raised anti-slip surface increases friction between the machinery base and the transporter.",
+    },
+    {
+      icon: "mdi:axis-arrow",
+      title: "Steel Shaft Rollers",
+      text: "Heavy-duty steel shafts and rollers provide strength, stability and reliable load support.",
+    },
+    {
+      icon: "mdi:arrow-right-bold",
+      title: "Straight-Line Transport",
+      text: "The crawler-style roller arrangement is designed for controlled straight-line movement of heavy machinery.",
+    },
+  ],
+
+  applications: [
+    "Factory machinery relocation",
+    "Heavy industrial equipment transport",
+    "Production line installation",
+    "Machine tool positioning",
+    "Warehouse heavy-load handling",
+    "Construction and industrial equipment movement",
+  ],
+},
 };
 
 export default async function ProductPage({

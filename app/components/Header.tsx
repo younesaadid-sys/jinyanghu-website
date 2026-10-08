@@ -172,10 +172,12 @@ const products: Record<
       image: "/products/crq-series/crq-main.png",
     },
     {
-      name: "CRM Series",
-      slug: "crm-series-tank-transporters",
-      description: "Manual heavy-duty tank transporters",
-    },
+  name: "CRM Series",
+  slug: "crm-series-tank-transporters",
+  description:
+    "Heavy-duty crawler machinery skates for straight-line transport of industrial loads",
+  image: "/products/crm-series/crm-product-view.png",
+},
     {
       name: "CRF Series",
       slug: "crf-series-tank-transporters",
