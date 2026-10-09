@@ -196,7 +196,95 @@ const productData = {
       "Manufacturing facilities",
     ],
   },
+// =========================================================
+// JS SERIES
+// =========================================================
+"js-series-electric-tank-transporters": {
+  name: "JS Series Electric Tank Transporters",
+  shortName: "JS Series",
 
+  description:
+    "Electric heavy-duty transporter designed for moving, lifting and positioning industrial machinery. The JS Series combines wireless remote control, electric lifting, flexible movement and a powerful copper-core motor for efficient heavy-equipment handling.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/js-series/js-main.png",
+      alt: "JS Series electric heavy-duty transporter",
+    },
+    {
+      src: "/products/js-series/js-remote-control.png",
+      alt: "JS Series wireless remote control",
+    },
+    {
+      src: "/products/js-series/js-copper-core-motor.png",
+      alt: "JS Series high-performance copper core motor",
+    },
+    {
+      src: "/products/js-series/js-transport-and-lift.png",
+      alt: "JS Series transport and lifting application",
+    },
+    {
+      src: "/products/js-series/js-lifting-system.png",
+      alt: "JS Series electric lifting system",
+    },
+    {
+      src: "/products/js-series/js-product-overview.png",
+      alt: "JS Series heavy-duty electric transporter overview",
+    },
+  ],
+
+  advantages: [
+    "Wireless remote-controlled operation",
+    "Electric lifting and positioning",
+    "High-performance copper-core motor",
+    "Flexible heavy-load movement",
+  ],
+
+  features: [
+    {
+      icon: "mdi:remote",
+      title: "Wireless Remote Control",
+      text: "Wireless remote control enables safer long-distance operation and convenient control of transporter movement and lifting.",
+    },
+    {
+      icon: "mdi:engine-outline",
+      title: "Copper-Core Motor",
+      text: "The high-performance copper-core motor provides efficient power for demanding industrial transportation tasks.",
+    },
+    {
+      icon: "mdi:arrow-up-down-bold",
+      title: "Electric Lifting",
+      text: "The integrated lifting mechanism allows heavy loads to be raised and positioned with reduced manual effort.",
+    },
+    {
+      icon: "mdi:rotate-360",
+      title: "Flexible Movement",
+      text: "The transporter is designed for flexible multidirectional movement and precise positioning of large machinery.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "Heavy-Duty Load Handling",
+      text: "The reinforced transporter structure supports stable movement of heavy industrial machinery and equipment.",
+    },
+    {
+      icon: "mdi:arrow-collapse-down",
+      title: "Low-Profile Design",
+      text: "The low-profile transporter body allows easier access underneath machinery for lifting and relocation.",
+    },
+  ],
+
+  applications: [
+    "Factory machinery relocation",
+    "Heavy mold transportation",
+    "Industrial equipment installation",
+    "Production line reconfiguration",
+    "Heavy machinery positioning",
+    "Warehouse equipment handling",
+  ],
+},
   // =========================================================
   // JD SERIES
   // =========================================================

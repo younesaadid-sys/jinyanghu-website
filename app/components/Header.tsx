@@ -97,11 +97,13 @@ const products: Record<
       description: "Heavy-duty electric transporter series",
       image: "/products/ja-b-series/ja-b-main.jpg",
     },
-    {
-      name: "JS Series",
-      slug: "js-series-electric-tank-transporters",
-      description: "Stable electric machinery transport system",
-    },
+   {
+  name: "JS Series",
+  slug: "js-series-electric-tank-transporters",
+  description:
+    "Electric lifting transporter with wireless remote control and flexible heavy-load movement",
+  image: "/products/js-series/js-main.png",
+},
     {
       name: "JD Series",
       slug: "jd-series-electric-tank-transporters",
