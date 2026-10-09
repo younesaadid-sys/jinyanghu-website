@@ -1210,6 +1210,95 @@ applications: [
     "Heavy machinery installation",
   ],
 },
+// =========================================================
+// CRW SERIES
+// =========================================================
+"crw-series-tank-transporters": {
+  name: "CRW Series Hydraulic Moving Skates",
+  shortName: "CRW Series",
+
+  description:
+    "Manual hydraulic lifting machinery skates designed for controlled movement, lifting and precise positioning of heavy industrial equipment. The omnidirectional wheel system provides flexible steering while the hydraulic unit allows controlled lifting and lowering.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Manual / Hydraulic",
+
+  gallery: [
+    {
+      src: "/products/crw-series/crw-main.png",
+      alt: "CRW Series hydraulic machinery moving skate",
+    },
+    {
+      src: "/products/crw-series/crw-load-capacity.png",
+      alt: "CRW Series strong load capacity",
+    },
+    {
+      src: "/products/crw-series/crw-dimensions.png",
+      alt: "CRW Series product dimensions",
+    },
+    {
+      src: "/products/crw-series/crw-omnidirectional-movement.png",
+      alt: "CRW Series omnidirectional machinery moving skate",
+    },
+    {
+      src: "/products/crw-series/crw-product-details.png",
+      alt: "CRW Series product construction details",
+    },
+    {
+      src: "/products/crw-series/crw-hydraulic-lift.png",
+      alt: "CRW Series hydraulic lifting system",
+    },
+  ],
+
+  advantages: [
+    "Hydraulic lifting and lowering system",
+    "Omnidirectional flexible movement",
+    "360° steering capability",
+    "Heavy-duty PU wheel construction",
+  ],
+
+  features: [
+    {
+      icon: "mdi:hydraulic-oil-level",
+      title: "Hydraulic Lift System",
+      text: "The hydraulic system provides controlled lifting and lowering for safer positioning of heavy industrial equipment.",
+    },
+    {
+      icon: "mdi:rotate-360",
+      title: "Omnidirectional Movement",
+      text: "Multiple swivel wheel assemblies provide flexible steering and precise movement in different directions.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "Strong Load Support",
+      text: "The reinforced structure is designed for stable and secure transportation of heavy machinery and industrial loads.",
+    },
+    {
+      icon: "mdi:car-tire-alert",
+      title: "Heavy-Duty PU Wheels",
+      text: "Durable polyurethane wheels provide smooth movement, good grip and reduced impact on industrial floors.",
+    },
+    {
+      icon: "mdi:circle-double",
+      title: "Non-Slip Turntable",
+      text: "The textured central load plate improves grip and helps maintain equipment stability during transport.",
+    },
+    {
+      icon: "mdi:tools",
+      title: "Detachable Handle",
+      text: "The long detachable traction handle provides easier control, steering and storage.",
+    },
+  ],
+
+  applications: [
+    "Factory machinery relocation",
+    "Industrial equipment installation",
+    "Production line reconfiguration",
+    "Heavy machine positioning",
+    "Warehouse equipment handling",
+    "Workshop machinery transport",
+  ],
+},
 };
 
 export default async function ProductPage({

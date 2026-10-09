@@ -186,10 +186,12 @@ const products: Record<
   image: "/products/crf-series/crf-main.png",
 },
     {
-      name: "CRW Series",
-      slug: "crw-series-tank-transporters",
-      description: "Manual heavy-duty tank transporters",
-    },
+  name: "CRW Series",
+  slug: "crw-series-tank-transporters",
+  description:
+    "Hydraulic lift omnidirectional machinery skates for heavy equipment moving",
+  image: "/products/crw-series/crw-main.png",
+},
   ],
 
   jacks: [],
