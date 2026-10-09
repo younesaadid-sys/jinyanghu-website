@@ -1471,6 +1471,7 @@ features: [
     title: "Heavy-Duty Construction",
     text: "Reinforced industrial structure provides stable lifting, durability and reliable operation.",
   },
+  
 ],
     applications: [
       "Industrial machinery lifting",
@@ -1480,6 +1481,7 @@ features: [
       "Production line adjustment",
       "Warehouse equipment servicing",
     ],
+},
     // =========================================================
 // MB SERIES
 // =========================================================
@@ -1567,9 +1569,8 @@ features: [
     "Workshop equipment handling",
     "Construction equipment positioning",
     "Heavy-load installation",
-  ],
+],
 },
-  },
 };
 
 export default async function ProductPage({
