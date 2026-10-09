@@ -2,6 +2,7 @@ import { Icon } from "@iconify/react";
 import QuoteModal from "@/app/components/QuoteModal";
 import ProductGallery from "@/app/components/ProductGallery";
 import ProductOptions from "@/app/components/ProductOptions";
+
 const productData = {
   // =========================================================
   // JA SERIES
@@ -9,10 +10,13 @@ const productData = {
   "ja-series-electric-tank-transporters": {
     name: "JA Series Electric Tank Transporters",
     shortName: "JA Series",
+
     description:
       "Electric Machinery Skates Dolly, 360° Mobile Mechanical Transporters, Machine Skates Dolly with 2pcs Straight Auxiliary Wheels Skates (60t - with a Pair of Auxiliary Wheels)",
+
     loadCapacity: "10T–60T",
     driveType: "Electric",
+
     gallery: [
       {
         src: "/products/ja-series/ja-main.jpg",
@@ -43,12 +47,14 @@ const productData = {
         alt: "JA Series heavy-duty wheels",
       },
     ],
+
     advantages: [
       "360° rotating platform",
       "Heavy-duty steel body",
       "Dual copper-core motors",
       "Built-in LED lighting",
     ],
+
     features: [
       {
         icon: "mdi:rotate-360",
@@ -81,6 +87,7 @@ const productData = {
         text: "Heavy-duty wheel and bearing design for smooth and stable operation.",
       },
     ],
+
     applications: [
       "Factory machinery moving",
       "Warehouse material handling",
@@ -90,16 +97,20 @@ const productData = {
       "Container and heavy-load transfer",
     ],
   },
+
   // =========================================================
   // JA-B SERIES
   // =========================================================
   "ja-b-series-electric-tank-transporters": {
     name: "JA-B Series Electric Tank Transporters",
     shortName: "JA-B Series",
+
     description:
       "Heavy-duty electric transporter series designed for industrial machinery handling, flexible steering and high-capacity load movement.",
+
     loadCapacity: "10T–100T",
     driveType: "Electric",
+
     gallery: [
       {
         src: "/products/ja-b-series/ja-b-main.jpg",
@@ -134,12 +145,14 @@ const productData = {
         alt: "JA-B Series heavy-duty load moving",
       },
     ],
+
     advantages: [
       "360° rotating turntable",
       "10T–100T load capacity",
       "High-power dual-channel brushless motor",
       "Heavy-duty industrial structure",
     ],
+
     features: [
       {
         icon: "mdi:rotate-360",
@@ -172,6 +185,7 @@ const productData = {
         text: "Robust structure designed for professional heavy-load applications.",
       },
     ],
+
     applications: [
       "Factory machinery moving",
       "Warehouse transport",
@@ -181,99 +195,110 @@ const productData = {
       "Manufacturing facilities",
     ],
   },
-// =========================================================
-// JS SERIES
-// =========================================================
-"js-series-electric-tank-transporters": {
-  name: "JS Series Electric Tank Transporters",
-  shortName: "JS Series",
-  description:
-    "Electric heavy-duty transporter designed for moving, lifting and positioning industrial machinery. The JS Series combines wireless remote control, electric lifting, flexible movement and a powerful copper-core motor for efficient heavy-equipment handling.",
-  loadCapacity: "Heavy-Duty",
-  driveType: "Electric",
-  gallery: [
-    {
-      src: "/products/js-series/js-main.png",
-      alt: "JS Series electric heavy-duty transporter",
-    },
-    {
-      src: "/products/js-series/js-remote-control.png",
-      alt: "JS Series wireless remote control",
-    },
-    {
-      src: "/products/js-series/js-copper-core-motor.png",
-      alt: "JS Series high-performance copper core motor",
-    },
-    {
-      src: "/products/js-series/js-transport-and-lift.png",
-      alt: "JS Series transport and lifting application",
-    },
-    {
-      src: "/products/js-series/js-lifting-system.png",
-      alt: "JS Series electric lifting system",
-    },
-    {
-      src: "/products/js-series/js-product-overview.png",
-      alt: "JS Series heavy-duty electric transporter overview",
-    },
-  ],
-  advantages: [
-    "Wireless remote-controlled operation",
-    "Electric lifting and positioning",
-    "High-performance copper-core motor",
-    "Flexible heavy-load movement",
-  ],
-  features: [
-    {
-      icon: "mdi:remote",
-      title: "Wireless Remote Control",
-      text: "Wireless remote control enables safer long-distance operation and convenient control of transporter movement and lifting.",
-    },
-    {
-      icon: "mdi:engine-outline",
-      title: "Copper-Core Motor",
-      text: "The high-performance copper-core motor provides efficient power for demanding industrial transportation tasks.",
-    },
-    {
-      icon: "mdi:arrow-up-down-bold",
-      title: "Electric Lifting",
-      text: "The integrated lifting mechanism allows heavy loads to be raised and positioned with reduced manual effort.",
-    },
-    {
-      icon: "mdi:rotate-360",
-      title: "Flexible Movement",
-      text: "The transporter is designed for flexible multidirectional movement and precise positioning of large machinery.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "Heavy-Duty Load Handling",
-      text: "The reinforced transporter structure supports stable movement of heavy industrial machinery and equipment.",
-    },
-    {
-      icon: "mdi:arrow-collapse-down",
-      title: "Low-Profile Design",
-      text: "The low-profile transporter body allows easier access underneath machinery for lifting and relocation.",
-    },
-  ],
-  applications: [
-    "Factory machinery relocation",
-    "Heavy mold transportation",
-    "Industrial equipment installation",
-    "Production line reconfiguration",
-    "Heavy machinery positioning",
-    "Warehouse equipment handling",
-  ],
-},
+
+  // =========================================================
+  // JS SERIES
+  // =========================================================
+  "js-series-electric-tank-transporters": {
+    name: "JS Series Electric Tank Transporters",
+    shortName: "JS Series",
+
+    description:
+      "Electric heavy-duty transporter designed for moving, lifting and positioning industrial machinery. The JS Series combines wireless remote control, electric lifting, flexible movement and a powerful copper-core motor for efficient heavy-equipment handling.",
+
+    loadCapacity: "Heavy-Duty",
+    driveType: "Electric",
+
+    gallery: [
+      {
+        src: "/products/js-series/js-main.png",
+        alt: "JS Series electric heavy-duty transporter",
+      },
+      {
+        src: "/products/js-series/js-remote-control.png",
+        alt: "JS Series wireless remote control",
+      },
+      {
+        src: "/products/js-series/js-copper-core-motor.png",
+        alt: "JS Series high-performance copper core motor",
+      },
+      {
+        src: "/products/js-series/js-transport-and-lift.png",
+        alt: "JS Series transport and lifting application",
+      },
+      {
+        src: "/products/js-series/js-lifting-system.png",
+        alt: "JS Series electric lifting system",
+      },
+      {
+        src: "/products/js-series/js-product-overview.png",
+        alt: "JS Series heavy-duty electric transporter overview",
+      },
+    ],
+
+    advantages: [
+      "Wireless remote-controlled operation",
+      "Electric lifting and positioning",
+      "High-performance copper-core motor",
+      "Flexible heavy-load movement",
+    ],
+
+    features: [
+      {
+        icon: "mdi:remote",
+        title: "Wireless Remote Control",
+        text: "Wireless remote control enables safer long-distance operation and convenient control of transporter movement and lifting.",
+      },
+      {
+        icon: "mdi:engine-outline",
+        title: "Copper-Core Motor",
+        text: "The high-performance copper-core motor provides efficient power for demanding industrial transportation tasks.",
+      },
+      {
+        icon: "mdi:arrow-up-down-bold",
+        title: "Electric Lifting",
+        text: "The integrated lifting mechanism allows heavy loads to be raised and positioned with reduced manual effort.",
+      },
+      {
+        icon: "mdi:rotate-360",
+        title: "Flexible Movement",
+        text: "The transporter is designed for flexible multidirectional movement and precise positioning of large machinery.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "Heavy-Duty Load Handling",
+        text: "The reinforced transporter structure supports stable movement of heavy industrial machinery and equipment.",
+      },
+      {
+        icon: "mdi:arrow-collapse-down",
+        title: "Low-Profile Design",
+        text: "The low-profile transporter body allows easier access underneath machinery for lifting and relocation.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery relocation",
+      "Heavy mold transportation",
+      "Industrial equipment installation",
+      "Production line reconfiguration",
+      "Heavy machinery positioning",
+      "Warehouse equipment handling",
+    ],
+  },
+
   // =========================================================
   // JD SERIES
   // =========================================================
   "jd-series-electric-tank-transporters": {
     name: "JD Series Electric Machinery Skate Dolly",
     shortName: "JD Series",
+
     description:
       "Electric heavy-duty machinery skate dolly designed for safe and efficient movement of industrial equipment, with wireless remote control and flexible 360° positioning.",
+
     loadCapacity: "10T–60T",
     driveType: "Electric",
+
     gallery: [
       {
         src: "/products/jd-series/jd-main.jpg",
@@ -300,12 +325,14 @@ const productData = {
         alt: "JD Series technical specifications",
       },
     ],
+
     advantages: [
       "Wireless remote control",
       "360° rotating platform",
       "Removable charging power box",
       "Heavy-duty polyurethane wheels",
     ],
+
     features: [
       {
         icon: "mdi:remote",
@@ -338,6 +365,7 @@ const productData = {
         text: "Built for demanding factory, machinery-moving and warehouse applications.",
       },
     ],
+
     applications: [
       "Factory machinery moving",
       "Heavy equipment relocation",
@@ -347,16 +375,20 @@ const productData = {
       "Heavy-load transport",
     ],
   },
+
   // =========================================================
   // JX SERIES
   // =========================================================
   "jx-series-electric-machinery-skate-dolly": {
     name: "JX Series Electric Machinery Skate Dolly",
     shortName: "JX Series",
+
     description:
       "Remote-controlled electric machinery skate dolly engineered for heavy industrial load movement, precise positioning and safe material handling.",
+
     loadCapacity: "20T–60T",
     driveType: "Electric",
+
     gallery: [
       {
         src: "/products/jx-series/jx-main.jpg",
@@ -387,12 +419,14 @@ const productData = {
         alt: "JX Series industrial applications",
       },
     ],
+
     advantages: [
       "Long-range wireless remote control",
       "20T–60T heavy-load capacity",
       "High-capacity battery system",
       "Heavy-duty industrial construction",
     ],
+
     features: [
       {
         icon: "mdi:remote",
@@ -425,6 +459,7 @@ const productData = {
         text: "Intuitive controls provide accurate movement and efficient machinery positioning.",
       },
     ],
+
     applications: [
       "Production workshops",
       "Industrial equipment handling",
@@ -434,16 +469,20 @@ const productData = {
       "Warehouse heavy-load transport",
     ],
   },
+
   // =========================================================
   // JZ SERIES
   // =========================================================
   "jz-series-electric-pallet-truck": {
     name: "JZ Series Electric Pallet Truck",
     shortName: "JZ Series",
+
     description:
       "Heavy-duty electric pallet truck designed for efficient warehouse transport, industrial material handling and high-capacity load movement.",
+
     loadCapacity: "8000 kg / 17,600 lbs",
     driveType: "Electric",
+
     gallery: [
       {
         src: "/products/jz-series/jz-main.png",
@@ -470,12 +509,14 @@ const productData = {
         alt: "JZ Series technical specifications",
       },
     ],
+
     advantages: [
       "8000 kg rated load capacity",
       "48V / 60Ah battery system",
       "Heavy-duty polyurethane wheels",
       "Electric travel and lifting system",
     ],
+
     features: [
       {
         icon: "mdi:weight-lifter",
@@ -508,6 +549,7 @@ const productData = {
         text: "Suitable for warehouses, logistics operations, construction sites and industrial facilities.",
       },
     ],
+
     applications: [
       "Warehouse material handling",
       "Logistics and distribution",
@@ -517,16 +559,20 @@ const productData = {
       "Heavy pallet movement",
     ],
   },
+
   // =========================================================
   // CRA SERIES
   // =========================================================
   "cra-series-tank-transporters": {
     name: "CRA Series Cargo Moving Skates",
     shortName: "CRA Series",
+
     description:
       "Manual heavy-duty cargo moving skates designed for stable, smooth and controlled movement of industrial machinery and equipment.",
+
     loadCapacity: "6T–25T",
     driveType: "Manual",
+
     gallery: [
       {
         src: "/products/cra-series/cra-main.jpg",
@@ -553,12 +599,14 @@ const productData = {
         alt: "CRA Series complete set for heavy load handling",
       },
     ],
+
     advantages: [
       "6T–25T load capacity range",
       "360° rotating top plate",
       "Heavy-duty steel frame",
       "Steel and nylon wheel options",
     ],
+
     features: [
       {
         icon: "mdi:rotate-360",
@@ -591,6 +639,7 @@ const productData = {
         text: "Push rod, support plate and wheel assembly provide a practical manual moving solution.",
       },
     ],
+
     applications: [
       "Factory machinery relocation",
       "Industrial equipment moving",
@@ -600,16 +649,20 @@ const productData = {
       "Production line relocation",
     ],
   },
+
   // =========================================================
   // CRD SERIES
   // =========================================================
   "crd-series-tank-transporters": {
     name: "CRD Series Hand-Cranked Machine Skates",
     shortName: "CRD Series",
+
     description:
       "Manual hand-cranked machine skates designed for controlled movement and positioning of heavy industrial machinery, with a 360° swivel platform and optional nylon or steel wheels.",
+
     loadCapacity: "6T–18T",
     driveType: "Manual",
+
     gallery: [
       {
         src: "/products/crd-series/crd-main.png",
@@ -640,12 +693,14 @@ const productData = {
         alt: "CRD Series applicable industrial scenes",
       },
     ],
+
     advantages: [
       "6T–18T load capacity range",
       "360° swivel platform",
       "Hand-cranked steering control",
       "Nylon or steel wheel options",
     ],
+
     features: [
       {
         icon: "mdi:gesture-tap-button",
@@ -678,6 +733,7 @@ const productData = {
         text: "Suitable for factories, construction sites, industrial facilities and heavy equipment relocation.",
       },
     ],
+
     applications: [
       "Factory workshops",
       "Construction sites",
@@ -687,16 +743,20 @@ const productData = {
       "Equipment installation",
     ],
   },
+
   // =========================================================
   // CWA SERIES
   // =========================================================
   "cwa-series-tank-transporters": {
     name: "CWA Series Tank Transporters",
     shortName: "CWA Series",
+
     description:
       "Manual heavy-duty tank transporters designed for controlled movement of industrial machinery, with flexible steering, stable load distribution and rugged steel construction.",
+
     loadCapacity: "6T–30T",
     driveType: "Manual",
+
     gallery: [
       {
         src: "/products/cwa-series/cwa-main.png",
@@ -723,12 +783,14 @@ const productData = {
         alt: "CWA Series product specifications",
       },
     ],
+
     advantages: [
       "6T–30T load capacity range",
       "Flexible manual steering",
       "Stable multi-wheel load distribution",
       "Heavy-duty steel construction",
     ],
+
     features: [
       {
         icon: "mdi:steering",
@@ -761,6 +823,7 @@ const productData = {
         text: "Suitable for machinery reconfiguration, production line changes and heavy equipment relocation.",
       },
     ],
+
     applications: [
       "Factory machinery relocation",
       "Workshop layout changes",
@@ -770,52 +833,58 @@ const productData = {
       "Industrial equipment installation",
     ],
   },
+
   // =========================================================
   // CX+Y SERIES
   // =========================================================
   "cx-y-series-tank-transporters": {
     name: "CX+Y Series Tank Transporters",
     shortName: "CX+Y Series",
+
     description:
       "Manual heavy-duty transporter system combining steering and straight-running machine skates for controlled movement of industrial machinery and large equipment.",
+
     loadCapacity: "4T–32T",
     driveType: "Manual",
+
     gallery: [
-  {
-    src: "/products/cx-y-series/cx-y-main.png",
-    alt: "CX+Y Series Tank Transporters",
-  },
-  {
-    src: "/products/cx-y-series/cx-y-specifications.png",
-    alt: "CX+Y Series model specifications and load capacities",
-  },
-  {
-    src: "/products/cx-y-series/cx-y-wheel-options.png",
-    alt: "CX+Y Series alloy steel and polyurethane wheel options",
-  },
-  {
-    src: "/products/cx-y-series/cx-y-anti-slip-platform.png",
-    alt: "CX+Y Series anti-slip threaded platform",
-  },
-  {
-    src: "/products/cx-y-series/cx-y-steel-plate.png",
-    alt: "CX+Y Series thickened steel plate",
-  },
-  {
-    src: "/products/cx-y-series/cx-y-load-bearing-axis.png",
-    alt: "CX+Y Series quenched load-bearing axis",
-  },
-  {
-    src: "/products/cx-y-series/cx-y-flexible-pull-rod.png",
-    alt: "CX+Y Series flexible pull rod",
-  },
-],
+      {
+        src: "/products/cx-y-series/cx-y-main.png",
+        alt: "CX+Y Series Tank Transporters",
+      },
+      {
+        src: "/products/cx-y-series/cx-y-specifications.png",
+        alt: "CX+Y Series model specifications and load capacities",
+      },
+      {
+        src: "/products/cx-y-series/cx-y-wheel-options.png",
+        alt: "CX+Y Series alloy steel and polyurethane wheel options",
+      },
+      {
+        src: "/products/cx-y-series/cx-y-anti-slip-platform.png",
+        alt: "CX+Y Series anti-slip threaded platform",
+      },
+      {
+        src: "/products/cx-y-series/cx-y-steel-plate.png",
+        alt: "CX+Y Series thickened steel plate",
+      },
+      {
+        src: "/products/cx-y-series/cx-y-load-bearing-axis.png",
+        alt: "CX+Y Series quenched load-bearing axis",
+      },
+      {
+        src: "/products/cx-y-series/cx-y-flexible-pull-rod.png",
+        alt: "CX+Y Series flexible pull rod",
+      },
+    ],
+
     advantages: [
       "4T–32T load capacity range",
       "Steering and straight-running skate combination",
       "Alloy steel or polyurethane wheel options",
       "Heavy-duty reinforced construction",
     ],
+
     features: [
       {
         icon: "mdi:steering",
@@ -848,6 +917,7 @@ const productData = {
         text: "The reinforced load-bearing axis supports stable operation during demanding heavy-load movement.",
       },
     ],
+
     applications: [
       "Factory machinery relocation",
       "Heavy equipment installation",
@@ -856,501 +926,565 @@ const productData = {
       "Warehouse machinery handling",
       "Large equipment positioning",
     ],
-    },
- // =========================================================
-// CRP SERIES
-// =========================================================
-"crp-series-tank-transporters": {
-  name: "CRP Series Machinery Moving Skate",
-  shortName: "CRP Series",
-  description:
-    "Manual heavy-duty machinery moving skate designed for controlled equipment relocation, featuring a 360° rotating platform, durable steel construction and wear-resistant caster wheels.",
-  loadCapacity: "3T Rated / 4T Max",
-  driveType: "Manual",
-  gallery: [
-    {
-      src: "/products/crp-series/crp-main.png",
-      alt: "CRP Series machinery moving skate",
-    },
-    {
-      src: "/products/crp-series/crp-specifications.png",
-      alt: "CRP Series specifications and dimensions",
-    },
-    {
-      src: "/products/crp-series/crp-rotation.png",
-      alt: "CRP Series 360 degree free rotation",
-    },
-    {
-      src: "/products/crp-series/crp-removable-handle.png",
-      alt: "CRP Series removable handle system",
-    },
-    {
-      src: "/products/crp-series/crp-construction-details.png",
-      alt: "CRP Series construction details",
-    },
-    {
-      src: "/products/crp-series/crp-detail-view.png",
-      alt: "CRP Series detailed product view",
-    },
-  ],
-  advantages: [
-    "360° free rotation",
-    "4T maximum load capacity",
-    "Heavy-duty steel construction",
-    "Wear-resistant caster wheels",
-  ],
-  features: [
-    {
-      icon: "mdi:rotate-360",
-      title: "360° Free Rotation",
-      text: "The rotating platform allows flexible positioning and directional control during machinery movement.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "4T Maximum Load",
-      text: "CRP-4 supports a maximum load of 4 tons with a rated working load of 3 tons.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Thickened Steel Base",
-      text: "Reinforced steel construction provides strength and stability during heavy equipment relocation.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Wear-Resistant Casters",
-      text: "Durable caster wheels support smooth movement and reliable industrial operation.",
-    },
-    {
-      icon: "mdi:circle-double",
-      title: "Ball Bearing Rotation",
-      text: "Integrated ball bearings support smooth and controlled platform rotation.",
-    },
-    {
-      icon: "mdi:tools",
-      title: "Removable Handle",
-      text: "The detachable handle simplifies positioning, transport and storage when not in use.",
-    },
-  ],
-applications: [
-  "Factory machinery relocation",
-  "Industrial equipment positioning",
-  "Workshop machine moving",
-  "Warehouse equipment handling",
-  "Heavy equipment installation",
-  "Production line reconfiguration",
-],
-},
-// =========================================================
-// CRQ SERIES
-// =========================================================
-"crq-series-tank-transporters": {
-  name: "CRQ Series Heavy-Duty Universal Skates",
-  shortName: "CRQ Series",
-  description:
-    "Manual heavy-duty universal skates designed for industrial equipment moving, machine relocation and precise positioning with multi-directional movement and stable load support.",
-  loadCapacity: "6T–16T",
-  driveType: "Manual",
-  gallery: [
-    {
-      src: "/products/crq-series/crq-main.png",
-      alt: "CRQ Series heavy-duty universal skates",
-    },
-    {
-      src: "/products/crq-series/crq-application.png",
-      alt: "CRQ Series industrial equipment moving application",
-    },
-    {
-      src: "/products/crq-series/crq-construction-details.png",
-      alt: "CRQ Series key construction details",
-    },
-    {
-      src: "/products/crq-series/crq-product-view.png",
-      alt: "CRQ Series detailed product view",
-    },
-    {
-      src: "/products/crq-series/crq-specifications.png",
-      alt: "CRQ Series product specifications",
-    },
-    {
-      src: "/products/crq-series/crq-size-guide.png",
-      alt: "CRQ Series size selection guide",
-    },
-    {
-      src: "/products/crq-series/crq-load-capacity.png",
-      alt: "CRQ Series load capacity overview",
-    },
-  ],
-  advantages: [
-    "6T–16T load capacity range",
-    "Universal multi-direction movement",
-    "Rotating load plate",
-    "Heavy-duty PU wheel system",
-  ],
-  features: [
-    {
-      icon: "mdi:rotate-360",
-      title: "Universal Movement",
-      text: "Multi-direction wheel assemblies provide flexible movement and precise positioning of heavy industrial equipment.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "6T–16T Load Capacity",
-      text: "Available in multiple sizes for different heavy-duty machinery relocation requirements.",
-    },
-    {
-      icon: "mdi:circle-slice-8",
-      title: "Rotating Load Plate",
-      text: "The central rotating plate supports smoother positioning and directional adjustment under heavy loads.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Heavy-Duty PU Wheels",
-      text: "Durable polyurethane wheels provide stable movement and reduced friction during industrial transport.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Reinforced Steel Frame",
-      text: "Heavy-duty frame and reinforced support arms are designed for demanding industrial environments.",
-    },
-    {
-      icon: "mdi:target",
-      title: "Precision Positioning",
-      text: "Designed for accurate final positioning of large machines and industrial equipment.",
-    },
-  ],
-  applications: [
-    "Factory machinery relocation",
-    "Industrial equipment positioning",
-    "Production line reconfiguration",
-    "Machine installation",
-    "Workshop equipment moving",
-    "Heavy equipment alignment",
-  ],
-},
-// =========================================================
-// CRM SERIES
-// =========================================================
-"crm-series-tank-transporters": {
-  name: "CRM Series Crawler Machinery Skates",
-  shortName: "CRM Series",
-  description:
-    "Manual heavy-duty crawler machinery skates designed for straight-line movement of industrial machinery and extremely heavy loads, featuring alloy steel rollers, anti-slip support pads and reinforced steel construction.",
-  loadCapacity: "8T–500T",
-  driveType: "Manual",
-  gallery: [
-    {
-      src: "/products/crm-series/crm-product-view.png",
-      alt: "CRM Series crawler machinery skate",
-    },
-    {
-      src: "/products/crm-series/crm-30t-overview.png",
-      alt: "CRM30 30 ton crawler machinery skate overview",
-    },
-    {
-      src: "/products/crm-series/crm-specifications.png",
-      alt: "CRM Series specifications and load capacity table",
-    },
-    {
-      src: "/products/crm-series/crm-anti-slip-pad.png",
-      alt: "CRM Series anti-slip support pad",
-    },
-    {
-      src: "/products/crm-series/crm-alloy-steel-wheels.png",
-      alt: "CRM Series alloy steel rollers",
-    },
-    {
-      src: "/products/crm-series/crm-thickened-steel.png",
-      alt: "CRM Series thickened steel construction",
-    },
-    {
-      src: "/products/crm-series/crm-steel-shaft-casters.png",
-      alt: "CRM Series steel shaft rollers",
-    },
-    {
-      src: "/products/crm-series/crm-real-shot.png",
-      alt: "CRM Series real product display",
-    },
-    {
-      src: "/products/crm-series/crm-applications.png",
-      alt: "CRM Series application scenarios",
-    },
-  ],
-  advantages: [
-    "8T–500T load capacity range",
-    "Heavy-duty alloy steel rollers",
-    "Anti-slip load support surface",
-    "Reinforced thickened steel structure",
-  ],
-  features: [
-    {
-      icon: "mdi:weight-lifter",
-      title: "8T–500T Load Capacity",
-      text: "The CRM Series is available in multiple models from CRM8 up to CRM500 for very heavy industrial load movement.",
-    },
-    {
-      icon: "mdi:circle-multiple-outline",
-      title: "Alloy Steel Rollers",
-      text: "Precision-cut alloy steel rollers provide high load-bearing strength and durable straight-line movement.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Thickened Steel Structure",
-      text: "The reinforced base and central load-bearing structure are designed for demanding industrial applications.",
-    },
-    {
-      icon: "mdi:shoe-print",
-      title: "Anti-Slip Support Pad",
-      text: "The raised anti-slip surface increases friction between the machinery base and the transporter.",
-    },
-    {
-      icon: "mdi:axis-arrow",
-      title: "Steel Shaft Rollers",
-      text: "Heavy-duty steel shafts and rollers provide strength, stability and reliable load support.",
-    },
-    {
-      icon: "mdi:arrow-right-bold",
-      title: "Straight-Line Transport",
-      text: "The crawler-style roller arrangement is designed for controlled straight-line movement of heavy machinery.",
-    },
-  ],
-  applications: [
-    "Factory machinery relocation",
-    "Heavy industrial equipment transport",
-    "Production line installation",
-    "Machine tool positioning",
-    "Warehouse heavy-load handling",
-    "Construction and industrial equipment movement",
-  ],
-},
-// =========================================================
-// CRF SERIES
-// =========================================================
-"crf-series-tank-transporters": {
-  name: "CRF Series Heavy-Duty Machinery Skates",
-  shortName: "CRF Series",
-  description:
-    "Manual heavy-duty machinery skates designed for controlled movement and positioning of industrial equipment, featuring a 360° rotating turntable, reinforced steel construction and optional alloy steel or polyurethane wheels.",
-  loadCapacity: "Heavy-Duty",
-  driveType: "Manual",
-  gallery: [
-    {
-      src: "/products/crf-series/crf-main.png",
-      alt: "CRF Series heavy-duty machinery skates",
-    },
-    {
-      src: "/products/crf-series/crf-360-rotation.png",
-      alt: "CRF Series 360 degree rotating turntable",
-    },
-    {
-      src: "/products/crf-series/crf-heavy-duty-overview.png",
-      alt: "CRF Series heavy-duty machinery skate overview",
-    },
-    {
-      src: "/products/crf-series/crf-product-details.png",
-      alt: "CRF Series product construction details",
-    },
-    {
-      src: "/products/crf-series/crf-wheel-options.png",
-      alt: "CRF Series alloy steel and polyurethane wheel options",
-    },
-    {
-      src: "/products/crf-series/crf-detachable-handle.png",
-      alt: "CRF Series detachable handle",
-    },
-  ],
-  advantages: [
-    "360° rotating turntable",
-    "Heavy-duty reinforced construction",
-    "Alloy steel or polyurethane wheel options",
-    "Detachable handle for flexible operation",
-  ],
-  features: [
-    {
-      icon: "mdi:rotate-360",
-      title: "360° Rotating Turntable",
-      text: "The rotating central plate allows flexible steering and easier directional control when positioning heavy machinery.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "Heavy-Duty Load Support",
-      text: "Designed for demanding machinery moving applications requiring stable and controlled heavy-load transport.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Reinforced Steel Construction",
-      text: "The heavy-duty steel frame provides strength, durability and reliable support during industrial use.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Multiple Wheel Options",
-      text: "Available with alloy steel wheels for hard surfaces or polyurethane wheels for smoother indoor floor protection.",
-    },
-    {
-      icon: "mdi:circle-double",
-      title: "Non-Slip Turntable",
-      text: "The textured rotating plate improves grip and load stability during movement and positioning.",
-    },
-    {
-      icon: "mdi:tools",
-      title: "Detachable Handle",
-      text: "The removable handle provides flexible operation and makes the equipment easier to transport and store.",
-    },
-  ],
-  applications: [
-    "Factory machinery relocation",
-    "Industrial equipment positioning",
-    "Workshop machine moving",
-    "Production line reconfiguration",
-    "Warehouse equipment handling",
-    "Heavy machinery installation",
-  ],
-},
-// =========================================================
-// CRW SERIES
-// =========================================================
-"crw-series-tank-transporters": {
-  name: "CRW Series Hydraulic Moving Skates",
-  shortName: "CRW Series",
-  description:
-    "Manual hydraulic lifting machinery skates designed for controlled movement, lifting and precise positioning of heavy industrial equipment. The omnidirectional wheel system provides flexible steering while the hydraulic unit allows controlled lifting and lowering.",
-  loadCapacity: "Heavy-Duty",
-  driveType: "Manual / Hydraulic",
-  gallery: [
-    {
-      src: "/products/crw-series/crw-main.png",
-      alt: "CRW Series hydraulic machinery moving skate",
-    },
-    {
-      src: "/products/crw-series/crw-load-capacity.png",
-      alt: "CRW Series strong load capacity",
-    },
-    {
-      src: "/products/crw-series/crw-dimensions.png",
-      alt: "CRW Series product dimensions",
-    },
-    {
-      src: "/products/crw-series/crw-omnidirectional-movement.png",
-      alt: "CRW Series omnidirectional machinery moving skate",
-    },
-    {
-      src: "/products/crw-series/crw-product-details.png",
-      alt: "CRW Series product construction details",
-    },
-    {
-      src: "/products/crw-series/crw-hydraulic-lift.png",
-      alt: "CRW Series hydraulic lifting system",
-    },
-  ],
-  advantages: [
-    "Hydraulic lifting and lowering system",
-    "Omnidirectional flexible movement",
-    "360° steering capability",
-    "Heavy-duty PU wheel construction",
-  ],
-  features: [
-    {
-      icon: "mdi:hydraulic-oil-level",
-      title: "Hydraulic Lift System",
-      text: "The hydraulic system provides controlled lifting and lowering for safer positioning of heavy industrial equipment.",
-    },
-    {
-      icon: "mdi:rotate-360",
-      title: "Omnidirectional Movement",
-      text: "Multiple swivel wheel assemblies provide flexible steering and precise movement in different directions.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "Strong Load Support",
-      text: "The reinforced structure is designed for stable and secure transportation of heavy machinery and industrial loads.",
-    },
-    {
-      icon: "mdi:car-tire-alert",
-      title: "Heavy-Duty PU Wheels",
-      text: "Durable polyurethane wheels provide smooth movement, good grip and reduced impact on industrial floors.",
-    },
-    {
-      icon: "mdi:circle-double",
-      title: "Non-Slip Turntable",
-      text: "The textured central load plate improves grip and helps maintain equipment stability during transport.",
-    },
-    {
-      icon: "mdi:tools",
-      title: "Detachable Handle",
-      text: "The long detachable traction handle provides easier control, steering and storage.",
-    },
-  ],
-  applications: [
-    "Factory machinery relocation",
-    "Industrial equipment installation",
-    "Production line reconfiguration",
-    "Heavy machine positioning",
-    "Warehouse equipment handling",
-    "Workshop machinery transport",
-  ],
-"ma-series-dual-purpose-claw-jacks": {
-  name: "MA Series Dual-Purpose Claw Jacks",
-  shortName: "MA Series",
-  description:
-    "Heavy-duty hydraulic claw jack series designed for lifting, holding and positioning industrial machinery. The MA Series combines low-position claw lifting, top lifting, adjustable working height and mobile operation in one compact unit.",
-  loadCapacity: "6T–20T",
-  driveType: "Hydraulic",
-  gallery: [
-    "/products/ma-series/ma-main.jpg",
-    "/products/ma-series/ma-specifications.jpg",
-    "/products/ma-series/ma-advantages.jpg",
-    "/products/ma-series/ma-height-adjustment.jpg",
-    "/products/ma-series/ma-heavy-duty.jpg",
-    "/products/ma-series/ma-structure.jpg",
-  ],
-  advantages: [
-    "6T–20T lifting capacity range",
-    "Multi-stage height adjustment",
-    "Low-position claw and top lifting",
-    "Mobile wheels for easy positioning",
-  ],
-  features: [
-    {
-      icon: "mdi:hydraulic-oil-level",
-      title: "Hydraulic Lifting System",
-      text: "Integrated hydraulic system provides powerful and controlled lifting for heavy industrial equipment.",
-    },
-    {
-      icon: "mdi:arrow-expand-vertical",
-      title: "Multi-Stage Height Adjustment",
-      text: "Multiple adjustment positions allow the claw height to match different working conditions.",
-    },
-    {
-      icon: "mdi:arrow-up-bold",
-      title: "Dual-Purpose Lifting",
-      text: "Supports both low-position claw lifting and top lifting for greater flexibility.",
-    },
-    {
-      icon: "mdi:weight-lifter",
-      title: "6T–20T Load Capacity",
-      text: "Available in MA-6T, MA-10T, MA-15T and MA-20T models for demanding lifting applications.",
-    },
-    {
-      icon: "mdi:wheel-barrow",
-      title: "Movable Design",
-      text: "Integrated wheels and handle make the jack easier to move and position around industrial equipment.",
-    },
-    {
-      icon: "mdi:shield-check-outline",
-      title: "Heavy-Duty Construction",
-      text: "Reinforced industrial structure provides stable lifting, durability and reliable operation.",
-    },
-  ],
-  applications: [
-    "Industrial machinery lifting",
-    "Factory equipment installation",
-    "Machine maintenance",
-    "Heavy equipment positioning",
-    "Production line adjustment",
-    "Warehouse equipment servicing",
-  ],
-},
-},
+  },
+
+  // =========================================================
+  // CRP SERIES
+  // =========================================================
+  "crp-series-tank-transporters": {
+    name: "CRP Series Machinery Moving Skate",
+    shortName: "CRP Series",
+
+    description:
+      "Manual heavy-duty machinery moving skate designed for controlled equipment relocation, featuring a 360° rotating platform, durable steel construction and wear-resistant caster wheels.",
+
+    loadCapacity: "3T Rated / 4T Max",
+    driveType: "Manual",
+
+    gallery: [
+      {
+        src: "/products/crp-series/crp-main.png",
+        alt: "CRP Series machinery moving skate",
+      },
+      {
+        src: "/products/crp-series/crp-specifications.png",
+        alt: "CRP Series specifications and dimensions",
+      },
+      {
+        src: "/products/crp-series/crp-rotation.png",
+        alt: "CRP Series 360 degree free rotation",
+      },
+      {
+        src: "/products/crp-series/crp-removable-handle.png",
+        alt: "CRP Series removable handle system",
+      },
+      {
+        src: "/products/crp-series/crp-construction-details.png",
+        alt: "CRP Series construction details",
+      },
+      {
+        src: "/products/crp-series/crp-detail-view.png",
+        alt: "CRP Series detailed product view",
+      },
+    ],
+
+    advantages: [
+      "360° free rotation",
+      "4T maximum load capacity",
+      "Heavy-duty steel construction",
+      "Wear-resistant caster wheels",
+    ],
+
+    features: [
+      {
+        icon: "mdi:rotate-360",
+        title: "360° Free Rotation",
+        text: "The rotating platform allows flexible positioning and directional control during machinery movement.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "4T Maximum Load",
+        text: "CRP-4 supports a maximum load of 4 tons with a rated working load of 3 tons.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Thickened Steel Base",
+        text: "Reinforced steel construction provides strength and stability during heavy equipment relocation.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Wear-Resistant Casters",
+        text: "Durable caster wheels support smooth movement and reliable industrial operation.",
+      },
+      {
+        icon: "mdi:circle-double",
+        title: "Ball Bearing Rotation",
+        text: "Integrated ball bearings support smooth and controlled platform rotation.",
+      },
+      {
+        icon: "mdi:tools",
+        title: "Removable Handle",
+        text: "The detachable handle simplifies positioning, transport and storage when not in use.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery relocation",
+      "Industrial equipment positioning",
+      "Workshop machine moving",
+      "Warehouse equipment handling",
+      "Heavy equipment installation",
+      "Production line reconfiguration",
+    ],
+  },
+
+  // =========================================================
+  // CRQ SERIES
+  // =========================================================
+  "crq-series-tank-transporters": {
+    name: "CRQ Series Heavy-Duty Universal Skates",
+    shortName: "CRQ Series",
+
+    description:
+      "Manual heavy-duty universal skates designed for industrial equipment moving, machine relocation and precise positioning with multi-directional movement and stable load support.",
+
+    loadCapacity: "6T–16T",
+    driveType: "Manual",
+
+    gallery: [
+      {
+        src: "/products/crq-series/crq-main.png",
+        alt: "CRQ Series heavy-duty universal skates",
+      },
+      {
+        src: "/products/crq-series/crq-application.png",
+        alt: "CRQ Series industrial equipment moving application",
+      },
+      {
+        src: "/products/crq-series/crq-construction-details.png",
+        alt: "CRQ Series key construction details",
+      },
+      {
+        src: "/products/crq-series/crq-product-view.png",
+        alt: "CRQ Series detailed product view",
+      },
+      {
+        src: "/products/crq-series/crq-specifications.png",
+        alt: "CRQ Series product specifications",
+      },
+      {
+        src: "/products/crq-series/crq-size-guide.png",
+        alt: "CRQ Series size selection guide",
+      },
+      {
+        src: "/products/crq-series/crq-load-capacity.png",
+        alt: "CRQ Series load capacity overview",
+      },
+    ],
+
+    advantages: [
+      "6T–16T load capacity range",
+      "Universal multi-direction movement",
+      "Rotating load plate",
+      "Heavy-duty PU wheel system",
+    ],
+
+    features: [
+      {
+        icon: "mdi:rotate-360",
+        title: "Universal Movement",
+        text: "Multi-direction wheel assemblies provide flexible movement and precise positioning of heavy industrial equipment.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "6T–16T Load Capacity",
+        text: "Available in multiple sizes for different heavy-duty machinery relocation requirements.",
+      },
+      {
+        icon: "mdi:circle-slice-8",
+        title: "Rotating Load Plate",
+        text: "The central rotating plate supports smoother positioning and directional adjustment under heavy loads.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Heavy-Duty PU Wheels",
+        text: "Durable polyurethane wheels provide stable movement and reduced friction during industrial transport.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Reinforced Steel Frame",
+        text: "Heavy-duty frame and reinforced support arms are designed for demanding industrial environments.",
+      },
+      {
+        icon: "mdi:target",
+        title: "Precision Positioning",
+        text: "Designed for accurate final positioning of large machines and industrial equipment.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery relocation",
+      "Industrial equipment positioning",
+      "Production line reconfiguration",
+      "Machine installation",
+      "Workshop equipment moving",
+      "Heavy equipment alignment",
+    ],
+  },
+
+  // =========================================================
+  // CRM SERIES
+  // =========================================================
+  "crm-series-tank-transporters": {
+    name: "CRM Series Crawler Machinery Skates",
+    shortName: "CRM Series",
+
+    description:
+      "Manual heavy-duty crawler machinery skates designed for straight-line movement of industrial machinery and extremely heavy loads, featuring alloy steel rollers, anti-slip support pads and reinforced steel construction.",
+
+    loadCapacity: "8T–500T",
+    driveType: "Manual",
+
+    gallery: [
+      {
+        src: "/products/crm-series/crm-product-view.png",
+        alt: "CRM Series crawler machinery skate",
+      },
+      {
+        src: "/products/crm-series/crm-30t-overview.png",
+        alt: "CRM30 30 ton crawler machinery skate overview",
+      },
+      {
+        src: "/products/crm-series/crm-specifications.png",
+        alt: "CRM Series specifications and load capacity table",
+      },
+      {
+        src: "/products/crm-series/crm-anti-slip-pad.png",
+        alt: "CRM Series anti-slip support pad",
+      },
+      {
+        src: "/products/crm-series/crm-alloy-steel-wheels.png",
+        alt: "CRM Series alloy steel rollers",
+      },
+      {
+        src: "/products/crm-series/crm-thickened-steel.png",
+        alt: "CRM Series thickened steel construction",
+      },
+      {
+        src: "/products/crm-series/crm-steel-shaft-casters.png",
+        alt: "CRM Series steel shaft rollers",
+      },
+      {
+        src: "/products/crm-series/crm-real-shot.png",
+        alt: "CRM Series real product display",
+      },
+      {
+        src: "/products/crm-series/crm-applications.png",
+        alt: "CRM Series application scenarios",
+      },
+    ],
+
+    advantages: [
+      "8T–500T load capacity range",
+      "Heavy-duty alloy steel rollers",
+      "Anti-slip load support surface",
+      "Reinforced thickened steel structure",
+    ],
+
+    features: [
+      {
+        icon: "mdi:weight-lifter",
+        title: "8T–500T Load Capacity",
+        text: "The CRM Series is available in multiple models from CRM8 up to CRM500 for very heavy industrial load movement.",
+      },
+      {
+        icon: "mdi:circle-multiple-outline",
+        title: "Alloy Steel Rollers",
+        text: "Precision-cut alloy steel rollers provide high load-bearing strength and durable straight-line movement.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Thickened Steel Structure",
+        text: "The reinforced base and central load-bearing structure are designed for demanding industrial applications.",
+      },
+      {
+        icon: "mdi:shoe-print",
+        title: "Anti-Slip Support Pad",
+        text: "Textured support surfaces help improve stability while carrying heavy machinery.",
+      },
+      {
+        icon: "mdi:axis-arrow",
+        title: "Steel Shaft Rollers",
+        text: "Heavy-duty roller shafts support stable operation under high industrial loads.",
+      },
+      {
+        icon: "mdi:arrow-right-bold",
+        title: "Straight-Line Transport",
+        text: "Crawler roller design is optimized for controlled straight-line movement of heavy equipment.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery relocation",
+      "Heavy industrial equipment transport",
+      "Production line installation",
+      "Machine tool positioning",
+      "Warehouse heavy-load handling",
+      "Construction and industrial equipment movement",
+    ],
+  },
+
+  // =========================================================
+  // CRF SERIES
+  // =========================================================
+  "crf-series-tank-transporters": {
+    name: "CRF Series Heavy-Duty Machinery Skates",
+    shortName: "CRF Series",
+
+    description:
+      "Manual heavy-duty machinery skates designed for controlled movement and positioning of industrial equipment, featuring a 360° rotating turntable, reinforced steel construction and optional alloy steel or polyurethane wheels.",
+
+    loadCapacity: "Heavy-Duty",
+    driveType: "Manual",
+
+    gallery: [
+      {
+        src: "/products/crf-series/crf-main.png",
+        alt: "CRF Series heavy-duty machinery skates",
+      },
+      {
+        src: "/products/crf-series/crf-360-rotation.png",
+        alt: "CRF Series 360 degree rotating turntable",
+      },
+      {
+        src: "/products/crf-series/crf-heavy-duty-overview.png",
+        alt: "CRF Series heavy-duty machinery skate overview",
+      },
+      {
+        src: "/products/crf-series/crf-product-details.png",
+        alt: "CRF Series product construction details",
+      },
+      {
+        src: "/products/crf-series/crf-wheel-options.png",
+        alt: "CRF Series alloy steel and polyurethane wheel options",
+      },
+      {
+        src: "/products/crf-series/crf-detachable-handle.png",
+        alt: "CRF Series detachable handle",
+      },
+    ],
+
+    advantages: [
+      "360° rotating turntable",
+      "Heavy-duty reinforced construction",
+      "Alloy steel or polyurethane wheel options",
+      "Detachable handle for flexible operation",
+    ],
+
+    features: [
+      {
+        icon: "mdi:rotate-360",
+        title: "360° Rotating Turntable",
+        text: "The rotating central plate allows flexible steering and easier directional control when positioning heavy machinery.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "Heavy-Duty Load Support",
+        text: "Designed for demanding machinery moving applications requiring stable and controlled heavy-load transport.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Reinforced Steel Construction",
+        text: "The heavy-duty steel frame provides strength, durability and reliable support during industrial use.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Multiple Wheel Options",
+        text: "Available with alloy steel wheels for hard surfaces or polyurethane wheels for smoother indoor floor protection.",
+      },
+      {
+        icon: "mdi:circle-double",
+        title: "Non-Slip Turntable",
+        text: "The textured rotating plate improves grip and load stability during movement and positioning.",
+      },
+      {
+        icon: "mdi:tools",
+        title: "Detachable Handle",
+        text: "The removable handle provides flexible operation and makes the equipment easier to transport and store.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery relocation",
+      "Industrial equipment positioning",
+      "Workshop machine moving",
+      "Production line reconfiguration",
+      "Warehouse equipment handling",
+      "Heavy machinery installation",
+    ],
+  },
+
+  // =========================================================
+  // CRW SERIES
+  // =========================================================
+  "crw-series-tank-transporters": {
+    name: "CRW Series Hydraulic Moving Skates",
+    shortName: "CRW Series",
+
+    description:
+      "Manual hydraulic lifting machinery skates designed for controlled movement, lifting and precise positioning of heavy industrial equipment. The omnidirectional wheel system provides flexible steering while the hydraulic unit allows controlled lifting and lowering.",
+
+    loadCapacity: "Heavy-Duty",
+    driveType: "Manual / Hydraulic",
+
+    gallery: [
+      {
+        src: "/products/crw-series/crw-main.png",
+        alt: "CRW Series hydraulic machinery moving skate",
+      },
+      {
+        src: "/products/crw-series/crw-load-capacity.png",
+        alt: "CRW Series strong load capacity",
+      },
+      {
+        src: "/products/crw-series/crw-dimensions.png",
+        alt: "CRW Series product dimensions",
+      },
+      {
+        src: "/products/crw-series/crw-omnidirectional-movement.png",
+        alt: "CRW Series omnidirectional machinery moving skate",
+      },
+      {
+        src: "/products/crw-series/crw-product-details.png",
+        alt: "CRW Series product construction details",
+      },
+      {
+        src: "/products/crw-series/crw-hydraulic-lift.png",
+        alt: "CRW Series hydraulic lifting system",
+      },
+    ],
+
+    advantages: [
+      "Hydraulic lifting and lowering system",
+      "Omnidirectional flexible movement",
+      "360° steering capability",
+      "Heavy-duty PU wheel construction",
+    ],
+
+    features: [
+      {
+        icon: "mdi:hydraulic-oil-level",
+        title: "Hydraulic Lift System",
+        text: "The hydraulic system provides controlled lifting and lowering for safer positioning of heavy industrial equipment.",
+      },
+      {
+        icon: "mdi:rotate-360",
+        title: "Omnidirectional Movement",
+        text: "Multiple swivel wheel assemblies provide flexible steering and precise movement in different directions.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "Strong Load Support",
+        text: "The reinforced structure is designed for stable and secure transportation of heavy machinery and industrial loads.",
+      },
+      {
+        icon: "mdi:car-tire-alert",
+        title: "Heavy-Duty PU Wheels",
+        text: "Durable polyurethane wheels provide smooth movement, good grip and reduced impact on industrial floors.",
+      },
+      {
+        icon: "mdi:circle-double",
+        title: "Non-Slip Turntable",
+        text: "The textured central load plate improves grip and helps maintain equipment stability during transport.",
+      },
+      {
+        icon: "mdi:tools",
+        title: "Detachable Handle",
+        text: "The long detachable traction handle provides easier control, steering and storage.",
+      },
+    ],
+
+    applications: [
+      "Factory machinery relocation",
+      "Industrial equipment installation",
+      "Production line reconfiguration",
+      "Heavy machine positioning",
+      "Warehouse equipment handling",
+      "Workshop machinery transport",
+    ],
+  },
+
+  // =========================================================
+  // MA SERIES
+  // =========================================================
+  "ma-series-dual-purpose-claw-jacks": {
+    name: "MA Series Dual-Purpose Claw Jacks",
+    shortName: "MA Series",
+
+    description:
+      "Heavy-duty hydraulic claw jack series designed for lifting, holding and positioning industrial machinery. The MA Series combines low-position claw lifting, top lifting, adjustable working height and mobile operation in one compact unit.",
+
+    loadCapacity: "6T–20T",
+    driveType: "Hydraulic",
+
+    gallery: [
+      {
+        src: "/products/ma-series/ma-main.jpg",
+        alt: "MA Series Dual-Purpose Claw Jack",
+      },
+      {
+        src: "/products/ma-series/ma-specifications.jpg",
+        alt: "MA Series product specifications",
+      },
+      {
+        src: "/products/ma-series/ma-advantages.jpg",
+        alt: "MA Series core advantages",
+      },
+      {
+        src: "/products/ma-series/ma-height-adjustment.jpg",
+        alt: "MA Series multi-stage height adjustment",
+      },
+      {
+        src: "/products/ma-series/ma-heavy-duty.jpg",
+        alt: "MA Series heavy-duty hydraulic claw jack",
+      },
+      {
+        src: "/products/ma-series/ma-structure.jpg",
+        alt: "MA Series hydraulic claw jack structure",
+      },
+    ],
+
+    advantages: [
+      "6T–20T lifting capacity range",
+      "Multi-stage height adjustment",
+      "Low-position claw and top lifting",
+      "Mobile wheels for easy positioning",
+    ],
+
+    features: [
+      {
+        icon: "mdi:hydraulic-oil-level",
+        title: "Hydraulic Lifting System",
+        text: "Integrated hydraulic system provides powerful and controlled lifting for heavy industrial equipment.",
+      },
+      {
+        icon: "mdi:arrow-expand-vertical",
+        title: "Multi-Stage Height Adjustment",
+        text: "Multiple adjustment positions allow the claw height to match different working conditions.",
+      },
+      {
+        icon: "mdi:arrow-up-bold",
+        title: "Dual-Purpose Lifting",
+        text: "Supports both low-position claw lifting and top lifting for greater flexibility.",
+      },
+      {
+        icon: "mdi:weight-lifter",
+        title: "6T–20T Load Capacity",
+        text: "Available in MA-6T, MA-10T, MA-15T and MA-20T models for demanding lifting applications.",
+      },
+      {
+        icon: "mdi:wheel-barrow",
+        title: "Movable Design",
+        text: "Integrated wheels and handle make the jack easier to move and position around industrial equipment.",
+      },
+      {
+        icon: "mdi:shield-check-outline",
+        title: "Heavy-Duty Construction",
+        text: "Reinforced industrial structure provides stable lifting, durability and reliable operation.",
+      },
+    ],
+
+    applications: [
+      "Industrial machinery lifting",
+      "Factory equipment installation",
+      "Machine maintenance",
+      "Heavy equipment positioning",
+      "Production line adjustment",
+      "Warehouse equipment servicing",
+    ],
+  },
 };
+
 export default async function ProductPage({
   params,
 }: {
@@ -1359,9 +1493,20 @@ export default async function ProductPage({
     product: string;
   }>;
 }) {
-  const { product } = await params;
+  const { category, product } = await params;
+
+  const categoryLabel =
+    category === "jacks"
+      ? "Jacks"
+      : category === "manual-heavy-duty-movers"
+        ? "Manual Heavy-Duty Movers"
+        : category === "electric-heavy-duty-movers"
+          ? "Electric Heavy-Duty Movers"
+          : "Industrial Equipment";
+
   const currentProduct =
     productData[product as keyof typeof productData];
+
   if (!currentProduct) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-zinc-950 text-white">
@@ -1369,6 +1514,7 @@ export default async function ProductPage({
           <h1 className="text-4xl font-black">
             Product not found
           </h1>
+
           <p className="mt-3 text-zinc-400">
             This product page is not available yet.
           </p>
@@ -1376,6 +1522,7 @@ export default async function ProductPage({
       </main>
     );
   }
+
   return (
     <main className="min-h-screen bg-white text-zinc-900">
       {/* PRODUCT HERO */}
@@ -1383,43 +1530,50 @@ export default async function ProductPage({
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-start">
           {/* LEFT */}
           <ProductGallery images={currentProduct.gallery} />
+
           {/* RIGHT */}
           <div className="lg:pt-4">
             <div className="inline-flex rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-2 text-sm font-semibold text-orange-400">
-              {currentProduct.driveType === "Manual"
-                ? "Manual Heavy-Duty Movers"
-                : "Electric Heavy-Duty Movers"}
+              {categoryLabel}
             </div>
+
             <h1 className="mt-5 text-4xl font-black leading-tight md:text-5xl">
               {currentProduct.name}
             </h1>
+
             <p className="mt-5 text-lg leading-8 text-zinc-300">
               {currentProduct.description}
             </p>
+
             {/* PRODUCT MAIN SPECS */}
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
                 <div className="text-sm text-zinc-400">
                   Load Capacity
                 </div>
+
                 <div className="mt-2 text-3xl font-black text-orange-500">
                   {currentProduct.loadCapacity}
                 </div>
               </div>
+
               <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
                 <div className="text-sm text-zinc-400">
                   Drive Type
                 </div>
+
                 <div className="mt-2 text-2xl font-black text-white">
                   {currentProduct.driveType}
                 </div>
               </div>
             </div>
+
             {/* KEY ADVANTAGES */}
             <div className="mt-8">
               <h2 className="text-lg font-bold">
                 Key Advantages
               </h2>
+
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 {currentProduct.advantages.map((advantage) => (
                   <div
@@ -1430,19 +1584,23 @@ export default async function ProductPage({
                       icon="mdi:check-circle"
                       className="shrink-0 text-xl text-orange-500"
                     />
+
                     <span>{advantage}</span>
                   </div>
                 ))}
               </div>
             </div>
+
             <div className="mt-8">
               <QuoteModal />
             </div>
           </div>
         </div>
       </section>
+
       {/* PRODUCT OPTIONS */}
       <ProductOptions />
+
       {/* KEY FEATURES */}
       <section className="bg-zinc-100">
         <div className="mx-auto max-w-7xl px-6 py-20">
@@ -1450,25 +1608,29 @@ export default async function ProductPage({
             <p className="font-semibold uppercase tracking-wider text-orange-500">
               Key Features
             </p>
+
             <h2 className="mt-3 text-4xl font-black">
               Designed for industrial performance
             </h2>
           </div>
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {currentProduct.features.map((feature) => (
               <div
                 key={feature.title}
-                className="rounded-2xl bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+                className="rounded-2xl border border-zinc-200 bg-white p-7 shadow-sm"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-50">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-500 text-white">
                   <Icon
                     icon={feature.icon}
-                    className="text-3xl text-orange-500"
+                    className="text-2xl"
                   />
                 </div>
+
                 <h3 className="mt-5 text-xl font-black">
                   {feature.title}
                 </h3>
+
                 <p className="mt-3 leading-7 text-zinc-600">
                   {feature.text}
                 </p>
@@ -1477,52 +1639,63 @@ export default async function ProductPage({
           </div>
         </div>
       </section>
+
       {/* APPLICATIONS */}
-      <section className="bg-zinc-950 text-white">
+      <section className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-20">
-          <p className="font-semibold uppercase tracking-wider text-orange-500">
-            Applications
-          </p>
-          <h2 className="mt-3 text-4xl font-black">
-            Suitable for heavy industrial environments
-          </h2>
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {currentProduct.applications.map((application) => (
-              <div
-                key={application}
-                className="flex items-center gap-4 rounded-xl border border-zinc-800 bg-zinc-900 p-5"
-              >
-                <Icon
-                  icon="mdi:check-circle-outline"
-                  className="shrink-0 text-2xl text-orange-500"
-                />
-                <span className="font-semibold">
-                  {application}
-                </span>
-              </div>
-            ))}
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            <div>
+              <p className="font-semibold uppercase tracking-wider text-orange-500">
+                Applications
+              </p>
+
+              <h2 className="mt-3 text-4xl font-black">
+                Built for demanding industrial work
+              </h2>
+
+              <p className="mt-5 max-w-2xl leading-8 text-zinc-600">
+                {currentProduct.shortName} is designed for
+                professional machinery handling, positioning
+                and industrial equipment movement.
+              </p>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2">
+              {currentProduct.applications.map((application) => (
+                <div
+                  key={application}
+                  className="flex items-center gap-4 rounded-xl border border-zinc-200 bg-zinc-50 p-5"
+                >
+                  <Icon
+                    icon="mdi:factory"
+                    className="shrink-0 text-2xl text-orange-500"
+                  />
+
+                  <span className="font-semibold text-zinc-800">
+                    {application}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
+
       {/* FINAL CTA */}
-      <section className="bg-orange-500 text-white">
-        <div className="mx-auto flex max-w-7xl flex-col gap-8 px-6 py-16 md:flex-row md:items-center md:justify-between">
+      <section className="bg-zinc-950 text-white">
+        <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-6 py-14 md:flex-row md:items-center">
           <div>
-            <p className="font-semibold uppercase tracking-wider text-orange-100">
-              Need More Information?
-            </p>
-            <h2 className="mt-3 text-3xl font-black md:text-4xl">
-              Request a quotation for the {currentProduct.shortName}
+            <h2 className="text-3xl font-black">
+              Need the right model for your application?
             </h2>
-            <p className="mt-4 max-w-2xl text-orange-100">
-              Tell us your required load capacity, working environment and
-              application. Our sales team can help you choose the suitable
-              configuration.
+
+            <p className="mt-3 text-zinc-400">
+              Tell us your load capacity and working conditions.
+              Our team can recommend the suitable configuration.
             </p>
           </div>
-          <div className="shrink-0">
-            <QuoteModal />
-          </div>
+
+          <QuoteModal />
         </div>
       </section>
     </main>
