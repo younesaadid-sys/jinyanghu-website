@@ -1386,6 +1386,74 @@ applications: [
     "Warehouse equipment handling",
     "Workshop machinery transport",
   ],
+"ma-series-dual-purpose-claw-jacks": {
+  name: "MA Series Dual-Purpose Claw Jacks",
+  shortName: "MA Series",
+
+  description:
+    "Heavy-duty hydraulic claw jack series designed for lifting, holding and positioning industrial machinery. The MA Series combines low-position claw lifting, top lifting, adjustable working height and mobile operation in one compact unit.",
+
+  loadCapacity: "6T–20T",
+  driveType: "Hydraulic",
+
+  gallery: [
+    "/products/ma-series/ma-main.jpg",
+    "/products/ma-series/ma-specifications.jpg",
+    "/products/ma-series/ma-advantages.jpg",
+    "/products/ma-series/ma-height-adjustment.jpg",
+    "/products/ma-series/ma-heavy-duty.jpg",
+    "/products/ma-series/ma-structure.jpg",
+  ],
+
+  advantages: [
+    "6T–20T lifting capacity range",
+    "Multi-stage height adjustment",
+    "Low-position claw and top lifting",
+    "Mobile wheels for easy positioning",
+  ],
+
+  features: [
+    {
+      icon: "mdi:hydraulic-oil-level",
+      title: "Hydraulic Lifting System",
+      text: "Integrated hydraulic system provides powerful and controlled lifting for heavy industrial equipment.",
+    },
+    {
+      icon: "mdi:arrow-expand-vertical",
+      title: "Multi-Stage Height Adjustment",
+      text: "Multiple adjustment positions allow the claw height to match different working conditions.",
+    },
+    {
+      icon: "mdi:arrow-up-bold",
+      title: "Dual-Purpose Lifting",
+      text: "Supports both low-position claw lifting and top lifting for greater flexibility.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "6T–20T Load Capacity",
+      text: "Available in MA-6T, MA-10T, MA-15T and MA-20T models for demanding lifting applications.",
+    },
+    {
+      icon: "mdi:wheel-barrow",
+      title: "Movable Design",
+      text: "Integrated wheels and handle make the jack easier to move and position around industrial equipment.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Heavy-Duty Construction",
+      text: "Reinforced industrial structure provides stable lifting, durability and reliable operation.",
+    },
+  ],
+
+  applications: [
+    "Industrial machinery lifting",
+    "Factory equipment installation",
+    "Machine maintenance",
+    "Heavy equipment positioning",
+    "Production line adjustment",
+    "Warehouse equipment servicing",
+  ],
+},
 },
 };
 

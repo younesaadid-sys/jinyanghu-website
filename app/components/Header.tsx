@@ -196,7 +196,15 @@ const products: Record<
 },
   ],
 
-  jacks: [],
+  jacks: [
+    {
+  name: "MA Series",
+  slug: "ma-series-dual-purpose-claw-jacks",
+  description: "Dual-purpose hydraulic claw jacks for heavy equipment lifting",
+  image: "/products/ma-series/ma-main.jpg",
+},
+  ],
+  
   "stair-climbing-carts": [],
   "pallet-trucks": [],
   stackers: [],
