@@ -1407,73 +1407,71 @@ const productData = {
     loadCapacity: "6T–20T",
     driveType: "Hydraulic",
 
-    gallery: [
-      {
-        src: "/products/ma-series/ma-main.jpg",
-        alt: "MA Series Dual-Purpose Claw Jack",
-      },
-      {
-        src: "/products/ma-series/ma-specifications.jpg",
-        alt: "MA Series product specifications",
-      },
-      {
-        src: "/products/ma-series/ma-advantages.jpg",
-        alt: "MA Series core advantages",
-      },
-      {
-        src: "/products/ma-series/ma-height-adjustment.jpg",
-        alt: "MA Series multi-stage height adjustment",
-      },
-      {
-        src: "/products/ma-series/ma-heavy-duty.jpg",
-        alt: "MA Series heavy-duty hydraulic claw jack",
-      },
-      {
-        src: "/products/ma-series/ma-structure.jpg",
-        alt: "MA Series hydraulic claw jack structure",
-      },
-    ],
+   gallery: [
+  {
+    src: "/products/ma-series/ma-main.png",
+    alt: "MA Series Dual-Purpose Claw Jack",
+  },
+  {
+    src: "/products/ma-series/ma-specifications.png",
+    alt: "MA Series product specifications",
+  },
+  {
+    src: "/products/ma-series/ma-advantages.png",
+    alt: "MA Series core advantages",
+  },
+  {
+    src: "/products/ma-series/ma-height-adjustment.png",
+    alt: "MA Series multi-stage height adjustment",
+  },
+  {
+    src: "/products/ma-series/ma-heavy-duty.png",
+    alt: "MA Series heavy-duty hydraulic claw jack",
+  },
+  {
+    src: "/products/ma-series/ma-structure.png",
+    alt: "MA Series hydraulic claw jack structure",
+  },
+],
+advantages: [
+  "6T–20T lifting capacity range",
+  "Multi-stage height adjustment",
+  "Low-position claw and top lifting",
+  "Mobile wheels for easy positioning",
+],
 
-    advantages: [
-      "6T–20T lifting capacity range",
-      "Multi-stage height adjustment",
-      "Low-position claw and top lifting",
-      "Mobile wheels for easy positioning",
-    ],
-
-    features: [
-      {
-        icon: "mdi:hydraulic-oil-level",
-        title: "Hydraulic Lifting System",
-        text: "Integrated hydraulic system provides powerful and controlled lifting for heavy industrial equipment.",
-      },
-      {
-        icon: "mdi:arrow-expand-vertical",
-        title: "Multi-Stage Height Adjustment",
-        text: "Multiple adjustment positions allow the claw height to match different working conditions.",
-      },
-      {
-        icon: "mdi:arrow-up-bold",
-        title: "Dual-Purpose Lifting",
-        text: "Supports both low-position claw lifting and top lifting for greater flexibility.",
-      },
-      {
-        icon: "mdi:weight-lifter",
-        title: "6T–20T Load Capacity",
-        text: "Available in MA-6T, MA-10T, MA-15T and MA-20T models for demanding lifting applications.",
-      },
-      {
-        icon: "mdi:wheel-barrow",
-        title: "Movable Design",
-        text: "Integrated wheels and handle make the jack easier to move and position around industrial equipment.",
-      },
-      {
-        icon: "mdi:shield-check-outline",
-        title: "Heavy-Duty Construction",
-        text: "Reinforced industrial structure provides stable lifting, durability and reliable operation.",
-      },
-    ],
-
+features: [
+  {
+    icon: "mdi:hydraulic-oil-level",
+    title: "Hydraulic Lifting System",
+    text: "Integrated hydraulic system provides powerful and controlled lifting for heavy industrial equipment.",
+  },
+  {
+    icon: "mdi:arrow-expand-vertical",
+    title: "Multi-Stage Height Adjustment",
+    text: "Multiple adjustment positions allow the claw height to match different working conditions.",
+  },
+  {
+    icon: "mdi:arrow-up-bold",
+    title: "Dual-Purpose Lifting",
+    text: "Supports both low-position claw lifting and top lifting for greater flexibility.",
+  },
+  {
+    icon: "mdi:weight-lifter",
+    title: "6T–20T Load Capacity",
+    text: "Available in MA-6T, MA-10T, MA-15T and MA-20T models for demanding lifting applications.",
+  },
+  {
+    icon: "mdi:wheel-barrow",
+    title: "Movable Design",
+    text: "Integrated wheels and handle make the jack easier to move and position around industrial equipment.",
+  },
+  {
+    icon: "mdi:shield-check-outline",
+    title: "Heavy-Duty Construction",
+    text: "Reinforced industrial structure provides stable lifting, durability and reliable operation.",
+  },
+],
     applications: [
       "Industrial machinery lifting",
       "Factory equipment installation",
