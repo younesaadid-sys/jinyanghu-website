@@ -97,13 +97,13 @@ const products: Record<
       description: "Heavy-duty electric transporter series",
       image: "/products/ja-b-series/ja-b-main.jpg",
     },
-   {
-  name: "JS Series",
-  slug: "js-series-electric-tank-transporters",
-  description:
-    "Electric lifting transporter with wireless remote control and flexible heavy-load movement",
-  image: "/products/js-series/js-main.png",
-},
+    {
+      name: "JS Series",
+      slug: "js-series-electric-tank-transporters",
+      description:
+        "Electric lifting transporter with wireless remote control and flexible heavy-load movement",
+      image: "/products/js-series/js-main.png",
+    },
     {
       name: "JD Series",
       slug: "jd-series-electric-tank-transporters",
@@ -113,7 +113,8 @@ const products: Record<
     {
       name: "JX Series",
       slug: "jx-series-electric-machinery-skate-dolly",
-      description: "Remote-controlled heavy-duty machinery transporter",
+      description:
+        "Remote-controlled heavy-duty machinery transporter",
       image: "/products/jx-series/jx-main.jpg",
     },
     {
@@ -174,37 +175,44 @@ const products: Record<
       image: "/products/crq-series/crq-main.png",
     },
     {
-  name: "CRM Series",
-  slug: "crm-series-tank-transporters",
-  description:
-    "Heavy-duty crawler machinery skates for straight-line transport of industrial loads",
-  image: "/products/crm-series/crm-product-view.png",
-},
+      name: "CRM Series",
+      slug: "crm-series-tank-transporters",
+      description:
+        "Heavy-duty crawler machinery skates for straight-line transport of industrial loads",
+      image: "/products/crm-series/crm-product-view.png",
+    },
     {
-  name: "CRF Series",
-  slug: "crf-series-tank-transporters",
-  description:
-    "Heavy-duty machinery skates with 360° rotating turntable and flexible wheel options",
-  image: "/products/crf-series/crf-main.png",
-},
+      name: "CRF Series",
+      slug: "crf-series-tank-transporters",
+      description:
+        "Heavy-duty machinery skates with 360° rotating turntable and flexible wheel options",
+      image: "/products/crf-series/crf-main.png",
+    },
     {
-  name: "CRW Series",
-  slug: "crw-series-tank-transporters",
-  description:
-    "Hydraulic lift omnidirectional machinery skates for heavy equipment moving",
-  image: "/products/crw-series/crw-main.png",
-},
+      name: "CRW Series",
+      slug: "crw-series-tank-transporters",
+      description:
+        "Hydraulic lift omnidirectional machinery skates for heavy equipment moving",
+      image: "/products/crw-series/crw-main.png",
+    },
   ],
 
+  // =========================================================
+  // JACKS
+  // =========================================================
   jacks: [
     {
-  name: "MA Series",
-  slug: "ma-series-dual-purpose-claw-jacks",
-  description: "Dual-purpose hydraulic claw jacks for heavy equipment lifting",
-  image: "/products/ma-series/ma-main.jpg",
-},
+      name: "MA Series",
+      slug: "ma-series-dual-purpose-claw-jacks",
+      description:
+        "Dual-purpose hydraulic claw jacks for heavy equipment lifting",
+      image: "/products/ma-series/ma-main.jpg",
+    },
   ],
-  
+
+  // =========================================================
+  // OTHER CATEGORIES
+  // =========================================================
   "stair-climbing-carts": [],
   "pallet-trucks": [],
   stackers: [],
@@ -254,7 +262,10 @@ export default function Header() {
 
         {/* NAVIGATION */}
         <nav className="flex items-center gap-10 text-base font-medium text-zinc-900">
-          <Link href="/" className="transition hover:text-orange-500">
+          <Link
+            href="/"
+            className="transition hover:text-orange-500"
+          >
             Home
           </Link>
 
@@ -363,8 +374,8 @@ export default function Header() {
                         </p>
 
                         <p className="mt-2 text-sm leading-6 text-zinc-500">
-                          New products for this category will be available here
-                          soon.
+                          New products for this category will be available
+                          here soon.
                         </p>
                       </div>
                     )}
@@ -379,8 +390,8 @@ export default function Header() {
                     </p>
 
                     <p className="mt-1 text-xs text-zinc-400">
-                      Our sales team can recommend the suitable model for your
-                      application.
+                      Our sales team can recommend the suitable model for
+                      your application.
                     </p>
                   </div>
 
