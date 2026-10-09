@@ -1480,6 +1480,95 @@ features: [
       "Production line adjustment",
       "Warehouse equipment servicing",
     ],
+    // =========================================================
+// MB SERIES
+// =========================================================
+"mb-series-multi-stage-claw-jacks": {
+  name: "MB Series Multi-Stage Claw Jacks",
+  shortName: "MB Series",
+
+  description:
+    "Heavy-duty multi-stage claw jacks designed for precise height adjustment, stable load support and industrial equipment lifting. The MB Series combines a reinforced steel body, adjustable lifting positions and a wide stable base for demanding machinery handling applications.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/mb-series/mb-main.png",
+      alt: "MB Series Multi-Stage Claw Jack",
+    },
+    {
+      src: "/products/mb-series/mb-applications.png",
+      alt: "MB Series industrial applications",
+    },
+    {
+      src: "/products/mb-series/mb-height-adjustment.png",
+      alt: "MB Series multi-stage adjustable top",
+    },
+    {
+      src: "/products/mb-series/mb-details.png",
+      alt: "MB Series durable and safe design details",
+    },
+    {
+      src: "/products/mb-series/mb-heavy-duty.png",
+      alt: "MB Series heavy-duty adjustable top",
+    },
+    {
+      src: "/products/mb-series/mb-product-view.png",
+      alt: "MB Series product view",
+    },
+  ],
+
+  advantages: [
+    "Multi-stage height adjustment",
+    "Wide and stable base",
+    "Heavy-duty steel structure",
+    "Precise lifting and support",
+  ],
+
+  features: [
+    {
+      icon: "mdi:arrow-expand-vertical",
+      title: "Multi-Stage Height Adjustment",
+      text: "Multiple adjustment holes allow the lifting height to be selected according to different working requirements.",
+    },
+    {
+      icon: "mdi:rotate-360",
+      title: "Rotating Adjustment",
+      text: "The adjustable top mechanism provides flexible positioning and controlled height selection.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Durable Steel Structure",
+      text: "Reinforced steel construction provides reliable support and durability for demanding industrial applications.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "Heavy-Duty Load Support",
+      text: "Designed to support heavy machinery and industrial equipment during lifting, positioning and maintenance work.",
+    },
+    {
+      icon: "mdi:arrow-expand-horizontal",
+      title: "Wide Stable Base",
+      text: "The wide base improves stability during lifting and helps distribute the load more securely.",
+    },
+    {
+      icon: "mdi:cog-outline",
+      title: "Easy Operation",
+      text: "Simple manual adjustment and compact construction make the jack practical for industrial maintenance and equipment handling.",
+    },
+  ],
+
+  applications: [
+    "Heavy machinery lifting",
+    "Industrial equipment support",
+    "Factory maintenance",
+    "Workshop equipment handling",
+    "Construction equipment positioning",
+    "Heavy-load installation",
+  ],
+},
   },
 };
 

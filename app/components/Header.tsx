@@ -208,6 +208,13 @@ const products: Record<
         "Dual-purpose hydraulic claw jacks for heavy equipment lifting",
       image: "/products/ma-series/ma-main.png",
     },
+    {
+  name: "MB Series",
+  slug: "mb-series-multi-stage-claw-jacks",
+  description:
+    "Multi-stage adjustable claw jacks for heavy-duty industrial lifting",
+  image: "/products/mb-series/mb-main.png",
+},
   ],
 
   // =========================================================
