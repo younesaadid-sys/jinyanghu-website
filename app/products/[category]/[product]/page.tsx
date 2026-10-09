@@ -1494,31 +1494,31 @@ features: [
   driveType: "Manual",
 
   gallery: [
-    {
-      src: "/products/mb-series/mb-main.png",
-      alt: "MB Series Multi-Stage Claw Jack",
-    },
-    {
-      src: "/products/mb-series/mb-applications.png",
-      alt: "MB Series industrial applications",
-    },
-    {
-      src: "/products/mb-series/mb-height-adjustment.png",
-      alt: "MB Series multi-stage adjustable top",
-    },
-    {
-      src: "/products/mb-series/mb-details.png",
-      alt: "MB Series durable and safe design details",
-    },
-    {
-      src: "/products/mb-series/mb-heavy-duty.png",
-      alt: "MB Series heavy-duty adjustable top",
-    },
-    {
-      src: "/products/mb-series/mb-product-view.png",
-      alt: "MB Series product view",
-    },
-  ],
+  {
+    src: "/products/mb-series/mb-main.png",
+    alt: "MB Series Multi-Stage Claw Jack",
+  },
+  {
+    src: "/products/mb-series/mb-applications.png",
+    alt: "MB Series industrial applications",
+  },
+  {
+    src: "/products/mb-series/mb-height-adjustment.png",
+    alt: "MB Series multi-stage adjustable top",
+  },
+  {
+    src: "/products/mb-series/mb-details.png",
+    alt: "MB Series durable and safe design details",
+  },
+  {
+    src: "/products/mb-series/mb-multi-stage.png",
+    alt: "MB Series heavy-duty multi-stage adjustable top",
+  },
+  {
+    src: "/products/mb-series/mb-product-view.png",
+    alt: "MB Series product view",
+  },
+],
 
   advantages: [
     "Multi-stage height adjustment",
