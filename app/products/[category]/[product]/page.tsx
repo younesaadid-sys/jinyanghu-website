@@ -2093,6 +2093,95 @@ features: [
     "Factory equipment lifting",
   ],
 },
+// =========================================================
+// MI SERIES
+// =========================================================
+"mi-series-hand-operated-toe-jacks": {
+  name: "MI Series Hand-Operated Toe Jacks",
+  shortName: "MI Series",
+
+  description:
+    "Heavy-duty manual toe jacks designed for lifting, positioning and supporting industrial machinery. The MI Series features a self-locking ratchet mechanism, thickened non-slip lifting hook and foldable operating handle for safe and controlled operation.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/mi-series/mi-main.png",
+      alt: "MI Series hand-operated toe jack",
+    },
+    {
+      src: "/products/mi-series/mi-ratchet-jack-overview.png",
+      alt: "MI Series self-locking ratchet jack overview",
+    },
+    {
+      src: "/products/mi-series/mi-self-locking-brake-system.png",
+      alt: "MI Series self-locking brake system",
+    },
+    {
+      src: "/products/mi-series/mi-thickened-non-slip-hook.png",
+      alt: "MI Series thickened non-slip lifting hook",
+    },
+    {
+      src: "/products/mi-series/mi-foldable-handle.png",
+      alt: "MI Series foldable operating handle",
+    },
+    {
+      src: "/products/mi-series/mi-application-scope.png",
+      alt: "MI Series industrial application scope",
+    },
+  ],
+
+  advantages: [
+    "Self-locking ratchet mechanism",
+    "Thickened non-slip lifting hook",
+    "Foldable operating handle",
+    "Compact heavy-duty construction",
+  ],
+
+  features: [
+    {
+      icon: "mdi:lock-check-outline",
+      title: "Self-Locking Ratchet",
+      text: "The mechanical ratchet system locks automatically during operation for safer and more controlled lifting.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Self-Locking Brake System",
+      text: "The integrated brake mechanism helps prevent accidental downward movement while supporting heavy equipment.",
+    },
+    {
+      icon: "mdi:hook",
+      title: "Non-Slip Lifting Hook",
+      text: "A thickened grooved lifting hook improves grip and helps reduce load slippage during operation.",
+    },
+    {
+      icon: "mdi:arm-flex-outline",
+      title: "Heavy-Duty Construction",
+      text: "Reinforced steel construction provides reliable support for demanding industrial lifting applications.",
+    },
+    {
+      icon: "mdi:arrow-collapse",
+      title: "Foldable Handle",
+      text: "The foldable operating handle saves storage space and makes the jack easier to transport.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Wide Industrial Use",
+      text: "Suitable for machinery installation, factories, rail maintenance, workshops and industrial equipment positioning.",
+    },
+  ],
+
+  applications: [
+    "Industrial machinery installation",
+    "Factory equipment positioning",
+    "Railway maintenance",
+    "Workshop lifting",
+    "Heavy equipment servicing",
+    "Mechanical equipment installation",
+  ],
+},
 };
 
 export default async function ProductPage({

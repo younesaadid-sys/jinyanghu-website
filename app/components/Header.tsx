@@ -253,6 +253,13 @@ const products: Record<
   description: "Compact remote-operated hydraulic jacks for industrial lifting and support",
   image: "/products/mh-series/mh-main.png",
 },
+{
+  name: "MI Series",
+  slug: "mi-series-hand-operated-toe-jacks",
+  description:
+    "Manual self-locking toe jacks for industrial lifting, positioning and equipment installation",
+  image: "/products/mi-series/mi-main.png",
+},
   ],
 
   // =========================================================
