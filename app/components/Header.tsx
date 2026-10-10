@@ -241,6 +241,12 @@ const products: Record<
   description: "Compact hydraulic lifters for lifting and moving industrial loads",
   image: "/products/mf-series/mf-main.png",
 },
+{
+  name: "MG Series",
+  slug: "mg-series-wedge-jacks",
+  description: "Low-profile hydraulic wedge jacks for lifting, pushing and precision positioning",
+  image: "/products/mg-series/mg-main.png",
+},
   ],
 
   // =========================================================

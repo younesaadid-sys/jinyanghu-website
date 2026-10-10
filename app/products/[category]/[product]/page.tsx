@@ -1921,6 +1921,92 @@ features: [
     "Workshop maintenance",
   ],
 },
+"mg-series-wedge-jacks": {
+  name: "MG Series Wedge Jacks",
+  shortName: "MG Series",
+
+  description:
+    "Low-profile hydraulic wedge jacks designed for precise lifting, pushing and positioning of heavy equipment in narrow spaces. The MG Series is ideal for industrial installation, machine leveling, rail maintenance and heavy-duty horizontal pushing applications.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Hydraulic",
+
+  gallery: [
+    {
+      src: "/products/mg-series/mg-main.png",
+      alt: "MG Series wedge jack main product",
+    },
+    {
+      src: "/products/mg-series/mg-pushing-stroke.png",
+      alt: "MG Series 150mm pushing stroke",
+    },
+    {
+      src: "/products/mg-series/mg-industrial-installation.png",
+      alt: "MG Series industrial equipment installation",
+    },
+    {
+      src: "/products/mg-series/mg-hydraulic-wedge-jack.png",
+      alt: "MG Series hydraulic wedge jack overview",
+    },
+    {
+      src: "/products/mg-series/mg-machine-tool-installation.png",
+      alt: "MG Series machine tool installation",
+    },
+    {
+      src: "/products/mg-series/mg-rail-maintenance.png",
+      alt: "MG Series rail equipment maintenance",
+    },
+  ],
+
+  advantages: [
+    "Low-profile wedge lifting design",
+    "150mm pushing stroke for horizontal movement",
+    "Precise positioning and leveling",
+    "Suitable for heavy industrial applications",
+  ],
+
+  features: [
+    {
+      icon: "mdi:arrow-expand-horizontal",
+      title: "150mm Pushing Stroke",
+      text: "Long pushing stroke supports horizontal movement of heavy loads with precision and control.",
+    },
+    {
+      icon: "mdi:hydraulic-oil-level",
+      title: "Hydraulic Wedge Lifting",
+      text: "Hydraulic wedge structure provides efficient low-profile lifting for loads with limited ground clearance.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Industrial Installation",
+      text: "Ideal for equipment installation, machine base leveling and heavy-duty industrial positioning work.",
+    },
+    {
+      icon: "mdi:train",
+      title: "Rail Maintenance",
+      text: "Suitable for lifting rail-bound equipment for inspection, servicing and maintenance operations.",
+    },
+    {
+      icon: "mdi:cog-outline",
+      title: "Precision Setup",
+      text: "Designed for accurate positioning, leveling work and controlled setup of heavy machinery.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Durable Construction",
+      text: "Strong body structure built for reliable performance in demanding work environments.",
+    },
+  ],
+
+  applications: [
+    "Machine tool installation",
+    "Industrial equipment positioning",
+    "Heavy machinery leveling",
+    "Rail equipment maintenance",
+    "Workshop setup and alignment",
+    "Horizontal pushing of heavy loads",
+  ],
+},
 };
 
 export default async function ProductPage({
