@@ -274,6 +274,13 @@ const products: Record<
     "Multi-position adjustable manual toe jacks for lifting, positioning and track or equipment support",
   image: "/products/mk-series/mk-main.png",
 },
+{
+  name: "JCA Series",
+  slug: "jca-series-tracked-stair-climbing-robot",
+  description:
+    "Tracked stair-climbing robot for transporting heavy goods safely and efficiently on stairs",
+  image: "/products/jca-series/jca-main.png",
+},
   ],
 
   // =========================================================

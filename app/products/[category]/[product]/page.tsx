@@ -2360,6 +2360,95 @@ features: [
     "Port and heavy equipment handling",
   ],
 },
+// =========================================================
+// JCA SERIES
+// =========================================================
+"jca-series-tracked-stair-climbing-robot": {
+  name: "JCA Series Tracked Stair-Climbing Robot",
+  shortName: "JCA Series",
+
+  description:
+    "The JCA Series Tracked Stair-Climbing Robot is a powered stair-climbing cart designed for transporting heavy goods, furniture, appliances and other bulky items across stairs with less effort and greater safety. Its tracked structure, strong motor output, low-noise operation and easy handling make it suitable for logistics, delivery, moving services and industrial applications.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Electric Tracked Drive",
+
+  gallery: [
+    {
+      src: "/products/jca-series/jca-main.png",
+      alt: "JCA Series tracked stair-climbing robot",
+    },
+    {
+      src: "/products/jca-series/jca-overview.png",
+      alt: "JCA Series crawler stair climbing machine overview",
+    },
+    {
+      src: "/products/jca-series/jca-why-buy.png",
+      alt: "JCA Series stair-climbing robot use cases",
+    },
+    {
+      src: "/products/jca-series/jca-upgrade.png",
+      alt: "JCA Series upgraded efficient handling",
+    },
+    {
+      src: "/products/jca-series/jca-low-noise.png",
+      alt: "JCA Series low-noise operation",
+    },
+    {
+      src: "/products/jca-series/jca-motor.png",
+      alt: "JCA Series high-power motor output",
+    },
+  ],
+
+  advantages: [
+    "Tracked stair-climbing design",
+    "Easy operation and high maneuverability",
+    "Low-noise performance under 60 dB",
+    "Strong motor output for heavy-duty transport",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-outline",
+      title: "Tracked Climbing System",
+      text: "The crawler-type track system helps the machine climb stairs smoothly and maintain stability during transportation.",
+    },
+    {
+      icon: "mdi:arrow-up-bold-outline",
+      title: "Efficient Stair Handling",
+      text: "Designed to reduce physical effort when moving heavy goods upstairs or downstairs in residential or commercial environments.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Safe and Easy to Control",
+      text: "The machine offers strong controllability and secure handling, making transportation safer in narrow stairways and confined spaces.",
+    },
+    {
+      icon: "mdi:volume-low",
+      title: "Low-Noise Operation",
+      text: "Operating noise is controlled to less than 60 dB, helping provide quieter performance during use.",
+    },
+    {
+      icon: "mdi:cog-outline",
+      title: "High-Power Motor",
+      text: "The powerful motor delivers stable output for reliable stair-climbing performance without sacrificing efficiency.",
+    },
+    {
+      icon: "mdi:dolly",
+      title: "Wide Application",
+      text: "Suitable for moving furniture, home appliances, large goods and other heavy items in delivery, logistics and relocation work.",
+    },
+  ],
+
+  applications: [
+    "Furniture moving",
+    "Home appliance transportation",
+    "Delivery and logistics",
+    "Warehouse handling",
+    "Building stair transport",
+    "Heavy goods relocation",
+  ],
+},
 };
 
 export default async function ProductPage({
