@@ -260,6 +260,13 @@ const products: Record<
     "Manual self-locking toe jacks for industrial lifting, positioning and equipment installation",
   image: "/products/mi-series/mi-main.png",
 },
+{
+  name: "MJ Series",
+  slug: "mj-series-low-profile-hand-operated-toe-jacks",
+  description:
+    "Low-profile hand-operated toe jacks for lifting and positioning heavy industrial equipment",
+  image: "/products/mj-series/mj-main.png",
+},
   ],
 
   // =========================================================

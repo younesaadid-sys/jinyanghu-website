@@ -2182,6 +2182,95 @@ features: [
     "Mechanical equipment installation",
   ],
 },
+// =========================================================
+// MJ SERIES
+// =========================================================
+"mj-series-low-profile-hand-operated-toe-jacks": {
+  name: "MJ Series Low-Profile Hand-Operated Toe Jacks",
+  shortName: "MJ Series",
+
+  description:
+    "Heavy-duty low-profile hand-operated toe jacks designed for lifting, leveling and positioning industrial machinery in confined spaces. The MJ Series combines a compact toe lifting structure, manual operation, reinforced steel construction and easy positioning.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/mj-series/mj-main.png",
+      alt: "MJ Series low-profile hand-operated toe jack",
+    },
+    {
+      src: "/products/mj-series/mj-overview.png",
+      alt: "MJ Series low-profile hand-operated toe jack overview",
+    },
+    {
+      src: "/products/mj-series/mj-low-profile-design.png",
+      alt: "MJ Series low-profile lifting design",
+    },
+    {
+      src: "/products/mj-series/mj-operation.png",
+      alt: "MJ Series simple manual operation",
+    },
+    {
+      src: "/products/mj-series/mj-applications.png",
+      alt: "MJ Series wide industrial applications",
+    },
+    {
+      src: "/products/mj-series/mj-details.png",
+      alt: "MJ Series high-quality construction details",
+    },
+  ],
+
+  advantages: [
+    "Low-profile lifting design",
+    "Manual hand-operated mechanism",
+    "Heavy-duty steel construction",
+    "Easy positioning and operation",
+  ],
+
+  features: [
+    {
+      icon: "mdi:arrow-collapse-vertical",
+      title: "Low-Profile Design",
+      text: "The compact toe structure allows the jack to access low-clearance areas beneath machinery and industrial equipment.",
+    },
+    {
+      icon: "mdi:hand-back-right-outline",
+      title: "Hand-Operated Mechanism",
+      text: "Manual operation provides controlled lifting without requiring external electric or hydraulic power units.",
+    },
+    {
+      icon: "mdi:cog-outline",
+      title: "Precision Gear System",
+      text: "The internal gear mechanism supports smooth and controlled lifting during equipment positioning.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Heavy-Duty Construction",
+      text: "Reinforced steel components provide reliable support and durability for demanding industrial applications.",
+    },
+    {
+      icon: "mdi:wheel-barrow",
+      title: "Easy Positioning",
+      text: "Integrated wheel components help move and position the jack around machinery and work areas.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Wide Industrial Use",
+      text: "Suitable for machinery installation, steel structures, factory equipment, heavy lifting and industrial maintenance.",
+    },
+  ],
+
+  applications: [
+    "Industrial machinery installation",
+    "Machine tool positioning",
+    "Factory equipment lifting",
+    "Steel structure adjustment",
+    "Heavy equipment maintenance",
+    "Low-clearance lifting applications",
+  ],
+},
 };
 
 export default async function ProductPage({
