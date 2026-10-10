@@ -229,6 +229,12 @@ const products: Record<
     "Manual hydraulic claw jacks for heavy-duty industrial lifting and equipment handling",
   image: "/products/md-series/md-main.png",
 },
+{
+  name: "ME Series",
+  slug: "me-series-remote-operated-claw-jacks",
+  description: "Remote-operated hydraulic claw jacks for efficient industrial lifting",
+  image: "/products/me-series/me-main.png",
+},
   ],
 
   // =========================================================

@@ -1749,6 +1749,92 @@ features: [
     "Factory maintenance",
   ],
 },
+"me-series-remote-operated-claw-jacks": {
+  name: "ME Series Remote-Operated Claw Jacks",
+  shortName: "ME Series",
+
+  description:
+    "Remote-operated hydraulic claw jack series designed for efficient heavy-duty lifting, machine moving and equipment positioning. The ME Series combines an electric hydraulic power unit with a compact claw jack structure for fast, stable and labor-saving industrial operation.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Electric Hydraulic",
+
+  gallery: [
+    {
+      src: "/products/me-series/me-main.png",
+      alt: "ME Series remote-operated claw jack main product",
+    },
+    {
+      src: "/products/me-series/me-operation.png",
+      alt: "ME Series simple and efficient operation",
+    },
+    {
+      src: "/products/me-series/me-hydraulic-system.png",
+      alt: "ME Series powerful hydraulic system",
+    },
+    {
+      src: "/products/me-series/me-electric-claw-jack.png",
+      alt: "ME Series electric claw jack",
+    },
+    {
+      src: "/products/me-series/me-machine-moving.png",
+      alt: "ME Series machine moving application",
+    },
+    {
+      src: "/products/me-series/me-wide-application.png",
+      alt: "ME Series wide application scenarios",
+    },
+  ],
+
+  advantages: [
+    "Remote-operated electric hydraulic system",
+    "Fast and efficient lifting operation",
+    "Stable support for heavy equipment",
+    "Compact design for narrow industrial spaces",
+  ],
+
+  features: [
+    {
+      icon: "mdi:remote",
+      title: "Remote-Operated Control",
+      text: "Equipped with an external hydraulic power unit for convenient remote operation and improved working efficiency.",
+    },
+    {
+      icon: "mdi:hydraulic-oil-level",
+      title: "Powerful Hydraulic System",
+      text: "Electric hydraulic system delivers strong and stable lifting force for industrial equipment handling.",
+    },
+    {
+      icon: "mdi:lightning-bolt-outline",
+      title: "Fast Lifting",
+      text: "Provides quick lifting response to reduce labor intensity and improve on-site productivity.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Stable Support",
+      text: "Heavy-duty structure ensures secure load support and stable operation during lifting and positioning.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Industrial Applications",
+      text: "Suitable for equipment installation, factory relocation, machine moving and heavy load lifting.",
+    },
+    {
+      icon: "mdi:cog-outline",
+      title: "Labor-Saving Operation",
+      text: "Remote hydraulic actuation reduces manual effort and makes operation easier in demanding work environments.",
+    },
+  ],
+
+  applications: [
+    "Machine moving",
+    "Equipment installation",
+    "Factory relocation",
+    "Heavy machinery lifting",
+    "Warehouse handling",
+    "Industrial maintenance",
+  ],
+},
 };
 
 export default async function ProductPage({
