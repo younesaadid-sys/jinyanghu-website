@@ -2449,6 +2449,95 @@ features: [
     "Heavy goods relocation",
   ],
 },
+// =========================================================
+// JCL SERIES
+// =========================================================
+"jcl-series-tracked-stair-climber": {
+  name: "JCL Series Tracked Stair-Climber",
+  shortName: "JCL Series",
+
+  description:
+    "Electric tracked stair-climber designed for transporting heavy goods, cartons, appliances and industrial loads safely across different stair types. The JCL Series combines a 500W motor, 660 lbs load capacity, lithium battery power and reinforced crawler tracks for reliable stair-climbing performance.",
+
+  loadCapacity: "660 lbs / 300 kg",
+  driveType: "Electric Tracked Drive",
+
+  gallery: [
+    {
+      src: "/products/jcl-series/jcl-main.png",
+      alt: "JCL Series tracked stair-climber",
+    },
+    {
+      src: "/products/jcl-series/jcl-660lbs-motor.png",
+      alt: "JCL Series 660 lbs load capacity and 500W motor",
+    },
+    {
+      src: "/products/jcl-series/jcl-stair-types.png",
+      alt: "JCL Series suitable for different stair types",
+    },
+    {
+      src: "/products/jcl-series/jcl-applications.png",
+      alt: "JCL Series product usage scenarios",
+    },
+    {
+      src: "/products/jcl-series/jcl-product-details.png",
+      alt: "JCL Series reinforced crawler track and motor details",
+    },
+    {
+      src: "/products/jcl-series/jcl-lithium-battery.png",
+      alt: "JCL Series lithium battery system",
+    },
+  ],
+
+  advantages: [
+    "660 lbs / 300 kg load capacity",
+    "500W powerful electric motor",
+    "Lithium battery powered",
+    "Reinforced tracked stair-climbing system",
+  ],
+
+  features: [
+    {
+      icon: "mdi:weight-lifter",
+      title: "660 lbs Load Capacity",
+      text: "Designed to transport loads up to approximately 660 lbs or 300 kg for delivery, warehouse and material handling applications.",
+    },
+    {
+      icon: "mdi:engine-outline",
+      title: "500W Powerful Motor",
+      text: "The 500W motor provides strong and stable power for climbing and descending stairs while carrying heavy loads.",
+    },
+    {
+      icon: "mdi:stairs",
+      title: "Tracked Stair-Climbing System",
+      text: "Reinforced crawler tracks provide strong grip and stable movement across different stair configurations.",
+    },
+    {
+      icon: "mdi:battery-high",
+      title: "Lithium Battery",
+      text: "The rechargeable lithium battery provides convenient cordless operation and efficient working time.",
+    },
+    {
+      icon: "mdi:gesture-tap-button",
+      title: "One-Click Start",
+      text: "Simple controls allow convenient starting and operation for easier handling during transport work.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Durable Construction",
+      text: "Paint-coated panels and reinforced track components improve abrasion resistance, corrosion resistance and overall durability.",
+    },
+  ],
+
+  applications: [
+    "Cargo delivery",
+    "Warehouse material handling",
+    "Furniture and appliance transport",
+    "Moving services",
+    "Port and logistics operations",
+    "Stair transport of heavy goods",
+  ],
+},
 };
 
 export default async function ProductPage({

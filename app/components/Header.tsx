@@ -291,6 +291,13 @@ const products: Record<
         "Tracked stair-climbing robot for transporting heavy goods safely and efficiently on stairs",
       image: "/products/jca-series/jca-main.png",
     },
+    {
+  name: "JCL Series",
+  slug: "jcl-series-tracked-stair-climber",
+  description:
+    "660 lbs tracked stair-climber with 500W motor and lithium battery for transporting heavy goods on stairs",
+  image: "/products/jcl-series/jcl-main.png",
+},
   ],
 
   // =========================================================
