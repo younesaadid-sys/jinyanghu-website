@@ -288,14 +288,8 @@ const products: Record<
       "Tracked stair-climbing robot for transporting heavy goods safely and efficiently on stairs",
     image: "/products/jca-series/jca-main.png",
   },
-  {
-  name: "JCA Series",
-  slug: "jca-series-tracked-stair-climbing-robot",
-  description:
-    "Tracked stair-climbing robot for transporting heavy goods safely and efficiently on stairs",
-  image: "/products/jca-series/jca-main.png",
-},
 ],
+  
   "pallet-trucks": [],
   stackers: [],
   "all-terrain-transporters": [],
