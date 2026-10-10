@@ -235,6 +235,12 @@ const products: Record<
   description: "Remote-operated hydraulic claw jacks for efficient industrial lifting",
   image: "/products/me-series/me-main.png",
 },
+{
+  name: "MF Series",
+  slug: "mf-series-hydraulic-lifters",
+  description: "Compact hydraulic lifters for lifting and moving industrial loads",
+  image: "/products/mf-series/mf-main.png",
+},
   ],
 
   // =========================================================

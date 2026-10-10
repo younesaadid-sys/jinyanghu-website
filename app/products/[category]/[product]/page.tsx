@@ -1835,6 +1835,92 @@ features: [
     "Industrial maintenance",
   ],
 },
+"mf-series-hydraulic-lifters": {
+  name: "MF Series Hydraulic Lifters",
+  shortName: "MF Series",
+
+  description:
+    "Compact hydraulic lifter series designed for powerful lifting, load handling and industrial positioning tasks. The MF Series combines strong hydraulic force, portable operation and a durable structure for safe and efficient use in industrial environments.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Hydraulic Manual",
+
+  gallery: [
+    {
+      src: "/products/mf-series/mf-main.png",
+      alt: "MF Series hydraulic lifter main product",
+    },
+    {
+      src: "/products/mf-series/mf-hydraulic-lifter.png",
+      alt: "MF Series hydraulic lifter overview",
+    },
+    {
+      src: "/products/mf-series/mf-cylinder.png",
+      alt: "MF Series precision hydraulic cylinder",
+    },
+    {
+      src: "/products/mf-series/mf-wide-application.png",
+      alt: "MF Series wide application scenarios",
+    },
+    {
+      src: "/products/mf-series/mf-details.png",
+      alt: "MF Series product dimensions and premium details",
+    },
+    {
+      src: "/products/mf-series/mf-powerful-lifting.png",
+      alt: "MF Series powerful lifting performance",
+    },
+  ],
+
+  advantages: [
+    "Powerful hydraulic lifting force",
+    "Compact and portable design",
+    "Durable cylinder structure",
+    "Suitable for lifting and moving tasks",
+  ],
+
+  features: [
+    {
+      icon: "mdi:hydraulic-oil-level",
+      title: "Hydraulic Lifting Power",
+      text: "Delivers strong and stable hydraulic lifting performance for industrial handling and positioning tasks.",
+    },
+    {
+      icon: "mdi:briefcase-outline",
+      title: "Portable Design",
+      text: "Compact body and practical structure make the lifter easy to carry, use and store.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Safe & Reliable",
+      text: "Built for dependable operation with a durable body and stable support during lifting work.",
+    },
+    {
+      icon: "mdi:cog-outline",
+      title: "Easy Operation",
+      text: "User-friendly operation reduces effort and allows efficient lifting in different work situations.",
+    },
+    {
+      icon: "mdi:tune-vertical",
+      title: "Precision Hydraulic Cylinder",
+      text: "High-quality hydraulic cylinder and sealing structure provide smooth movement and long service life.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Wide Application",
+      text: "Suitable for machinery lifting, warehouse handling, construction work and industrial equipment support.",
+    },
+  ],
+
+  applications: [
+    "Machinery lifting",
+    "Industrial equipment handling",
+    "Warehouse operations",
+    "Construction lifting tasks",
+    "Heavy load positioning",
+    "Workshop maintenance",
+  ],
+},
 };
 
 export default async function ProductPage({
