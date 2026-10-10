@@ -215,6 +215,13 @@ const products: Record<
     "Multi-stage adjustable claw jacks for heavy-duty industrial lifting",
   image: "/products/mb-series/mb-main.png",
 },
+{
+  name: "MC Series",
+  slug: "mc-series-single-stage-claw-jacks",
+  description:
+    "Single-stage high-stroke hydraulic claw jacks for industrial lifting",
+  image: "/products/mc-series/mc-main.png",
+},
   ],
 
   // =========================================================

@@ -1571,6 +1571,95 @@ features: [
     "Heavy-load installation",
 ],
 },
+// =========================================================
+// MC SERIES
+// =========================================================
+"mc-series-single-stage-claw-jacks": {
+  name: "MC Series Single-Stage Claw Jacks",
+  shortName: "MC Series",
+
+  description:
+    "Single-stage high-stroke hydraulic claw jacks designed for vertical lifting, heavy equipment positioning and industrial maintenance. The MC Series combines high lifting stroke, stable load support and a compact reinforced structure for demanding industrial applications.",
+
+  loadCapacity: "5T–16T",
+  driveType: "Hydraulic",
+
+  gallery: [
+    {
+      src: "/products/mc-series/mc-main.png",
+      alt: "MC Series Single-Stage Claw Jack",
+    },
+    {
+      src: "/products/mc-series/mc-specifications.png",
+      alt: "MC Series product specifications",
+    },
+    {
+      src: "/products/mc-series/mc-heavy-duty.png",
+      alt: "MC Series heavy-duty high-stroke hydraulic jack",
+    },
+    {
+      src: "/products/mc-series/mc-applications.png",
+      alt: "MC Series industrial applications",
+    },
+    {
+      src: "/products/mc-series/mc-high-stroke.png",
+      alt: "MC Series single-stage high-stroke hydraulic jack",
+    },
+    {
+      src: "/products/mc-series/mc-details.png",
+      alt: "MC Series product details",
+    },
+  ],
+
+  advantages: [
+    "5T–16T load capacity range",
+    "Single-stage high-stroke lifting",
+    "Stable heavy-duty base",
+    "Compact hydraulic construction",
+  ],
+
+  features: [
+    {
+      icon: "mdi:arrow-expand-vertical",
+      title: "High-Stroke Lifting",
+      text: "The single-stage hydraulic cylinder provides a wide lifting stroke for industrial equipment lifting and positioning.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "5T–16T Load Capacity",
+      text: "Available in MC-05S, MC-10S and MC-16S models for different heavy-duty lifting requirements.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Stable and Reliable",
+      text: "Heavy-duty construction and a reinforced base provide stable support during industrial lifting operations.",
+    },
+    {
+      icon: "mdi:hydraulic-oil-level",
+      title: "Hydraulic Operation",
+      text: "Hydraulic lifting provides controlled vertical movement for machinery installation, maintenance and positioning.",
+    },
+    {
+      icon: "mdi:hand-back-right-outline",
+      title: "Ergonomic Handle",
+      text: "Integrated handle design makes the jack easier to carry, position and operate around industrial equipment.",
+    },
+    {
+      icon: "mdi:shoe-print",
+      title: "Non-Slip Support",
+      text: "Textured contact surfaces improve load stability and help provide safer operation during lifting.",
+    },
+  ],
+
+  applications: [
+    "Industrial machinery lifting",
+    "Equipment installation",
+    "Factory maintenance",
+    "Workshop equipment handling",
+    "Heavy-load positioning",
+    "Construction and logistics equipment support",
+  ],
+},
 };
 
 export default async function ProductPage({
