@@ -222,6 +222,13 @@ const products: Record<
     "Single-stage high-stroke hydraulic claw jacks for industrial lifting",
   image: "/products/mc-series/mc-main.png",
 },
+{
+  name: "MD Series",
+  slug: "md-series-manual-claw-jacks",
+  description:
+    "Manual hydraulic claw jacks for heavy-duty industrial lifting and equipment handling",
+  image: "/products/md-series/md-main.png",
+},
   ],
 
   // =========================================================

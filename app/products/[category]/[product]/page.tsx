@@ -1660,6 +1660,95 @@ features: [
     "Construction and logistics equipment support",
   ],
 },
+// =========================================================
+// MD SERIES
+// =========================================================
+"md-series-manual-claw-jacks": {
+  name: "MD Series Manual Claw Jacks",
+  shortName: "MD Series",
+
+  description:
+    "Manual hydraulic claw jacks designed for heavy-duty industrial lifting, equipment positioning and maintenance. The MD Series combines a reinforced housing, stable load-bearing base, durable hydraulic reservoir and protected sealing system for reliable operation in demanding environments.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Manual / Hydraulic",
+
+  gallery: [
+    {
+      src: "/products/md-series/md-main.png",
+      alt: "MD Series Manual Claw Jack",
+    },
+    {
+      src: "/products/md-series/md-applications.png",
+      alt: "MD Series industrial application scenarios",
+    },
+    {
+      src: "/products/md-series/md-reservoir.png",
+      alt: "MD Series heavy-duty seamless reservoir",
+    },
+    {
+      src: "/products/md-series/md-stable-base.png",
+      alt: "MD Series heavy-duty stable base",
+    },
+    {
+      src: "/products/md-series/md-impact-resistant-housing.png",
+      alt: "MD Series impact-resistant housing",
+    },
+    {
+      src: "/products/md-series/md-cylinder-sealing.png",
+      alt: "MD Series three-layer cylinder sealing system",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty stable base",
+    "Impact-resistant protective housing",
+    "Anti-corrosion hydraulic reservoir",
+    "Three-layer cylinder sealing system",
+  ],
+
+  features: [
+    {
+      icon: "mdi:hydraulic-oil-level",
+      title: "Manual Hydraulic Operation",
+      text: "Manual hydraulic operation provides controlled lifting for industrial machinery, maintenance and equipment positioning.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Impact-Resistant Housing",
+      text: "Reinforced protective housing helps protect the internal structure and improves durability in demanding industrial environments.",
+    },
+    {
+      icon: "mdi:layers-triple-outline",
+      title: "Three-Layer Sealing System",
+      text: "Multiple sealing components help reduce cylinder wear and support longer service life.",
+    },
+    {
+      icon: "mdi:database-outline",
+      title: "Heavy-Duty Reservoir",
+      text: "The hydraulic reservoir is designed with protective surface layers for corrosion resistance and long-term use.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "Stable Load Support",
+      text: "The reinforced base and claw structure provide stable support during heavy-duty lifting operations.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Wide Industrial Application",
+      text: "Suitable for machinery moving, equipment handling, construction work, rail maintenance and foundry applications.",
+    },
+  ],
+
+  applications: [
+    "Rail maintenance",
+    "Construction engineering",
+    "Machine moving",
+    "Foundry machinery",
+    "Industrial equipment handling",
+    "Factory maintenance",
+  ],
+},
 };
 
 export default async function ProductPage({
