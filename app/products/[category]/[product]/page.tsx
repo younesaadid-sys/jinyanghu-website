@@ -2462,8 +2462,10 @@ export default async function ProductPage({
   const { category, product } = await params;
 
   const categoryLabel =
-    category === "jacks"
-      ? "Jacks"
+  category === "jacks"
+    ? "Jacks"
+    : category === "stair-climbing-carts"
+      ? "Stair-Climbing Carts"
       : category === "manual-heavy-duty-movers"
         ? "Manual Heavy-Duty Movers"
         : category === "electric-heavy-duty-movers"

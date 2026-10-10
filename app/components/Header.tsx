@@ -209,87 +209,93 @@ const products: Record<
       image: "/products/ma-series/ma-main.png",
     },
     {
-  name: "MB Series",
-  slug: "mb-series-multi-stage-claw-jacks",
-  description:
-    "Multi-stage adjustable claw jacks for heavy-duty industrial lifting",
-  image: "/products/mb-series/mb-main.png",
-},
-{
-  name: "MC Series",
-  slug: "mc-series-single-stage-claw-jacks",
-  description:
-    "Single-stage high-stroke hydraulic claw jacks for industrial lifting",
-  image: "/products/mc-series/mc-main.png",
-},
-{
-  name: "MD Series",
-  slug: "md-series-manual-claw-jacks",
-  description:
-    "Manual hydraulic claw jacks for heavy-duty industrial lifting and equipment handling",
-  image: "/products/md-series/md-main.png",
-},
-{
-  name: "ME Series",
-  slug: "me-series-remote-operated-claw-jacks",
-  description: "Remote-operated hydraulic claw jacks for efficient industrial lifting",
-  image: "/products/me-series/me-main.png",
-},
-{
-  name: "MF Series",
-  slug: "mf-series-hydraulic-lifters",
-  description: "Compact hydraulic lifters for lifting and moving industrial loads",
-  image: "/products/mf-series/mf-main.png",
-},
-{
-  name: "MG Series",
-  slug: "mg-series-wedge-jacks",
-  description: "Low-profile hydraulic wedge jacks for lifting, pushing and precision positioning",
-  image: "/products/mg-series/mg-main.png",
-},
-{
-  name: "MH Series",
-  slug: "mh-series-remote-operated-jacks",
-  description: "Compact remote-operated hydraulic jacks for industrial lifting and support",
-  image: "/products/mh-series/mh-main.png",
-},
-{
-  name: "MI Series",
-  slug: "mi-series-hand-operated-toe-jacks",
-  description:
-    "Manual self-locking toe jacks for industrial lifting, positioning and equipment installation",
-  image: "/products/mi-series/mi-main.png",
-},
-{
-  name: "MJ Series",
-  slug: "mj-series-low-profile-hand-operated-toe-jacks",
-  description:
-    "Low-profile hand-operated toe jacks for lifting and positioning heavy industrial equipment",
-  image: "/products/mj-series/mj-main.png",
-},
-{
-  name: "MK Series",
-  slug: "mk-series-multi-position-adjustable-toe-jacks",
-  description:
-    "Multi-position adjustable manual toe jacks for lifting, positioning and track or equipment support",
-  image: "/products/mk-series/mk-main.png",
-},
+      name: "MB Series",
+      slug: "mb-series-multi-stage-claw-jacks",
+      description:
+        "Multi-stage adjustable claw jacks for heavy-duty industrial lifting",
+      image: "/products/mb-series/mb-main.png",
+    },
+    {
+      name: "MC Series",
+      slug: "mc-series-single-stage-claw-jacks",
+      description:
+        "Single-stage high-stroke hydraulic claw jacks for industrial lifting",
+      image: "/products/mc-series/mc-main.png",
+    },
+    {
+      name: "MD Series",
+      slug: "md-series-manual-claw-jacks",
+      description:
+        "Manual hydraulic claw jacks for heavy-duty industrial lifting and equipment handling",
+      image: "/products/md-series/md-main.png",
+    },
+    {
+      name: "ME Series",
+      slug: "me-series-remote-operated-claw-jacks",
+      description:
+        "Remote-operated hydraulic claw jacks for efficient industrial lifting",
+      image: "/products/me-series/me-main.png",
+    },
+    {
+      name: "MF Series",
+      slug: "mf-series-hydraulic-lifters",
+      description:
+        "Compact hydraulic lifters for lifting and moving industrial loads",
+      image: "/products/mf-series/mf-main.png",
+    },
+    {
+      name: "MG Series",
+      slug: "mg-series-wedge-jacks",
+      description:
+        "Low-profile hydraulic wedge jacks for lifting, pushing and precision positioning",
+      image: "/products/mg-series/mg-main.png",
+    },
+    {
+      name: "MH Series",
+      slug: "mh-series-remote-operated-jacks",
+      description:
+        "Compact remote-operated hydraulic jacks for industrial lifting and support",
+      image: "/products/mh-series/mh-main.png",
+    },
+    {
+      name: "MI Series",
+      slug: "mi-series-hand-operated-toe-jacks",
+      description:
+        "Manual self-locking toe jacks for industrial lifting, positioning and equipment installation",
+      image: "/products/mi-series/mi-main.png",
+    },
+    {
+      name: "MJ Series",
+      slug: "mj-series-low-profile-hand-operated-toe-jacks",
+      description:
+        "Low-profile hand-operated toe jacks for lifting and positioning heavy industrial equipment",
+      image: "/products/mj-series/mj-main.png",
+    },
+    {
+      name: "MK Series",
+      slug: "mk-series-multi-position-adjustable-toe-jacks",
+      description:
+        "Multi-position adjustable manual toe jacks for lifting, positioning and track or equipment support",
+      image: "/products/mk-series/mk-main.png",
+    },
+  ],
 
+  // =========================================================
+  // STAIR-CLIMBING CARTS
+  // =========================================================
+  "stair-climbing-carts": [
+    {
+      name: "JCA Series",
+      slug: "jca-series-tracked-stair-climbing-robot",
+      description:
+        "Tracked stair-climbing robot for transporting heavy goods safely and efficiently on stairs",
+      image: "/products/jca-series/jca-main.png",
+    },
   ],
 
   // =========================================================
   // OTHER CATEGORIES
   // =========================================================
-  "stair-climbing-carts": [
-  {
-    name: "JCA Series",
-    slug: "jca-series-tracked-stair-climbing-robot",
-    description:
-      "Tracked stair-climbing robot for transporting heavy goods safely and efficiently on stairs",
-    image: "/products/jca-series/jca-main.png",
-  },
-],
-  
   "pallet-trucks": [],
   stackers: [],
   "all-terrain-transporters": [],
@@ -412,6 +418,7 @@ export default function Header() {
                             key={product.slug}
                             href={`/products/${activeCategory}/${product.slug}`}
                             className="group overflow-hidden rounded-xl border border-zinc-200 bg-white transition hover:border-orange-300 hover:bg-orange-50 hover:shadow-md"
+                            onClick={() => setMenuOpen(false)}
                           >
                             {product.image && (
                               <div className="relative h-24 w-full overflow-hidden bg-white">
@@ -473,6 +480,7 @@ export default function Header() {
 
                   <Link
                     href="/#contact"
+                    onClick={() => setMenuOpen(false)}
                     className="rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-orange-600"
                   >
                     Contact Sales
