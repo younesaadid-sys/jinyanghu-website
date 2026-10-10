@@ -2271,6 +2271,95 @@ features: [
     "Low-clearance lifting applications",
   ],
 },
+// =========================================================
+// MK SERIES
+// =========================================================
+"mk-series-multi-position-adjustable-toe-jacks": {
+  name: "MK Series Multi-Position Adjustable Toe Jacks",
+  shortName: "MK Series",
+
+  description:
+    "Heavy-duty multi-position adjustable manual toe jacks designed for flexible height lifting, stable support and equipment positioning. The MK Series features a multi-level column structure, manual operation, secure locking and durable construction for industrial, railway, warehouse and port applications.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Manual",
+
+  gallery: [
+    {
+      src: "/products/mk-series/mk-main.png",
+      alt: "MK Series multi-position adjustable toe jack",
+    },
+    {
+      src: "/products/mk-series/mk-overview.png",
+      alt: "MK Series adjustable manual toe jack overview",
+    },
+    {
+      src: "/products/mk-series/mk-applications.png",
+      alt: "MK Series wide application",
+    },
+    {
+      src: "/products/mk-series/mk-operation.png",
+      alt: "MK Series simple operation and stable support",
+    },
+    {
+      src: "/products/mk-series/mk-details.png",
+      alt: "MK Series premium details",
+    },
+    {
+      src: "/products/mk-series/mk-port-handling.png",
+      alt: "MK Series port and equipment handling",
+    },
+  ],
+
+  advantages: [
+    "Multi-position adjustable height",
+    "Manual operation with stable support",
+    "Heavy-duty steel structure",
+    "Secure locking and durable construction",
+  ],
+
+  features: [
+    {
+      icon: "mdi:arrow-expand-vertical",
+      title: "Adjustable Height",
+      text: "The multi-section column with multiple positioning holes allows flexible height adjustment for different lifting and support needs.",
+    },
+    {
+      icon: "mdi:lock-check-outline",
+      title: "Multi-Position Locking",
+      text: "Secure locking points help keep the jack stable during lifting, positioning and support operations.",
+    },
+    {
+      icon: "mdi:hand-back-right-outline",
+      title: "Manual Operation",
+      text: "The hand-operated mechanism makes lifting and positioning straightforward without requiring external power.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Heavy-Duty Structure",
+      text: "Built with a reinforced column and solid support base to handle industrial environments and repeated use.",
+    },
+    {
+      icon: "mdi:tools",
+      title: "Stable Support",
+      text: "The wide foot base and strong connection points improve stability during equipment support and adjustment.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Wide Application",
+      text: "Suitable for factories, railways, steel structures, warehouses, ports and equipment handling tasks.",
+    },
+  ],
+
+  applications: [
+    "Industrial lifting",
+    "Track and railway maintenance",
+    "Equipment positioning",
+    "Warehouse operations",
+    "Steel structure support",
+    "Port and heavy equipment handling",
+  ],
+},
 };
 
 export default async function ProductPage({

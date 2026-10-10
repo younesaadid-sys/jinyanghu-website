@@ -267,6 +267,13 @@ const products: Record<
     "Low-profile hand-operated toe jacks for lifting and positioning heavy industrial equipment",
   image: "/products/mj-series/mj-main.png",
 },
+{
+  name: "MK Series",
+  slug: "mk-series-multi-position-adjustable-toe-jacks",
+  description:
+    "Multi-position adjustable manual toe jacks for lifting, positioning and track or equipment support",
+  image: "/products/mk-series/mk-main.png",
+},
   ],
 
   // =========================================================
