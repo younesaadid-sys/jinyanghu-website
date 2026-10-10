@@ -247,6 +247,12 @@ const products: Record<
   description: "Low-profile hydraulic wedge jacks for lifting, pushing and precision positioning",
   image: "/products/mg-series/mg-main.png",
 },
+{
+  name: "MH Series",
+  slug: "mh-series-remote-operated-jacks",
+  description: "Compact remote-operated hydraulic jacks for industrial lifting and support",
+  image: "/products/mh-series/mh-main.png",
+},
   ],
 
   // =========================================================

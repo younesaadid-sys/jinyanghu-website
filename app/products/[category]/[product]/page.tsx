@@ -2007,6 +2007,92 @@ features: [
     "Horizontal pushing of heavy loads",
   ],
 },
+"mh-series-remote-operated-jacks": {
+  name: "MH Series Remote-Operated Jacks",
+  shortName: "MH Series",
+
+  description:
+    "The MH Series remote-operated jacks are compact hydraulic lifting solutions designed for industrial lifting, machine tool installation, steel structure support, shipbuilding, and factory equipment maintenance. They offer high-capacity lifting, reliable performance, and controlled operation in confined working spaces.",
+
+  loadCapacity: "10T–100T",
+  driveType: "Remote-Operated Hydraulic",
+
+  gallery: [
+    {
+      src: "/products/mh-series/mh-main.png",
+      alt: "MH Series remote-operated jacks main product",
+    },
+    {
+      src: "/products/mh-series/mh-overview.png",
+      alt: "MH Series remote-operated jacks overview",
+    },
+    {
+      src: "/products/mh-series/mh-details-show.png",
+      alt: "MH Series details show",
+    },
+    {
+      src: "/products/mh-series/mh-high-capacity-lifting.png",
+      alt: "MH Series high capacity lifting",
+    },
+    {
+      src: "/products/mh-series/mh-wide-application.png",
+      alt: "MH Series wide application",
+    },
+    {
+      src: "/products/mh-series/mh-machine-tool-installation.png",
+      alt: "MH Series machine tool installation",
+    },
+  ],
+
+  advantages: [
+    "Compact low-profile structure",
+    "High-capacity lifting from 10T to 100T",
+    "Reliable hydraulic performance",
+    "Suitable for demanding industrial applications",
+  ],
+
+  features: [
+    {
+      icon: "mdi:arrow-collapse",
+      title: "Compact Design",
+      text: "Compact and low-profile design allows operation in narrow and confined industrial spaces.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Durable Construction",
+      text: "Strong body construction ensures long service life and stable operation under heavy-duty conditions.",
+    },
+    {
+      icon: "mdi:target",
+      title: "High Precision",
+      text: "Provides accurate pressure control and smooth lifting performance for industrial support tasks.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "High Capacity Lifting",
+      text: "Available in a wide capacity range from 10T to 100T for heavy industrial loads.",
+    },
+    {
+      icon: "mdi:wrench-cog-outline",
+      title: "Quick Connection",
+      text: "Equipped with a quick connector for fast hydraulic connection and convenient field use.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Wide Industrial Use",
+      text: "Suitable for machinery installation, bridge construction, shipbuilding, factory equipment, and lifting applications.",
+    },
+  ],
+
+  applications: [
+    "Machine tool installation",
+    "Machinery installation",
+    "Steel structure support",
+    "Bridge construction",
+    "Shipbuilding",
+    "Factory equipment lifting",
+  ],
+},
 };
 
 export default async function ProductPage({
