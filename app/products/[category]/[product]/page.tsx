@@ -2538,6 +2538,97 @@ features: [
     "Stair transport of heavy goods",
   ],
 },
+// =========================================================
+// JCD SERIES
+// =========================================================
+"jcd-series-wheeled-stair-climber": {
+  name: "JCD Series Wheeled Stair-Climber",
+  shortName: "JCD Series",
+
+  description:
+    "Electric wheeled stair-climber designed to assist operators in transporting heavy goods safely and efficiently up and down stairs. Its powered climbing mechanism, durable frame and lithium battery system make it suitable for delivery, warehouse, household appliance and industrial handling applications.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/jcd-series/jcd-main.png",
+      alt: "JCD Series wheeled stair-climber",
+    },
+    {
+      src: "/products/jcd-series/jcd-electric-climbing-machine.png",
+      alt: "JCD Series electric stair climbing machine",
+    },
+    {
+      src: "/products/jcd-series/jcd-core-configurations.png",
+      alt: "JCD Series main configurations and components",
+    },
+    {
+      src: "/products/jcd-series/jcd-climbing-advantages.png",
+      alt: "JCD Series stair climbing advantages",
+    },
+    {
+      src: "/products/jcd-series/jcd-application-scenes.png",
+      alt: "JCD Series stair climber application scenes",
+    },
+    {
+      src: "/products/jcd-series/jcd-lithium-battery.png",
+      alt: "JCD Series industrial lithium battery",
+    },
+  ],
+
+  advantages: [
+    "Electric powered stair-climbing system",
+    "Wheeled design for easy ground movement",
+    "Industrial lithium battery",
+    "Suitable for climbing stairs up to approximately 45°",
+  ],
+
+  features: [
+    {
+      icon: "mdi:stairs",
+      title: "Powered Stair Climbing",
+      text: "The powered climbing mechanism assists the operator when transporting heavy goods up and down stairs.",
+    },
+    {
+      icon: "mdi:wheelchair-accessibility",
+      title: "Wheeled Ground Transport",
+      text: "Integrated wheels allow the unit to move conveniently on flat floors before and after stair transport.",
+    },
+    {
+      icon: "mdi:battery-high",
+      title: "Lithium Battery",
+      text: "A large-capacity industrial lithium battery provides reliable power for repeated stair-climbing operations.",
+    },
+    {
+      icon: "mdi:engine-outline",
+      title: "Brushless Motor",
+      text: "The dedicated motor provides stable power output for demanding climbing and transport applications.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Durable Frame",
+      text: "A reinforced structural frame improves stability and durability while carrying heavy goods.",
+    },
+    {
+      icon: "mdi:gesture-tap-button",
+      title: "Simple Control",
+      text: "Operator-friendly controls make climbing, descending and positioning easier to manage.",
+    },
+  ],
+
+  applications: [
+    "Household appliance delivery",
+    "Office equipment transportation",
+    "Gas cylinder delivery",
+    "Bottled water delivery",
+    "Warehouse cargo handling",
+    "Moving and relocation services",
+    "Building material transportation",
+    "Industrial equipment handling",
+  ],
+},
 };
 
 export default async function ProductPage({

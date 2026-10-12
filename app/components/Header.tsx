@@ -298,6 +298,13 @@ const products: Record<
     "660 lbs tracked stair-climber with 500W motor and lithium battery for transporting heavy goods on stairs",
   image: "/products/jcl-series/jcl-main.png",
 },
+{
+  name: "JCD Series",
+  slug: "jcd-series-wheeled-stair-climber",
+  description:
+    "Electric wheeled stair-climber designed for transporting heavy goods safely and efficiently on stairs",
+  image: "/products/jcd-series/jcd-main.png",
+},
   ],
 
   // =========================================================
