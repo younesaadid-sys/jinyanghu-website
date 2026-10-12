@@ -2832,8 +2832,9 @@ features: [
     alt: "JCQ Series 35 degree climbing capability",
   },
   {
-    src: "/products/jcq-series/jcq-moto-components.png",
-    alt: "JCQ Series motor and planetary gear components",
+  
+  src: "/products/jcq-series/jcq-motor-components.png",
+  alt: "JCQ Series motor and planetary gear components",
   },
   {
     src: "/products/jcq-series/jcq-350w-moto.png",
