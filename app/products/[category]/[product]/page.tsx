@@ -2808,6 +2808,94 @@ features: [
     "Heavy goods handling",
   ],
 },
+"jcq-series-electric-flatbed-cart": {
+  name: "JCQ Series Electric Flatbed Cart",
+  shortName: "JCQ Series",
+
+  description:
+    "Electric flatbed cart designed for efficient material handling in warehouses, workshops, factories and home-use environments. It features a 350W geared motor, pure copper motor construction, planetary gear system and stable platform design, making it suitable for transporting goods safely and efficiently, including on slopes up to approximately 35°.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/jcq-series/jcq-main.png",
+      alt: "JCQ Series electric flatbed cart main view",
+    },
+    {
+      src: "/products/jcq-series/jcq-overview.png",
+      alt: "JCQ Series electric dolly overview with cargo",
+    },
+    {
+      src: "/products/jcq-series/jcq-climbing-capability.png",
+      alt: "JCQ Series 35 degree climbing capability",
+    },
+    {
+      src: "/products/jcq-series/jcq-motor-components.png",
+      alt: "JCQ Series pure copper motor and planetary gear set",
+    },
+    {
+      src: "/products/jcq-series/jcq-350w-motor.png",
+      alt: "JCQ Series 350W high-power motor",
+    },
+    {
+      src: "/products/jcq-series/jcq-applications.png",
+      alt: "JCQ Series wide application environments",
+    },
+  ],
+
+  advantages: [
+    "Efficient electric material handling",
+    "35° climbing capability",
+    "350W high-power geared motor",
+    "Wide application across industrial and commercial scenarios",
+  ],
+
+  features: [
+    {
+      icon: "mdi:engine-outline",
+      title: "350W High-Power Motor",
+      text: "The geared 350W motor provides strong horsepower and reliable power for efficient transport performance.",
+    },
+    {
+      icon: "mdi:cog-outline",
+      title: "Planetary Gear Set",
+      text: "The upgraded planetary gear structure delivers high torque output and improved transmission efficiency.",
+    },
+    {
+      icon: "mdi:copper-coin",
+      title: "Pure Copper Motor",
+      text: "The pure copper motor design improves stability, durability and consistent power delivery.",
+    },
+    {
+      icon: "mdi:chart-line",
+      title: "35° Climbing Capability",
+      text: "The flatbed cart is designed to maintain stable material handling performance on slopes up to around 35 degrees.",
+    },
+    {
+      icon: "mdi:package-variant-closed",
+      title: "Flatbed Cargo Platform",
+      text: "The wide platform allows convenient transport of cartons, goods and materials in industrial or logistics settings.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Wide Application",
+      text: "Suitable for warehouses, workshops, factories, logistics operations and home-use transport scenarios.",
+    },
+  ],
+
+  applications: [
+    "Warehouse transport",
+    "Workshop material handling",
+    "Factory goods movement",
+    "Logistics operations",
+    "Cargo transport",
+    "Home-use handling",
+    "Commercial storage facilities",
+    "Industrial material movement",
+  ],
+},
 };
 
 export default async function ProductPage({

@@ -319,6 +319,13 @@ const products: Record<
     "Electric wheeled stair-climber with foldable structure, brushless motor and lithium battery for heavy-load transport on stairs",
   image: "/products/jcs-series/jcs-main.png",
 },
+{
+  name: "JCQ Series",
+  slug: "jcq-series-electric-flatbed-cart",
+  description:
+    "Electric flatbed cart designed for material handling, warehouse transport and slope climbing assistance",
+  image: "/products/jcq-series/jcq-main.png",
+},
   ],
 
   // =========================================================
