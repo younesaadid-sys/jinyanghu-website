@@ -326,6 +326,13 @@ const products: Record<
     "Electric flatbed cart designed for material handling, warehouse transport and slope climbing assistance",
   image: "/products/jcq-series/jcq-main.png",
 },
+{
+  name: "JCV Series",
+  slug: "jcv-series-follow-me-electric-flatbed-cart",
+  description:
+    "Follow-me electric flatbed cart for heavy-duty warehouse and logistics transport",
+  image: "/products/jcv-series/jcv-main.png",
+},
   ],
 
   // =========================================================

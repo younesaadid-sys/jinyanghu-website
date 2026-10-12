@@ -2897,6 +2897,96 @@ features: [
     "Industrial material movement",
   ],
 },
+"jcv-series-follow-me-electric-flatbed-cart": {
+  name: "JCV Series Follow-Me Electric Flatbed Cart",
+  shortName: "JCV Series",
+
+  description:
+    "JCV Series Follow-Me Electric Flatbed Cart is a heavy-duty electric transport solution designed for efficient cargo handling in warehouses, workshops, logistics spaces and home-use environments. It features a follow-me towing design, large-capacity battery, foldable handle and dual braking system for safer, smoother and more convenient transport of heavy loads.",
+
+  loadCapacity: "1100 LBS",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/jcv-series/jcv-main.png",
+      alt: "JCV Series follow-me electric flatbed cart",
+    },
+    {
+      src: "/products/jcv-series/jcv-size.png",
+      alt: "JCV Series product size",
+    },
+    {
+      src: "/products/jcv-series/jcv-battery.png",
+      alt: "JCV Series 36V 8Ah battery",
+    },
+    {
+      src: "/products/jcv-series/jcv-overview.png",
+      alt: "JCV Series heavy-duty electric flatbed trolley",
+    },
+    {
+      src: "/products/jcv-series/jcv-dual-braking.png",
+      alt: "JCV Series dual braking system",
+    },
+    {
+      src: "/products/jcv-series/jcv-applications.png",
+      alt: "JCV Series application scenarios",
+    },
+    {
+      src: "/products/jcv-series/jcv-hauling.png",
+      alt: "JCV Series heavy-duty hauling",
+    },
+  ],
+
+  advantages: [
+    "1100 lbs heavy-duty load capacity",
+    "Follow-me towing design for easy transport",
+    "Dual electronic and physical braking system",
+    "Large-capacity battery for longer operation",
+  ],
+
+  features: [
+    {
+      icon: "mdi:cart-outline",
+      title: "Heavy-Duty Platform",
+      text: "Large flatbed platform designed for transporting cartons, crates and industrial cargo.",
+    },
+    {
+      icon: "mdi:battery-high",
+      title: "36V 8Ah Battery",
+      text: "Large-capacity battery provides reliable power for repeated material-handling operations.",
+    },
+    {
+      icon: "mdi:car-brake-alert",
+      title: "Dual Braking System",
+      text: "Electronic and physical brakes provide better stopping control and help prevent unwanted rolling.",
+    },
+    {
+      icon: "mdi:weight",
+      title: "1100 LBS Capacity",
+      text: "Heavy-duty construction supports loads of up to approximately 1100 lbs.",
+    },
+    {
+      icon: "mdi:gesture-tap-button",
+      title: "Easy Electric Assistance",
+      text: "Electric drive assistance reduces operator effort during warehouse and logistics transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Wide Application",
+      text: "Suitable for warehouses, factories, workshops, logistics operations and general cargo handling.",
+    },
+  ],
+
+  applications: [
+    "Warehouse cargo transport",
+    "Workshop material handling",
+    "Factory internal logistics",
+    "Home-use heavy load moving",
+    "Carton and package delivery",
+    "General industrial transport",
+  ],
+},
 };
 
 export default async function ProductPage({
