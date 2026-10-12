@@ -2629,6 +2629,97 @@ features: [
     "Industrial equipment handling",
   ],
 },
+// =========================================================
+// JCE SERIES
+// =========================================================
+"jce-series-stand-on-tracked-stair-climber": {
+  name: "JCE Series Stand-on Tracked Stair-Climber",
+  shortName: "JCE Series",
+
+  description:
+    "Electric tracked stair-climber designed for controlled transportation of heavy goods on stairs. Its tracked climbing system, reinforced structure, foldable frame and anti-slip descent control provide stable and convenient operation across different stair environments.",
+
+  loadCapacity: "Heavy-Duty",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/jce-series/jce-main.png",
+      alt: "JCE Series stand-on tracked stair-climber",
+    },
+    {
+      src: "/products/jce-series/jce-foldable-body.png",
+      alt: "JCE Series foldable body and portable design",
+    },
+    {
+      src: "/products/jce-series/jce-stair-compatibility.png",
+      alt: "JCE Series compatibility with different stair types",
+    },
+    {
+      src: "/products/jce-series/jce-anti-slip-descent-control.png",
+      alt: "JCE Series intelligent anti-slip descent control",
+    },
+    {
+      src: "/products/jce-series/jce-applications.png",
+      alt: "JCE Series stair-climber application scenarios",
+    },
+    {
+      src: "/products/jce-series/jce-ultra-quiet-electric.png",
+      alt: "JCE Series ultra-quiet electric stair climber",
+    },
+  ],
+
+  advantages: [
+    "Tracked stair-climbing system",
+    "Intelligent anti-slip descent control",
+    "Foldable and transport-friendly body",
+    "Suitable for different stair configurations",
+  ],
+
+  features: [
+    {
+      icon: "mdi:stairs",
+      title: "Tracked Stair-Climbing System",
+      text: "The tracked drive provides stable contact with stair surfaces for controlled climbing and descending.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Anti-Slip Descent Control",
+      text: "Controlled descent helps improve stability and reduces the risk of slipping while moving loads downstairs.",
+    },
+    {
+      icon: "mdi:folder-outline",
+      title: "Foldable Body",
+      text: "The foldable structure reduces storage space and makes transportation in vehicles more convenient.",
+    },
+    {
+      icon: "mdi:stairs-up",
+      title: "Wide Stair Compatibility",
+      text: "Designed for use on different staircase layouts and surfaces in residential, commercial and industrial environments.",
+    },
+    {
+      icon: "mdi:volume-low",
+      title: "Quiet Electric Operation",
+      text: "Electric operation provides smooth stair climbing while helping keep operating noise low.",
+    },
+    {
+      icon: "mdi:shield-outline",
+      title: "Reinforced Construction",
+      text: "A reinforced steel structure provides reliable support for demanding transport applications.",
+    },
+  ],
+
+  applications: [
+    "Household appliance transportation",
+    "Furniture and moving services",
+    "Warehouse material handling",
+    "Commercial building deliveries",
+    "Industrial equipment transportation",
+    "Office equipment relocation",
+    "Residential stair transport",
+    "General heavy-load handling",
+  ],
+},
 };
 
 export default async function ProductPage({

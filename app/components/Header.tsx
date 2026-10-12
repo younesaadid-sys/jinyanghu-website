@@ -305,6 +305,13 @@ const products: Record<
     "Wheeled electric stair-climber for transporting heavy goods safely and efficiently",
   image: "/products/jcd-series/jcd-main.png",
 },
+{
+  name: "JCE Series",
+  slug: "jce-series-stand-on-tracked-stair-climber",
+  description:
+    "Electric tracked stair-climber designed for safe and controlled transport of heavy loads on stairs",
+  image: "/products/jce-series/jce-main.png",
+},
   ],
 
   // =========================================================
