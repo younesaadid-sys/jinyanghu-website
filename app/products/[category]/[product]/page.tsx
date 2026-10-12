@@ -2551,32 +2551,32 @@ features: [
   loadCapacity: "Heavy-Duty",
   driveType: "Electric",
 
-  gallery: [
-    {
-      src: "/products/jcd-series/jcd-main.png",
-      alt: "JCD Series wheeled stair-climber",
-    },
-    {
-      src: "/products/jcd-series/jcd-electric-climbing-machine.png",
-      alt: "JCD Series electric stair climbing machine",
-    },
-    {
-      src: "/products/jcd-series/jcd-core-configurations.png",
-      alt: "JCD Series main configurations and components",
-    },
-    {
-      src: "/products/jcd-series/jcd-climbing-advantages.png",
-      alt: "JCD Series stair climbing advantages",
-    },
-    {
-      src: "/products/jcd-series/jcd-application-scenes.png",
-      alt: "JCD Series stair climber application scenes",
-    },
-    {
-      src: "/products/jcd-series/jcd-lithium-battery.png",
-      alt: "JCD Series industrial lithium battery",
-    },
-  ],
+ gallery: [
+  {
+    src: "/products/jcd-series/jcd-main.png",
+    alt: "JCD Series Wheeled Stair-Climber",
+  },
+  {
+    src: "/products/jcd-series/jcd-overview.png",
+    alt: "JCD Series electric stair climbing machine overview",
+  },
+  {
+    src: "/products/jcd-series/jcd-core-configurations.png",
+    alt: "JCD Series six major core configurations",
+  },
+  {
+    src: "/products/jcd-series/jcd-advantages.png",
+    alt: "JCD Series stair climber advantages",
+  },
+  {
+    src: "/products/jcd-series/jcd-applications.png",
+    alt: "JCD Series application scenarios",
+  },
+  {
+    src: "/products/jcd-series/jcd-lithium-battery.png",
+    alt: "JCD Series industrial lithium battery",
+  },
+],
 
   advantages: [
     "Electric powered stair-climbing system",

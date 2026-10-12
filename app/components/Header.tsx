@@ -302,7 +302,7 @@ const products: Record<
   name: "JCD Series",
   slug: "jcd-series-wheeled-stair-climber",
   description:
-    "Electric wheeled stair-climber designed for transporting heavy goods safely and efficiently on stairs",
+    "Wheeled electric stair-climber for transporting heavy goods safely and efficiently",
   image: "/products/jcd-series/jcd-main.png",
 },
   ],
