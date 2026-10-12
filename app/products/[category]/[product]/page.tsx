@@ -2818,26 +2818,30 @@ features: [
   loadCapacity: "Heavy-Duty",
   driveType: "Electric",
 
-  gallery: [
+ gallery: [
   {
     src: "/products/jcq-series/jcq-main.png",
-    alt: "JCQ Series Electric Flatbed Cart",
+    alt: "JCQ Series electric flatbed cart",
   },
   {
     src: "/products/jcq-series/jcq-overview.png",
-    alt: "JCQ Series electric flatbed cart overview",
+    alt: "JCQ Series electric dolly overview",
   },
   {
     src: "/products/jcq-series/jcq-climbing-capability.png",
-    alt: "JCQ Series climbing capability",
+    alt: "JCQ Series 35 degree climbing capability",
+  },
+  {
+    src: "/products/jcq-series/jcq-moto-components.png",
+    alt: "JCQ Series motor and planetary gear components",
   },
   {
     src: "/products/jcq-series/jcq-350w-moto.png",
-    alt: "JCQ Series 350W motor",
+    alt: "JCQ Series 350W high power motor",
   },
   {
     src: "/products/jcq-series/jcq-applications.png",
-    alt: "JCQ Series applications",
+    alt: "JCQ Series application scenarios",
   },
 ],
 
