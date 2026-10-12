@@ -2720,6 +2720,94 @@ features: [
     "General heavy-load handling",
   ],
 },
+"jcs-series-wheeled-stair-climber": {
+  name: "JCS Series Wheeled Stair-Climber",
+  shortName: "JCS Series",
+
+  description:
+    "Electric wheeled stair-climber designed for transporting heavy goods safely and efficiently on stairs. It features a brushless motor, lithium battery system, foldable loading plate, adjustable handle height and durable wheeled structure for warehouse, delivery and industrial handling tasks.",
+
+  loadCapacity: "400 kg",
+  driveType: "Electric",
+
+  gallery: [
+    {
+      src: "/products/jcs-series/jcs-main.png",
+      alt: "JCS Series wheeled stair-climber main view",
+    },
+    {
+      src: "/products/jcs-series/jcs-product-analysis.png",
+      alt: "JCS Series product detail analysis",
+    },
+    {
+      src: "/products/jcs-series/jcs-core-features.png",
+      alt: "JCS Series core feature details",
+    },
+    {
+      src: "/products/jcs-series/jcs-overview.png",
+      alt: "JCS Series electric stair climbing machine overview",
+    },
+    {
+      src: "/products/jcs-series/jcs-adjustable-foldable.png",
+      alt: "JCS Series adjustable height and foldable design",
+    },
+    {
+      src: "/products/jcs-series/jcs-collapsible-carry.png",
+      alt: "JCS Series collapsible and easy-to-carry design",
+    },
+  ],
+
+  advantages: [
+    "400 kg heavy load capacity",
+    "Brushless motor for stable performance",
+    "Foldable and space-saving structure",
+    "Lithium battery powered stair-climbing assistance",
+  ],
+
+  features: [
+    {
+      icon: "mdi:engine-outline",
+      title: "Brushless Motor",
+      text: "The upgraded brushless motor delivers stable power output for efficient stair-climbing and heavy-load transport.",
+    },
+    {
+      icon: "mdi:battery-high",
+      title: "Lithium Battery",
+      text: "The large-capacity lithium battery provides reliable power and supports efficient long-duration operation.",
+    },
+    {
+      icon: "mdi:arrow-collapse",
+      title: "Foldable Design",
+      text: "Its collapsible structure and foldable loading plate save storage space and make transportation easier.",
+    },
+    {
+      icon: "mdi:arrow-up-down",
+      title: "Adjustable Height",
+      text: "The handle height can be adjusted for better comfort, easier control and more convenient use.",
+    },
+    {
+      icon: "mdi:wheel",
+      title: "Aluminum Alloy Wheels",
+      text: "Durable wheels improve mobility, support heavy loads and contribute to long service life.",
+    },
+    {
+      icon: "mdi:shield-check-outline",
+      title: "Durable Frame",
+      text: "The reinforced body and swing-arm structure improve toughness and help support demanding applications.",
+    },
+  ],
+
+  applications: [
+    "Warehouse cargo transport",
+    "Household appliance delivery",
+    "Industrial equipment handling",
+    "Building material transportation",
+    "Commercial deliveries",
+    "General stair transport tasks",
+    "Moving and logistics services",
+    "Heavy goods handling",
+  ],
+},
 };
 
 export default async function ProductPage({

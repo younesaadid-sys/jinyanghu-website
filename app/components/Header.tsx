@@ -312,6 +312,13 @@ const products: Record<
     "Electric tracked stair-climber designed for safe and controlled transport of heavy loads on stairs",
   image: "/products/jce-series/jce-main.png",
 },
+{
+  name: "JCS Series",
+  slug: "jcs-series-wheeled-stair-climber",
+  description:
+    "Electric wheeled stair-climber with foldable structure, brushless motor and lithium battery for heavy-load transport on stairs",
+  image: "/products/jcs-series/jcs-main.png",
+},
   ],
 
   // =========================================================
