@@ -2819,31 +2819,27 @@ features: [
   driveType: "Electric",
 
   gallery: [
-    {
-      src: "/products/jcq-series/jcq-main.png",
-      alt: "JCQ Series electric flatbed cart main view",
-    },
-    {
-      src: "/products/jcq-series/jcq-overview.png",
-      alt: "JCQ Series electric dolly overview with cargo",
-    },
-    {
-      src: "/products/jcq-series/jcq-climbing-capability.png",
-      alt: "JCQ Series 35 degree climbing capability",
-    },
-    {
-      src: "/products/jcq-series/jcq-moto-components.png",
-      alt: "JCQ Series pure copper motor and planetary gear set",
-    },
-    {
-      src: "/products/jcq-series/jcq-350w-motor.png",
-      alt: "JCQ Series 350W high-power motor",
-    },
-    {
-      src: "/products/jcq-series/jcq-applications.png",
-      alt: "JCQ Series wide application environments",
-    },
-  ],
+  {
+    src: "/products/jcq-series/jcq-main.png",
+    alt: "JCQ Series Electric Flatbed Cart",
+  },
+  {
+    src: "/products/jcq-series/jcq-overview.png",
+    alt: "JCQ Series electric flatbed cart overview",
+  },
+  {
+    src: "/products/jcq-series/jcq-climbing-capability.png",
+    alt: "JCQ Series climbing capability",
+  },
+  {
+    src: "/products/jcq-series/jcq-350w-moto.png",
+    alt: "JCQ Series 350W motor",
+  },
+  {
+    src: "/products/jcq-series/jcq-applications.png",
+    alt: "JCQ Series applications",
+  },
+],
 
   advantages: [
     "Efficient electric material handling",
