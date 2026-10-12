@@ -2832,7 +2832,7 @@ features: [
       alt: "JCQ Series 35 degree climbing capability",
     },
     {
-      src: "/products/jcq-series/jcq-motor-components.png",
+      src: "/products/jcq-series/jcq-moto-components.png",
       alt: "JCQ Series pure copper motor and planetary gear set",
     },
     {
