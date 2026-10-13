@@ -16,174 +16,170 @@ export default function Home() {
       <HomeBanner />
 
       {/* HERO */}
-      <section
-        id="home"
-        className="relative overflow-hidden bg-zinc-950 text-white"
-      >
-        {/* BACKGROUND EFFECT */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute -right-24 top-10 h-96 w-96 rounded-full bg-orange-500 blur-3xl" />
+<section
+  id="home"
+  className="relative overflow-hidden bg-zinc-950 text-white"
+>
+  {/* BACKGROUND EFFECT */}
+  <div className="absolute inset-0 opacity-20">
+    <div className="absolute -right-24 top-10 h-96 w-96 rounded-full bg-orange-500 blur-3xl" />
+  </div>
+
+  <div className="relative mx-auto max-w-[1440px] px-6 py-20 lg:px-8">
+    <div className="grid items-center gap-16 lg:grid-cols-[0.9fr_1.1fr]">
+
+      {/* LEFT SIDE */}
+      <div className="max-w-[680px] text-left">
+        <div className="mb-5 inline-flex rounded-full border border-orange-400/40 bg-orange-500/10 px-4 py-2 text-sm font-semibold text-orange-400">
+          Professional Industrial Equipment Manufacturer
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-6 py-20">
-          <div className="grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
-            {/* LEFT SIDE */}
-            <div>
-              <div className="mb-5 inline-flex rounded-full border border-orange-400/40 bg-orange-500/10 px-4 py-2 text-sm font-semibold text-orange-400">
-                Professional Industrial Equipment Manufacturer
-              </div>
+        <h1
+          className={`${anton.className} text-left uppercase leading-[0.95] tracking-tight`}
+        >
+          <span className="block text-5xl text-white md:text-7xl">
+            Powerful Solutions
+          </span>
 
-              <h1
-                className={`${anton.className} uppercase leading-[0.95] tracking-tight`}
-              >
-                <span className="block text-5xl text-white md:text-7xl">
-                  Powerful Solutions
-                </span>
+          <span className="mt-2 block">
+            <span className="text-4xl text-white md:text-6xl">
+              For{" "}
+            </span>
 
-                <span className="mt-2 flex flex-wrap items-baseline gap-3">
-                  <span className="text-4xl text-white md:text-6xl">
-                    For
-                  </span>
+            <span className="text-4xl text-orange-500 md:text-6xl">
+              Heavy Load Movement
+            </span>
+          </span>
+        </h1>
 
-                  <span className="text-4xl text-orange-500 md:text-6xl">
-                    Heavy Load Movement
-                  </span>
-                </span>
-              </h1>
+        <p className="mt-7 max-w-[620px] text-left text-lg leading-8 text-zinc-300">
+          Reliable tank movers, hydraulic jacks, lifting systems and
+          industrial handling equipment designed for factories,
+          warehouses and heavy-duty applications.
+        </p>
 
-              <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-300">
-                Reliable tank movers, hydraulic jacks, lifting systems and
-                industrial handling equipment designed for factories,
-                warehouses and heavy-duty applications.
-              </p>
+        <div className="mt-9 flex flex-wrap justify-start gap-4">
+          <a
+            href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
+            className="rounded-md bg-orange-500 px-7 py-4 font-semibold text-white transition hover:bg-orange-600"
+          >
+            View Featured Product
+          </a>
 
-              <div className="mt-8 flex flex-wrap gap-4">
-                <a
-                  href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-                  className="rounded-md bg-orange-500 px-6 py-3 font-semibold text-white transition hover:bg-orange-600"
-                >
-                  View Featured Product
-                </a>
+          <a
+            href="/#contact"
+            className="rounded-md border border-zinc-600 px-7 py-4 font-semibold text-white transition hover:border-white"
+          >
+            Contact Sales
+          </a>
+        </div>
+      </div>
 
-                <a
-                  href="/#contact"
-                  className="rounded-md border border-zinc-600 px-6 py-3 font-semibold text-white transition hover:border-white"
-                >
-                  Contact Sales
-                </a>
-              </div>
+      {/* RIGHT SIDE */}
+      <div className="relative mx-auto w-full max-w-[620px] lg:ml-auto">
+
+        {/* EXPERIENCE BADGE */}
+        <div className="relative z-20 mb-[-18px] ml-4 inline-flex items-center gap-3 rounded-full border border-orange-500/40 bg-zinc-950 px-7 py-4 shadow-xl lg:ml-[-50px]">
+          <div className="h-3 w-3 rounded-full bg-orange-500" />
+
+          <span className="text-lg font-bold text-white">
+            <span className="text-orange-500">+20</span> Years of Experience
+          </span>
+        </div>
+
+        {/* FEATURED PRODUCT VIDEO */}
+<div className="rounded-[30px] border border-zinc-800 bg-zinc-900 p-4 shadow-2xl">
+  <div className="overflow-hidden rounded-[24px] bg-black">
+    <div className="relative aspect-video w-full lg:min-h-[460px]">
+      <iframe
+        className="absolute inset-0 h-full w-full"
+        src="https://www.youtube.com/embed/eZI0aQcoraw?rel=0"
+        title="Tank Mover Product Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      />
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+
+    {/* TRUST / SALES BAR */}
+    <div className="mt-16 overflow-hidden rounded-xl bg-orange-600 text-white">
+      <div className="grid md:grid-cols-4">
+
+        <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
+          <Icon
+            icon="mdi:earth"
+            className="shrink-0 text-5xl text-orange-100"
+          />
+
+          <div>
+            <div className="text-2xl font-black leading-none">
+              Global B2B
             </div>
 
-            {/* EXPERIENCE BADGE */}
-            <div className="relative">
-              <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-orange-500/30 bg-zinc-900/90 px-6 py-3 shadow-lg backdrop-blur-md lg:absolute lg:-left-16 lg:-top-10 lg:z-20">
-                <div className="h-3 w-3 rounded-full bg-orange-500" />
-
-                <span className="text-lg font-bold text-white">
-                  <span className="text-orange-500">+20</span> Years of
-                  Experience
-                </span>
-              </div>
-
-              {/* FEATURED PRODUCT */}
-              <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-4 shadow-2xl">
-                <div className="flex min-h-[330px] w-full items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-orange-600 lg:w-[420px]">
-                  <div className="px-8 text-center">
-                    <div className="text-sm font-semibold uppercase tracking-[0.3em] text-white/80">
-                      Featured Product
-                    </div>
-
-                    <div className="mt-4 text-4xl font-black text-white">
-                      Tank Mover
-                    </div>
-
-                    <div className="mt-3 text-lg text-white/90">
-                      Flexible · Precise · Heavy Duty
-                    </div>
-
-                    <div className="mt-8 rounded-xl bg-black/20 px-6 py-5 text-white">
-                      Industrial heavy-load transport solution
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* TRUST / SALES BAR */}
-          <div className="mt-14 overflow-hidden rounded-xl bg-orange-600 text-white">
-            <div className="grid md:grid-cols-4">
-              <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
-                <Icon
-                  icon="mdi:earth"
-                  className="shrink-0 text-5xl text-orange-100"
-                />
-
-                <div>
-                  <div className="text-2xl font-black leading-none">
-                    Global B2B
-                  </div>
-
-                  <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
-                    Industrial Supply
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
-                <Icon
-                  icon="mdi:cog-outline"
-                  className="shrink-0 text-5xl text-orange-100"
-                />
-
-                <div>
-                  <div className="text-2xl font-black leading-none">
-                    OEM / ODM
-                  </div>
-
-                  <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
-                    Custom Solutions
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
-                <Icon
-                  icon="mdi:flash-outline"
-                  className="shrink-0 text-5xl text-orange-100"
-                />
-
-                <div>
-                  <div className="text-2xl font-black leading-none">
-                    Fast Quote
-                  </div>
-
-                  <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
-                    Sales Support
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-center gap-5 px-6 py-6">
-                <Icon
-                  icon="mdi:shield-check-outline"
-                  className="shrink-0 text-5xl text-orange-100"
-                />
-
-                <div>
-                  <div className="text-2xl font-black leading-none">
-                    Quality Focus
-                  </div>
-
-                  <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
-                    Reliable Equipment
-                  </div>
-                </div>
-              </div>
+            <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
+              Industrial Supply
             </div>
           </div>
         </div>
-      </section>
+
+        <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
+          <Icon
+            icon="mdi:cog-outline"
+            className="shrink-0 text-5xl text-orange-100"
+          />
+
+          <div>
+            <div className="text-2xl font-black leading-none">
+              OEM / ODM
+            </div>
+
+            <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
+              Custom Solutions
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
+          <Icon
+            icon="mdi:flash-outline"
+            className="shrink-0 text-5xl text-orange-100"
+          />
+
+          <div>
+            <div className="text-2xl font-black leading-none">
+              Fast Quote
+            </div>
+
+            <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
+              Sales Support
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center justify-center gap-5 px-6 py-6">
+          <Icon
+            icon="mdi:shield-check-outline"
+            className="shrink-0 text-5xl text-orange-100"
+          />
+
+          <div>
+            <div className="text-2xl font-black leading-none">
+              Quality Focus
+            </div>
+
+            <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
+              Reliable Equipment
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* ABOUT */}
       <section id="about" className="bg-zinc-100">
