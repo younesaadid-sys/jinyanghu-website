@@ -20,21 +20,21 @@ export default function HomeBanner() {
 
   return (
     <section className="relative w-full overflow-hidden bg-black">
-      <div className="relative aspect-[2.6/1] w-full bg-black">
-        {banners.map((banner, index) => (
-          <Image
-            key={banner}
-            src={banner}
-            alt={`Banner ${index + 1}`}
-            fill
-            priority={index === 0}
-            sizes="100vw"
-            className={`object-contain transition-opacity duration-1000 ${
-              index === current ? "opacity-100" : "opacity-0"
-            }`}
-          />
-        ))}
-      </div>
+    <div className="w-full bg-black">
+  {banners.map((banner, index) => (
+    <Image
+      key={banner}
+      src={banner}
+      alt={`Banner ${index + 1}`}
+      width={1974}
+      height={760}
+      priority={index === 0}
+      className={`h-auto w-full transition-opacity duration-1000 ${
+        index === current ? "opacity-100" : "opacity-0"
+      }`}
+    />
+  ))}
+</div>
 
       <div className="absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-2">
         {banners.map((_, index) => (
