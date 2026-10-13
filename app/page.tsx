@@ -113,7 +113,7 @@ export default function Home() {
 <div className="mt-10 overflow-hidden rounded-xl bg-orange-600 text-white"></div>
       <div className="grid -translate-y-5 md:grid-cols-4">
 
-        <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
+        <div className="flex items-center justify-center gap-5 px-6 py-4 md:border-r md:border-white/25">
           <Icon
             icon="mdi:earth"
             className="shrink-0 text-5xl text-orange-100"
