@@ -78,14 +78,7 @@ export default function Home() {
       {/* RIGHT SIDE */}
       <div className="relative mx-auto w-full max-w-[620px] lg:ml-auto">
 
-        {/* EXPERIENCE BADGE */}
-        <div className="relative z-20 mb-[-18px] ml-4 inline-flex items-center gap-3 rounded-full border border-orange-500/40 bg-zinc-950 px-7 py-4 shadow-xl lg:ml-[-50px]">
-          <div className="h-3 w-3 rounded-full bg-orange-500" />
-
-          <span className="text-lg font-bold text-white">
-            <span className="text-orange-500">+20</span> Years of Experience
-          </span>
-        </div>
+       
 
         {/* FEATURED PRODUCT VIDEO */}
 <div className="rounded-[30px] border border-zinc-800 bg-zinc-900 p-4 shadow-2xl">
@@ -106,6 +99,18 @@ export default function Home() {
 
     {/* TRUST / SALES BAR */}
     <div className="mt-16 overflow-hidden rounded-xl bg-orange-600 text-white">
+      {/* EXPERIENCE BADGE ABOVE SALES BAR */}
+<div className="mb-[-22px] flex justify-center">
+  <div className="relative z-20 inline-flex items-center gap-3 rounded-full border border-orange-500/40 bg-zinc-950 px-7 py-4 shadow-xl">
+    <div className="h-3 w-3 rounded-full bg-orange-500" />
+
+    <span className="text-lg font-bold text-white">
+      <span className="text-orange-500">+20</span> Years of Experience
+    </span>
+  </div>
+</div>
+{/* TRUST / SALES BAR */}
+<div className="mt-10 overflow-hidden rounded-xl bg-orange-600 text-white"></div>
       <div className="grid md:grid-cols-4">
 
         <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
