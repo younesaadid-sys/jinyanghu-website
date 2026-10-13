@@ -130,7 +130,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
+        <div className="flex items-center justify-center gap-5 px-6 py-4 md:border-r md:border-white/25">
           <Icon
             icon="mdi:cog-outline"
             className="shrink-0 text-5xl text-orange-100"
@@ -147,7 +147,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-5 px-6 py-6 md:border-r md:border-white/25">
+        <div className="flex items-center justify-center gap-5 px-6 py-4 md:border-r md:border-white/25">
           <Icon
             icon="mdi:flash-outline"
             className="shrink-0 text-5xl text-orange-100"
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-5 px-6 py-6">
+        <div className="flex items-center justify-center gap-5 px-6 py-4">
           <Icon
             icon="mdi:shield-check-outline"
             className="shrink-0 text-5xl text-orange-100"
