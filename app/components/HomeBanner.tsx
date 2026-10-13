@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const banners = [
-  "/home/heavy-duty-banner.png",
+   "/heavy-duty-banner.png",
 ];
 
 export default function HomeBanner() {
