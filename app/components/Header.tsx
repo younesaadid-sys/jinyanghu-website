@@ -18,58 +18,6 @@ const categories = [
     name: "Jacks",
     slug: "jacks",
   },
-  {
-    name: "Stair-Climbing Carts",
-    slug: "stair-climbing-carts",
-  },
-  {
-    name: "Pallet Trucks",
-    slug: "pallet-trucks",
-  },
-  {
-    name: "Stackers",
-    slug: "stackers",
-  },
-  {
-    name: "All-Terrain Transporters",
-    slug: "all-terrain-transporters",
-  },
-  {
-    name: "Gantry Cranes",
-    slug: "gantry-cranes",
-  },
-  {
-    name: "Freight Lifts & Aerial Work Equipment",
-    slug: "freight-lifts-aerial-work-equipment",
-  },
-  {
-    name: "Small Lifting Equipment",
-    slug: "small-lifting-equipment",
-  },
-  {
-    name: "Lifting Rigging",
-    slug: "lifting-rigging",
-  },
-  {
-    name: "Electronic Weighing Scales",
-    slug: "electronic-weighing-scales",
-  },
-  {
-    name: "Line-Work Tools",
-    slug: "line-work-tools",
-  },
-  {
-    name: "Pipeline Tools",
-    slug: "pipeline-tools",
-  },
-  {
-    name: "Drilling & Punching Equipment",
-    slug: "drilling-punching-equipment",
-  },
-  {
-    name: "Other Specialized Products",
-    slug: "other-specialized-products",
-  },
 ];
 
 const products: Record<
@@ -279,77 +227,6 @@ const products: Record<
       image: "/products/mk-series/mk-main.png",
     },
   ],
-
-  // =========================================================
-  // STAIR-CLIMBING CARTS
-  // =========================================================
-  "stair-climbing-carts": [
-    {
-      name: "JCA Series",
-      slug: "jca-series-tracked-stair-climbing-robot",
-      description:
-        "Tracked stair-climbing robot for transporting heavy goods safely and efficiently on stairs",
-      image: "/products/jca-series/jca-main.png",
-    },
-    {
-  name: "JCL Series",
-  slug: "jcl-series-tracked-stair-climber",
-  description:
-    "660 lbs tracked stair-climber with 500W motor and lithium battery for transporting heavy goods on stairs",
-  image: "/products/jcl-series/jcl-main.png",
-},
-{
-  name: "JCD Series",
-  slug: "jcd-series-wheeled-stair-climber",
-  description:
-    "Wheeled electric stair-climber for transporting heavy goods safely and efficiently",
-  image: "/products/jcd-series/jcd-main.png",
-},
-{
-  name: "JCE Series",
-  slug: "jce-series-stand-on-tracked-stair-climber",
-  description:
-    "Electric tracked stair-climber designed for safe and controlled transport of heavy loads on stairs",
-  image: "/products/jce-series/jce-main.png",
-},
-{
-  name: "JCS Series",
-  slug: "jcs-series-wheeled-stair-climber",
-  description:
-    "Electric wheeled stair-climber with foldable structure, brushless motor and lithium battery for heavy-load transport on stairs",
-  image: "/products/jcs-series/jcs-main.png",
-},
-{
-  name: "JCQ Series",
-  slug: "jcq-series-electric-flatbed-cart",
-  description:
-    "Electric flatbed cart designed for material handling, warehouse transport and slope climbing assistance",
-  image: "/products/jcq-series/jcq-main.png",
-},
-{
-  name: "JCV Series",
-  slug: "jcv-series-follow-me-electric-flatbed-cart",
-  description:
-    "Follow-me electric flatbed cart for heavy-duty warehouse and logistics transport",
-  image: "/products/jcv-series/jcv-main.png",
-},
-  ],
-
-  // =========================================================
-  // OTHER CATEGORIES
-  // =========================================================
-  "pallet-trucks": [],
-  stackers: [],
-  "all-terrain-transporters": [],
-  "gantry-cranes": [],
-  "freight-lifts-aerial-work-equipment": [],
-  "small-lifting-equipment": [],
-  "lifting-rigging": [],
-  "electronic-weighing-scales": [],
-  "line-work-tools": [],
-  "pipeline-tools": [],
-  "drilling-punching-equipment": [],
-  "other-specialized-products": [],
 };
 
 export default function Header() {
@@ -416,7 +293,7 @@ export default function Header() {
                       Product Categories
                     </p>
 
-                    <div className="max-h-[500px] overflow-y-auto">
+                    <div>
                       {categories.map((category) => (
                         <button
                           key={category.slug}
