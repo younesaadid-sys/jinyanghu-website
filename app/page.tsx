@@ -15,8 +15,6 @@ export default function Home() {
       {/* AUTOMATIC BANNER */}
 <HomeBanner />
 
-{/* AUTOMATIC BANNER */}
-<HomeBanner />
 
 {/* HERO */}
 <section
