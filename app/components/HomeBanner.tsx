@@ -20,7 +20,7 @@ export default function HomeBanner() {
 
   return (
     <section className="relative w-full overflow-hidden bg-black">
-      <div className="relative aspect-[2/1] w-full">
+      <div className="relative aspect-[2.6/1] w-full bg-black">
         {banners.map((banner, index) => (
           <Image
             key={banner}
@@ -29,7 +29,7 @@ export default function HomeBanner() {
             fill
             priority={index === 0}
             sizes="100vw"
-            className={`object-cover transition-opacity duration-1000 ${
+            className={`object-contain transition-opacity duration-1000 ${
               index === current ? "opacity-100" : "opacity-0"
             }`}
           />
