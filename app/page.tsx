@@ -13,9 +13,23 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-zinc-900">
       {/* AUTOMATIC BANNER */}
-      <HomeBanner />
+<HomeBanner />
 
-      {/* HERO */}
+{/* HEAVY DUTY BANNER */}
+<section className="bg-zinc-950">
+  <div className="w-full overflow-hidden">
+    <Image
+      src="/heavy-duty-banner.png"
+      alt="Heavy-duty machinery moving solutions"
+      width={1974}
+      height={760}
+      priority
+      className="h-auto w-full object-cover"
+    />
+  </div>
+</section>
+
+{/* HERO */}
 <section
   id="home"
   className="relative overflow-hidden bg-zinc-950 text-white"
