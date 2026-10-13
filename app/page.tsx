@@ -41,15 +41,15 @@ export default function Home() {
             Powerful Solutions
           </span>
 
-          <span className="mt-2 block">
-            <span className="text-4xl text-white md:text-6xl">
-              For{" "}
-            </span>
+         <span className="mt-2 block whitespace-nowrap">
+  <span className="text-4xl text-white md:text-6xl">
+    For{" "}
+  </span>
 
-            <span className="text-4xl text-orange-500 md:text-6xl">
-              Heavy Load Movement
-            </span>
-          </span>
+  <span className="text-4xl text-orange-500 md:text-6xl">
+    Heavy Load Movement
+  </span>
+</span>
         </h1>
 
         <p className="mt-7 max-w-[620px] text-left text-lg leading-8 text-zinc-300">
