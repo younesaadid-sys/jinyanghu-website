@@ -100,7 +100,7 @@ export default function Home() {
     {/* TRUST / SALES BAR */}
     <div className="mt-16 overflow-hidden rounded-xl bg-orange-600 text-white">
       {/* EXPERIENCE BADGE ABOVE SALES BAR */}
-<div className="mb-[-22px] flex justify-center">
+<div className="mb-[-10px] flex -translate-y-6 justify-center">
   <div className="relative z-20 inline-flex items-center gap-3 rounded-full border border-orange-500/40 bg-zinc-950 px-7 py-4 shadow-xl">
     <div className="h-3 w-3 rounded-full bg-orange-500" />
 
