@@ -330,7 +330,7 @@ export default function Home() {
     alt="WhatsApp QR Code"
     width={500}
     height={500}
-    className="h-auto w-[240px] object-contain"
+    className="h-auto w-[500px] object-contain"
   />
 </div>
 </div>
