@@ -248,10 +248,10 @@ export default function Home() {
       </section>
 {/* FEATURED PRODUCTS */}
 <section className="bg-white">
-  <div className="mx-auto max-w-7xl px-6 py-20">
+  <div className="mx-auto max-w-[1750px] px-4 py-16">
 
     {/* SECTION HEADER */}
-    <div className="mb-10">
+    <div className="mb-10 px-2">
       <p className="font-semibold uppercase tracking-wider text-orange-500">
         Featured Products
       </p>
@@ -267,31 +267,31 @@ export default function Home() {
     </div>
 
     {/* PRODUCTS GRID */}
-    <div className="mx-auto grid max-w-[1600px] gap-5 px-4 py-16 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
 
       {/* PRODUCT 1 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[185px] bg-zinc-50">
+        <div className="relative h-[170px] bg-zinc-50">
           <Image
             src="/products/ja-series/ja-main.jpg"
             alt="JA Series"
             fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
+            className="object-contain p-4 transition duration-300 group-hover:scale-105"
           />
         </div>
 
-        <div className="p-5">
-          <h3 className="text-xl font-black text-zinc-900">
+        <div className="p-4">
+          <h3 className="text-lg font-black text-zinc-900">
             JA Series
           </h3>
 
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
+          <p className="mt-2 min-h-[72px] text-sm leading-6 text-zinc-500">
             Electric heavy-duty tank transporters for industrial machinery.
           </p>
 
           <a
             href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+            className="mt-4 flex w-full items-center justify-center rounded-lg bg-orange-500 px-3 py-3 font-bold text-white transition hover:bg-orange-600"
           >
             View Product
           </a>
@@ -300,27 +300,27 @@ export default function Home() {
 
       {/* PRODUCT 2 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-       <div className="relative h-[185px] bg-zinc-50">
+        <div className="relative h-[170px] bg-zinc-50">
           <Image
             src="/products/ja-b-series/ja-b-main.jpg"
             alt="JA-B Series"
             fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
+            className="object-contain p-4 transition duration-300 group-hover:scale-105"
           />
         </div>
 
-        <div className="p-5">
-          <h3 className="text-xl font-black text-zinc-900">
+        <div className="p-4">
+          <h3 className="text-lg font-black text-zinc-900">
             JA-B Series
           </h3>
 
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
+          <p className="mt-2 min-h-[72px] text-sm leading-6 text-zinc-500">
             Heavy-duty electric transport equipment for demanding loads.
           </p>
 
           <a
             href="/products/electric-heavy-duty-movers/ja-b-series-electric-tank-transporters"
-            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+            className="mt-4 flex w-full items-center justify-center rounded-lg bg-orange-500 px-3 py-3 font-bold text-white transition hover:bg-orange-600"
           >
             View Product
           </a>
@@ -329,27 +329,27 @@ export default function Home() {
 
       {/* PRODUCT 3 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[185px] bg-zinc-50">
+        <div className="relative h-[170px] bg-zinc-50">
           <Image
-            src="/products/jx-series/jx-main.jpg"
-            alt="JX Series"
+            src="/products/js-series/js-main.png"
+            alt="JS Series"
             fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
+            className="object-contain p-4 transition duration-300 group-hover:scale-105"
           />
         </div>
 
-        <div className="p-5">
-          <h3 className="text-xl font-black text-zinc-900">
-            JX Series
+        <div className="p-4">
+          <h3 className="text-lg font-black text-zinc-900">
+            JS Series
           </h3>
 
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
-            Remote-controlled machinery skate for heavy-load transport.
+          <p className="mt-2 min-h-[72px] text-sm leading-6 text-zinc-500">
+            Wireless electric transporter for flexible heavy-load movement.
           </p>
 
           <a
-            href="/products/electric-heavy-duty-movers/jx-series-electric-machinery-skate-dolly"
-            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+            href="/products/electric-heavy-duty-movers/js-series-electric-tank-transporters"
+            className="mt-4 flex w-full items-center justify-center rounded-lg bg-orange-500 px-3 py-3 font-bold text-white transition hover:bg-orange-600"
           >
             View Product
           </a>
@@ -358,27 +358,27 @@ export default function Home() {
 
       {/* PRODUCT 4 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[185px] bg-zinc-50">
+        <div className="relative h-[170px] bg-zinc-50">
           <Image
-            src="/products/cra-series/cra-main.jpg"
-            alt="CRA Series"
+            src="/products/jx-series/jx-main.jpg"
+            alt="JX Series"
             fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
+            className="object-contain p-4 transition duration-300 group-hover:scale-105"
           />
         </div>
 
-        <div className="p-5">
-          <h3 className="text-xl font-black text-zinc-900">
-            CRA Series
+        <div className="p-4">
+          <h3 className="text-lg font-black text-zinc-900">
+            JX Series
           </h3>
 
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
-            Manual heavy-duty machinery skates for industrial moving.
+          <p className="mt-2 min-h-[72px] text-sm leading-6 text-zinc-500">
+            Remote-controlled machinery skate for heavy-load transport.
           </p>
 
           <a
-            href="/products/manual-heavy-duty-movers/cra-series-tank-transporters"
-            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+            href="/products/electric-heavy-duty-movers/jx-series-electric-machinery-skate-dolly"
+            className="mt-4 flex w-full items-center justify-center rounded-lg bg-orange-500 px-3 py-3 font-bold text-white transition hover:bg-orange-600"
           >
             View Product
           </a>
@@ -387,27 +387,56 @@ export default function Home() {
 
       {/* PRODUCT 5 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[185px] bg-zinc-50">
+        <div className="relative h-[170px] bg-zinc-50">
           <Image
-            src="/products/ma-series/ma-main.png"
-            alt="MA Series"
+            src="/products/cra-series/cra-main.jpg"
+            alt="CRA Series"
             fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
+            className="object-contain p-4 transition duration-300 group-hover:scale-105"
           />
         </div>
 
         <div className="p-4">
-          <h3 className="text-xl font-black text-zinc-900">
+          <h3 className="text-lg font-black text-zinc-900">
+            CRA Series
+          </h3>
+
+          <p className="mt-2 min-h-[72px] text-sm leading-6 text-zinc-500">
+            Manual heavy-duty machinery skates for industrial moving.
+          </p>
+
+          <a
+            href="/products/manual-heavy-duty-movers/cra-series-tank-transporters"
+            className="mt-4 flex w-full items-center justify-center rounded-lg bg-orange-500 px-3 py-3 font-bold text-white transition hover:bg-orange-600"
+          >
+            View Product
+          </a>
+        </div>
+      </div>
+
+      {/* PRODUCT 6 */}
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+        <div className="relative h-[170px] bg-zinc-50">
+          <Image
+            src="/products/ma-series/ma-main.png"
+            alt="MA Series"
+            fill
+            className="object-contain p-4 transition duration-300 group-hover:scale-105"
+          />
+        </div>
+
+        <div className="p-4">
+          <h3 className="text-lg font-black text-zinc-900">
             MA Series
           </h3>
 
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
+          <p className="mt-2 min-h-[72px] text-sm leading-6 text-zinc-500">
             Hydraulic claw jack for heavy equipment lifting and positioning.
           </p>
 
           <a
             href="/products/jacks/ma-series-dual-purpose-claw-jacks"
-            className="mt-4 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+            className="mt-4 flex w-full items-center justify-center rounded-lg bg-orange-500 px-3 py-3 font-bold text-white transition hover:bg-orange-600"
           >
             View Product
           </a>
