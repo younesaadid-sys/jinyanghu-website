@@ -251,34 +251,32 @@ export default function Home() {
   <div className="mx-auto max-w-7xl px-6 py-20">
 
     {/* SECTION HEADER */}
-    <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-      <div>
-        <p className="font-semibold uppercase tracking-wider text-orange-500">
-          Featured Products
-        </p>
+    <div className="mb-10">
+      <p className="font-semibold uppercase tracking-wider text-orange-500">
+        Featured Products
+      </p>
 
-        <h2 className="mt-2 text-4xl font-black text-zinc-900">
-          Industrial Equipment Solutions
-        </h2>
+      <h2 className="mt-2 text-4xl font-black text-zinc-900">
+        Industrial Equipment Solutions
+      </h2>
 
-        <p className="mt-3 max-w-2xl leading-7 text-zinc-600">
-          Explore some of our most popular lifting and heavy-load moving
-          equipment.
-        </p>
-      </div>
+      <p className="mt-3 max-w-2xl leading-7 text-zinc-600">
+        Explore some of our most popular lifting and heavy-load moving
+        equipment.
+      </p>
     </div>
 
     {/* PRODUCTS GRID */}
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
 
       {/* PRODUCT 1 */}
-      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
         <div className="relative h-[220px] bg-zinc-50">
           <Image
             src="/products/ja-series/ja-main.jpg"
             alt="JA Series"
             fill
-            className="object-contain p-5"
+            className="object-contain p-5 transition duration-300 group-hover:scale-105"
           />
         </div>
 
@@ -292,22 +290,22 @@ export default function Home() {
           </p>
 
           <a
-            href="/#contact"
+            href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
             className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
           >
-            Request a Price
+            View Product
           </a>
         </div>
       </div>
 
       {/* PRODUCT 2 */}
-      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
         <div className="relative h-[220px] bg-zinc-50">
           <Image
             src="/products/ja-b-series/ja-b-main.jpg"
             alt="JA-B Series"
             fill
-            className="object-contain p-5"
+            className="object-contain p-5 transition duration-300 group-hover:scale-105"
           />
         </div>
 
@@ -321,22 +319,22 @@ export default function Home() {
           </p>
 
           <a
-            href="/#contact"
+            href="/products/electric-heavy-duty-movers/ja-b-series-electric-tank-transporters"
             className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
           >
-            Request a Price
+            View Product
           </a>
         </div>
       </div>
 
       {/* PRODUCT 3 */}
-      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
         <div className="relative h-[220px] bg-zinc-50">
           <Image
             src="/products/jx-series/jx-main.jpg"
             alt="JX Series"
             fill
-            className="object-contain p-5"
+            className="object-contain p-5 transition duration-300 group-hover:scale-105"
           />
         </div>
 
@@ -350,22 +348,22 @@ export default function Home() {
           </p>
 
           <a
-            href="/#contact"
+            href="/products/electric-heavy-duty-movers/jx-series-electric-machinery-skate-dolly"
             className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
           >
-            Request a Price
+            View Product
           </a>
         </div>
       </div>
 
       {/* PRODUCT 4 */}
-      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
         <div className="relative h-[220px] bg-zinc-50">
           <Image
             src="/products/cra-series/cra-main.jpg"
             alt="CRA Series"
             fill
-            className="object-contain p-5"
+            className="object-contain p-5 transition duration-300 group-hover:scale-105"
           />
         </div>
 
@@ -379,22 +377,22 @@ export default function Home() {
           </p>
 
           <a
-            href="/#contact"
+            href="/products/manual-heavy-duty-movers/cra-series-tank-transporters"
             className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
           >
-            Request a Price
+            View Product
           </a>
         </div>
       </div>
 
       {/* PRODUCT 5 */}
-      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
         <div className="relative h-[220px] bg-zinc-50">
           <Image
             src="/products/ma-series/ma-main.png"
             alt="MA Series"
             fill
-            className="object-contain p-5"
+            className="object-contain p-5 transition duration-300 group-hover:scale-105"
           />
         </div>
 
@@ -408,10 +406,10 @@ export default function Home() {
           </p>
 
           <a
-            href="/#contact"
+            href="/products/jacks/ma-series-dual-purpose-claw-jacks"
             className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
           >
-            Request a Price
+            View Product
           </a>
         </div>
       </div>
