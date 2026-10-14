@@ -268,7 +268,7 @@ export default function Home() {
   </div>
 
   {/* CONTACT CARDS */}
-  <div className="grid gap-8 lg:ml-auto lg:w-[360px]">
+  <div className="grid gap-12 lg:ml-auto lg:w-[360px]">
 
     <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
       <Icon
