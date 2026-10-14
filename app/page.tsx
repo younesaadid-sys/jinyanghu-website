@@ -248,91 +248,95 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="bg-orange-500 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-12">
-          <div className="grid gap-10 lg:grid-cols-[1.15fr_0.75fr_0.5fr] lg:items-center">
-          {/* LEFT TEXT */}
-  <div>
-    <p className="font-semibold uppercase tracking-wider text-orange-100">
-      Business Cooperation
-    </p>
+<section id="contact" className="bg-orange-500 text-white">
+  <div className="mx-auto max-w-7xl px-6 py-12">
+    <div className="grid gap-12 lg:grid-cols-[1fr_360px] lg:items-center lg:justify-between">
 
-    <h2 className="mt-3 text-4xl font-black">
-      Need a quotation or product recommendation?
-    </h2>
+      {/* LEFT TEXT */}
+      <div className="max-w-[650px]">
+        <p className="font-semibold uppercase tracking-wider text-orange-100">
+          Business Cooperation
+        </p>
 
-    <p className="mt-4 max-w-2xl leading-7 text-orange-100">
-      Send us your required model, load capacity and application. Our team
-      will help you select the right equipment.
-    </p>
-  </div>
+        <h2 className="mt-3 text-4xl font-black leading-tight">
+          Need a quotation or product recommendation?
+        </h2>
 
-  {/* CONTACT CARDS */}
-  <div className="grid gap-4 lg:w-[360px] lg:translate-x-[430px]">
+        <p className="mt-4 max-w-2xl leading-7 text-orange-100">
+          Send us your required model, load capacity and application. Our team
+          will help you select the right equipment.
+        </p>
+      </div>
 
-    <a
-  href="mailto:genefen@jcsqz.com"
-  className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm transition hover:bg-white/20"
->
-  <Icon
-    icon="mdi:email-outline"
-    className="shrink-0 text-3xl text-white"
-  />
+      {/* CONTACT CARDS */}
+      <div className="grid w-full gap-4 lg:ml-auto lg:w-[360px]">
 
-  <div>
-    <div className="text-sm font-semibold text-orange-100">
-      Email
-    </div>
+        {/* EMAIL */}
+        <a
+          href="mailto:genefen@jcsqz.com"
+          className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm transition duration-200 hover:-translate-y-1 hover:bg-white/20 hover:shadow-lg"
+        >
+          <Icon
+            icon="mdi:email-outline"
+            className="shrink-0 text-3xl text-white"
+          />
 
-    <div className="mt-1 font-bold">
-      genefen@jcsqz.com
-    </div>
-  </div>
-</a>
+          <div>
+            <div className="text-sm font-semibold text-orange-100">
+              Email
+            </div>
 
-    <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
-      <Icon
-        icon="mdi:whatsapp"
-        className="shrink-0 text-3xl text-white"
-      />
+            <div className="mt-1 font-bold">
+              genefen@jcsqz.com
+            </div>
+          </div>
+        </a>
 
-      <a
-  href="https://wa.me/8613100006833"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm transition hover:bg-white/20"
->
-  <Icon
-    icon="mdi:whatsapp"
-    className="shrink-0 text-3xl text-white"
-  />
+        {/* WHATSAPP */}
+        <a
+          href="https://wa.me/8613100006833"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm transition duration-200 hover:-translate-y-1 hover:bg-white/20 hover:shadow-lg"
+        >
+          <Icon
+            icon="mdi:whatsapp"
+            className="shrink-0 text-3xl text-white"
+          />
 
-  <div>
-    <div className="text-sm font-semibold text-orange-100">
-      WhatsApp
-    </div>
+          <div>
+            <div className="text-sm font-semibold text-orange-100">
+              WhatsApp
+            </div>
 
-    <div className="mt-1 font-bold">
-      +86 131 0000 6833
-    </div>
-  </div>
-</a>
+            <div className="mt-1 font-bold">
+              +86 131 0000 6833
+            </div>
+          </div>
+        </a>
 
-      <div>
-        <div className="text-sm font-semibold text-orange-100">
-          Response Time
+        {/* RESPONSE TIME */}
+        <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
+          <Icon
+            icon="mdi:clock-outline"
+            className="shrink-0 text-3xl text-white"
+          />
+
+          <div>
+            <div className="text-sm font-semibold text-orange-100">
+              Response Time
+            </div>
+
+            <div className="mt-1 font-bold">
+              Within 24 Hours
+            </div>
+          </div>
         </div>
 
-        <div className="mt-1 font-bold">
-          Within 24 Hours
-        </div>
       </div>
     </div>
-
   </div>
-</div>
-  </div>
-      </section>
+</section>
 
       {/* FOOTER */}
       <footer className="bg-zinc-950 text-zinc-400">
