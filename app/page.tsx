@@ -267,11 +267,11 @@ export default function Home() {
     </div>
 
     {/* PRODUCTS GRID */}
-    <div className="mx-auto grid max-w-[1500px] gap-6 px-6 py-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+    <div className="mx-auto grid max-w-[1600px] gap-5 px-4 py-16 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
 
       {/* PRODUCT 1 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[220px] bg-zinc-50">
+        <div className="relative h-[185px] bg-zinc-50">
           <Image
             src="/products/ja-series/ja-main.jpg"
             alt="JA Series"
@@ -300,7 +300,7 @@ export default function Home() {
 
       {/* PRODUCT 2 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[220px] bg-zinc-50">
+       <div className="relative h-[185px] bg-zinc-50">
           <Image
             src="/products/ja-b-series/ja-b-main.jpg"
             alt="JA-B Series"
@@ -329,7 +329,7 @@ export default function Home() {
 
       {/* PRODUCT 3 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[220px] bg-zinc-50">
+        <div className="relative h-[185px] bg-zinc-50">
           <Image
             src="/products/jx-series/jx-main.jpg"
             alt="JX Series"
@@ -358,7 +358,7 @@ export default function Home() {
 
       {/* PRODUCT 4 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[220px] bg-zinc-50">
+        <div className="relative h-[185px] bg-zinc-50">
           <Image
             src="/products/cra-series/cra-main.jpg"
             alt="CRA Series"
@@ -387,7 +387,7 @@ export default function Home() {
 
       {/* PRODUCT 5 */}
       <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-        <div className="relative h-[220px] bg-zinc-50">
+        <div className="relative h-[185px] bg-zinc-50">
           <Image
             src="/products/ma-series/ma-main.png"
             alt="MA Series"
@@ -396,7 +396,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="p-5">
+        <div className="p-4">
           <h3 className="text-xl font-black text-zinc-900">
             MA Series
           </h3>
@@ -407,7 +407,7 @@ export default function Home() {
 
           <a
             href="/products/jacks/ma-series-dual-purpose-claw-jacks"
-            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+            className="mt-4 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
           >
             View Product
           </a>
