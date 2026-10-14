@@ -241,7 +241,29 @@ export default function Header() {
   );
 
   const activeProducts = products[activeCategory] || [];
+const [searchQuery, setSearchQuery] = useState("");
+const [searchOpen, setSearchOpen] = useState(false);
 
+const searchableProducts = categories.flatMap((category) =>
+  (products[category.slug] || []).map((product) => ({
+    ...product,
+    categoryName: category.name,
+    categorySlug: category.slug,
+  }))
+);
+
+const normalizedSearch = searchQuery.trim().toLowerCase();
+
+const searchResults = normalizedSearch
+  ? searchableProducts
+      .filter((product) => {
+        const text =
+          `${product.name} ${product.description} ${product.categoryName}`.toLowerCase();
+
+        return text.includes(normalizedSearch);
+      })
+      .slice(0, 8)
+  : [];
   return (
     <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white md:block">
       <div className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
@@ -262,7 +284,7 @@ export default function Header() {
         </Link>
 
         {/* NAVIGATION */}
-        <nav className="flex items-center gap-10 text-base font-medium text-zinc-900">
+        <nav className="flex items-center gap-8 text-base font-medium text-zinc-900">
           <Link
             href="/"
             className="transition hover:text-orange-500"
@@ -423,7 +445,138 @@ export default function Header() {
             Contact
           </Link>
         </nav>
+{/* PRODUCT SEARCH */}
+<div className="relative hidden xl:block">
+  <div
+    className={`flex h-11 w-[260px] items-center gap-2 rounded-xl border px-3 transition ${
+      searchOpen
+        ? "border-orange-400 bg-white shadow-sm"
+        : "border-zinc-200 bg-zinc-50"
+    }`}
+  >
+    {/* SEARCH ICON */}
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5 shrink-0 fill-none stroke-zinc-400"
+      strokeWidth="2"
+      aria-hidden="true"
+    >
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.5-3.5" />
+    </svg>
 
+    <input
+      type="search"
+      value={searchQuery}
+      placeholder="Search products..."
+      aria-label="Search products"
+      onChange={(e) => {
+        setSearchQuery(e.target.value);
+        setSearchOpen(true);
+      }}
+      onFocus={() => {
+        setSearchOpen(true);
+        setMenuOpen(false);
+      }}
+      onBlur={() => {
+        setTimeout(() => {
+          setSearchOpen(false);
+        }, 150);
+      }}
+      className="min-w-0 flex-1 bg-transparent text-sm text-zinc-900 outline-none placeholder:text-zinc-400"
+    />
+
+    {searchQuery && (
+      <button
+        type="button"
+        onMouseDown={(e) => e.preventDefault()}
+        onClick={() => {
+          setSearchQuery("");
+          setSearchOpen(true);
+        }}
+        className="flex h-6 w-6 items-center justify-center rounded-full text-zinc-400 transition hover:bg-zinc-200 hover:text-zinc-700"
+      >
+        ×
+      </button>
+    )}
+  </div>
+
+  {/* SEARCH RESULTS */}
+  {searchOpen && searchQuery.trim() && (
+    <div className="absolute right-0 top-[calc(100%+10px)] z-[120] w-[390px] overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl">
+
+      <div className="border-b border-zinc-100 px-4 py-3">
+        <p className="text-xs font-bold uppercase tracking-wider text-zinc-400">
+          Product Search
+        </p>
+      </div>
+
+      {searchResults.length > 0 ? (
+        <div className="max-h-[430px] overflow-y-auto p-2">
+          {searchResults.map((product) => (
+            <Link
+              key={`${product.categorySlug}-${product.slug}`}
+              href={`/products/${product.categorySlug}/${product.slug}`}
+              onClick={() => {
+                setSearchOpen(false);
+                setSearchQuery("");
+              }}
+              className="group flex items-center gap-3 rounded-xl p-3 transition hover:bg-orange-50"
+            >
+              {/* IMAGE */}
+              <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg border border-zinc-100 bg-white">
+                {product.image ? (
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    sizes="56px"
+                    className="object-contain p-1"
+                  />
+                ) : (
+                  <div className="flex h-full w-full items-center justify-center text-xs font-bold text-zinc-300">
+                    JYH
+                  </div>
+                )}
+              </div>
+
+              {/* PRODUCT INFO */}
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center justify-between gap-3">
+                  <p className="truncate text-sm font-bold text-zinc-900 group-hover:text-orange-500">
+                    {product.name}
+                  </p>
+
+                  <span className="shrink-0 text-orange-500">
+                    →
+                  </span>
+                </div>
+
+                <p className="mt-1 truncate text-xs text-zinc-500">
+                  {product.categoryName}
+                </p>
+
+                <p className="mt-1 truncate text-xs text-zinc-400">
+                  {product.description}
+                </p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      ) : (
+        <div className="px-5 py-7 text-center">
+          <p className="font-semibold text-zinc-900">
+            No products found
+          </p>
+
+          <p className="mt-1 text-sm text-zinc-500">
+            Try another model or product name.
+          </p>
+        </div>
+      )}
+    </div>
+  )}
+</div>
         {/* QUOTE */}
         <div>
           <QuoteModal />
