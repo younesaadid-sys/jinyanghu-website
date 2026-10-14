@@ -270,22 +270,25 @@ export default function Home() {
   {/* CONTACT CARDS */}
   <div className="grid gap-4 lg:w-[360px] lg:translate-x-[430px]">
 
-    <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
-      <Icon
-        icon="mdi:email-outline"
-        className="shrink-0 text-3xl text-white"
-      />
+    <a
+  href="mailto:genefen@jcsqz.com"
+  className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm transition hover:bg-white/20"
+>
+  <Icon
+    icon="mdi:email-outline"
+    className="shrink-0 text-3xl text-white"
+  />
 
-      <div>
-        <div className="text-sm font-semibold text-orange-100">
-          Email
-        </div>
-
-        <div className="mt-1 font-bold">
-          sales@jinyanghu.com
-        </div>
-      </div>
+  <div>
+    <div className="text-sm font-semibold text-orange-100">
+      Email
     </div>
+
+    <div className="mt-1 font-bold">
+      genefen@jcsqz.com
+    </div>
+  </div>
+</a>
 
     <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
       <Icon
@@ -293,22 +296,27 @@ export default function Home() {
         className="shrink-0 text-3xl text-white"
       />
 
-      <div>
-        <div className="text-sm font-semibold text-orange-100">
-          WhatsApp
-        </div>
+      <a
+  href="https://wa.me/8613100006833"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm transition hover:bg-white/20"
+>
+  <Icon
+    icon="mdi:whatsapp"
+    className="shrink-0 text-3xl text-white"
+  />
 
-        <div className="mt-1 font-bold">
-          +86 XXX XXXX XXXX
-        </div>
-      </div>
+  <div>
+    <div className="text-sm font-semibold text-orange-100">
+      WhatsApp
     </div>
 
-    <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
-      <Icon
-        icon="mdi:clock-outline"
-        className="shrink-0 text-3xl text-white"
-      />
+    <div className="mt-1 font-bold">
+      +86 131 0000 6833
+    </div>
+  </div>
+</a>
 
       <div>
         <div className="text-sm font-semibold text-orange-100">
