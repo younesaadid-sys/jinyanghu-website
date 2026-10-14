@@ -250,7 +250,7 @@ export default function Home() {
       {/* CONTACT */}
       <section id="contact" className="bg-orange-500 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+          <div className="grid gap-10 lg:grid-cols-[1.1fr_0.7fr_0.45fr] lg:items-center">
             <div>
               <p className="font-semibold uppercase tracking-wider text-orange-100">
                 Business Cooperation
@@ -316,6 +316,26 @@ export default function Home() {
                     Within 24 Hours
                   </div>
                 </div>
+                {/* WHATSAPP QR */}
+<div className="flex justify-center lg:justify-end">
+  <div className="rounded-2xl bg-white p-5 text-center shadow-lg">
+    <Image
+      src="/whatsapp-qr.png"
+      alt="WhatsApp QR Code"
+      width={170}
+      height={170}
+      className="mx-auto h-[170px] w-[170px] object-contain"
+    />
+
+    <div className="mt-3 text-sm font-bold text-zinc-900">
+      Scan to WhatsApp
+    </div>
+
+    <p className="mt-1 text-xs text-zinc-500">
+      Contact our sales team
+    </p>
+  </div>
+</div>
               </div>
             </div>
           </div>
