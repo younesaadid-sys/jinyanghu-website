@@ -263,11 +263,11 @@ export default function Home() {
       </div>
 
       <a
-        href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-        className="hidden text-sm font-semibold text-zinc-600 transition hover:text-orange-500 md:block"
-      >
-        View More →
-      </a>
+  href="/products"
+  className="hidden text-sm font-semibold text-zinc-600 transition hover:text-orange-500 md:block"
+>
+  View More →
+</a>
     </div>
 
     {/* PRODUCTS */}
