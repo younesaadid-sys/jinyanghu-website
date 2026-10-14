@@ -246,7 +246,179 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* FEATURED PRODUCTS */}
+<section className="bg-white">
+  <div className="mx-auto max-w-7xl px-6 py-20">
 
+    {/* SECTION HEADER */}
+    <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+      <div>
+        <p className="font-semibold uppercase tracking-wider text-orange-500">
+          Featured Products
+        </p>
+
+        <h2 className="mt-2 text-4xl font-black text-zinc-900">
+          Industrial Equipment Solutions
+        </h2>
+
+        <p className="mt-3 max-w-2xl leading-7 text-zinc-600">
+          Explore some of our most popular lifting and heavy-load moving
+          equipment.
+        </p>
+      </div>
+    </div>
+
+    {/* PRODUCTS GRID */}
+    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+
+      {/* PRODUCT 1 */}
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+        <div className="relative h-[220px] bg-zinc-50">
+          <Image
+            src="/products/ja-series/ja-main.jpg"
+            alt="JA Series"
+            fill
+            className="object-contain p-5"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-black text-zinc-900">
+            JA Series
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-zinc-500">
+            Electric heavy-duty tank transporters for industrial machinery.
+          </p>
+
+          <a
+            href="/#contact"
+            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+          >
+            Request a Price
+          </a>
+        </div>
+      </div>
+
+      {/* PRODUCT 2 */}
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+        <div className="relative h-[220px] bg-zinc-50">
+          <Image
+            src="/products/ja-b-series/ja-b-main.jpg"
+            alt="JA-B Series"
+            fill
+            className="object-contain p-5"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-black text-zinc-900">
+            JA-B Series
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-zinc-500">
+            Heavy-duty electric transport equipment for demanding loads.
+          </p>
+
+          <a
+            href="/#contact"
+            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+          >
+            Request a Price
+          </a>
+        </div>
+      </div>
+
+      {/* PRODUCT 3 */}
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+        <div className="relative h-[220px] bg-zinc-50">
+          <Image
+            src="/products/jx-series/jx-main.jpg"
+            alt="JX Series"
+            fill
+            className="object-contain p-5"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-black text-zinc-900">
+            JX Series
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-zinc-500">
+            Remote-controlled machinery skate for heavy-load transport.
+          </p>
+
+          <a
+            href="/#contact"
+            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+          >
+            Request a Price
+          </a>
+        </div>
+      </div>
+
+      {/* PRODUCT 4 */}
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+        <div className="relative h-[220px] bg-zinc-50">
+          <Image
+            src="/products/cra-series/cra-main.jpg"
+            alt="CRA Series"
+            fill
+            className="object-contain p-5"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-black text-zinc-900">
+            CRA Series
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-zinc-500">
+            Manual heavy-duty machinery skates for industrial moving.
+          </p>
+
+          <a
+            href="/#contact"
+            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+          >
+            Request a Price
+          </a>
+        </div>
+      </div>
+
+      {/* PRODUCT 5 */}
+      <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+        <div className="relative h-[220px] bg-zinc-50">
+          <Image
+            src="/products/ma-series/ma-main.png"
+            alt="MA Series"
+            fill
+            className="object-contain p-5"
+          />
+        </div>
+
+        <div className="p-5">
+          <h3 className="text-xl font-black text-zinc-900">
+            MA Series
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-zinc-500">
+            Hydraulic claw jack for heavy equipment lifting and positioning.
+          </p>
+
+          <a
+            href="/#contact"
+            className="mt-5 flex w-full items-center justify-center rounded-lg bg-orange-500 px-4 py-3 font-bold text-white transition hover:bg-orange-600"
+          >
+            Request a Price
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
       {/* CONTACT */}
 <section id="contact" className="bg-orange-500 text-white">
   <div className="mx-auto max-w-7xl px-6 py-12">
