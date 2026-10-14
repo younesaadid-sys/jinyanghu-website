@@ -324,13 +324,13 @@ export default function Home() {
   </div>
 
   {/* QR CODE RIGHT SIDE */}
-  <div className="flex h-full translate-y-6 items-center justify-center lg:justify-end">
+  <div className="flex h-full translate-y-2 items-center justify-center lg:justify-end">
   <Image
     src="/whatsapp-qr-v2.jpeg"
     alt="WhatsApp QR Code"
-    width={300}
-    height={300}
-    className="h-[300px] w-[300px] object-contain"
+    width={350}
+    height={350}
+    className="h-[350px] w-[350px] object-contain"
   />
 </div>
 </div>
