@@ -328,9 +328,9 @@ export default function Home() {
   <Image
     src="/whatsapp-qr-v2.jpeg"
     alt="WhatsApp QR Code"
-    width={400}
-    height={400}
-    className="block h-[400px] w-[400px] rounded-3xl object-contain"
+    width={300}
+    height={300}
+    className="block h-[300px] w-[300px] rounded-3xl object-contain"
   />
 </div>
 </div>
