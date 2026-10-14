@@ -250,96 +250,101 @@ export default function Home() {
       {/* CONTACT */}
       <section id="contact" className="bg-orange-500 text-white">
         <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="grid gap-10 lg:grid-cols-[1.1fr_0.7fr_0.45fr] lg:items-center">
-            <div>
-              <p className="font-semibold uppercase tracking-wider text-orange-100">
-                Business Cooperation
-              </p>
+          <div className="grid gap-10 lg:grid-cols-[1.15fr_0.75fr_0.5fr] lg:items-center">
+          {/* LEFT TEXT */}
+  <div>
+    <p className="font-semibold uppercase tracking-wider text-orange-100">
+      Business Cooperation
+    </p>
 
-              <h2 className="mt-3 text-4xl font-black">
-                Need a quotation or product recommendation?
-              </h2>
+    <h2 className="mt-3 text-4xl font-black">
+      Need a quotation or product recommendation?
+    </h2>
 
-              <p className="mt-4 max-w-2xl leading-7 text-orange-100">
-                Send us your required model, load capacity and application. Our
-                team will help you select the right equipment.
-              </p>
-            </div>
-
-            <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
-              <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
-                <Icon
-                  icon="mdi:email-outline"
-                  className="shrink-0 text-3xl text-white"
-                />
-
-                <div>
-                  <div className="text-sm font-semibold text-orange-100">
-                    Email
-                  </div>
-
-                  <div className="mt-1 font-bold">
-                    sales@jinyanghu.com
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
-                <Icon
-                  icon="mdi:whatsapp"
-                  className="shrink-0 text-3xl text-white"
-                />
-
-                <div>
-                  <div className="text-sm font-semibold text-orange-100">
-                    WhatsApp
-                  </div>
-
-                  <div className="mt-1 font-bold">
-                    +86 XXX XXXX XXXX
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
-                <Icon
-                  icon="mdi:clock-outline"
-                  className="shrink-0 text-3xl text-white"
-                />
-
-                <div>
-                  <div className="text-sm font-semibold text-orange-100">
-                    Response Time
-                  </div>
-
-                  <div className="mt-1 font-bold">
-                    Within 24 Hours
-                  </div>
-                </div>
-                {/* WHATSAPP QR */}
-<div className="flex justify-center lg:justify-end">
-  <div className="rounded-2xl bg-white p-5 text-center shadow-lg">
-    <Image
-      src="/whatsapp-qr.png"
-      alt="WhatsApp QR Code"
-      width={170}
-      height={170}
-      className="mx-auto h-[170px] w-[170px] object-contain"
-    />
-
-    <div className="mt-3 text-sm font-bold text-zinc-900">
-      Scan to WhatsApp
-    </div>
-
-    <p className="mt-1 text-xs text-zinc-500">
-      Contact our sales team
+    <p className="mt-4 max-w-2xl leading-7 text-orange-100">
+      Send us your required model, load capacity and application. Our team
+      will help you select the right equipment.
     </p>
   </div>
-</div>
-              </div>
-            </div>
-          </div>
+
+  {/* CONTACT CARDS */}
+  <div className="grid gap-4">
+
+    <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
+      <Icon
+        icon="mdi:email-outline"
+        className="shrink-0 text-3xl text-white"
+      />
+
+      <div>
+        <div className="text-sm font-semibold text-orange-100">
+          Email
         </div>
+
+        <div className="mt-1 font-bold">
+          sales@jinyanghu.com
+        </div>
+      </div>
+    </div>
+
+    <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
+      <Icon
+        icon="mdi:whatsapp"
+        className="shrink-0 text-3xl text-white"
+      />
+
+      <div>
+        <div className="text-sm font-semibold text-orange-100">
+          WhatsApp
+        </div>
+
+        <div className="mt-1 font-bold">
+          +86 XXX XXXX XXXX
+        </div>
+      </div>
+    </div>
+
+    <div className="flex items-center gap-4 rounded-xl bg-white/10 p-5 backdrop-blur-sm">
+      <Icon
+        icon="mdi:clock-outline"
+        className="shrink-0 text-3xl text-white"
+      />
+
+      <div>
+        <div className="text-sm font-semibold text-orange-100">
+          Response Time
+        </div>
+
+        <div className="mt-1 font-bold">
+          Within 24 Hours
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  {/* QR CODE RIGHT SIDE */}
+  <div className="flex justify-center lg:justify-end">
+    <div className="rounded-2xl bg-white p-5 text-center shadow-xl">
+      <Image
+        src="/whatsapp-qr.png"
+        alt="WhatsApp QR Code"
+        width={210}
+        height={210}
+        className="mx-auto h-[210px] w-[210px] object-contain"
+      />
+
+      <div className="mt-4 text-base font-bold text-zinc-900">
+        Scan to WhatsApp
+      </div>
+
+      <p className="mt-1 text-sm text-zinc-500">
+        Contact our sales team
+      </p>
+    </div>
+  </div>
+</div>
+</div>
       </section>
 
       {/* FOOTER */}
