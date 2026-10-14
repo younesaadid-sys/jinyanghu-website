@@ -249,7 +249,7 @@ export default function Home() {
 
       {/* CONTACT */}
       <section id="contact" className="bg-orange-500 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-20">
+        <div className="mx-auto max-w-7xl px-6 py-12">
           <div className="grid gap-10 lg:grid-cols-[1.15fr_0.75fr_0.5fr] lg:items-center">
           {/* LEFT TEXT */}
   <div>
