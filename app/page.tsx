@@ -330,7 +330,7 @@ export default function Home() {
       src="/whatsapp-qr.png"
       alt="WhatsApp QR Code"
       fill
-      className="scale-[3] object-contain"
+      className="scale-[2.5] object-contain"
     />
   </div>
 </div>
