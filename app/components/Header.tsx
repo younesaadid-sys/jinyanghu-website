@@ -247,9 +247,7 @@ const products: Record<
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const [activeCategory, setActiveCategory] = useState(
-    "electric-heavy-duty-movers"
-  );
+  const [activeCategory, setActiveCategory] = useState(categories[0].slug);
 
   const activeCategoryInfo = categories.find(
     (category) => category.slug === activeCategory
@@ -310,7 +308,10 @@ const searchResults = normalizedSearch
           {/* PRODUCTS */}
           <div
             className="relative"
-            onMouseEnter={() => setMenuOpen(true)}
+            onMouseEnter={() => {
+  setMenuOpen(true);
+  setActiveCategory(categories[0].slug);
+}}
             onMouseLeave={() => setMenuOpen(false)}
           >
             <button
