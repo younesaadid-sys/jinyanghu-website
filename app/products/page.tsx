@@ -186,7 +186,17 @@ const productGroups = [
   },
 ];
 
-export default function ProductsPage() {
+export default async function ProductsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ category?: string }>;
+}) {
+  const params = await searchParams;
+  const selectedCategory = params.category;
+
+  const visibleGroups = selectedCategory
+    ? productGroups.filter((group) => group.slug === selectedCategory)
+    : productGroups;
   return (
     <main className="min-h-screen bg-white">
 
@@ -211,7 +221,7 @@ export default function ProductsPage() {
       {/* PRODUCT GROUPS */}
       <section className="mx-auto max-w-[1500px] px-6 py-16">
         <div className="space-y-16">
-          {productGroups.map((group) => (
+          {visibleGroups.map((group) => (
             <div key={group.slug} id={group.slug}>
 
               {/* SERIES HEADER */}

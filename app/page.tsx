@@ -264,7 +264,7 @@ export default function Home() {
         </div>
 
         <a
-          href="/products#electric-heavy-duty-movers"
+          href="/products?category=electric-heavy-duty-movers"
           className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
         >
           View More →
@@ -426,7 +426,7 @@ export default function Home() {
         </div>
 
         <a
-          href="/products#manual-heavy-duty-movers"
+          href="/products?category=manual-heavy-duty-movers"
           className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
         >
           View More →
@@ -491,7 +491,7 @@ export default function Home() {
         </div>
 
         <a
-          href="/products#jacks"
+          href="/products?category=jacks"
           className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
         >
           View More →
