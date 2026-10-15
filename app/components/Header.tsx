@@ -281,19 +281,21 @@ const searchResults = normalizedSearch
     <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white md:block">
       <div className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         {/* LOGO */}
-       <Link href="/">
-  <Image
-    src="/jin-yang-hu-logo.png"
-    alt="JIN YANG HU"
-    width={180}
-    height={70}
-    className="cursor-pointer"
-  />
+   <div>
+  <a href="/" className="flex items-center">
+    <Image
+      src="/jin-yang-hu-logo.png"
+      alt="JIN YANG HU"
+      width={180}
+      height={70}
+      className="h-auto w-[180px]"
+    />
+  </a>
 
-          <span className="hidden text-sm text-zinc-500 lg:block">
-            Industrial Lifting and Transport Solutions
-          </span>
-        </Link>
+  <p className="mt-1 text-sm text-zinc-500">
+    Industrial Lifting and Transport Solutions
+  </p>
+</div>
 
         {/* NAVIGATION */}
         <nav className="flex items-center gap-8 text-base font-medium text-zinc-900">
