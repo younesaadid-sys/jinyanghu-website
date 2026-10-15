@@ -302,7 +302,7 @@ const searchResults = normalizedSearch
         <nav className="flex items-center gap-8 text-base font-medium text-zinc-900">
           <Link
             href="/"
-            className="transition hover:text-orange-500"
+            className="text-sm font-semibold text-zinc-900"
           >
             Home
           </Link>
@@ -315,7 +315,7 @@ const searchResults = normalizedSearch
           >
             <button
               type="button"
-              className="flex items-center gap-1 py-6 transition hover:text-orange-500"
+              className="text-sm font-semibold text-zinc-900"
             >
               Products
               <span className="text-xs">▼</span>
@@ -448,14 +448,14 @@ const searchResults = normalizedSearch
 
           <Link
             href="/#about"
-            className="transition hover:text-orange-500"
+            className="text-sm font-semibold text-zinc-900"
           >
             About Us
           </Link>
 
           <Link
             href="/#contact"
-            className="transition hover:text-orange-500"
+            className="text-sm font-semibold text-zinc-900"
           >
             Contact
           </Link>
