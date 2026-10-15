@@ -547,176 +547,116 @@ export default function Home() {
 <section className="bg-white">
   <div className="mx-auto max-w-[1500px] px-6 py-16">
 
-    {/* HEADER */}
     <div className="mb-10 text-center">
       <p className="text-sm font-semibold uppercase tracking-wider text-orange-500">
         News & Information
       </p>
 
       <h2 className="mt-2 text-3xl font-black text-zinc-900">
-        Latest Updates
+        Latest Industry Updates
       </h2>
 
       <p className="mt-3 text-zinc-500">
-        Industry news, company updates and technical information.
+        Selected news from the material handling and industrial logistics industry.
       </p>
     </div>
 
-    {/* 3 COLUMNS */}
     <div className="grid gap-8 md:grid-cols-3">
 
-      {/* INDUSTRY NEWS */}
-      <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
-        <div className="mb-5 flex items-center justify-between">
-          <h3 className="text-xl font-black text-zinc-900">
-            Industry News
-          </h3>
+      {/* NEWS 1 */}
+      <a
+        href="https://www.mhi.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group rounded-2xl border border-zinc-200 bg-zinc-50 p-6 transition hover:-translate-y-1 hover:shadow-lg"
+      >
+        <div className="mb-4 flex items-center justify-between">
+          <span className="text-sm font-bold uppercase tracking-wider text-orange-500">
+            MHI
+          </span>
 
-          <a
-            href="/news"
-            className="text-sm font-semibold text-orange-500 hover:text-orange-600"
-          >
-            More →
-          </a>
+          <span className="text-xs text-zinc-400">
+            Oct 9, 2026
+          </span>
         </div>
 
-        <div className="space-y-4">
-          <a href="#" className="block border-b border-zinc-200 pb-3">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                Heavy-load transport equipment market continues to grow
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                10.15
-              </span>
-            </div>
-          </a>
+        <h3 className="text-xl font-black text-zinc-900 transition group-hover:text-orange-500">
+          Digital Twins in the Material Handling Industry
+        </h3>
 
-          <a href="#" className="block border-b border-zinc-200 pb-3">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                New trends in industrial material handling
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                10.12
-              </span>
-            </div>
-          </a>
+        <p className="mt-3 text-sm leading-6 text-zinc-600">
+          Digital twins are helping warehouses and factories monitor, simulate
+          and optimize increasingly complex material handling operations.
+        </p>
 
-          <a href="#" className="block">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                Smart factories drive demand for automated transport
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                10.08
-              </span>
-            </div>
-          </a>
+        <div className="mt-5 font-semibold text-orange-500">
+          Read Original →
         </div>
-      </div>
+      </a>
 
-      {/* COMPANY NEWS */}
-      <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
-        <div className="mb-5 flex items-center justify-between">
-          <h3 className="text-xl font-black text-zinc-900">
-            Company News
-          </h3>
 
-          <a
-            href="/news"
-            className="text-sm font-semibold text-orange-500 hover:text-orange-600"
-          >
-            More →
-          </a>
+      {/* NEWS 2 */}
+      <a
+        href="https://www.mhlnews.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group rounded-2xl border border-zinc-200 bg-zinc-50 p-6 transition hover:-translate-y-1 hover:shadow-lg"
+      >
+        <div className="mb-4 flex items-center justify-between">
+          <span className="text-sm font-bold uppercase tracking-wider text-orange-500">
+            MHL News
+          </span>
+
+          <span className="text-xs text-zinc-400">
+            Oct 7, 2026
+          </span>
         </div>
 
-        <div className="space-y-4">
-          <a href="#" className="block border-b border-zinc-200 pb-3">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                JIN YANG HU expands industrial lifting product range
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                10.14
-              </span>
-            </div>
-          </a>
+        <h3 className="text-xl font-black text-zinc-900 transition group-hover:text-orange-500">
+          Autonomous Forklift for Trailer Loading and Unloading
+        </h3>
 
-          <a href="#" className="block border-b border-zinc-200 pb-3">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                New equipment solutions for global B2B customers
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                10.09
-              </span>
-            </div>
-          </a>
+        <p className="mt-3 text-sm leading-6 text-zinc-600">
+          Gideon introduced TREY, an autonomous forklift designed to handle
+          trailer loading and unloading from the first pallet to the last.
+        </p>
 
-          <a href="#" className="block">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                Production and quality control standards upgraded
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                10.03
-              </span>
-            </div>
-          </a>
+        <div className="mt-5 font-semibold text-orange-500">
+          Read Original →
         </div>
-      </div>
+      </a>
 
-      {/* TECHNICAL INFORMATION */}
-      <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
-        <div className="mb-5 flex items-center justify-between">
-          <h3 className="text-xl font-black text-zinc-900">
-            Technical Information
-          </h3>
 
-          <a
-            href="/news"
-            className="text-sm font-semibold text-orange-500 hover:text-orange-600"
-          >
-            More →
-          </a>
+      {/* NEWS 3 */}
+      <a
+        href="https://www.mhlnews.com/new-products/product/55409948/4-way-pallet-shuttle"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group rounded-2xl border border-zinc-200 bg-zinc-50 p-6 transition hover:-translate-y-1 hover:shadow-lg"
+      >
+        <div className="mb-4 flex items-center justify-between">
+          <span className="text-sm font-bold uppercase tracking-wider text-orange-500">
+            MHL News
+          </span>
+
+          <span className="text-xs text-zinc-400">
+            Oct 6, 2026
+          </span>
         </div>
 
-        <div className="space-y-4">
-          <a href="#" className="block border-b border-zinc-200 pb-3">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                How to choose the right machinery moving skate
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                10.13
-              </span>
-            </div>
-          </a>
+        <h3 className="text-xl font-black text-zinc-900 transition group-hover:text-orange-500">
+          4-Way Pallet Shuttle
+        </h3>
 
-          <a href="#" className="block border-b border-zinc-200 pb-3">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                Safety tips for heavy equipment lifting
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                10.07
-              </span>
-            </div>
-          </a>
+        <p className="mt-3 text-sm leading-6 text-zinc-600">
+          ZS Robotics launched the H125 four-way pallet shuttle with an
+          ultra-low 125 mm chassis and integrated safety and automation features.
+        </p>
 
-          <a href="#" className="block">
-            <div className="flex items-start justify-between gap-4">
-              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
-                Understanding load capacity and industrial transport
-              </p>
-              <span className="shrink-0 text-xs text-zinc-400">
-                09.30
-              </span>
-            </div>
-          </a>
+        <div className="mt-5 font-semibold text-orange-500">
+          Read Original →
         </div>
-      </div>
+      </a>
 
     </div>
   </div>
