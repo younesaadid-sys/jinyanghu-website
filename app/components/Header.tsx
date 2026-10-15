@@ -7,16 +7,24 @@ import QuoteModal from "./QuoteModal";
 
 const categories = [
   {
-    name: "Electric Heavy-Duty Movers",
-    slug: "electric-heavy-duty-movers",
+    name: "Electric Heavy-Load Skates",
+    slug: "electric-heavy-duty-load-skates",
   },
   {
-    name: "Manual Heavy-Duty Movers",
-    slug: "manual-heavy-duty-movers",
+    name: "Manual Load Skates",
+    slug: "manual-load-skates",
   },
   {
-    name: "Jacks",
-    slug: "jacks",
+    name: "Equipment Jacks",
+    slug: "equipment-jacks",
+  },
+  {
+    name: "Heavy-Duty Load Skates",
+    slug: "heavy-duty-load-skates",
+  },
+  {
+    name: "AGV (Automated Guided Vehicle)",
+    slug: "agv-automated-guided-vehicle",
   },
 ];
 
@@ -32,7 +40,7 @@ const products: Record<
   // =========================================================
   // ELECTRIC HEAVY-DUTY MOVERS
   // =========================================================
-  "electric-heavy-duty-movers": [
+  "electric-heavy-duty-load-skates": [
     {
       name: "JA Series",
       slug: "ja-series-electric-tank-transporters",
@@ -82,7 +90,7 @@ const products: Record<
   // =========================================================
   // MANUAL HEAVY-DUTY MOVERS
   // =========================================================
-  "manual-heavy-duty-movers": [
+    "manual-load-skates": [
     {
       name: "CRA Series",
       slug: "cra-series-tank-transporters",
@@ -148,7 +156,7 @@ const products: Record<
   // =========================================================
   // JACKS
   // =========================================================
-  jacks: [
+  "equipment-jacks": [
     {
       name: "MA Series",
       slug: "ma-series-dual-purpose-claw-jacks",
@@ -227,6 +235,13 @@ const products: Record<
       image: "/products/mk-series/mk-main.png",
     },
   ],
+  "heavy-duty-load-skates": [
+  // products هنا
+],
+
+"agv-automated-guided-vehicle": [
+  // products هنا
+],
 };
 
 export default function Header() {
