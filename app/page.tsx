@@ -543,6 +543,184 @@ export default function Home() {
 
   </div>
 </section>
+{/* NEWS SECTION */}
+<section className="bg-white">
+  <div className="mx-auto max-w-[1500px] px-6 py-16">
+
+    {/* HEADER */}
+    <div className="mb-10 text-center">
+      <p className="text-sm font-semibold uppercase tracking-wider text-orange-500">
+        News & Information
+      </p>
+
+      <h2 className="mt-2 text-3xl font-black text-zinc-900">
+        Latest Updates
+      </h2>
+
+      <p className="mt-3 text-zinc-500">
+        Industry news, company updates and technical information.
+      </p>
+    </div>
+
+    {/* 3 COLUMNS */}
+    <div className="grid gap-8 md:grid-cols-3">
+
+      {/* INDUSTRY NEWS */}
+      <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
+        <div className="mb-5 flex items-center justify-between">
+          <h3 className="text-xl font-black text-zinc-900">
+            Industry News
+          </h3>
+
+          <a
+            href="/news"
+            className="text-sm font-semibold text-orange-500 hover:text-orange-600"
+          >
+            More →
+          </a>
+        </div>
+
+        <div className="space-y-4">
+          <a href="#" className="block border-b border-zinc-200 pb-3">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                Heavy-load transport equipment market continues to grow
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                10.15
+              </span>
+            </div>
+          </a>
+
+          <a href="#" className="block border-b border-zinc-200 pb-3">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                New trends in industrial material handling
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                10.12
+              </span>
+            </div>
+          </a>
+
+          <a href="#" className="block">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                Smart factories drive demand for automated transport
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                10.08
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      {/* COMPANY NEWS */}
+      <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
+        <div className="mb-5 flex items-center justify-between">
+          <h3 className="text-xl font-black text-zinc-900">
+            Company News
+          </h3>
+
+          <a
+            href="/news"
+            className="text-sm font-semibold text-orange-500 hover:text-orange-600"
+          >
+            More →
+          </a>
+        </div>
+
+        <div className="space-y-4">
+          <a href="#" className="block border-b border-zinc-200 pb-3">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                JIN YANG HU expands industrial lifting product range
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                10.14
+              </span>
+            </div>
+          </a>
+
+          <a href="#" className="block border-b border-zinc-200 pb-3">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                New equipment solutions for global B2B customers
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                10.09
+              </span>
+            </div>
+          </a>
+
+          <a href="#" className="block">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                Production and quality control standards upgraded
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                10.03
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      {/* TECHNICAL INFORMATION */}
+      <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
+        <div className="mb-5 flex items-center justify-between">
+          <h3 className="text-xl font-black text-zinc-900">
+            Technical Information
+          </h3>
+
+          <a
+            href="/news"
+            className="text-sm font-semibold text-orange-500 hover:text-orange-600"
+          >
+            More →
+          </a>
+        </div>
+
+        <div className="space-y-4">
+          <a href="#" className="block border-b border-zinc-200 pb-3">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                How to choose the right machinery moving skate
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                10.13
+              </span>
+            </div>
+          </a>
+
+          <a href="#" className="block border-b border-zinc-200 pb-3">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                Safety tips for heavy equipment lifting
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                10.07
+              </span>
+            </div>
+          </a>
+
+          <a href="#" className="block">
+            <div className="flex items-start justify-between gap-4">
+              <p className="text-sm font-medium text-zinc-700 hover:text-orange-500">
+                Understanding load capacity and industrial transport
+              </p>
+              <span className="shrink-0 text-xs text-zinc-400">
+                09.30
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
       {/* CONTACT */}
 <section id="contact" className="bg-orange-500 text-white">
   <div className="mx-auto max-w-7xl px-6 py-12">
