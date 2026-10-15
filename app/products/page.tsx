@@ -214,19 +214,28 @@ export default function ProductsPage() {
           {productGroups.map((group) => (
             <div key={group.slug}>
 
-              {/* CATEGORY TITLE */}
-              <div className="mb-7">
-                <p className="text-sm font-bold uppercase tracking-wider text-orange-500">
-                  Product Category
-                </p>
+              {/* SERIES HEADER */}
+<div className="mb-6 flex items-end justify-between">
+  <div>
+    <p className="text-sm font-bold uppercase tracking-wider text-orange-500">
+      Product Series
+    </p>
 
-                <h2 className="mt-2 text-3xl font-black text-zinc-900">
-                  {group.category}
-                </h2>
-              </div>
+    <h2 className="mt-1 text-2xl font-black text-zinc-900">
+      {group.category}
+    </h2>
+  </div>
+
+  <a
+    href="/products"
+    className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
+  >
+    View More →
+  </a>
+</div>
 
               {/* PRODUCTS */}
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
                 {group.products.map((product) => (
                   <Link
                     key={product.slug}
