@@ -294,7 +294,7 @@ const searchResults = normalizedSearch
           />
 
           <span className="hidden text-sm text-zinc-500 lg:block">
-            Industrial Lifting Solutions
+            Industrial Lifting and Transport Solutions
           </span>
         </Link>
 
