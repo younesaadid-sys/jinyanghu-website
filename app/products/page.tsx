@@ -212,7 +212,7 @@ export default function ProductsPage() {
       <section className="mx-auto max-w-[1500px] px-6 py-16">
         <div className="space-y-16">
           {productGroups.map((group) => (
-            <div key={group.slug}>
+            <div key={group.slug} id={group.slug}>
 
               {/* SERIES HEADER */}
 <div className="mb-6 flex items-end justify-between">

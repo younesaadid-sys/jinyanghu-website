@@ -246,244 +246,301 @@ export default function Home() {
           </div>
         </div>
       </section>
-{/* JA SERIES FEATURED PRODUCTS */}
+{/* PRODUCT COLLECTIONS */}
 <section className="bg-white">
-  <div className="mx-auto max-w-[1750px] px-6 py-16">
+  <div className="mx-auto max-w-[1600px] px-6 py-16">
 
-    {/* SECTION HEADER */}
-    <div className="mb-8 flex items-end justify-between">
-      <div>
-        <p className="font-semibold uppercase tracking-wider text-orange-500">
-          Featured Product
-        </p>
+    {/* ================= ELECTRIC ================= */}
+    <div className="mb-16">
+      <div className="mb-6 flex items-end justify-between">
+        <div>
+          <p className="text-sm font-bold uppercase tracking-wider text-orange-500">
+            Featured Products
+          </p>
 
-        <h2 className="mt-2 text-3xl font-black text-zinc-900">
-          JA Series
-        </h2>
+          <h2 className="mt-1 text-3xl font-black text-zinc-900">
+            Electric Heavy-Duty Movers
+          </h2>
+        </div>
+
+        <a
+          href="/products#electric-heavy-duty-movers"
+          className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
+        >
+          View More →
+        </a>
       </div>
 
-      <a
-  href="/products"
-  className="hidden text-sm font-semibold text-zinc-600 transition hover:text-orange-500 md:block"
->
-  View More →
-</a>
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+
+        {/* JA */}
+        <a
+          href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
+          className="group overflow-hidden rounded-xl bg-zinc-50 transition hover:-translate-y-1 hover:shadow-lg"
+        >
+          <div className="relative h-[220px]">
+            <Image
+              src="/products/ja-series/ja-main.jpg"
+              alt="JA Series"
+              fill
+              className="object-contain p-5 transition group-hover:scale-105"
+            />
+          </div>
+
+          <div className="p-5">
+            <h3 className="text-lg font-bold">JA Series</h3>
+            <p className="mt-2 text-sm text-zinc-500">
+              Electric heavy-duty tank transporter
+            </p>
+
+            <div className="mt-5 flex items-center justify-between">
+              <span className="font-bold text-orange-500">View Product</span>
+              <span>→</span>
+            </div>
+          </div>
+        </a>
+
+        {/* JA-B */}
+        <a
+          href="/products/electric-heavy-duty-movers/ja-b-series-electric-tank-transporters"
+          className="group overflow-hidden rounded-xl bg-zinc-50 transition hover:-translate-y-1 hover:shadow-lg"
+        >
+          <div className="relative h-[220px]">
+            <Image
+              src="/products/ja-b-series/ja-b-main.jpg"
+              alt="JA-B Series"
+              fill
+              className="object-contain p-5 transition group-hover:scale-105"
+            />
+          </div>
+
+          <div className="p-5">
+            <h3 className="text-lg font-bold">JA-B Series</h3>
+            <p className="mt-2 text-sm text-zinc-500">
+              Heavy-duty electric transport equipment
+            </p>
+
+            <div className="mt-5 flex items-center justify-between">
+              <span className="font-bold text-orange-500">View Product</span>
+              <span>→</span>
+            </div>
+          </div>
+        </a>
+
+        {/* JS */}
+        <a
+          href="/products/electric-heavy-duty-movers/js-series-electric-tank-transporters"
+          className="group overflow-hidden rounded-xl bg-zinc-50 transition hover:-translate-y-1 hover:shadow-lg"
+        >
+          <div className="relative h-[220px]">
+            <Image
+              src="/products/js-series/js-main.png"
+              alt="JS Series"
+              fill
+              className="object-contain p-5 transition group-hover:scale-105"
+            />
+          </div>
+
+          <div className="p-5">
+            <h3 className="text-lg font-bold">JS Series</h3>
+            <p className="mt-2 text-sm text-zinc-500">
+              Wireless electric transporter
+            </p>
+
+            <div className="mt-5 flex items-center justify-between">
+              <span className="font-bold text-orange-500">View Product</span>
+              <span>→</span>
+            </div>
+          </div>
+        </a>
+
+        {/* JD */}
+        <a
+          href="/products/electric-heavy-duty-movers/jd-series-electric-tank-transporters"
+          className="group overflow-hidden rounded-xl bg-zinc-50 transition hover:-translate-y-1 hover:shadow-lg"
+        >
+          <div className="relative h-[220px]">
+            <Image
+              src="/products/jd-series/jd-main.jpg"
+              alt="JD Series"
+              fill
+              className="object-contain p-5 transition group-hover:scale-105"
+            />
+          </div>
+
+          <div className="p-5">
+            <h3 className="text-lg font-bold">JD Series</h3>
+            <p className="mt-2 text-sm text-zinc-500">
+              Industrial heavy-load moving equipment
+            </p>
+
+            <div className="mt-5 flex items-center justify-between">
+              <span className="font-bold text-orange-500">View Product</span>
+              <span>→</span>
+            </div>
+          </div>
+        </a>
+
+        {/* JX */}
+        <a
+          href="/products/electric-heavy-duty-movers/jx-series-electric-machinery-skate-dolly"
+          className="group overflow-hidden rounded-xl bg-zinc-50 transition hover:-translate-y-1 hover:shadow-lg"
+        >
+          <div className="relative h-[220px]">
+            <Image
+              src="/products/jx-series/jx-main.jpg"
+              alt="JX Series"
+              fill
+              className="object-contain p-5 transition group-hover:scale-105"
+            />
+          </div>
+
+          <div className="p-5">
+            <h3 className="text-lg font-bold">JX Series</h3>
+            <p className="mt-2 text-sm text-zinc-500">
+              Remote-controlled machinery transporter
+            </p>
+
+            <div className="mt-5 flex items-center justify-between">
+              <span className="font-bold text-orange-500">View Product</span>
+              <span>→</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
     </div>
 
-    {/* PRODUCTS */}
-    <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
 
-      {/* JA 1 */}
-      <a
-        href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-        className="group overflow-hidden rounded-xl bg-zinc-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
-      >
-        <div className="relative h-[230px] bg-zinc-50">
-          <Image
-            src="/products/ja-series/ja-main.jpg"
-            alt="JA Series"
-            fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
-          />
-        </div>
-
-        <div className="px-5 pb-5 pt-4">
-          <h3 className="text-lg font-bold text-zinc-900">
-            JA Series
-          </h3>
-
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
-            Electric heavy-duty tank transporter
+    {/* ================= MANUAL ================= */}
+    <div className="mb-16">
+      <div className="mb-6 flex items-end justify-between">
+        <div>
+          <p className="text-sm font-bold uppercase tracking-wider text-orange-500">
+            Featured Products
           </p>
 
-          <div className="mt-5 flex items-center justify-between">
-            <span className="font-bold text-orange-500">
-              View More
-            </span>
-
-            <span className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-300 text-lg text-zinc-800 transition group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-white">
-              →
-            </span>
-          </div>
-        </div>
-      </a>
-
-      {/* JA 2 */}
-      <a
-        href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-        className="group overflow-hidden rounded-xl bg-zinc-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
-      >
-        <div className="relative h-[230px] bg-zinc-50">
-          <Image
-            src="/products/ja-series/ja-main.jpg"
-            alt="JA Series"
-            fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
-          />
+          <h2 className="mt-1 text-3xl font-black text-zinc-900">
+            Manual Heavy-Duty Movers
+          </h2>
         </div>
 
-        <div className="px-5 pb-5 pt-4">
-          <h3 className="text-lg font-bold text-zinc-900">
-            JA Series
-          </h3>
+        <a
+          href="/products#manual-heavy-duty-movers"
+          className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
+        >
+          View More →
+        </a>
+      </div>
 
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
-            Electric heavy-duty tank transporter
-          </p>
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
 
-          <div className="mt-5 flex items-center justify-between">
-            <span className="font-bold text-orange-500">
-              View More
-            </span>
+        {[
+          ["CRA Series", "/products/cra-series/cra-main.jpg", "cra-series-tank-transporters"],
+          ["CWA Series", "/products/cwa-series/cwa-main.png", "cwa-series-tank-transporters"],
+          ["CRD Series", "/products/crd-series/crd-main.png", "crd-series-tank-transporters"],
+          ["CX+Y Series", "/products/cx-y-series/cx-y-main.png", "cx-y-series-tank-transporters"],
+          ["CRP Series", "/products/crp-series/crp-main.png", "crp-series-tank-transporters"],
+        ].map(([name, image, slug]) => (
+          <a
+            key={slug}
+            href={`/products/manual-heavy-duty-movers/${slug}`}
+            className="group overflow-hidden rounded-xl bg-zinc-50 transition hover:-translate-y-1 hover:shadow-lg"
+          >
+            <div className="relative h-[220px]">
+              <Image
+                src={image}
+                alt={name}
+                fill
+                className="object-contain p-5 transition group-hover:scale-105"
+              />
+            </div>
 
-            <span className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-300 text-lg transition group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-white">
-              →
-            </span>
-          </div>
-        </div>
-      </a>
+            <div className="p-5">
+              <h3 className="text-lg font-bold">{name}</h3>
 
-      {/* JA 3 */}
-      <a
-        href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-        className="group overflow-hidden rounded-xl bg-zinc-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
-      >
-        <div className="relative h-[230px] bg-zinc-50">
-          <Image
-            src="/products/ja-series/ja-main.jpg"
-            alt="JA Series"
-            fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
-          />
-        </div>
+              <p className="mt-2 text-sm text-zinc-500">
+                Manual heavy-duty moving equipment
+              </p>
 
-        <div className="px-5 pb-5 pt-4">
-          <h3 className="text-lg font-bold text-zinc-900">
-            JA Series
-          </h3>
+              <div className="mt-5 flex items-center justify-between">
+                <span className="font-bold text-orange-500">
+                  View Product
+                </span>
+                <span>→</span>
+              </div>
+            </div>
+          </a>
+        ))}
 
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
-            Electric heavy-duty tank transporter
-          </p>
-
-          <div className="mt-5 flex items-center justify-between">
-            <span className="font-bold text-orange-500">
-              View More
-            </span>
-
-            <span className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-300 text-lg transition group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-white">
-              →
-            </span>
-          </div>
-        </div>
-      </a>
-
-      {/* JA 4 */}
-      <a
-        href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-        className="group overflow-hidden rounded-xl bg-zinc-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
-      >
-        <div className="relative h-[230px] bg-zinc-50">
-          <Image
-            src="/products/ja-series/ja-main.jpg"
-            alt="JA Series"
-            fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
-          />
-        </div>
-
-        <div className="px-5 pb-5 pt-4">
-          <h3 className="text-lg font-bold text-zinc-900">
-            JA Series
-          </h3>
-
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
-            Electric heavy-duty tank transporter
-          </p>
-
-          <div className="mt-5 flex items-center justify-between">
-            <span className="font-bold text-orange-500">
-              View More
-            </span>
-
-            <span className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-300 text-lg transition group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-white">
-              →
-            </span>
-          </div>
-        </div>
-      </a>
-
-      {/* JA 5 */}
-      <a
-        href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-        className="group overflow-hidden rounded-xl bg-zinc-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
-      >
-        <div className="relative h-[230px] bg-zinc-50">
-          <Image
-            src="/products/ja-series/ja-main.jpg"
-            alt="JA Series"
-            fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
-          />
-        </div>
-
-        <div className="px-5 pb-5 pt-4">
-          <h3 className="text-lg font-bold text-zinc-900">
-            JA Series
-          </h3>
-
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
-            Electric heavy-duty tank transporter
-          </p>
-
-          <div className="mt-5 flex items-center justify-between">
-            <span className="font-bold text-orange-500">
-              View More
-            </span>
-
-            <span className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-300 text-lg transition group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-white">
-              →
-            </span>
-          </div>
-        </div>
-      </a>
-
-      {/* JA 6 */}
-      <a
-        href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-        className="group overflow-hidden rounded-xl bg-zinc-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
-      >
-        <div className="relative h-[230px] bg-zinc-50">
-          <Image
-            src="/products/ja-series/ja-main.jpg"
-            alt="JA Series"
-            fill
-            className="object-contain p-5 transition duration-300 group-hover:scale-105"
-          />
-        </div>
-
-        <div className="px-5 pb-5 pt-4">
-          <h3 className="text-lg font-bold text-zinc-900">
-            JA Series
-          </h3>
-
-          <p className="mt-2 text-sm leading-6 text-zinc-500">
-            Electric heavy-duty tank transporter
-          </p>
-
-          <div className="mt-5 flex items-center justify-between">
-            <span className="font-bold text-orange-500">
-              View More
-            </span>
-
-            <span className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-300 text-lg transition group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-white">
-              →
-            </span>
-          </div>
-        </div>
-      </a>
-
+      </div>
     </div>
+
+
+    {/* ================= JACKS ================= */}
+    <div>
+      <div className="mb-6 flex items-end justify-between">
+        <div>
+          <p className="text-sm font-bold uppercase tracking-wider text-orange-500">
+            Featured Products
+          </p>
+
+          <h2 className="mt-1 text-3xl font-black text-zinc-900">
+            Jacks
+          </h2>
+        </div>
+
+        <a
+          href="/products#jacks"
+          className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
+        >
+          View More →
+        </a>
+      </div>
+
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+
+        {[
+          ["MA Series", "/products/ma-series/ma-main.png", "ma-series-dual-purpose-claw-jacks"],
+          ["MB Series", "/products/mb-series/mb-main.png", "mb-series-multi-stage-claw-jacks"],
+          ["MC Series", "/products/mc-series/mc-main.png", "mc-series-single-stage-claw-jacks"],
+          ["MD Series", "/products/md-series/md-main.png", "md-series-manual-claw-jacks"],
+          ["ME Series", "/products/me-series/me-main.png", "me-series-remote-operated-claw-jacks"],
+        ].map(([name, image, slug]) => (
+          <a
+            key={slug}
+            href={`/products/jacks/${slug}`}
+            className="group overflow-hidden rounded-xl bg-zinc-50 transition hover:-translate-y-1 hover:shadow-lg"
+          >
+            <div className="relative h-[220px]">
+              <Image
+                src={image}
+                alt={name}
+                fill
+                className="object-contain p-5 transition group-hover:scale-105"
+              />
+            </div>
+
+            <div className="p-5">
+              <h3 className="text-lg font-bold">{name}</h3>
+
+              <p className="mt-2 text-sm text-zinc-500">
+                Professional hydraulic lifting equipment
+              </p>
+
+              <div className="mt-5 flex items-center justify-between">
+                <span className="font-bold text-orange-500">
+                  View Product
+                </span>
+                <span>→</span>
+              </div>
+            </div>
+          </a>
+        ))}
+
+      </div>
+    </div>
+
   </div>
 </section>
       {/* CONTACT */}
