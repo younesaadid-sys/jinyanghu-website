@@ -279,6 +279,7 @@ export default async function Home() {
               src="/products/ja-series/ja-main.jpg"
               alt="JA Series"
               fill
+              unoptimized
               className="object-contain p-5 transition group-hover:scale-105"
             />
           </div>
@@ -333,6 +334,7 @@ export default async function Home() {
               src="/products/js-series/js-main.png"
               alt="JS Series"
               fill
+              unoptimized
               className="object-contain p-5 transition group-hover:scale-105"
             />
           </div>
@@ -360,6 +362,7 @@ export default async function Home() {
               src="/products/jd-series/jd-main.jpg"
               alt="JD Series"
               fill
+              unoptimized
               className="object-contain p-5 transition group-hover:scale-105"
             />
           </div>
@@ -387,6 +390,7 @@ export default async function Home() {
               src="/products/jx-series/jx-main.jpg"
               alt="JX Series"
               fill
+              unoptimized
               className="object-contain p-5 transition group-hover:scale-105"
             />
           </div>
@@ -448,6 +452,7 @@ export default async function Home() {
                 src={image}
                 alt={name}
                 fill
+                unoptimized
                 className="object-contain p-5 transition group-hover:scale-105"
               />
             </div>
@@ -513,6 +518,7 @@ export default async function Home() {
                 src={image}
                 alt={name}
                 fill
+                unoptimized
                 className="object-contain p-5 transition group-hover:scale-105"
               />
             </div>
