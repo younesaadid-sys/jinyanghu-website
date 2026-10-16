@@ -394,6 +394,7 @@ const searchResults = normalizedSearch
                                   src={product.image}
                                   alt={product.name}
                                   fill
+                                  unoptimized
                                   sizes="300px"
                                   className="object-contain p-2 transition duration-300 group-hover:scale-105"
                                 />
@@ -557,6 +558,7 @@ const searchResults = normalizedSearch
                     src={product.image}
                     alt={product.name}
                     fill
+                    unoptimized
                     sizes="56px"
                     className="object-contain p-1"
                   />
