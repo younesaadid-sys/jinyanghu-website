@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Icon } from "@iconify/react";
-import Header from "./components/Header";
-import MobileHeader from "./components/MobileHeader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,22 +30,18 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
-        <MobileHeader />
-        <Header />
-
         <main className="flex-1">{children}</main>
+
+        {/* WHATSAPP FLOATING BUTTON */}
         <a
-  href="https://wa.me/8613100006833"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Chat with us on WhatsApp"
-  className="fixed bottom-6 right-6 z-[9999] flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-xl transition hover:scale-110 hover:bg-green-600"
->
-  <Icon
-    icon="mdi:whatsapp"
-    className="text-[38px]"
-  />
-</a>
+          href="https://wa.me/8613100006833"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Chat with us on WhatsApp"
+          className="fixed bottom-6 right-6 z-[9999] flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-xl transition hover:scale-110 hover:bg-green-600"
+        >
+          <Icon icon="mdi:whatsapp" className="text-[38px]" />
+        </a>
       </body>
     </html>
   );

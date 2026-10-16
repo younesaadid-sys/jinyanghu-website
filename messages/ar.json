@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "quote": "طلب عرض سعر"
+  },
+
+  "home": {
+    "hero": {
+      "badge": "شركة متخصصة في تصنيع المعدات الصناعية",
+      "title1": "حلول قوية",
+      "for": "لنقل",
+      "title2": "الأحمال الثقيلة",
+      "description": "معدات موثوقة لنقل الأحمال، ورافعات هيدروليكية، وأنظمة رفع ومناولة صناعية مصممة للمصانع والمستودعات والتطبيقات الثقيلة.",
+      "featuredProduct": "عرض المنتج المميز",
+      "contactSales": "تواصل مع المبيعات",
+      "yearsExperience": "سنة من الخبرة",
+      "globalB2B": "أعمال دولية B2B",
+      "industrialSupply": "توريد صناعي",
+      "customSolutions": "حلول مخصصة",
+      "fastQuote": "عرض سعر سريع",
+      "salesSupport": "دعم المبيعات",
+      "qualityFocus": "التركيز على الجودة",
+      "reliableEquipment": "معدات موثوقة"
+    },
+
+    "about": {
+      "companyImage": "الشركة / المصنع",
+      "title": "عن JIN YANG HU",
+      "description": "حلول احترافية للرفع ومناولة المواد",
+      "descriptionLong": "نركز على معدات الرفع الصناعي والنقل ومناولة المستودعات للمصانع والموزعين والمستخدمين المحترفين. تم تصميم منتجاتنا مع التركيز على الموثوقية والسلامة وسهولة التشغيل.",
+      "quality": "الجودة",
+      "qualityDescription": "تصميم منتجات بمستوى صناعي.",
+      "service": "الخدمة",
+      "serviceDescription": "دعم احترافي لعملاء الشركات."
+    },
+
+    "products": {
+      "featured": "المنتجات المميزة",
+      "electricHeavyDutyMovers": "معدات كهربائية لنقل الأحمال الثقيلة",
+      "manualHeavyDutyMovers": "معدات يدوية لنقل الأحمال الثقيلة",
+      "jacks": "الرافعات",
+      "viewMore": "عرض المزيد",
+      "viewProduct": "عرض المنتج",
+      "jaSeriesDescription": "ناقلة كهربائية للأحمال الصناعية الثقيلة",
+      "jaBSeriesDescription": "معدات كهربائية لنقل الأحمال الثقيلة",
+      "jsSeriesDescription": "ناقلة كهربائية لاسلكية",
+      "jdSeriesDescription": "معدات صناعية لنقل الأحمال الثقيلة",
+      "jxSeriesDescription": "ناقلة آلات تعمل بالتحكم عن بعد",
+      "manualHeavyDutyDescription": "معدات يدوية لنقل الأحمال الثقيلة",
+      "jacksDescription": "معدات رفع هيدروليكية احترافية"
+    },
+
+    "news": {
+      "newsAndInformation": "الأخبار والمعلومات",
+      "latestIndustryUpdates": "أحدث أخبار الصناعة",
+      "selectedNews": "أخبار مختارة من قطاع مناولة المواد والخدمات اللوجستية الصناعية.",
+      "october92026": "9 أكتوبر 2026",
+      "october72026": "7 أكتوبر 2026",
+      "october62026": "6 أكتوبر 2026",
+      "digitalTwinsInMaterialHandling": "التوائم الرقمية في صناعة مناولة المواد",
+      "digitalTwinsDescription": "تساعد التوائم الرقمية المستودعات والمصانع على مراقبة ومحاكاة وتحسين عمليات مناولة المواد المتزايدة التعقيد.",
+      "autonomousForklift": "رافعة شوكية ذاتية القيادة للتحميل والتفريغ",
+      "autonomousForkliftDescription": "قدمت Gideon رافعة TREY الذاتية المصممة للتعامل مع عمليات تحميل وتفريغ المقطورات.",
+      "fourWayPalletShuttle": "ناقلة منصات رباعية الاتجاهات",
+      "fourWayPalletShuttleDescription": "أطلقت ZS Robotics ناقلة H125 رباعية الاتجاهات بهيكل منخفض بارتفاع 125 مم وميزات متكاملة للسلامة والأتمتة.",
+      "mhlNews": "MHL News",
+      "readOriginal": "قراءة المصدر الأصلي"
+    },
+
+    "contact": {
+      "businessCooperation": "التعاون التجاري",
+      "needQuotation": "هل تحتاج إلى عرض سعر أو توصية بمنتج مناسب؟",
+      "sendDetails": "أرسل لنا الموديل المطلوب وسعة الحمولة وطبيعة الاستخدام، وسيساعدك فريقنا في اختيار المعدات المناسبة.",
+      "responseTime": "وقت الاستجابة",
+      "within24Hours": "خلال 24 ساعة"
+    },
+
+    "footer": {
+      "companyDescription": "معدات احترافية للرفع الصناعي والنقل ومناولة المواد للمصانع والموزعين وشركاء الأعمال.",
+      "quickLinks": "روابط سريعة",
+      "home": "الرئيسية",
+      "aboutUs": "من نحن",
+      "contact": "اتصل بنا",
+      "featuredProducts": "المنتجات المميزة",
+      "jaSeries": "سلسلة JA",
+      "jaBSeries": "سلسلة JA-B",
+      "jsSeries": "سلسلة JS",
+      "copyright": "2026 JIN YANG HU. جميع الحقوق محفوظة.",
+      "privacyPolicy": "سياسة الخصوصية",
+      "terms": "الشروط"
+    }
+  }
+}

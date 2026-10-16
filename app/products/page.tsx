@@ -16,7 +16,7 @@ const productGroups = [
         name: "JA-B Series",
         slug: "ja-b-series-electric-tank-transporters",
         description: "Heavy-duty electric transporter series",
-        image: "/products/ja-b-series/ja-b-main.jpg",
+        image: "/products/ja-b-series/ja-b-main-v2.jpg",
       },
       {
         name: "JS Series",

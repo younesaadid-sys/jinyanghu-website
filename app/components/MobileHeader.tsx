@@ -4,14 +4,31 @@ import { useState } from "react";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
 import QuoteModal from "./QuoteModal";
+import { useLocale, useTranslations } from "next-intl";
+import {
+  Link,
+  usePathname,
+  useRouter,
+} from "../../i18n/navigation";
 
 export default function MobileHeader() {
   const [open, setOpen] = useState(false);
 
+  const t = useTranslations("nav");
+  const locale = useLocale();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const changeLanguage = (newLocale: "en" | "fr" | "ar") => {
+    router.replace(pathname, { locale: newLocale });
+    setOpen(false);
+  };
+
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/95 backdrop-blur md:hidden">
       <div className="flex items-center justify-between px-4 py-3">
-        <a href="#home" onClick={() => setOpen(false)}>
+        {/* LOGO */}
+        <Link href="/" onClick={() => setOpen(false)}>
           <Image
             src="/jin-yang-hu-logo.png"
             alt="JIN YANG HU"
@@ -20,8 +37,9 @@ export default function MobileHeader() {
             className="h-auto w-[140px]"
             priority
           />
-        </a>
+        </Link>
 
+        {/* MENU BUTTON */}
         <button
           type="button"
           onClick={() => setOpen(!open)}
@@ -37,41 +55,88 @@ export default function MobileHeader() {
 
       {open && (
         <div className="border-t border-zinc-200 bg-white px-4 pb-5 pt-3 shadow-lg">
+          {/* NAVIGATION */}
           <nav className="flex flex-col">
-            <a
-              href="#home"
+            <Link
+              href="/#home"
               onClick={() => setOpen(false)}
               className="border-b border-zinc-100 py-4 font-semibold text-zinc-900 transition hover:text-orange-500"
             >
-              Home
-            </a>
+              {t("home")}
+            </Link>
 
-            <a
+            <Link
               href="/products"
               onClick={() => setOpen(false)}
               className="border-b border-zinc-100 py-4 font-semibold text-zinc-900 transition hover:text-orange-500"
             >
-              Products
-            </a>
+              {t("products")}
+            </Link>
 
-            <a
-              href="#about"
+            <Link
+              href="/#about"
               onClick={() => setOpen(false)}
               className="border-b border-zinc-100 py-4 font-semibold text-zinc-900 transition hover:text-orange-500"
             >
-              About Us
-            </a>
+              {t("about")}
+            </Link>
 
-            <a
-              href="#contact"
+            <Link
+              href="/#contact"
               onClick={() => setOpen(false)}
               className="py-4 font-semibold text-zinc-900 transition hover:text-orange-500"
             >
-              Contact
-            </a>
+              {t("contact")}
+            </Link>
           </nav>
 
-          <div className="mt-4">
+          {/* LANGUAGE SELECTOR */}
+          <div className="mt-5">
+            <p className="mb-2 text-xs font-bold uppercase tracking-wider text-zinc-400">
+              Language
+            </p>
+
+            <div className="flex gap-2">
+              <button
+                type="button"
+                onClick={() => changeLanguage("en")}
+                className={`flex-1 rounded-lg px-3 py-2 text-sm font-bold transition ${
+                  locale === "en"
+                    ? "bg-orange-500 text-white"
+                    : "bg-zinc-100 text-zinc-700"
+                }`}
+              >
+                EN
+              </button>
+
+              <button
+                type="button"
+                onClick={() => changeLanguage("fr")}
+                className={`flex-1 rounded-lg px-3 py-2 text-sm font-bold transition ${
+                  locale === "fr"
+                    ? "bg-orange-500 text-white"
+                    : "bg-zinc-100 text-zinc-700"
+                }`}
+              >
+                FR
+              </button>
+
+              <button
+                type="button"
+                onClick={() => changeLanguage("ar")}
+                className={`flex-1 rounded-lg px-3 py-2 text-sm font-bold transition ${
+                  locale === "ar"
+                    ? "bg-orange-500 text-white"
+                    : "bg-zinc-100 text-zinc-700"
+                }`}
+              >
+                AR
+              </button>
+            </div>
+          </div>
+
+          {/* QUOTE BUTTON */}
+          <div className="mt-5">
             <QuoteModal />
           </div>
         </div>

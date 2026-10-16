@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link, usePathname, useRouter } from "../../i18n/navigation";
 import QuoteModal from "./QuoteModal";
+import { useLocale, useTranslations } from "next-intl";
 
 const categories = [
   {
@@ -51,7 +52,7 @@ const products: Record<
       name: "JA-B Series",
       slug: "ja-b-series-electric-tank-transporters",
       description: "Heavy-duty electric transporter series",
-      image: "/products/ja-b-series/ja-b-main.jpg",
+      image: "/products/ja-b-series/ja-b-main-v2.jpg",
     },
     {
       name: "JS Series",
@@ -245,6 +246,14 @@ const products: Record<
 };
 
 export default function Header() {
+  const t = useTranslations("nav");
+const locale = useLocale();
+const pathname = usePathname();
+const router = useRouter();
+
+const changeLanguage = (newLocale: "en" | "fr" | "ar") => {
+  router.replace(pathname, { locale: newLocale });
+};
   const [menuOpen, setMenuOpen] = useState(false);
 
   const [activeCategory, setActiveCategory] = useState(categories[0].slug);
@@ -279,7 +288,7 @@ const searchResults = normalizedSearch
   : [];
   return (
     <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white md:block">
-      <div className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+      <div className="relative mx-auto flex max-w-[1450px] items-center justify-between gap-5 px-6 py-5">
         {/* LOGO */}
  <div className="flex items-center gap-4">
   <a href="/" className="shrink-0">
@@ -293,18 +302,18 @@ const searchResults = normalizedSearch
     />
   </a>
 
-  <span className="whitespace-nowrap text-sm text-zinc-500">
-    Industrial Lifting and Transport Solutions
-  </span>
+  <span className="hidden whitespace-nowrap text-sm text-zinc-500 2xl:inline">
+  Industrial Lifting and Transport Solutions
+</span>
 </div>
 
         {/* NAVIGATION */}
-        <nav className="flex items-center gap-8 text-base font-medium text-zinc-900">
+        <nav className="flex items-center gap-6 whitespace-nowrap text-base font-medium text-zinc-900">
           <Link
             href="/"
             className="text-sm font-semibold text-zinc-900"
           >
-            Home
+            {t("home")}
           </Link>
 
           {/* PRODUCTS */}
@@ -320,7 +329,7 @@ const searchResults = normalizedSearch
               type="button"
               className="text-sm font-semibold text-zinc-900"
             >
-              Products
+              {t("products")}
               <span className="text-xs">▼</span>
             </button>
 
@@ -453,14 +462,14 @@ const searchResults = normalizedSearch
             href="/#about"
             className="text-sm font-semibold text-zinc-900"
           >
-            About Us
+            {t("about")}
           </Link>
 
           <Link
             href="/#contact"
             className="text-sm font-semibold text-zinc-900"
           >
-            Contact
+            {t("contact")}
           </Link>
         </nav>
 {/* PRODUCT SEARCH */}
@@ -595,6 +604,45 @@ const searchResults = normalizedSearch
     </div>
   )}
 </div>
+{/* LANGUAGE SELECTOR */}
+<div className="flex items-center gap-1 rounded-lg border border-zinc-200 bg-zinc-50 p-1">
+  <button
+    type="button"
+    onClick={() => changeLanguage("en")}
+    className={`rounded-md px-2.5 py-1.5 text-xs font-bold transition ${
+      locale === "en"
+        ? "bg-orange-500 text-white"
+        : "text-zinc-600 hover:bg-white"
+    }`}
+  >
+    EN
+  </button>
+
+  <button
+    type="button"
+    onClick={() => changeLanguage("fr")}
+    className={`rounded-md px-2.5 py-1.5 text-xs font-bold transition ${
+      locale === "fr"
+        ? "bg-orange-500 text-white"
+        : "text-zinc-600 hover:bg-white"
+    }`}
+  >
+    FR
+  </button>
+
+  <button
+    type="button"
+    onClick={() => changeLanguage("ar")}
+    className={`rounded-md px-2.5 py-1.5 text-xs font-bold transition ${
+      locale === "ar"
+        ? "bg-orange-500 text-white"
+        : "text-zinc-600 hover:bg-white"
+    }`}
+  >
+    AR
+  </button>
+</div>
+
         {/* QUOTE */}
         <div>
           <QuoteModal />

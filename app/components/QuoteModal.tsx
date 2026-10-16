@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { Icon } from "@iconify/react";
+import { useTranslations } from "next-intl";
 
 type QuoteModalProps = {
   buttonText?: string;
@@ -11,12 +12,16 @@ type QuoteModalProps = {
 };
 
 export default function QuoteModal({
-  buttonText = "Request a Quote",
+  buttonText,
   product = "",
   capacity = "",
 }: QuoteModalProps) {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+
+  const t = useTranslations("nav");
+
+  const finalButtonText = buttonText || t("quote");
 
   useEffect(() => {
     setMounted(true);
@@ -34,7 +39,7 @@ export default function QuoteModal({
     };
   }, [open]);
 
-  const isPriceRequest = buttonText.toLowerCase().includes("price");
+  const isPriceRequest = finalButtonText.toLowerCase().includes("price");
 
   const modal =
     open && mounted ? (
@@ -63,7 +68,7 @@ export default function QuoteModal({
             </p>
 
             <h2 className="mt-2 text-3xl font-black text-zinc-900">
-              {buttonText}
+              {finalButtonText}
             </h2>
 
             <p className="mt-3 leading-7 text-zinc-600">
@@ -87,6 +92,7 @@ export default function QuoteModal({
                     <div className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
                       Product
                     </div>
+
                     <div className="mt-1 font-bold text-zinc-900">
                       {product}
                     </div>
@@ -98,6 +104,7 @@ export default function QuoteModal({
                     <div className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
                       Load Capacity
                     </div>
+
                     <div className="mt-1 text-xl font-black text-orange-500">
                       {capacity}
                     </div>
@@ -225,7 +232,7 @@ export default function QuoteModal({
         onClick={() => setOpen(true)}
         className="rounded-md bg-orange-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-orange-600"
       >
-        {buttonText}
+        {finalButtonText}
       </button>
 
       {mounted && modal ? createPortal(modal, document.body) : null}

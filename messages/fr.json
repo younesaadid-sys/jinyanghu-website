@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À propos",
+    "contact": "Contact",
+    "quote": "Demander un devis"
+  },
+
+  "home": {
+    "hero": {
+      "badge": "Fabricant professionnel d'équipements industriels",
+      "title1": "Solutions Puissantes",
+      "for": "Pour",
+      "title2": "Le Déplacement de Charges Lourdes",
+      "description": "Des transporteurs industriels, crics hydrauliques, systèmes de levage et équipements de manutention fiables conçus pour les usines, entrepôts et applications lourdes.",
+      "featuredProduct": "Voir le produit vedette",
+      "contactSales": "Contacter le service commercial",
+      "yearsExperience": "Années d'expérience",
+      "globalB2B": "B2B International",
+      "industrialSupply": "Fourniture industrielle",
+      "customSolutions": "Solutions sur mesure",
+      "fastQuote": "Devis rapide",
+      "salesSupport": "Support commercial",
+      "qualityFocus": "Priorité à la qualité",
+      "reliableEquipment": "Équipements fiables"
+    },
+
+    "about": {
+      "companyImage": "Entreprise / Usine",
+      "title": "À propos de JIN YANG HU",
+      "description": "Solutions professionnelles de levage et de manutention",
+      "descriptionLong": "Nous sommes spécialisés dans les équipements industriels de levage, de déplacement et de manutention pour les usines, distributeurs et utilisateurs professionnels. Nos produits sont conçus autour de la fiabilité, de la sécurité et de la facilité d'utilisation.",
+      "quality": "Qualité",
+      "qualityDescription": "Conception de produits de qualité industrielle.",
+      "service": "Service",
+      "serviceDescription": "Support professionnel pour les clients B2B."
+    },
+
+    "products": {
+      "featured": "Produits en vedette",
+      "electricHeavyDutyMovers": "Transporteurs électriques pour charges lourdes",
+      "manualHeavyDutyMovers": "Transporteurs manuels pour charges lourdes",
+      "jacks": "Crics",
+      "viewMore": "Voir plus",
+      "viewProduct": "Voir le produit",
+      "jaSeriesDescription": "Transporteur électrique pour charges lourdes",
+      "jaBSeriesDescription": "Équipement électrique de transport pour charges lourdes",
+      "jsSeriesDescription": "Transporteur électrique sans fil",
+      "jdSeriesDescription": "Équipement industriel de déplacement de charges lourdes",
+      "jxSeriesDescription": "Transporteur de machines télécommandé",
+      "manualHeavyDutyDescription": "Équipement manuel pour le déplacement de charges lourdes",
+      "jacksDescription": "Équipement professionnel de levage hydraulique"
+    },
+
+    "news": {
+      "newsAndInformation": "Actualités & Informations",
+      "latestIndustryUpdates": "Dernières actualités du secteur",
+      "selectedNews": "Une sélection d'actualités sur la manutention et la logistique industrielle.",
+      "october92026": "9 oct. 2026",
+      "october72026": "7 oct. 2026",
+      "october62026": "6 oct. 2026",
+      "digitalTwinsInMaterialHandling": "Les jumeaux numériques dans la manutention",
+      "digitalTwinsDescription": "Les jumeaux numériques aident les entrepôts et les usines à surveiller, simuler et optimiser des opérations de manutention de plus en plus complexes.",
+      "autonomousForklift": "Chariot élévateur autonome pour le chargement et le déchargement",
+      "autonomousForkliftDescription": "Gideon a présenté TREY, un chariot élévateur autonome conçu pour gérer le chargement et le déchargement des remorques.",
+      "fourWayPalletShuttle": "Navette de palettes 4 directions",
+      "fourWayPalletShuttleDescription": "ZS Robotics a lancé la navette H125 à quatre directions avec un châssis ultra-bas de 125 mm et des fonctions intégrées de sécurité et d'automatisation.",
+      "mhlNews": "MHL News",
+      "readOriginal": "Lire l'article original"
+    },
+
+    "contact": {
+      "businessCooperation": "Coopération commerciale",
+      "needQuotation": "Besoin d'un devis ou d'une recommandation de produit ?",
+      "sendDetails": "Envoyez-nous le modèle, la capacité de charge et l'application souhaités. Notre équipe vous aidera à choisir l'équipement adapté.",
+      "responseTime": "Temps de réponse",
+      "within24Hours": "Sous 24 heures"
+    },
+
+    "footer": {
+      "companyDescription": "Équipements professionnels de levage, de déplacement et de manutention pour les usines, distributeurs et partenaires commerciaux.",
+      "quickLinks": "Liens rapides",
+      "home": "Accueil",
+      "aboutUs": "À propos",
+      "contact": "Contact",
+      "featuredProducts": "Produits en vedette",
+      "jaSeries": "Série JA",
+      "jaBSeries": "Série JA-B",
+      "jsSeries": "Série JS",
+      "copyright": "2026 JIN YANG HU. Tous droits réservés.",
+      "privacyPolicy": "Politique de confidentialité",
+      "terms": "Conditions"
+    }
+  }
+}

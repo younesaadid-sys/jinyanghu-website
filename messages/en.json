@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact",
+    "quote": "Request a Quote"
+  },
+
+  "home": {
+    "hero": {
+      "badge": "Professional Industrial Equipment Manufacturer",
+      "title1": "Powerful Solutions",
+      "for": "For",
+      "title2": "Heavy Load Movement",
+      "description": "Reliable tank movers, hydraulic jacks, lifting systems and industrial handling equipment designed for factories, warehouses and heavy-duty applications.",
+      "featuredProduct": "View Featured Product",
+      "contactSales": "Contact Sales",
+      "yearsExperience": "Years of Experience",
+      "globalB2B": "Global B2B",
+      "industrialSupply": "Industrial Supply",
+      "customSolutions": "Custom Solutions",
+      "fastQuote": "Fast Quote",
+      "salesSupport": "Sales Support",
+      "qualityFocus": "Quality Focus",
+      "reliableEquipment": "Reliable Equipment"
+    },
+
+    "about": {
+      "companyImage": "Company / Factory Image",
+      "title": "About JIN YANG HU",
+      "description": "Professional Lifting and Material Handling Solutions",
+      "descriptionLong": "We focus on industrial lifting, moving and warehouse handling equipment for factories, distributors and professional users. Our products are designed around reliability, safety and practical operation.",
+      "quality": "Quality",
+      "qualityDescription": "Industrial-grade product design.",
+      "service": "Service",
+      "serviceDescription": "Professional B2B support."
+    },
+
+    "products": {
+      "featured": "Featured Products",
+      "electricHeavyDutyMovers": "Electric Heavy-Duty Movers",
+      "manualHeavyDutyMovers": "Manual Heavy-Duty Movers",
+      "jacks": "Jacks",
+      "viewMore": "View More",
+      "viewProduct": "View Product",
+      "jaSeriesDescription": "Electric heavy-duty tank transporter",
+      "jaBSeriesDescription": "Heavy-duty electric transport equipment",
+      "jsSeriesDescription": "Wireless electric transporter",
+      "jdSeriesDescription": "Industrial heavy-load moving equipment",
+      "jxSeriesDescription": "Remote-controlled machinery transporter",
+      "manualHeavyDutyDescription": "Manual heavy-duty moving equipment",
+      "jacksDescription": "Professional hydraulic lifting equipment"
+    },
+
+    "news": {
+      "newsAndInformation": "News & Information",
+      "latestIndustryUpdates": "Latest Industry Updates",
+      "selectedNews": "Selected news from the material handling and industrial logistics industry.",
+      "october92026": "Oct 9, 2026",
+      "october72026": "Oct 7, 2026",
+      "october62026": "Oct 6, 2026",
+      "digitalTwinsInMaterialHandling": "Digital Twins in the Material Handling Industry",
+      "digitalTwinsDescription": "Digital twins are helping warehouses and factories monitor, simulate and optimize increasingly complex material handling operations.",
+      "autonomousForklift": "Autonomous Forklift for Trailer Loading and Unloading",
+      "autonomousForkliftDescription": "Gideon introduced TREY, an autonomous forklift designed to handle trailer loading and unloading from the first pallet to the last.",
+      "fourWayPalletShuttle": "4-Way Pallet Shuttle",
+      "fourWayPalletShuttleDescription": "ZS Robotics launched the H125 four-way pallet shuttle with an ultra-low 125 mm chassis and integrated safety and automation features.",
+      "mhlNews": "MHL News",
+      "readOriginal": "Read Original"
+    },
+
+    "contact": {
+      "businessCooperation": "Business Cooperation",
+      "needQuotation": "Need a quotation or product recommendation?",
+      "sendDetails": "Send us your required model, load capacity and application. Our team will help you select the right equipment.",
+      "responseTime": "Response Time",
+      "within24Hours": "Within 24 Hours"
+    },
+
+    "footer": {
+      "companyDescription": "Professional industrial lifting, moving and material handling equipment for factories, distributors and business partners.",
+      "quickLinks": "Quick Links",
+      "home": "Home",
+      "aboutUs": "About Us",
+      "contact": "Contact",
+      "featuredProducts": "Featured Products",
+      "jaSeries": "JA Series",
+      "jaBSeries": "JA-B Series",
+      "jsSeries": "JS Series",
+      "copyright": "2026 JIN YANG HU. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "terms": "Terms"
+    }
+  }
+}

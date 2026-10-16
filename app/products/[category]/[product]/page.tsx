@@ -113,7 +113,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/ja-b-series/ja-b-main.jpg",
+        src: "/products/ja-b-series/ja-b-main-v2.jpg",
         alt: "JA-B Series Electric Tank Transporter",
       },
       {

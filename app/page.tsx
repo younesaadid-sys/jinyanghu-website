@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import { Anton } from "next/font/google";
-
+import { getTranslations } from "next-intl/server";
 import HomeBanner from "./components/HomeBanner";
 
 const anton = Anton({
@@ -9,7 +9,8 @@ const anton = Anton({
   subsets: ["latin"],
 });
 
-export default function Home() {
+export default async function Home() {
+  const t = await getTranslations("home");
   return (
     <main className="min-h-screen bg-white text-zinc-900">
       {/* AUTOMATIC BANNER */}
@@ -32,31 +33,29 @@ export default function Home() {
       {/* LEFT SIDE */}
       <div className="max-w-[680px] text-left">
         <div className="mb-5 inline-flex rounded-full border border-orange-400/40 bg-orange-500/10 px-4 py-2 text-sm font-semibold text-orange-400">
-          Professional Industrial Equipment Manufacturer
+          {t("hero.badge")}
         </div>
 
         <h1
           className={`${anton.className} text-left uppercase leading-[0.95] tracking-tight`}
         >
           <span className="block text-5xl text-white md:text-7xl">
-            Powerful Solutions
+            {t("hero.title1")}
           </span>
 
          <span className="mt-2 block whitespace-nowrap">
   <span className="text-4xl text-white md:text-6xl">
-    For{" "}
+    {t("hero.for")}{" "}
   </span>
 
   <span className="text-4xl text-orange-500 md:text-6xl">
-    Heavy Load Movement
+    {t("hero.title2")}
   </span>
 </span>
         </h1>
 
         <p className="mt-7 max-w-[620px] text-left text-lg leading-8 text-zinc-300">
-          Reliable tank movers, hydraulic jacks, lifting systems and
-          industrial handling equipment designed for factories,
-          warehouses and heavy-duty applications.
+          {t("hero.description")}
         </p>
 
         <div className="mt-9 flex flex-wrap justify-start gap-4">
@@ -64,14 +63,14 @@ export default function Home() {
             href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
             className="rounded-md bg-orange-500 px-7 py-4 font-semibold text-white transition hover:bg-orange-600"
           >
-            View Featured Product
+            {t("hero.featuredProduct")}
           </a>
 
           <a
             href="/#contact"
             className="rounded-md border border-zinc-600 px-7 py-4 font-semibold text-white transition hover:border-white"
           >
-            Contact Sales
+            {t("hero.contactSales")}
           </a>
         </div>
       </div>
@@ -106,7 +105,7 @@ export default function Home() {
     <div className="h-3 w-3 rounded-full bg-orange-500" />
 
     <span className="text-lg font-bold text-white">
-      <span className="text-orange-500">+20</span> Years of Experience
+      <span className="text-orange-500">+20</span> {t("hero.yearsExperience")}
     </span>
   </div>
 </div>
@@ -122,11 +121,11 @@ export default function Home() {
 
           <div>
             <div className="text-2xl font-black leading-none">
-              Global B2B
+              {t("hero.globalB2B")}
             </div>
 
             <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
-              Industrial Supply
+              {t("hero.industrialSupply")}
             </div>
           </div>
         </div>
@@ -143,7 +142,7 @@ export default function Home() {
             </div>
 
             <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
-              Custom Solutions
+              {t("hero.customSolutions")}
             </div>
           </div>
         </div>
@@ -156,11 +155,11 @@ export default function Home() {
 
           <div>
             <div className="text-2xl font-black leading-none">
-              Fast Quote
+              {t("hero.fastQuote")}
             </div>
 
             <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
-              Sales Support
+              {t("hero.salesSupport")}
             </div>
           </div>
         </div>
@@ -173,11 +172,11 @@ export default function Home() {
 
           <div>
             <div className="text-2xl font-black leading-none">
-              Quality Focus
+              {t("hero.qualityFocus")}
             </div>
 
             <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-orange-100">
-              Reliable Equipment
+              {t("hero.reliableEquipment")}
             </div>
           </div>
         </div>
@@ -200,7 +199,7 @@ export default function Home() {
                 />
 
                 <p className="mt-4 font-semibold text-zinc-500">
-                  Company / Factory Image
+                  {t("about.companyImage")}
                 </p>
               </div>
             </div>
@@ -208,38 +207,35 @@ export default function Home() {
 
           <div>
             <p className="font-semibold uppercase tracking-wider text-orange-500">
-              About JIN YANG HU
+              {t("about.title")}
             </p>
 
             <h2 className="mt-3 text-4xl font-black leading-tight">
-              Professional Lifting and Material Handling Solutions
+              {t("about.description")}
             </h2>
 
             <p className="mt-6 leading-8 text-zinc-600">
-              We focus on industrial lifting, moving and warehouse handling
-              equipment for factories, distributors and professional users.
-              Our products are designed around reliability, safety and
-              practical operation.
+              {t("about.descriptionLong")}
             </p>
 
             <div className="mt-8 grid gap-6 sm:grid-cols-2">
               <div className="rounded-xl bg-white p-5">
                 <div className="text-2xl font-black text-orange-500">
-                  Quality
+                  {t("about.quality")}
                 </div>
 
                 <p className="mt-2 text-sm text-zinc-600">
-                  Industrial-grade product design.
+                  {t("about.qualityDescription")}
                 </p>
               </div>
 
               <div className="rounded-xl bg-white p-5">
                 <div className="text-2xl font-black text-orange-500">
-                  Service
+                  {t("about.service")}
                 </div>
 
                 <p className="mt-2 text-sm text-zinc-600">
-                  Professional B2B support.
+                  {t("about.serviceDescription")}
                 </p>
               </div>
             </div>
@@ -255,11 +251,11 @@ export default function Home() {
       <div className="mb-6 flex items-end justify-between">
         <div>
           <p className="text-sm font-bold uppercase tracking-wider text-orange-500">
-            Featured Products
+            {t("products.featured")}
           </p>
 
           <h2 className="mt-1 text-3xl font-black text-zinc-900">
-            Electric Heavy-Duty Movers
+            {t("products.electricHeavyDutyMovers")}
           </h2>
         </div>
 
@@ -267,7 +263,7 @@ export default function Home() {
           href="/products?category=electric-heavy-duty-movers"
           className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
         >
-          View More →
+          {t("products.viewMore")} →
         </a>
       </div>
 
@@ -290,11 +286,11 @@ export default function Home() {
           <div className="p-5">
             <h3 className="text-lg font-bold">JA Series</h3>
             <p className="mt-2 text-sm text-zinc-500">
-              Electric heavy-duty tank transporter
+              {t("products.jaSeriesDescription")}
             </p>
 
             <div className="mt-5 flex items-center justify-between">
-              <span className="font-bold text-orange-500">View Product</span>
+              <span className="font-bold text-orange-500">{t("products.viewProduct")}</span>
               <span>→</span>
             </div>
           </div>
@@ -307,7 +303,7 @@ export default function Home() {
         >
           <div className="relative h-[220px]">
             <Image
-              src="/products/ja-b-series/ja-b-main.jpg"
+              src="/products/ja-b-series/ja-b-main-v2.jpg"
               alt="JA-B Series"
               fill
               className="object-contain p-5 transition group-hover:scale-105"
@@ -317,11 +313,11 @@ export default function Home() {
           <div className="p-5">
             <h3 className="text-lg font-bold">JA-B Series</h3>
             <p className="mt-2 text-sm text-zinc-500">
-              Heavy-duty electric transport equipment
+              {t("products.jaBSeriesDescription")}
             </p>
 
             <div className="mt-5 flex items-center justify-between">
-              <span className="font-bold text-orange-500">View Product</span>
+              <span className="font-bold text-orange-500">{t("products.viewProduct")}</span>
               <span>→</span>
             </div>
           </div>
@@ -344,11 +340,11 @@ export default function Home() {
           <div className="p-5">
             <h3 className="text-lg font-bold">JS Series</h3>
             <p className="mt-2 text-sm text-zinc-500">
-              Wireless electric transporter
+              {t("products.jsSeriesDescription")}
             </p>
 
             <div className="mt-5 flex items-center justify-between">
-              <span className="font-bold text-orange-500">View Product</span>
+              <span className="font-bold text-orange-500">{t("products.viewProduct")}</span>
               <span>→</span>
             </div>
           </div>
@@ -371,11 +367,11 @@ export default function Home() {
           <div className="p-5">
             <h3 className="text-lg font-bold">JD Series</h3>
             <p className="mt-2 text-sm text-zinc-500">
-              Industrial heavy-load moving equipment
+              {t("products.jdSeriesDescription")}
             </p>
 
             <div className="mt-5 flex items-center justify-between">
-              <span className="font-bold text-orange-500">View Product</span>
+              <span className="font-bold text-orange-500">{t("products.viewProduct")}</span>
               <span>→</span>
             </div>
           </div>
@@ -398,11 +394,11 @@ export default function Home() {
           <div className="p-5">
             <h3 className="text-lg font-bold">JX Series</h3>
             <p className="mt-2 text-sm text-zinc-500">
-              Remote-controlled machinery transporter
+              {t("products.jxSeriesDescription")}
             </p>
 
             <div className="mt-5 flex items-center justify-between">
-              <span className="font-bold text-orange-500">View Product</span>
+              <span className="font-bold text-orange-500">{t("products.viewProduct")}</span>
               <span>→</span>
             </div>
           </div>
@@ -417,11 +413,11 @@ export default function Home() {
       <div className="mb-6 flex items-end justify-between">
         <div>
           <p className="text-sm font-bold uppercase tracking-wider text-orange-500">
-            Featured Products
+            {t("products.featured")}
           </p>
 
           <h2 className="mt-1 text-3xl font-black text-zinc-900">
-            Manual Heavy-Duty Movers
+            {t("products.manualHeavyDutyMovers")}
           </h2>
         </div>
 
@@ -429,7 +425,7 @@ export default function Home() {
           href="/products?category=manual-heavy-duty-movers"
           className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
         >
-          View More →
+          {t("products.viewMore")} →
         </a>
       </div>
 
@@ -445,9 +441,9 @@ export default function Home() {
           <a
             key={slug}
             href={`/products/manual-heavy-duty-movers/${slug}`}
-            className="group overflow-hidden rounded-xl bg-zinc-50 transition hover:-translate-y-1 hover:shadow-lg"
+            className="group overflow-hidden rounded-xl border border-zinc-200 bg-white transition hover:-translate-y-1 hover:shadow-lg"
           >
-            <div className="relative h-[220px]">
+            <div className="relative h-[220px] bg-white">
               <Image
                 src={image}
                 alt={name}
@@ -460,12 +456,12 @@ export default function Home() {
               <h3 className="text-lg font-bold">{name}</h3>
 
               <p className="mt-2 text-sm text-zinc-500">
-                Manual heavy-duty moving equipment
+                {t("products.manualHeavyDutyDescription")}
               </p>
 
               <div className="mt-5 flex items-center justify-between">
                 <span className="font-bold text-orange-500">
-                  View Product
+                  {t("products.viewProduct")}
                 </span>
                 <span>→</span>
               </div>
@@ -482,11 +478,11 @@ export default function Home() {
       <div className="mb-6 flex items-end justify-between">
         <div>
           <p className="text-sm font-bold uppercase tracking-wider text-orange-500">
-            Featured Products
+            {t("products.featured")}
           </p>
 
           <h2 className="mt-1 text-3xl font-black text-zinc-900">
-            Jacks
+            {t("products.jacks")}
           </h2>
         </div>
 
@@ -494,7 +490,7 @@ export default function Home() {
           href="/products?category=jacks"
           className="text-sm font-semibold text-zinc-600 transition hover:text-orange-500"
         >
-          View More →
+          {t("products.viewMore")}
         </a>
       </div>
 
@@ -525,12 +521,12 @@ export default function Home() {
               <h3 className="text-lg font-bold">{name}</h3>
 
               <p className="mt-2 text-sm text-zinc-500">
-                Professional hydraulic lifting equipment
+                {t("products.jacksDescription")}
               </p>
 
               <div className="mt-5 flex items-center justify-between">
                 <span className="font-bold text-orange-500">
-                  View Product
+                  {t("products.viewProduct")}
                 </span>
                 <span>→</span>
               </div>
@@ -549,15 +545,15 @@ export default function Home() {
 
     <div className="mb-10 text-center">
       <p className="text-sm font-semibold uppercase tracking-wider text-orange-500">
-        News & Information
+        {t("news.newsAndInformation")}
       </p>
 
       <h2 className="mt-2 text-3xl font-black text-zinc-900">
-        Latest Industry Updates
+        {t("news.latestIndustryUpdates")}
       </h2>
 
       <p className="mt-3 text-zinc-500">
-        Selected news from the material handling and industrial logistics industry.
+        {t("news.selectedNews")}
       </p>
     </div>
 
@@ -576,21 +572,20 @@ export default function Home() {
           </span>
 
           <span className="text-xs text-zinc-400">
-            Oct 9, 2026
+            {t("news.october92026")}
           </span>
         </div>
 
         <h3 className="text-xl font-black text-zinc-900 transition group-hover:text-orange-500">
-          Digital Twins in the Material Handling Industry
+          {t("news.digitalTwinsInMaterialHandling")}
         </h3>
 
         <p className="mt-3 text-sm leading-6 text-zinc-600">
-          Digital twins are helping warehouses and factories monitor, simulate
-          and optimize increasingly complex material handling operations.
+          {t("news.digitalTwinsDescription")}
         </p>
 
         <div className="mt-5 font-semibold text-orange-500">
-          Read Original →
+          {t("news.readOriginal")} →
         </div>
       </a>
 
@@ -604,25 +599,24 @@ export default function Home() {
       >
         <div className="mb-4 flex items-center justify-between">
           <span className="text-sm font-bold uppercase tracking-wider text-orange-500">
-            MHL News
+            {t("news.mhlNews")}
           </span>
 
           <span className="text-xs text-zinc-400">
-            Oct 7, 2026
+            {t("news.october72026")}
           </span>
         </div>
 
         <h3 className="text-xl font-black text-zinc-900 transition group-hover:text-orange-500">
-          Autonomous Forklift for Trailer Loading and Unloading
+          {t("news.autonomousForklift")}
         </h3>
 
         <p className="mt-3 text-sm leading-6 text-zinc-600">
-          Gideon introduced TREY, an autonomous forklift designed to handle
-          trailer loading and unloading from the first pallet to the last.
+          {t("news.autonomousForkliftDescription")}
         </p>
 
         <div className="mt-5 font-semibold text-orange-500">
-          Read Original →
+          {t("news.readOriginal")} →
         </div>
       </a>
 
@@ -636,25 +630,24 @@ export default function Home() {
       >
         <div className="mb-4 flex items-center justify-between">
           <span className="text-sm font-bold uppercase tracking-wider text-orange-500">
-            MHL News
+            {t("news.mhlNews")}
           </span>
 
           <span className="text-xs text-zinc-400">
-            Oct 6, 2026
+            {t("news.october62026")}
           </span>
         </div>
 
         <h3 className="text-xl font-black text-zinc-900 transition group-hover:text-orange-500">
-          4-Way Pallet Shuttle
+          {t("news.fourWayPalletShuttle")}
         </h3>
 
         <p className="mt-3 text-sm leading-6 text-zinc-600">
-          ZS Robotics launched the H125 four-way pallet shuttle with an
-          ultra-low 125 mm chassis and integrated safety and automation features.
+          {t("news.fourWayPalletShuttleDescription")}
         </p>
 
         <div className="mt-5 font-semibold text-orange-500">
-          Read Original →
+          {t("news.readOriginal")} →
         </div>
       </a>
 
@@ -669,16 +662,15 @@ export default function Home() {
       {/* LEFT TEXT */}
       <div className="max-w-[650px]">
         <p className="font-semibold uppercase tracking-wider text-orange-100">
-          Business Cooperation
+          {t("contact.businessCooperation")}
         </p>
 
         <h2 className="mt-3 text-4xl font-black leading-tight">
-          Need a quotation or product recommendation?
+          {t("contact.needQuotation")}
         </h2>
 
         <p className="mt-4 max-w-2xl leading-7 text-orange-100">
-          Send us your required model, load capacity and application. Our team
-          will help you select the right equipment.
+          {t("contact.sendDetails")}
         </p>
       </div>
 
@@ -738,11 +730,11 @@ export default function Home() {
 
           <div>
             <div className="text-sm font-semibold text-orange-100">
-              Response Time
+              {t("contact.responseTime")}
             </div>
 
             <div className="mt-1 font-bold">
-              Within 24 Hours
+              {t("contact.within24Hours")}
             </div>
           </div>
         </div>
@@ -769,15 +761,14 @@ export default function Home() {
               </a>
 
               <p className="mt-4 max-w-sm text-sm leading-6 text-zinc-400">
-                Professional industrial lifting, moving and material handling
-                equipment for factories, distributors and business partners.
+                {t("footer.companyDescription")}
               </p>
             </div>
 
             {/* QUICK LINKS */}
             <div>
               <h3 className="text-base font-bold text-white">
-                Quick Links
+                {t("footer.quickLinks")}
               </h3>
 
               <div className="mt-4 flex flex-col gap-3 text-sm">
@@ -785,21 +776,21 @@ export default function Home() {
                   href="/"
                   className="transition hover:text-orange-500"
                 >
-                  Home
+                  {t("footer.home")}
                 </a>
 
                 <a
                   href="/#about"
                   className="transition hover:text-orange-500"
                 >
-                  About Us
+                  {t("footer.aboutUs")}
                 </a>
 
                 <a
                   href="/#contact"
                   className="transition hover:text-orange-500"
                 >
-                  Contact
+                  {t("footer.contact")}
                 </a>
               </div>
             </div>
@@ -807,7 +798,7 @@ export default function Home() {
             {/* FEATURED PRODUCT */}
             <div>
               <h3 className="text-base font-bold text-white">
-                Featured Product
+                {t("footer.featuredProducts")}
               </h3>
 
               <div className="mt-4 flex flex-col gap-3 text-sm">
@@ -815,21 +806,21 @@ export default function Home() {
                   href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
                   className="transition hover:text-orange-500"
                 >
-                  JA Series
+                  {t("footer.jaSeries")}
                 </a>
 
                 <a
                   href="/products/electric-heavy-duty-movers/ja-b-series-electric-tank-transporters"
                   className="transition hover:text-orange-500"
                 >
-                  JA-B Series
+                  {t("footer.jaBSeries")}
                 </a>
 
                 <a
                   href="/products/electric-heavy-duty-movers/js-series-electric-tank-transporters"
                   className="transition hover:text-orange-500"
                 >
-                  JS Series
+                  {t("footer.jsSeries")}
                 </a>
               </div>
             </div>
@@ -837,7 +828,7 @@ export default function Home() {
             {/* CONTACT */}
             <div>
               <h3 className="text-base font-bold text-white">
-                Contact
+                {t("footer.contact")}
               </h3>
 
               <div className="mt-4 space-y-4 text-sm">
@@ -874,7 +865,7 @@ export default function Home() {
           <div className="mt-10 border-t border-zinc-800 pt-6">
             <div className="flex flex-col gap-3 text-sm md:flex-row md:items-center md:justify-between">
               <div>
-                © 2026 JIN YANG HU. All rights reserved.
+                © {t("footer.copyright")}
               </div>
 
               <div className="flex gap-5">
@@ -882,14 +873,14 @@ export default function Home() {
                   href="#"
                   className="transition hover:text-orange-500"
                 >
-                  Privacy Policy
+                  {t("footer.privacyPolicy")}
                 </a>
 
                 <a
                   href="#"
                   className="transition hover:text-orange-500"
                 >
-                  Terms
+                  {t("footer.terms")}
                 </a>
               </div>
             </div>
