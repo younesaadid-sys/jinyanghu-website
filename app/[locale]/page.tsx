@@ -453,6 +453,7 @@ export default async function Home() {
                 src={image}
                 alt={name}
                 fill
+                unoptimized
                 className="object-contain p-5 transition group-hover:scale-105"
               />
             </div>
@@ -518,6 +519,7 @@ export default async function Home() {
                 src={image}
                 alt={name}
                 fill
+                unoptimized
                 className="object-contain p-5 transition group-hover:scale-105"
               />
             </div>
