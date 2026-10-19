@@ -252,12 +252,13 @@ export default async function ProductsPage({
                     href={`/products/${group.slug}/${product.slug}`}
                     className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-xl"
                   >
-                    <div className="relative h-[240px] bg-zinc-50">
+                    <div className="relative h-[240px] bg-white">
                       {product.image ? (
                         <Image
                           src={product.image}
                           alt={product.name}
                           fill
+                          unoptimized
                           className="object-contain p-5 transition duration-300 group-hover:scale-105"
                         />
                       ) : (
