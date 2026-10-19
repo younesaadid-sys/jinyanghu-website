@@ -285,6 +285,7 @@ export default async function Home() {
               src="/products/ja-series/ja-main.jpg"
               alt="JA Series"
               fill
+              unoptimized
                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
               className="object-contain p-5 transition group-hover:scale-105"
             />
@@ -313,6 +314,7 @@ export default async function Home() {
               src="/products/ja-b-series/ja-b-main-v2.jpg"
               alt="JA-B Series"
               fill
+              unoptimized
                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
               className="object-contain p-5 transition group-hover:scale-105"
             />
@@ -341,6 +343,7 @@ export default async function Home() {
               src="/products/js-series/js-main.png"
               alt="JS Series"
               fill
+              unoptimized
                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
               className="object-contain p-5 transition group-hover:scale-105"
             />
@@ -369,6 +372,7 @@ export default async function Home() {
               src="/products/jd-series/jd-main.jpg"
               alt="JD Series"
               fill
+              unoptimized
                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
               className="object-contain p-5 transition group-hover:scale-105"
             />
@@ -397,6 +401,7 @@ export default async function Home() {
               src="/products/jx-series/jx-main.jpg"
               alt="JX Series"
               fill
+              unoptimized
                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
               className="object-contain p-5 transition group-hover:scale-105"
             />
