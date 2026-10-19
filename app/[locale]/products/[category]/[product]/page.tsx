@@ -1041,10 +1041,7 @@ const productData = {
         src: "/products/crq-series/crq-construction-details.png",
         alt: "CRQ Series key construction details",
       },
-      {
-        src: "/products/crq-series/crq-product-view.png",
-        alt: "CRQ Series detailed product view",
-      },
+      
       {
         src: "/products/crq-series/crq-specifications.png",
         alt: "CRQ Series product specifications",
