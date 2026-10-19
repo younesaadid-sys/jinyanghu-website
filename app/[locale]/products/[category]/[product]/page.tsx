@@ -950,10 +950,7 @@ const productData = {
         src: "/products/crp-series/crp-specifications.png",
         alt: "CRP Series specifications and dimensions",
       },
-      {
-        src: "/products/crp-series/crp-rotation.png",
-        alt: "CRP Series 360 degree free rotation",
-      },
+      
       {
         src: "/products/crp-series/crp-removable-handle.png",
         alt: "CRP Series removable handle system",
