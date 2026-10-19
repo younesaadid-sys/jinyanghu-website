@@ -10,6 +10,11 @@ const productData = {
   "ja-series-electric-tank-transporters": {
     name: "JA Series Electric Tank Transporters",
     shortName: "JA Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Electric Machinery Skates Dolly, 360° Mobile Mechanical Transporters, Machine Skates Dolly with 2pcs Straight Auxiliary Wheels Skates (60t - with a Pair of Auxiliary Wheels)",
@@ -104,6 +109,11 @@ const productData = {
   "ja-b-series-electric-tank-transporters": {
     name: "JA-B Series Electric Tank Transporters",
     shortName: "JA-B Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Heavy-duty electric transporter series designed for industrial machinery handling, flexible steering and high-capacity load movement.",
@@ -202,6 +212,11 @@ const productData = {
   "js-series-electric-tank-transporters": {
     name: "JS Series Electric Tank Transporters",
     shortName: "JS Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Electric heavy-duty transporter designed for moving, lifting and positioning industrial machinery. The JS Series combines wireless remote control, electric lifting, flexible movement and a powerful copper-core motor for efficient heavy-equipment handling.",
@@ -292,6 +307,11 @@ const productData = {
   "jd-series-electric-tank-transporters": {
     name: "JD Series Electric Machinery Skate Dolly",
     shortName: "JD Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Electric heavy-duty machinery skate dolly designed for safe and efficient movement of industrial equipment, with wireless remote control and flexible 360° positioning.",
@@ -382,6 +402,11 @@ const productData = {
   "jx-series-electric-machinery-skate-dolly": {
     name: "JX Series Electric Machinery Skate Dolly",
     shortName: "JX Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Remote-controlled electric machinery skate dolly engineered for heavy industrial load movement, precise positioning and safe material handling.",
@@ -476,6 +501,11 @@ const productData = {
   "jz-series-electric-pallet-truck": {
     name: "JZ Series Electric Pallet Truck",
     shortName: "JZ Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Heavy-duty electric pallet truck designed for efficient warehouse transport, industrial material handling and high-capacity load movement.",
@@ -566,6 +596,11 @@ const productData = {
   "cra-series-tank-transporters": {
     name: "CRA Series Cargo Moving Skates",
     shortName: "CRA Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual heavy-duty cargo moving skates designed for stable, smooth and controlled movement of industrial machinery and equipment.",
@@ -656,6 +691,11 @@ const productData = {
   "crd-series-tank-transporters": {
     name: "CRD Series Hand-Cranked Machine Skates",
     shortName: "CRD Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual hand-cranked machine skates designed for controlled movement and positioning of heavy industrial machinery, with a 360° swivel platform and optional nylon or steel wheels.",
@@ -750,6 +790,11 @@ const productData = {
   "cwa-series-tank-transporters": {
     name: "CWA Series Tank Transporters",
     shortName: "CWA Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual heavy-duty tank transporters designed for controlled movement of industrial machinery, with flexible steering, stable load distribution and rugged steel construction.",
@@ -840,6 +885,11 @@ const productData = {
   "cx-y-series-tank-transporters": {
     name: "CX+Y Series Tank Transporters",
     shortName: "CX+Y Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual heavy-duty transporter system combining steering and straight-running machine skates for controlled movement of industrial machinery and large equipment.",
@@ -934,6 +984,11 @@ const productData = {
   "crp-series-tank-transporters": {
     name: "CRP Series Machinery Moving Skate",
     shortName: "CRP Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual heavy-duty machinery moving skate designed for controlled equipment relocation, featuring a 360° rotating platform, durable steel construction and wear-resistant caster wheels.",
@@ -1024,6 +1079,11 @@ const productData = {
   "crq-series-tank-transporters": {
     name: "CRQ Series Heavy-Duty Universal Skates",
     shortName: "CRQ Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual heavy-duty universal skates designed for industrial equipment moving, machine relocation and precise positioning with multi-directional movement and stable load support.",
@@ -1118,6 +1178,11 @@ const productData = {
   "crm-series-tank-transporters": {
     name: "CRM Series Crawler Machinery Skates",
     shortName: "CRM Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual heavy-duty crawler machinery skates designed for straight-line movement of industrial machinery and extremely heavy loads, featuring alloy steel rollers, anti-slip support pads and reinforced steel construction.",
@@ -1220,6 +1285,11 @@ const productData = {
   "crf-series-tank-transporters": {
     name: "CRF Series Heavy-Duty Machinery Skates",
     shortName: "CRF Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual heavy-duty machinery skates designed for controlled movement and positioning of industrial equipment, featuring a 360° rotating turntable, reinforced steel construction and optional alloy steel or polyurethane wheels.",
@@ -1310,6 +1380,11 @@ const productData = {
   "crw-series-tank-transporters": {
     name: "CRW Series Hydraulic Moving Skates",
     shortName: "CRW Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Manual hydraulic lifting machinery skates designed for controlled movement, lifting and precise positioning of heavy industrial equipment. The omnidirectional wheel system provides flexible steering while the hydraulic unit allows controlled lifting and lowering.",
@@ -1400,6 +1475,11 @@ const productData = {
   "ma-series-dual-purpose-claw-jacks": {
     name: "MA Series Dual-Purpose Claw Jacks",
     shortName: "MA Series",
+    purchaseLinks: {
+      amazon: "",
+      aliexpress: "",
+      alibaba: "",
+    },
 
     description:
       "Heavy-duty hydraulic claw jack series designed for lifting, holding and positioning industrial machinery. The MA Series combines low-position claw lifting, top lifting, adjustable working height and mobile operation in one compact unit.",
@@ -1488,6 +1568,11 @@ features: [
 "mb-series-multi-stage-claw-jacks": {
   name: "MB Series Multi-Stage Claw Jacks",
   shortName: "MB Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Heavy-duty multi-stage claw jacks designed for precise height adjustment, stable load support and industrial equipment lifting. The MB Series combines a reinforced steel body, adjustable lifting positions and a wide stable base for demanding machinery handling applications.",
@@ -1577,6 +1662,11 @@ features: [
 "mc-series-single-stage-claw-jacks": {
   name: "MC Series Single-Stage Claw Jacks",
   shortName: "MC Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Single-stage high-stroke hydraulic claw jacks designed for vertical lifting, heavy equipment positioning and industrial maintenance. The MC Series combines high lifting stroke, stable load support and a compact reinforced structure for demanding industrial applications.",
@@ -1666,6 +1756,11 @@ features: [
 "md-series-manual-claw-jacks": {
   name: "MD Series Manual Claw Jacks",
   shortName: "MD Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Manual hydraulic claw jacks designed for heavy-duty industrial lifting, equipment positioning and maintenance. The MD Series combines a reinforced housing, stable load-bearing base, durable hydraulic reservoir and protected sealing system for reliable operation in demanding environments.",
@@ -1752,6 +1847,11 @@ features: [
 "me-series-remote-operated-claw-jacks": {
   name: "ME Series Remote-Operated Claw Jacks",
   shortName: "ME Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Remote-operated hydraulic claw jack series designed for efficient heavy-duty lifting, machine moving and equipment positioning. The ME Series combines an electric hydraulic power unit with a compact claw jack structure for fast, stable and labor-saving industrial operation.",
@@ -1838,6 +1938,11 @@ features: [
 "mf-series-hydraulic-lifters": {
   name: "MF Series Hydraulic Lifters",
   shortName: "MF Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Compact hydraulic lifter series designed for powerful lifting, load handling and industrial positioning tasks. The MF Series combines strong hydraulic force, portable operation and a durable structure for safe and efficient use in industrial environments.",
@@ -1924,6 +2029,11 @@ features: [
 "mg-series-wedge-jacks": {
   name: "MG Series Wedge Jacks",
   shortName: "MG Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Low-profile hydraulic wedge jacks designed for precise lifting, pushing and positioning of heavy equipment in narrow spaces. The MG Series is ideal for industrial installation, machine leveling, rail maintenance and heavy-duty horizontal pushing applications.",
@@ -2010,6 +2120,11 @@ features: [
 "mh-series-remote-operated-jacks": {
   name: "MH Series Remote-Operated Jacks",
   shortName: "MH Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "The MH Series remote-operated jacks are compact hydraulic lifting solutions designed for industrial lifting, machine tool installation, steel structure support, shipbuilding, and factory equipment maintenance. They offer high-capacity lifting, reliable performance, and controlled operation in confined working spaces.",
@@ -2099,6 +2214,11 @@ features: [
 "mi-series-hand-operated-toe-jacks": {
   name: "MI Series Hand-Operated Toe Jacks",
   shortName: "MI Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Heavy-duty manual toe jacks designed for lifting, positioning and supporting industrial machinery. The MI Series features a self-locking ratchet mechanism, thickened non-slip lifting hook and foldable operating handle for safe and controlled operation.",
@@ -2188,6 +2308,11 @@ features: [
 "mj-series-low-profile-hand-operated-toe-jacks": {
   name: "MJ Series Low-Profile Hand-Operated Toe Jacks",
   shortName: "MJ Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Heavy-duty low-profile hand-operated toe jacks designed for lifting, leveling and positioning industrial machinery in confined spaces. The MJ Series combines a compact toe lifting structure, manual operation, reinforced steel construction and easy positioning.",
@@ -2277,6 +2402,11 @@ features: [
 "mk-series-multi-position-adjustable-toe-jacks": {
   name: "MK Series Multi-Position Adjustable Toe Jacks",
   shortName: "MK Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Heavy-duty multi-position adjustable manual toe jacks designed for flexible height lifting, stable support and equipment positioning. The MK Series features a multi-level column structure, manual operation, secure locking and durable construction for industrial, railway, warehouse and port applications.",
@@ -2366,6 +2496,11 @@ features: [
 "jca-series-tracked-stair-climbing-robot": {
   name: "JCA Series Tracked Stair-Climbing Robot",
   shortName: "JCA Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "The JCA Series Tracked Stair-Climbing Robot is a powered stair-climbing cart designed for transporting heavy goods, furniture, appliances and other bulky items across stairs with less effort and greater safety. Its tracked structure, strong motor output, low-noise operation and easy handling make it suitable for logistics, delivery, moving services and industrial applications.",
@@ -2455,6 +2590,11 @@ features: [
 "jcl-series-tracked-stair-climber": {
   name: "JCL Series Tracked Stair-Climber",
   shortName: "JCL Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Electric tracked stair-climber designed for transporting heavy goods, cartons, appliances and industrial loads safely across different stair types. The JCL Series combines a 500W motor, 660 lbs load capacity, lithium battery power and reinforced crawler tracks for reliable stair-climbing performance.",
@@ -2544,6 +2684,11 @@ features: [
 "jcd-series-wheeled-stair-climber": {
   name: "JCD Series Wheeled Stair-Climber",
   shortName: "JCD Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Electric wheeled stair-climber designed to assist operators in transporting heavy goods safely and efficiently up and down stairs. Its powered climbing mechanism, durable frame and lithium battery system make it suitable for delivery, warehouse, household appliance and industrial handling applications.",
@@ -2635,6 +2780,11 @@ features: [
 "jce-series-stand-on-tracked-stair-climber": {
   name: "JCE Series Stand-on Tracked Stair-Climber",
   shortName: "JCE Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Electric tracked stair-climber designed for controlled transportation of heavy goods on stairs. Its tracked climbing system, reinforced structure, foldable frame and anti-slip descent control provide stable and convenient operation across different stair environments.",
@@ -2723,6 +2873,11 @@ features: [
 "jcs-series-wheeled-stair-climber": {
   name: "JCS Series Wheeled Stair-Climber",
   shortName: "JCS Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Electric wheeled stair-climber designed for transporting heavy goods safely and efficiently on stairs. It features a brushless motor, lithium battery system, foldable loading plate, adjustable handle height and durable wheeled structure for warehouse, delivery and industrial handling tasks.",
@@ -2811,6 +2966,11 @@ features: [
 "jcq-series-electric-flatbed-cart": {
   name: "JCQ Series Electric Flatbed Cart",
   shortName: "JCQ Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "Electric flatbed cart designed for efficient material handling in warehouses, workshops, factories and home-use environments. It features a 350W geared motor, pure copper motor construction, planetary gear system and stable platform design, making it suitable for transporting goods safely and efficiently, including on slopes up to approximately 35°.",
@@ -2900,6 +3060,11 @@ features: [
 "jcv-series-follow-me-electric-flatbed-cart": {
   name: "JCV Series Follow-Me Electric Flatbed Cart",
   shortName: "JCV Series",
+  purchaseLinks: {
+    amazon: "",
+    aliexpress: "",
+    alibaba: "",
+  },
 
   description:
     "JCV Series Follow-Me Electric Flatbed Cart is a heavy-duty electric transport solution designed for efficient cargo handling in warehouses, workshops, logistics spaces and home-use environments. It features a follow-me towing design, large-capacity battery, foldable handle and dual braking system for safer, smoother and more convenient transport of heavy loads.",
@@ -3073,41 +3238,56 @@ export default async function ProductPage({
                 </div>
               </div>
             </div>
-{/* PURCHASE LINKS */}
-<div className="mt-8 mb-8">
-  <p className="mb-4 text-sm font-bold uppercase tracking-wider text-orange-500">
-    Purchase Online
-  </p>
 
-  <div className="grid gap-3 sm:grid-cols-3">
-    <a
-      href="AMAZON_LINK_HERE"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
-    >
-      Amazon
-    </a>
+      {/* PURCHASE LINKS */}
+      {(product.purchaseLinks.amazon ||
+        product.purchaseLinks.aliexpress ||
+        product.purchaseLinks.alibaba) && (
+        <div className="mb-8 mt-8">
+          <p className="mb-4 text-sm font-bold uppercase tracking-wider text-orange-500">
+            Purchase Online
+          </p>
 
-    <a
-      href="ALIEXPRESS_LINK_HERE"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
-    >
-      AliExpress
-    </a>
+          <div className="grid gap-3 sm:grid-cols-3">
 
-    <a
-      href="ALIBABA_LINK_HERE"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
-    >
-      Alibaba
-    </a>
-  </div>
-</div>
+            {product.purchaseLinks.amazon && (
+              <a
+                href={product.purchaseLinks.amazon}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
+              >
+                Amazon
+              </a>
+            )}
+
+            {product.purchaseLinks.aliexpress && (
+              <a
+                href={product.purchaseLinks.aliexpress}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
+              >
+                AliExpress
+              </a>
+            )}
+
+            {product.purchaseLinks.alibaba && (
+              <a
+                href={product.purchaseLinks.alibaba}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
+              >
+                Alibaba
+              </a>
+            )}
+
+          </div>
+        </div>
+      )}
+
+
             {/* KEY ADVANTAGES */}
             <div className="mt-8">
               <h2 className="text-lg font-bold">
