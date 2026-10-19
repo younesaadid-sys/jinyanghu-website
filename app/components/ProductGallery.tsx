@@ -20,13 +20,13 @@ export default function ProductGallery({ images }: ProductGalleryProps) {
       {/* MAIN IMAGE */}
       <div className="relative aspect-square overflow-hidden rounded-3xl bg-white">
         <Image
-          src={selectedImage.src}
-          alt={selectedImage.alt}
-          fill
-          priority
-          sizes="(max-width: 1024px) 100vw, 50vw"
-          className="object-contain"
-        />
+  src={selectedImage.src}
+  alt={selectedImage.alt}
+  fill
+  priority
+  unoptimized
+  className="object-contain"
+/>
       </div>
 
       {/* THUMBNAILS */}
