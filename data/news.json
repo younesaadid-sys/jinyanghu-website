@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "slug": "test-news",
+    "title": "Test News",
+    "date": "2026-10-19",
+    "category": "Company News",
+    "excerpt": "Test news article.",
+    "content": "Test news article content."
+  }
+]
