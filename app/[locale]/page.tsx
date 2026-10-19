@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import { Anton } from "next/font/google";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import HomeBanner from "../components/HomeBanner";
 import newsData from "../../data/news.json";
 
@@ -12,6 +12,7 @@ const anton = Anton({
 
 export default async function Home() {
   const t = await getTranslations("home");
+  const locale = await getLocale();
   const latestNews = Array.isArray(newsData)
   ? newsData.slice(0, 3)
   : [];
@@ -573,7 +574,7 @@ export default async function Home() {
   {latestNews.map((item) => (
     <a
       key={item.id}
-      href={`/${item.category.toLowerCase().replace(/\s+/g, "-")}/${item.slug}`}
+      href={`/${locale}/news/${item.slug}`}
       className="group rounded-2xl border border-zinc-200 bg-zinc-50 p-6 transition hover:-translate-y-1 hover:shadow-lg"
     >
       <div className="mb-4 flex items-center justify-between">
