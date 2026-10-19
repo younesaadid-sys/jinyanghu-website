@@ -1511,9 +1511,9 @@ features: [
     alt: "MB Series heavy-duty multi-stage adjustable top",
   },
   {
-    src: "/products/mb-series/mb-product-view.png",
-    alt: "MB Series product view",
-  },
+  src: "/products/mb-series/mb-heavy-duty.png",
+  alt: "MB Series heavy-duty adjustable toe jack",
+},
 ],
 
   advantages: [
