@@ -3073,7 +3073,41 @@ export default async function ProductPage({
                 </div>
               </div>
             </div>
+{/* PURCHASE LINKS */}
+<div className="mt-8 mb-8">
+  <p className="mb-4 text-sm font-bold uppercase tracking-wider text-orange-500">
+    Purchase Online
+  </p>
 
+  <div className="grid gap-3 sm:grid-cols-3">
+    <a
+      href="AMAZON_LINK_HERE"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
+    >
+      Amazon
+    </a>
+
+    <a
+      href="ALIEXPRESS_LINK_HERE"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
+    >
+      AliExpress
+    </a>
+
+    <a
+      href="ALIBABA_LINK_HERE"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
+    >
+      Alibaba
+    </a>
+  </div>
+</div>
             {/* KEY ADVANTAGES */}
             <div className="mt-8">
               <h2 className="text-lg font-bold">
