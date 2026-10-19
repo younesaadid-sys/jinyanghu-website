@@ -46,40 +46,40 @@ const products: Record<
       name: "JA Series",
       slug: "ja-series-electric-tank-transporters",
       description: "10T–60T electric tank transporters",
-      image: "/products/ja-series/ja-main.webp",
+      image: "/products/ja-series/ja-main.jpg",
     },
     {
       name: "JA-B Series",
       slug: "ja-b-series-electric-tank-transporters",
       description: "Heavy-duty electric transporter series",
-      image: "/products/ja-b-series/ja-b-main-v2.webp",
+      image: "/products/ja-b-series/ja-b-main-v2.jpg",
     },
     {
       name: "JS Series",
       slug: "js-series-electric-tank-transporters",
       description:
         "Electric lifting transporter with wireless remote control and flexible heavy-load movement",
-      image: "/products/js-series/js-main.webp",
+      image: "/products/js-series/js-main.png",
     },
     {
       name: "JD Series",
       slug: "jd-series-electric-tank-transporters",
       description: "Industrial heavy-load moving equipment",
-      image: "/products/jd-series/jd-main.webp",
+      image: "/products/jd-series/jd-main.jpg",
     },
     {
       name: "JX Series",
       slug: "jx-series-electric-machinery-skate-dolly",
       description:
         "Remote-controlled heavy-duty machinery transporter",
-      image: "/products/jx-series/jx-main.webp",
+      image: "/products/jx-series/jx-main.jpg",
     },
     {
       name: "JZ Series",
       slug: "jz-series-electric-pallet-truck",
       description:
         "Heavy-duty electric pallet truck for industrial transport",
-      image: "/products/jz-series/jz-main.webp",
+      image: "/products/jz-series/jz-main.png",
     },
     {
       name: "JQ Series",
@@ -96,33 +96,33 @@ const products: Record<
       name: "CRA Series",
       slug: "cra-series-tank-transporters",
       description: "Manual heavy-duty cargo moving skates",
-      image: "/products/cra-series/cra-main.webp",
+      image: "/products/cra-series/cra-main.jpg",
     },
     {
       name: "CWA Series",
       slug: "cwa-series-tank-transporters",
       description:
         "Heavy-duty manual tank transporters for controlled movement of industrial equipment and heavy loads.",
-      image: "/products/cwa-series/cwa-main.webp",
+      image: "/products/cwa-series/cwa-main.png",
     },
     {
       name: "CRD Series",
       slug: "crd-series-tank-transporters",
       description: "Hand-cranked heavy-duty machine skates",
-      image: "/products/crd-series/crd-main.webp",
+      image: "/products/crd-series/crd-main.png",
     },
     {
       name: "CX+Y Series",
       slug: "cx-y-series-tank-transporters",
       description:
         "Manual heavy-duty transporter system with steering and straight-running skates",
-      image: "/products/cx-y-series/cx-y-main.webp",
+      image: "/products/cx-y-series/cx-y-main.png",
     },
     {
       name: "CRP Series",
       slug: "crp-series-tank-transporters",
       description: "360° rotating manual machinery moving skate",
-      image: "/products/crp-series/crp-main.webp",
+      image: "/products/crp-series/crp-main.png",
     },
     {
       name: "CRQ Series",
@@ -163,35 +163,35 @@ const products: Record<
       slug: "ma-series-dual-purpose-claw-jacks",
       description:
         "Dual-purpose hydraulic claw jacks for heavy equipment lifting",
-      image: "/products/ma-series/ma-main.webp",
+      image: "/products/ma-series/ma-main.png",
     },
     {
       name: "MB Series",
       slug: "mb-series-multi-stage-claw-jacks",
       description:
         "Multi-stage adjustable claw jacks for heavy-duty industrial lifting",
-      image: "/products/mb-series/mb-main.webp",
+      image: "/products/mb-series/mb-main.png",
     },
     {
       name: "MC Series",
       slug: "mc-series-single-stage-claw-jacks",
       description:
         "Single-stage high-stroke hydraulic claw jacks for industrial lifting",
-      image: "/products/mc-series/mc-main.webp",
+      image: "/products/mc-series/mc-main.png",
     },
     {
       name: "MD Series",
       slug: "md-series-manual-claw-jacks",
       description:
         "Manual hydraulic claw jacks for heavy-duty industrial lifting and equipment handling",
-      image: "/products/md-series/md-main.webp",
+      image: "/products/md-series/md-main.png",
     },
     {
       name: "ME Series",
       slug: "me-series-remote-operated-claw-jacks",
       description:
         "Remote-operated hydraulic claw jacks for efficient industrial lifting",
-      image: "/products/me-series/me-main.webp",
+      image: "/products/me-series/me-main.png",
     },
     {
       name: "MF Series",
