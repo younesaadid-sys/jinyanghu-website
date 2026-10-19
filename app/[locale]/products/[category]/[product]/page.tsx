@@ -3093,7 +3093,7 @@ export default async function ProductPage({
     </a>
 
     <a
-      href="ALIBABA_LINK_HERE"
+      href="https://www.alibaba.com/product-detail/Heavy-Duty-Electric-Track-Tank-Vehicle_1601681053613.html?spm=a2700.shop_pl.41413.19.2f7d23aeE8vZ8W"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
