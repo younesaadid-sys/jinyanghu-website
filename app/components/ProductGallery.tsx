@@ -24,7 +24,6 @@ export default function ProductGallery({ images }: ProductGalleryProps) {
           alt={selectedImage.alt}
           fill
           priority
-          unoptimized
           sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-contain"
         />
@@ -51,7 +50,6 @@ export default function ProductGallery({ images }: ProductGalleryProps) {
                 alt={image.alt}
                 width={180}
                 height={180}
-                unoptimized
                 className="aspect-square h-full w-full object-cover"
               />
             </button>

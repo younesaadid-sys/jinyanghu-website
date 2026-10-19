@@ -46,40 +46,40 @@ const products: Record<
       name: "JA Series",
       slug: "ja-series-electric-tank-transporters",
       description: "10T–60T electric tank transporters",
-      image: "/products/ja-series/ja-main.jpg",
+      image: "/products/ja-series/ja-main.webp",
     },
     {
       name: "JA-B Series",
       slug: "ja-b-series-electric-tank-transporters",
       description: "Heavy-duty electric transporter series",
-      image: "/products/ja-b-series/ja-b-main-v2.jpg",
+      image: "/products/ja-b-series/ja-b-main-v2.webp",
     },
     {
       name: "JS Series",
       slug: "js-series-electric-tank-transporters",
       description:
         "Electric lifting transporter with wireless remote control and flexible heavy-load movement",
-      image: "/products/js-series/js-main.png",
+      image: "/products/js-series/js-main.webp",
     },
     {
       name: "JD Series",
       slug: "jd-series-electric-tank-transporters",
       description: "Industrial heavy-load moving equipment",
-      image: "/products/jd-series/jd-main.jpg",
+      image: "/products/jd-series/jd-main.webp",
     },
     {
       name: "JX Series",
       slug: "jx-series-electric-machinery-skate-dolly",
       description:
         "Remote-controlled heavy-duty machinery transporter",
-      image: "/products/jx-series/jx-main.jpg",
+      image: "/products/jx-series/jx-main.webp",
     },
     {
       name: "JZ Series",
       slug: "jz-series-electric-pallet-truck",
       description:
         "Heavy-duty electric pallet truck for industrial transport",
-      image: "/products/jz-series/jz-main.png",
+      image: "/products/jz-series/jz-main.webp",
     },
     {
       name: "JQ Series",
@@ -96,61 +96,61 @@ const products: Record<
       name: "CRA Series",
       slug: "cra-series-tank-transporters",
       description: "Manual heavy-duty cargo moving skates",
-      image: "/products/cra-series/cra-main.jpg",
+      image: "/products/cra-series/cra-main.webp",
     },
     {
       name: "CWA Series",
       slug: "cwa-series-tank-transporters",
       description:
         "Heavy-duty manual tank transporters for controlled movement of industrial equipment and heavy loads.",
-      image: "/products/cwa-series/cwa-main.png",
+      image: "/products/cwa-series/cwa-main.webp",
     },
     {
       name: "CRD Series",
       slug: "crd-series-tank-transporters",
       description: "Hand-cranked heavy-duty machine skates",
-      image: "/products/crd-series/crd-main.png",
+      image: "/products/crd-series/crd-main.webp",
     },
     {
       name: "CX+Y Series",
       slug: "cx-y-series-tank-transporters",
       description:
         "Manual heavy-duty transporter system with steering and straight-running skates",
-      image: "/products/cx-y-series/cx-y-main.png",
+      image: "/products/cx-y-series/cx-y-main.webp",
     },
     {
       name: "CRP Series",
       slug: "crp-series-tank-transporters",
       description: "360° rotating manual machinery moving skate",
-      image: "/products/crp-series/crp-main.png",
+      image: "/products/crp-series/crp-main.webp",
     },
     {
       name: "CRQ Series",
       slug: "crq-series-tank-transporters",
       description:
         "Heavy-duty universal machinery moving skates for precise positioning",
-      image: "/products/crq-series/crq-main.png",
+      image: "/products/crq-series/crq-main.webp",
     },
     {
       name: "CRM Series",
       slug: "crm-series-tank-transporters",
       description:
         "Heavy-duty crawler machinery skates for straight-line transport of industrial loads",
-      image: "/products/crm-series/crm-product-view.png",
+      image: "/products/crm-series/crm-product-view.webp",
     },
     {
       name: "CRF Series",
       slug: "crf-series-tank-transporters",
       description:
         "Heavy-duty machinery skates with 360° rotating turntable and flexible wheel options",
-      image: "/products/crf-series/crf-main.png",
+      image: "/products/crf-series/crf-main.webp",
     },
     {
       name: "CRW Series",
       slug: "crw-series-tank-transporters",
       description:
         "Hydraulic lift omnidirectional machinery skates for heavy equipment moving",
-      image: "/products/crw-series/crw-main.png",
+      image: "/products/crw-series/crw-main.webp",
     },
   ],
 
@@ -163,77 +163,77 @@ const products: Record<
       slug: "ma-series-dual-purpose-claw-jacks",
       description:
         "Dual-purpose hydraulic claw jacks for heavy equipment lifting",
-      image: "/products/ma-series/ma-main.png",
+      image: "/products/ma-series/ma-main.webp",
     },
     {
       name: "MB Series",
       slug: "mb-series-multi-stage-claw-jacks",
       description:
         "Multi-stage adjustable claw jacks for heavy-duty industrial lifting",
-      image: "/products/mb-series/mb-main.png",
+      image: "/products/mb-series/mb-main.webp",
     },
     {
       name: "MC Series",
       slug: "mc-series-single-stage-claw-jacks",
       description:
         "Single-stage high-stroke hydraulic claw jacks for industrial lifting",
-      image: "/products/mc-series/mc-main.png",
+      image: "/products/mc-series/mc-main.webp",
     },
     {
       name: "MD Series",
       slug: "md-series-manual-claw-jacks",
       description:
         "Manual hydraulic claw jacks for heavy-duty industrial lifting and equipment handling",
-      image: "/products/md-series/md-main.png",
+      image: "/products/md-series/md-main.webp",
     },
     {
       name: "ME Series",
       slug: "me-series-remote-operated-claw-jacks",
       description:
         "Remote-operated hydraulic claw jacks for efficient industrial lifting",
-      image: "/products/me-series/me-main.png",
+      image: "/products/me-series/me-main.webp",
     },
     {
       name: "MF Series",
       slug: "mf-series-hydraulic-lifters",
       description:
         "Compact hydraulic lifters for lifting and moving industrial loads",
-      image: "/products/mf-series/mf-main.png",
+      image: "/products/mf-series/mf-main.webp",
     },
     {
       name: "MG Series",
       slug: "mg-series-wedge-jacks",
       description:
         "Low-profile hydraulic wedge jacks for lifting, pushing and precision positioning",
-      image: "/products/mg-series/mg-main.png",
+      image: "/products/mg-series/mg-main.webp",
     },
     {
       name: "MH Series",
       slug: "mh-series-remote-operated-jacks",
       description:
         "Compact remote-operated hydraulic jacks for industrial lifting and support",
-      image: "/products/mh-series/mh-main.png",
+      image: "/products/mh-series/mh-main.webp",
     },
     {
       name: "MI Series",
       slug: "mi-series-hand-operated-toe-jacks",
       description:
         "Manual self-locking toe jacks for industrial lifting, positioning and equipment installation",
-      image: "/products/mi-series/mi-main.png",
+      image: "/products/mi-series/mi-main.webp",
     },
     {
       name: "MJ Series",
       slug: "mj-series-low-profile-hand-operated-toe-jacks",
       description:
         "Low-profile hand-operated toe jacks for lifting and positioning heavy industrial equipment",
-      image: "/products/mj-series/mj-main.png",
+      image: "/products/mj-series/mj-main.webp",
     },
     {
       name: "MK Series",
       slug: "mk-series-multi-position-adjustable-toe-jacks",
       description:
         "Multi-position adjustable manual toe jacks for lifting, positioning and track or equipment support",
-      image: "/products/mk-series/mk-main.png",
+      image: "/products/mk-series/mk-main.webp",
     },
   ],
   "heavy-duty-load-skates": [
@@ -394,7 +394,6 @@ const searchResults = normalizedSearch
                                   src={product.image}
                                   alt={product.name}
                                   fill
-                                  unoptimized
                                   sizes="300px"
                                   className="object-contain p-2 transition duration-300 group-hover:scale-105"
                                 />
@@ -558,7 +557,6 @@ const searchResults = normalizedSearch
                     src={product.image}
                     alt={product.name}
                     fill
-                    unoptimized
                     sizes="56px"
                     className="object-contain p-1"
                   />

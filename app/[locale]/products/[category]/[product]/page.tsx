@@ -19,31 +19,31 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/ja-series/ja-main.jpg",
+        src: "/products/ja-series/ja-main.webp",
         alt: "JA Series Electric Tank Transporter",
       },
       {
-        src: "/products/ja-series/ja-heavy-duty.jpg",
+        src: "/products/ja-series/ja-heavy-duty.webp",
         alt: "JA Series heavy-duty handling",
       },
       {
-        src: "/products/ja-series/ja-rotation.jpg",
+        src: "/products/ja-series/ja-rotation.webp",
         alt: "JA Series 360 degree rotation",
       },
       {
-        src: "/products/ja-series/ja-use-cases.jpg",
+        src: "/products/ja-series/ja-use-cases.webp",
         alt: "JA Series industrial use cases",
       },
       {
-        src: "/products/ja-series/ja-led.jpg",
+        src: "/products/ja-series/ja-led.webp",
         alt: "JA Series LED headlights",
       },
       {
-        src: "/products/ja-series/ja-motor.jpg",
+        src: "/products/ja-series/ja-motor.webp",
         alt: "JA Series copper-core motors",
       },
       {
-        src: "/products/ja-series/ja-wheel.jpg",
+        src: "/products/ja-series/ja-wheel.webp",
         alt: "JA Series heavy-duty wheels",
       },
     ],
@@ -113,35 +113,35 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/ja-b-series/ja-b-main-v2.jpg",
+        src: "/products/ja-b-series/ja-b-main-v2.webp",
         alt: "JA-B Series Electric Tank Transporter",
       },
       {
-        src: "/products/ja-b-series/ja-b-rotation.jpg",
+        src: "/products/ja-b-series/ja-b-rotation.webp",
         alt: "JA-B Series 360 degree rotation",
       },
       {
-        src: "/products/ja-b-series/ja-b-usage-method.jpg",
+        src: "/products/ja-b-series/ja-b-usage-method.webp",
         alt: "JA-B Series usage method",
       },
       {
-        src: "/products/ja-b-series/ja-b-product-photos.jpg",
+        src: "/products/ja-b-series/ja-b-product-photos.webp",
         alt: "JA-B Series product photos",
       },
       {
-        src: "/products/ja-b-series/ja-b-usage-scenarios.jpg",
+        src: "/products/ja-b-series/ja-b-usage-scenarios.webp",
         alt: "JA-B Series industrial usage scenarios",
       },
       {
-        src: "/products/ja-b-series/ja-b-motor.jpg",
+        src: "/products/ja-b-series/ja-b-motor.webp",
         alt: "JA-B Series brushless motor",
       },
       {
-        src: "/products/ja-b-series/ja-b-load-capacity.png",
+        src: "/products/ja-b-series/ja-b-load-capacity.webp",
         alt: "JA-B Series load capacity",
       },
       {
-        src: "/products/ja-b-series/ja-b-heavy-duty-load.png",
+        src: "/products/ja-b-series/ja-b-heavy-duty-load.webp",
         alt: "JA-B Series heavy-duty load moving",
       },
     ],
@@ -211,27 +211,27 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/js-series/js-main.png",
+        src: "/products/js-series/js-main.webp",
         alt: "JS Series electric heavy-duty transporter",
       },
       {
-        src: "/products/js-series/js-remote-control.png",
+        src: "/products/js-series/js-remote-control.webp",
         alt: "JS Series wireless remote control",
       },
       {
-        src: "/products/js-series/js-copper-core-motor.png",
+        src: "/products/js-series/js-copper-core-motor.webp",
         alt: "JS Series high-performance copper core motor",
       },
       {
-        src: "/products/js-series/js-transport-and-lift.png",
+        src: "/products/js-series/js-transport-and-lift.webp",
         alt: "JS Series transport and lifting application",
       },
       {
-        src: "/products/js-series/js-lifting-system.png",
+        src: "/products/js-series/js-lifting-system.webp",
         alt: "JS Series electric lifting system",
       },
       {
-        src: "/products/js-series/js-product-overview.png",
+        src: "/products/js-series/js-product-overview.webp",
         alt: "JS Series heavy-duty electric transporter overview",
       },
     ],
@@ -301,27 +301,27 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/jd-series/jd-main.jpg",
+        src: "/products/jd-series/jd-main.webp",
         alt: "JD Series Electric Machinery Skate Dolly",
       },
       {
-        src: "/products/jd-series/jd-charging-box.jpg",
+        src: "/products/jd-series/jd-charging-box.webp",
         alt: "JD Series removable charging power box",
       },
       {
-        src: "/products/jd-series/jd-remote-control.jpg",
+        src: "/products/jd-series/jd-remote-control.webp",
         alt: "JD Series wireless remote control",
       },
       {
-        src: "/products/jd-series/jd-anti-slip-platform.jpg",
+        src: "/products/jd-series/jd-anti-slip-platform.webp",
         alt: "JD Series 360 degree anti-slip platform",
       },
       {
-        src: "/products/jd-series/jd-wheels.jpg",
+        src: "/products/jd-series/jd-wheels.webp",
         alt: "JD Series heavy-duty polyurethane wheels",
       },
       {
-        src: "/products/jd-series/jd-specifications.jpg",
+        src: "/products/jd-series/jd-specifications.webp",
         alt: "JD Series technical specifications",
       },
     ],
@@ -391,31 +391,31 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/jx-series/jx-main.jpg",
+        src: "/products/jx-series/jx-main.webp",
         alt: "JX Series Electric Machinery Skate Dolly",
       },
       {
-        src: "/products/jx-series/jx-product-overview.jpg",
+        src: "/products/jx-series/jx-product-overview.webp",
         alt: "JX Series product overview",
       },
       {
-        src: "/products/jx-series/jx-load-capacity.jpg",
+        src: "/products/jx-series/jx-load-capacity.webp",
         alt: "JX Series heavy load capacity",
       },
       {
-        src: "/products/jx-series/jx-remote-range.jpg",
+        src: "/products/jx-series/jx-remote-range.webp",
         alt: "JX Series long range remote control",
       },
       {
-        src: "/products/jx-series/jx-remote-operation.jpg",
+        src: "/products/jx-series/jx-remote-operation.webp",
         alt: "JX Series remote control operation",
       },
       {
-        src: "/products/jx-series/jx-premium-quality.jpg",
+        src: "/products/jx-series/jx-premium-quality.webp",
         alt: "JX Series premium quality construction",
       },
       {
-        src: "/products/jx-series/jx-applications.jpg",
+        src: "/products/jx-series/jx-applications.webp",
         alt: "JX Series industrial applications",
       },
     ],
@@ -485,27 +485,27 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/jz-series/jz-main.png",
+        src: "/products/jz-series/jz-main.webp",
         alt: "JZ Series Electric Pallet Truck",
       },
       {
-        src: "/products/jz-series/jz-use-cases.png",
+        src: "/products/jz-series/jz-use-cases.webp",
         alt: "JZ Series warehouse use case",
       },
       {
-        src: "/products/jz-series/jz-why-choose-us.jpg",
+        src: "/products/jz-series/jz-why-choose-us.webp",
         alt: "JZ Series advantages and quality",
       },
       {
-        src: "/products/jz-series/jz-applications.jpg",
+        src: "/products/jz-series/jz-applications.webp",
         alt: "JZ Series industrial applications",
       },
       {
-        src: "/products/jz-series/jz-craftsmanship.jpg",
+        src: "/products/jz-series/jz-craftsmanship.webp",
         alt: "JZ Series craftsmanship and component details",
       },
       {
-        src: "/products/jz-series/jz-specifications.jpg",
+        src: "/products/jz-series/jz-specifications.webp",
         alt: "JZ Series technical specifications",
       },
     ],
@@ -575,27 +575,27 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/cra-series/cra-main.jpg",
+        src: "/products/cra-series/cra-main.webp",
         alt: "CRA Series Cargo Moving Skates",
       },
       {
-        src: "/products/cra-series/cra-load-capacity.jpg",
+        src: "/products/cra-series/cra-load-capacity.webp",
         alt: "CRA Series model comparison and load capacity",
       },
       {
-        src: "/products/cra-series/cra-construction-details.jpg",
+        src: "/products/cra-series/cra-construction-details.webp",
         alt: "CRA Series key construction details",
       },
       {
-        src: "/products/cra-series/cra-load-moving-solution.jpg",
+        src: "/products/cra-series/cra-load-moving-solution.webp",
         alt: "CRA Series industrial load moving solution",
       },
       {
-        src: "/products/cra-series/cra-wheel-options.jpg",
+        src: "/products/cra-series/cra-wheel-options.webp",
         alt: "CRA Series wheel options",
       },
       {
-        src: "/products/cra-series/cra-complete-set.jpg",
+        src: "/products/cra-series/cra-complete-set.webp",
         alt: "CRA Series complete set for heavy load handling",
       },
     ],
@@ -665,31 +665,31 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/crd-series/crd-main.png",
+        src: "/products/crd-series/crd-main.webp",
         alt: "CRD Series hand-cranked machine skate",
       },
       {
-        src: "/products/crd-series/crd-capacity.png",
+        src: "/products/crd-series/crd-capacity.webp",
         alt: "CRD Series 6T to 18T capacity options",
       },
       {
-        src: "/products/crd-series/crd-swivel-platform.png",
+        src: "/products/crd-series/crd-swivel-platform.webp",
         alt: "CRD Series hand crank and 360 degree swivel platform",
       },
       {
-        src: "/products/crd-series/crd-wheel-options.png",
+        src: "/products/crd-series/crd-wheel-options.webp",
         alt: "CRD Series nylon and steel wheel options",
       },
       {
-        src: "/products/crd-series/crd-usage-method.png",
+        src: "/products/crd-series/crd-usage-method.webp",
         alt: "CRD Series usage method",
       },
       {
-        src: "/products/crd-series/crd-real-shot.png",
+        src: "/products/crd-series/crd-real-shot.webp",
         alt: "CRD Series real product display",
       },
       {
-        src: "/products/crd-series/crd-applications.png",
+        src: "/products/crd-series/crd-applications.webp",
         alt: "CRD Series applicable industrial scenes",
       },
     ],
@@ -759,27 +759,27 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/cwa-series/cwa-main.png",
+        src: "/products/cwa-series/cwa-main.webp",
         alt: "CWA Series Tank Transporters",
       },
       {
-        src: "/products/cwa-series/cwa-workshop-layout.png",
+        src: "/products/cwa-series/cwa-workshop-layout.webp",
         alt: "CWA Series workshop layout application",
       },
       {
-        src: "/products/cwa-series/cwa-wheel-assembly.png",
+        src: "/products/cwa-series/cwa-wheel-assembly.webp",
         alt: "CWA Series wheel assembly and load distribution",
       },
       {
-        src: "/products/cwa-series/cwa-construction-details.png",
+        src: "/products/cwa-series/cwa-construction-details.webp",
         alt: "CWA Series key construction details",
       },
       {
-        src: "/products/cwa-series/cwa-steering-operation.png",
+        src: "/products/cwa-series/cwa-steering-operation.webp",
         alt: "CWA Series flexible steering operation",
       },
       {
-        src: "/products/cwa-series/cwa-specifications.png",
+        src: "/products/cwa-series/cwa-specifications.webp",
         alt: "CWA Series product specifications",
       },
     ],
@@ -849,31 +849,31 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/cx-y-series/cx-y-main.png",
+        src: "/products/cx-y-series/cx-y-main.webp",
         alt: "CX+Y Series Tank Transporters",
       },
       {
-        src: "/products/cx-y-series/cx-y-specifications.png",
+        src: "/products/cx-y-series/cx-y-specifications.webp",
         alt: "CX+Y Series model specifications and load capacities",
       },
       {
-        src: "/products/cx-y-series/cx-y-wheel-options.png",
+        src: "/products/cx-y-series/cx-y-wheel-options.webp",
         alt: "CX+Y Series alloy steel and polyurethane wheel options",
       },
       {
-        src: "/products/cx-y-series/cx-y-anti-slip-platform.png",
+        src: "/products/cx-y-series/cx-y-anti-slip-platform.webp",
         alt: "CX+Y Series anti-slip threaded platform",
       },
       {
-        src: "/products/cx-y-series/cx-y-steel-plate.png",
+        src: "/products/cx-y-series/cx-y-steel-plate.webp",
         alt: "CX+Y Series thickened steel plate",
       },
       {
-        src: "/products/cx-y-series/cx-y-load-bearing-axis.png",
+        src: "/products/cx-y-series/cx-y-load-bearing-axis.webp",
         alt: "CX+Y Series quenched load-bearing axis",
       },
       {
-        src: "/products/cx-y-series/cx-y-flexible-pull-rod.png",
+        src: "/products/cx-y-series/cx-y-flexible-pull-rod.webp",
         alt: "CX+Y Series flexible pull rod",
       },
     ],
@@ -943,24 +943,24 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/crp-series/crp-main.png",
+        src: "/products/crp-series/crp-main.webp",
         alt: "CRP Series machinery moving skate",
       },
       {
-        src: "/products/crp-series/crp-specifications.png",
+        src: "/products/crp-series/crp-specifications.webp",
         alt: "CRP Series specifications and dimensions",
       },
       
       {
-        src: "/products/crp-series/crp-removable-handle.png",
+        src: "/products/crp-series/crp-removable-handle.webp",
         alt: "CRP Series removable handle system",
       },
       {
-        src: "/products/crp-series/crp-construction-details.png",
+        src: "/products/crp-series/crp-construction-details.webp",
         alt: "CRP Series construction details",
       },
       {
-        src: "/products/crp-series/crp-detail-view.png",
+        src: "/products/crp-series/crp-detail-view.webp",
         alt: "CRP Series detailed product view",
       },
     ],
@@ -1030,28 +1030,28 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/crq-series/crq-main.png",
+        src: "/products/crq-series/crq-main.webp",
         alt: "CRQ Series heavy-duty universal skates",
       },
       {
-        src: "/products/crq-series/crq-application.png",
+        src: "/products/crq-series/crq-application.webp",
         alt: "CRQ Series industrial equipment moving application",
       },
       {
-        src: "/products/crq-series/crq-construction-details.png",
+        src: "/products/crq-series/crq-construction-details.webp",
         alt: "CRQ Series key construction details",
       },
       
       {
-        src: "/products/crq-series/crq-specifications.png",
+        src: "/products/crq-series/crq-specifications.webp",
         alt: "CRQ Series product specifications",
       },
       {
-        src: "/products/crq-series/crq-size-guide.png",
+        src: "/products/crq-series/crq-size-guide.webp",
         alt: "CRQ Series size selection guide",
       },
       {
-        src: "/products/crq-series/crq-load-capacity.png",
+        src: "/products/crq-series/crq-load-capacity.webp",
         alt: "CRQ Series load capacity overview",
       },
     ],
@@ -1121,39 +1121,39 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/crm-series/crm-product-view.png",
+        src: "/products/crm-series/crm-product-view.webp",
         alt: "CRM Series crawler machinery skate",
       },
       {
-        src: "/products/crm-series/crm-30t-overview.png",
+        src: "/products/crm-series/crm-30t-overview.webp",
         alt: "CRM30 30 ton crawler machinery skate overview",
       },
       {
-        src: "/products/crm-series/crm-specifications.png",
+        src: "/products/crm-series/crm-specifications.webp",
         alt: "CRM Series specifications and load capacity table",
       },
       {
-        src: "/products/crm-series/crm-anti-slip-pad.png",
+        src: "/products/crm-series/crm-anti-slip-pad.webp",
         alt: "CRM Series anti-slip support pad",
       },
       {
-        src: "/products/crm-series/crm-alloy-steel-wheels.png",
+        src: "/products/crm-series/crm-alloy-steel-wheels.webp",
         alt: "CRM Series alloy steel rollers",
       },
       {
-        src: "/products/crm-series/crm-thickened-steel.png",
+        src: "/products/crm-series/crm-thickened-steel.webp",
         alt: "CRM Series thickened steel construction",
       },
       {
-        src: "/products/crm-series/crm-steel-shaft-casters.png",
+        src: "/products/crm-series/crm-steel-shaft-casters.webp",
         alt: "CRM Series steel shaft rollers",
       },
       {
-        src: "/products/crm-series/crm-real-shot.png",
+        src: "/products/crm-series/crm-real-shot.webp",
         alt: "CRM Series real product display",
       },
       {
-        src: "/products/crm-series/crm-applications.png",
+        src: "/products/crm-series/crm-applications.webp",
         alt: "CRM Series application scenarios",
       },
     ],
@@ -1223,27 +1223,27 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/crf-series/crf-main.png",
+        src: "/products/crf-series/crf-main.webp",
         alt: "CRF Series heavy-duty machinery skates",
       },
       {
-        src: "/products/crf-series/crf-360-rotation.png",
+        src: "/products/crf-series/crf-360-rotation.webp",
         alt: "CRF Series 360 degree rotating turntable",
       },
       {
-        src: "/products/crf-series/crf-heavy-duty-overview.png",
+        src: "/products/crf-series/crf-heavy-duty-overview.webp",
         alt: "CRF Series heavy-duty machinery skate overview",
       },
       {
-        src: "/products/crf-series/crf-product-details.png",
+        src: "/products/crf-series/crf-product-details.webp",
         alt: "CRF Series product construction details",
       },
       {
-        src: "/products/crf-series/crf-wheel-options.png",
+        src: "/products/crf-series/crf-wheel-options.webp",
         alt: "CRF Series alloy steel and polyurethane wheel options",
       },
       {
-        src: "/products/crf-series/crf-detachable-handle.png",
+        src: "/products/crf-series/crf-detachable-handle.webp",
         alt: "CRF Series detachable handle",
       },
     ],
@@ -1313,27 +1313,27 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/crw-series/crw-main.png",
+        src: "/products/crw-series/crw-main.webp",
         alt: "CRW Series hydraulic machinery moving skate",
       },
       {
-        src: "/products/crw-series/crw-load-capacity.png",
+        src: "/products/crw-series/crw-load-capacity.webp",
         alt: "CRW Series strong load capacity",
       },
       {
-        src: "/products/crw-series/crw-dimensions.png",
+        src: "/products/crw-series/crw-dimensions.webp",
         alt: "CRW Series product dimensions",
       },
       {
-        src: "/products/crw-series/crw-omnidirectional-movement.png",
+        src: "/products/crw-series/crw-omnidirectional-movement.webp",
         alt: "CRW Series omnidirectional machinery moving skate",
       },
       {
-        src: "/products/crw-series/crw-product-details.png",
+        src: "/products/crw-series/crw-product-details.webp",
         alt: "CRW Series product construction details",
       },
       {
-        src: "/products/crw-series/crw-hydraulic-lift.png",
+        src: "/products/crw-series/crw-hydraulic-lift.webp",
         alt: "CRW Series hydraulic lifting system",
       },
     ],
@@ -1403,27 +1403,27 @@ const productData = {
 
    gallery: [
   {
-    src: "/products/ma-series/ma-main.png",
+    src: "/products/ma-series/ma-main.webp",
     alt: "MA Series Dual-Purpose Claw Jack",
   },
   {
-    src: "/products/ma-series/ma-specifications.png",
+    src: "/products/ma-series/ma-specifications.webp",
     alt: "MA Series product specifications",
   },
   {
-    src: "/products/ma-series/ma-advantages.png",
+    src: "/products/ma-series/ma-advantages.webp",
     alt: "MA Series core advantages",
   },
   {
-    src: "/products/ma-series/ma-height-adjustment.png",
+    src: "/products/ma-series/ma-height-adjustment.webp",
     alt: "MA Series multi-stage height adjustment",
   },
   {
-    src: "/products/ma-series/ma-heavy-duty.png",
+    src: "/products/ma-series/ma-heavy-duty.webp",
     alt: "MA Series heavy-duty hydraulic claw jack",
   },
   {
-    src: "/products/ma-series/ma-structure.png",
+    src: "/products/ma-series/ma-structure.webp",
     alt: "MA Series hydraulic claw jack structure",
   },
 ],
@@ -1491,27 +1491,27 @@ features: [
 
   gallery: [
   {
-    src: "/products/mb-series/mb-main.png",
+    src: "/products/mb-series/mb-main.webp",
     alt: "MB Series Multi-Stage Claw Jack",
   },
   {
-    src: "/products/mb-series/mb-applications.png",
+    src: "/products/mb-series/mb-applications.webp",
     alt: "MB Series industrial applications",
   },
   {
-    src: "/products/mb-series/mb-height-adjustment.png",
+    src: "/products/mb-series/mb-height-adjustment.webp",
     alt: "MB Series multi-stage adjustable top",
   },
   {
-    src: "/products/mb-series/mb-details.png",
+    src: "/products/mb-series/mb-details.webp",
     alt: "MB Series durable and safe design details",
   },
   {
-    src: "/products/mb-series/mb-multi-stage.png",
+    src: "/products/mb-series/mb-multi-stage.webp",
     alt: "MB Series heavy-duty multi-stage adjustable top",
   },
   {
-  src: "/products/mb-series/mb-heavy-duty.png",
+  src: "/products/mb-series/mb-heavy-duty.webp",
   alt: "MB Series heavy-duty adjustable toe jack",
 },
 ],
@@ -1580,27 +1580,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/mc-series/mc-main.png",
+      src: "/products/mc-series/mc-main.webp",
       alt: "MC Series Single-Stage Claw Jack",
     },
     {
-      src: "/products/mc-series/mc-specifications.png",
+      src: "/products/mc-series/mc-specifications.webp",
       alt: "MC Series product specifications",
     },
     {
-      src: "/products/mc-series/mc-heavy-duty.png",
+      src: "/products/mc-series/mc-heavy-duty.webp",
       alt: "MC Series heavy-duty high-stroke hydraulic jack",
     },
     {
-      src: "/products/mc-series/mc-applications.png",
+      src: "/products/mc-series/mc-applications.webp",
       alt: "MC Series industrial applications",
     },
     {
-      src: "/products/mc-series/mc-high-stroke.png",
+      src: "/products/mc-series/mc-high-stroke.webp",
       alt: "MC Series single-stage high-stroke hydraulic jack",
     },
     {
-      src: "/products/mc-series/mc-details.png",
+      src: "/products/mc-series/mc-details.webp",
       alt: "MC Series product details",
     },
   ],
@@ -1669,27 +1669,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/md-series/md-main.png",
+      src: "/products/md-series/md-main.webp",
       alt: "MD Series Manual Claw Jack",
     },
     {
-      src: "/products/md-series/md-applications.png",
+      src: "/products/md-series/md-applications.webp",
       alt: "MD Series industrial application scenarios",
     },
     {
-      src: "/products/md-series/md-reservoir.png",
+      src: "/products/md-series/md-reservoir.webp",
       alt: "MD Series heavy-duty seamless reservoir",
     },
     {
-      src: "/products/md-series/md-stable-base.png",
+      src: "/products/md-series/md-stable-base.webp",
       alt: "MD Series heavy-duty stable base",
     },
     {
-      src: "/products/md-series/md-impact-resistant-housing.png",
+      src: "/products/md-series/md-impact-resistant-housing.webp",
       alt: "MD Series impact-resistant housing",
     },
     {
-      src: "/products/md-series/md-cylinder-sealing.png",
+      src: "/products/md-series/md-cylinder-sealing.webp",
       alt: "MD Series three-layer cylinder sealing system",
     },
   ],
@@ -1755,27 +1755,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/me-series/me-main.png",
+      src: "/products/me-series/me-main.webp",
       alt: "ME Series remote-operated claw jack main product",
     },
     {
-      src: "/products/me-series/me-operation.png",
+      src: "/products/me-series/me-operation.webp",
       alt: "ME Series simple and efficient operation",
     },
     {
-      src: "/products/me-series/me-hydraulic-system.png",
+      src: "/products/me-series/me-hydraulic-system.webp",
       alt: "ME Series powerful hydraulic system",
     },
     {
-      src: "/products/me-series/me-electric-claw-jack.png",
+      src: "/products/me-series/me-electric-claw-jack.webp",
       alt: "ME Series electric claw jack",
     },
     {
-      src: "/products/me-series/me-machine-moving.png",
+      src: "/products/me-series/me-machine-moving.webp",
       alt: "ME Series machine moving application",
     },
     {
-      src: "/products/me-series/me-wide-application.png",
+      src: "/products/me-series/me-wide-application.webp",
       alt: "ME Series wide application scenarios",
     },
   ],
@@ -1841,27 +1841,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/mf-series/mf-main.png",
+      src: "/products/mf-series/mf-main.webp",
       alt: "MF Series hydraulic lifter main product",
     },
     {
-      src: "/products/mf-series/mf-hydraulic-lifter.png",
+      src: "/products/mf-series/mf-hydraulic-lifter.webp",
       alt: "MF Series hydraulic lifter overview",
     },
     {
-      src: "/products/mf-series/mf-cylinder.png",
+      src: "/products/mf-series/mf-cylinder.webp",
       alt: "MF Series precision hydraulic cylinder",
     },
     {
-      src: "/products/mf-series/mf-wide-application.png",
+      src: "/products/mf-series/mf-wide-application.webp",
       alt: "MF Series wide application scenarios",
     },
     {
-      src: "/products/mf-series/mf-details.png",
+      src: "/products/mf-series/mf-details.webp",
       alt: "MF Series product dimensions and premium details",
     },
     {
-      src: "/products/mf-series/mf-powerful-lifting.png",
+      src: "/products/mf-series/mf-powerful-lifting.webp",
       alt: "MF Series powerful lifting performance",
     },
   ],
@@ -1927,27 +1927,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/mg-series/mg-main.png",
+      src: "/products/mg-series/mg-main.webp",
       alt: "MG Series wedge jack main product",
     },
     {
-      src: "/products/mg-series/mg-pushing-stroke.png",
+      src: "/products/mg-series/mg-pushing-stroke.webp",
       alt: "MG Series 150mm pushing stroke",
     },
     {
-      src: "/products/mg-series/mg-industrial-installation.png",
+      src: "/products/mg-series/mg-industrial-installation.webp",
       alt: "MG Series industrial equipment installation",
     },
     {
-      src: "/products/mg-series/mg-hydraulic-wedge-jack.png",
+      src: "/products/mg-series/mg-hydraulic-wedge-jack.webp",
       alt: "MG Series hydraulic wedge jack overview",
     },
     {
-      src: "/products/mg-series/mg-machine-tool-installation.png",
+      src: "/products/mg-series/mg-machine-tool-installation.webp",
       alt: "MG Series machine tool installation",
     },
     {
-      src: "/products/mg-series/mg-rail-maintenance.png",
+      src: "/products/mg-series/mg-rail-maintenance.webp",
       alt: "MG Series rail equipment maintenance",
     },
   ],
@@ -2013,27 +2013,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/mh-series/mh-main.png",
+      src: "/products/mh-series/mh-main.webp",
       alt: "MH Series remote-operated jacks main product",
     },
     {
-      src: "/products/mh-series/mh-overview.png",
+      src: "/products/mh-series/mh-overview.webp",
       alt: "MH Series remote-operated jacks overview",
     },
     {
-      src: "/products/mh-series/mh-details-show.png",
+      src: "/products/mh-series/mh-details-show.webp",
       alt: "MH Series details show",
     },
     {
-      src: "/products/mh-series/mh-high-capacity-lifting.png",
+      src: "/products/mh-series/mh-high-capacity-lifting.webp",
       alt: "MH Series high capacity lifting",
     },
     {
-      src: "/products/mh-series/mh-wide-application.png",
+      src: "/products/mh-series/mh-wide-application.webp",
       alt: "MH Series wide application",
     },
     {
-      src: "/products/mh-series/mh-machine-tool-installation.png",
+      src: "/products/mh-series/mh-machine-tool-installation.webp",
       alt: "MH Series machine tool installation",
     },
   ],
@@ -2102,27 +2102,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/mi-series/mi-main.png",
+      src: "/products/mi-series/mi-main.webp",
       alt: "MI Series hand-operated toe jack",
     },
     {
-      src: "/products/mi-series/mi-ratchet-jack-overview.png",
+      src: "/products/mi-series/mi-ratchet-jack-overview.webp",
       alt: "MI Series self-locking ratchet jack overview",
     },
     {
-      src: "/products/mi-series/mi-self-locking-brake-system.png",
+      src: "/products/mi-series/mi-self-locking-brake-system.webp",
       alt: "MI Series self-locking brake system",
     },
     {
-      src: "/products/mi-series/mi-thickened-non-slip-hook.png",
+      src: "/products/mi-series/mi-thickened-non-slip-hook.webp",
       alt: "MI Series thickened non-slip lifting hook",
     },
     {
-      src: "/products/mi-series/mi-foldable-handle.png",
+      src: "/products/mi-series/mi-foldable-handle.webp",
       alt: "MI Series foldable operating handle",
     },
     {
-      src: "/products/mi-series/mi-application-scope.png",
+      src: "/products/mi-series/mi-application-scope.webp",
       alt: "MI Series industrial application scope",
     },
   ],
@@ -2191,27 +2191,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/mj-series/mj-main.png",
+      src: "/products/mj-series/mj-main.webp",
       alt: "MJ Series low-profile hand-operated toe jack",
     },
     {
-      src: "/products/mj-series/mj-overview.png",
+      src: "/products/mj-series/mj-overview.webp",
       alt: "MJ Series low-profile hand-operated toe jack overview",
     },
     {
-      src: "/products/mj-series/mj-low-profile-design.png",
+      src: "/products/mj-series/mj-low-profile-design.webp",
       alt: "MJ Series low-profile lifting design",
     },
     {
-      src: "/products/mj-series/mj-operation.png",
+      src: "/products/mj-series/mj-operation.webp",
       alt: "MJ Series simple manual operation",
     },
     {
-      src: "/products/mj-series/mj-applications.png",
+      src: "/products/mj-series/mj-applications.webp",
       alt: "MJ Series wide industrial applications",
     },
     {
-      src: "/products/mj-series/mj-details.png",
+      src: "/products/mj-series/mj-details.webp",
       alt: "MJ Series high-quality construction details",
     },
   ],
@@ -2280,27 +2280,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/mk-series/mk-main.png",
+      src: "/products/mk-series/mk-main.webp",
       alt: "MK Series multi-position adjustable toe jack",
     },
     {
-      src: "/products/mk-series/mk-overview.png",
+      src: "/products/mk-series/mk-overview.webp",
       alt: "MK Series adjustable manual toe jack overview",
     },
     {
-      src: "/products/mk-series/mk-applications.png",
+      src: "/products/mk-series/mk-applications.webp",
       alt: "MK Series wide application",
     },
     {
-      src: "/products/mk-series/mk-operation.png",
+      src: "/products/mk-series/mk-operation.webp",
       alt: "MK Series simple operation and stable support",
     },
     {
-      src: "/products/mk-series/mk-details.png",
+      src: "/products/mk-series/mk-details.webp",
       alt: "MK Series premium details",
     },
     {
-      src: "/products/mk-series/mk-port-handling.png",
+      src: "/products/mk-series/mk-port-handling.webp",
       alt: "MK Series port and equipment handling",
     },
   ],
@@ -2369,27 +2369,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/jca-series/jca-main.png",
+      src: "/products/jca-series/jca-main.webp",
       alt: "JCA Series tracked stair-climbing robot",
     },
     {
-      src: "/products/jca-series/jca-overview.png",
+      src: "/products/jca-series/jca-overview.webp",
       alt: "JCA Series crawler stair climbing machine overview",
     },
     {
-      src: "/products/jca-series/jca-why-buy.png",
+      src: "/products/jca-series/jca-why-buy.webp",
       alt: "JCA Series stair-climbing robot use cases",
     },
     {
-      src: "/products/jca-series/jca-upgrade.png",
+      src: "/products/jca-series/jca-upgrade.webp",
       alt: "JCA Series upgraded efficient handling",
     },
     {
-      src: "/products/jca-series/jca-low-noise.png",
+      src: "/products/jca-series/jca-low-noise.webp",
       alt: "JCA Series low-noise operation",
     },
     {
-      src: "/products/jca-series/jca-motor.png",
+      src: "/products/jca-series/jca-motor.webp",
       alt: "JCA Series high-power motor output",
     },
   ],
@@ -2458,27 +2458,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/jcl-series/jcl-main.png",
+      src: "/products/jcl-series/jcl-main.webp",
       alt: "JCL Series tracked stair-climber",
     },
     {
-      src: "/products/jcl-series/jcl-660lbs-motor.png",
+      src: "/products/jcl-series/jcl-660lbs-motor.webp",
       alt: "JCL Series 660 lbs load capacity and 500W motor",
     },
     {
-      src: "/products/jcl-series/jcl-stair-types.png",
+      src: "/products/jcl-series/jcl-stair-types.webp",
       alt: "JCL Series suitable for different stair types",
     },
     {
-      src: "/products/jcl-series/jcl-applications.png",
+      src: "/products/jcl-series/jcl-applications.webp",
       alt: "JCL Series product usage scenarios",
     },
     {
-      src: "/products/jcl-series/jcl-product-details.png",
+      src: "/products/jcl-series/jcl-product-details.webp",
       alt: "JCL Series reinforced crawler track and motor details",
     },
     {
-      src: "/products/jcl-series/jcl-lithium-battery.png",
+      src: "/products/jcl-series/jcl-lithium-battery.webp",
       alt: "JCL Series lithium battery system",
     },
   ],
@@ -2547,27 +2547,27 @@ features: [
 
  gallery: [
   {
-    src: "/products/jcd-series/jcd-main.png",
+    src: "/products/jcd-series/jcd-main.webp",
     alt: "JCD Series Wheeled Stair-Climber",
   },
   {
-    src: "/products/jcd-series/jcd-overview.png",
+    src: "/products/jcd-series/jcd-overview.webp",
     alt: "JCD Series electric stair climbing machine overview",
   },
   {
-    src: "/products/jcd-series/jcd-core-configurations.png",
+    src: "/products/jcd-series/jcd-core-configurations.webp",
     alt: "JCD Series six major core configurations",
   },
   {
-    src: "/products/jcd-series/jcd-advantages.png",
+    src: "/products/jcd-series/jcd-advantages.webp",
     alt: "JCD Series stair climber advantages",
   },
   {
-    src: "/products/jcd-series/jcd-applications.png",
+    src: "/products/jcd-series/jcd-applications.webp",
     alt: "JCD Series application scenarios",
   },
   {
-    src: "/products/jcd-series/jcd-lithium-battery.png",
+    src: "/products/jcd-series/jcd-lithium-battery.webp",
     alt: "JCD Series industrial lithium battery",
   },
 ],
@@ -2638,27 +2638,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/jce-series/jce-main.png",
+      src: "/products/jce-series/jce-main.webp",
       alt: "JCE Series stand-on tracked stair-climber",
     },
     {
-      src: "/products/jce-series/jce-foldable-body.png",
+      src: "/products/jce-series/jce-foldable-body.webp",
       alt: "JCE Series foldable body and portable design",
     },
     {
-      src: "/products/jce-series/jce-stair-compatibility.png",
+      src: "/products/jce-series/jce-stair-compatibility.webp",
       alt: "JCE Series compatibility with different stair types",
     },
     {
-      src: "/products/jce-series/jce-anti-slip-descent-control.png",
+      src: "/products/jce-series/jce-anti-slip-descent-control.webp",
       alt: "JCE Series intelligent anti-slip descent control",
     },
     {
-      src: "/products/jce-series/jce-applications.png",
+      src: "/products/jce-series/jce-applications.webp",
       alt: "JCE Series stair-climber application scenarios",
     },
     {
-      src: "/products/jce-series/jce-ultra-quiet-electric.png",
+      src: "/products/jce-series/jce-ultra-quiet-electric.webp",
       alt: "JCE Series ultra-quiet electric stair climber",
     },
   ],
@@ -2726,27 +2726,27 @@ features: [
 
   gallery: [
     {
-      src: "/products/jcs-series/jcs-main.png",
+      src: "/products/jcs-series/jcs-main.webp",
       alt: "JCS Series wheeled stair-climber main view",
     },
     {
-      src: "/products/jcs-series/jcs-product-analysis.png",
+      src: "/products/jcs-series/jcs-product-analysis.webp",
       alt: "JCS Series product detail analysis",
     },
     {
-      src: "/products/jcs-series/jcs-core-features.png",
+      src: "/products/jcs-series/jcs-core-features.webp",
       alt: "JCS Series core feature details",
     },
     {
-      src: "/products/jcs-series/jcs-overview.png",
+      src: "/products/jcs-series/jcs-overview.webp",
       alt: "JCS Series electric stair climbing machine overview",
     },
     {
-      src: "/products/jcs-series/jcs-adjustable-foldable.png",
+      src: "/products/jcs-series/jcs-adjustable-foldable.webp",
       alt: "JCS Series adjustable height and foldable design",
     },
     {
-      src: "/products/jcs-series/jcs-collapsible-carry.png",
+      src: "/products/jcs-series/jcs-collapsible-carry.webp",
       alt: "JCS Series collapsible and easy-to-carry design",
     },
   ],
@@ -2814,28 +2814,28 @@ features: [
 
  gallery: [
   {
-    src: "/products/jcq-series/jcq-main.png",
+    src: "/products/jcq-series/jcq-main.webp",
     alt: "JCQ Series electric flatbed cart",
   },
   {
-    src: "/products/jcq-series/jcq-overview.png",
+    src: "/products/jcq-series/jcq-overview.webp",
     alt: "JCQ Series electric dolly overview",
   },
   {
-    src: "/products/jcq-series/jcq-climbing-capability.png",
+    src: "/products/jcq-series/jcq-climbing-capability.webp",
     alt: "JCQ Series 35 degree climbing capability",
   },
   {
   
-  src: "/products/jcq-series/jcq-motor-components.png",
+  src: "/products/jcq-series/jcq-motor-components.webp",
   alt: "JCQ Series motor and planetary gear components",
   },
   {
-    src: "/products/jcq-series/jcq-350w-moto.png",
+    src: "/products/jcq-series/jcq-350w-moto.webp",
     alt: "JCQ Series 350W high power motor",
   },
   {
-    src: "/products/jcq-series/jcq-applications.png",
+    src: "/products/jcq-series/jcq-applications.webp",
     alt: "JCQ Series application scenarios",
   },
 ],
@@ -2903,19 +2903,19 @@ features: [
 
   gallery: [
     {
-      src: "/products/jcv-series/jcv-main.png",
+      src: "/products/jcv-series/jcv-main.webp",
       alt: "JCV Series follow-me electric flatbed cart",
     },
     {
-      src: "/products/jcv-series/jcv-size.png",
+      src: "/products/jcv-series/jcv-size.webp",
       alt: "JCV Series product size",
     },
     {
-      src: "/products/jcv-series/jcv-battery.png",
+      src: "/products/jcv-series/jcv-battery.webp",
       alt: "JCV Series 36V 8Ah battery",
     },
     {
-      src: "/products/jcv-series/jcv-overview.png",
+      src: "/products/jcv-series/jcv-overview.webp",
       alt: "JCV Series heavy-duty electric flatbed trolley",
     },
     {
@@ -2923,11 +2923,11 @@ features: [
       alt: "JCV Series dual braking system",
     },
     {
-      src: "/products/jcv-series/jcv-applications.png",
+      src: "/products/jcv-series/jcv-applications.webp",
       alt: "JCV Series application scenarios",
     },
     {
-      src: "/products/jcv-series/jcv-hauling.png",
+      src: "/products/jcv-series/jcv-hauling.webp",
       alt: "JCV Series heavy-duty hauling",
     },
   ],
