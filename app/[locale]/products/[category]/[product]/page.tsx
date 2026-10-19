@@ -3075,7 +3075,7 @@ export default async function ProductPage({
 
   <div className="grid gap-3 sm:grid-cols-3">
     <a
-      href="AMAZON_LINK_HERE"
+      href="https://www.amazon.com/dp/B0G3WY4GQZ"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
@@ -3084,7 +3084,7 @@ export default async function ProductPage({
     </a>
 
     <a
-      href="ALIEXPRESS_LINK_HERE"
+      href="https://es.aliexpress.com/item/1005009383246418.html?gatewayAdapt=glo2esp"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
