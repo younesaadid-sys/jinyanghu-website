@@ -276,7 +276,7 @@ export default async function Home() {
         >
           <div className="relative h-[220px]">
             <Image
-              src="/products/ja-series/ja-main.jpg"
+              src="/products/ja-series/ja-main-v2.webp"
               alt="JA Series"
               fill
                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
