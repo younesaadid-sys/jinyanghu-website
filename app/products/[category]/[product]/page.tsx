@@ -3154,6 +3154,19 @@ features: [
 },
 };
 
+
+const purchaseLinks: Record<string, {
+  amazon?: string;
+  aliexpress?: string;
+  alibaba?: string;
+}> = {
+  "ja-series-electric-tank-transporters": {
+    amazon: "https://www.amazon.com/dp/B0G3WY4GQZ",
+    aliexpress: "https://es.aliexpress.com/item/1005009383246418.html?gatewayAdapt=glo2esp",
+    alibaba: "https://www.alibaba.com/product-detail/Heavy-Duty-Electric-Track-Tank-Vehicle_1601681053613.html?spm=a2700.shop_pl.41413.19.2f7d23aeE8vZ8W",
+  },
+};
+
 export default async function ProductPage({
   params,
 }: {
@@ -3177,6 +3190,8 @@ export default async function ProductPage({
 
   const currentProduct =
     productData[product as keyof typeof productData];
+
+  const currentPurchaseLinks = purchaseLinks[product] || {};
 
   if (!currentProduct) {
     return (
@@ -3239,18 +3254,18 @@ export default async function ProductPage({
               </div>
             </div>
 {/* PURCHASE LINKS */}
-{(currentProduct.purchaseLinks.amazon ||
-  currentProduct.purchaseLinks.aliexpress ||
-  currentProduct.purchaseLinks.alibaba) && (
+{(currentPurchaseLinks.amazon ||
+  currentPurchaseLinks.aliexpress ||
+  currentPurchaseLinks.alibaba) && (
   <div className="mb-8 mt-8">
     <p className="mb-4 text-sm font-bold uppercase tracking-wider text-orange-500">
       Purchase Online
     </p>
 
     <div className="grid gap-3 sm:grid-cols-3">
-      {currentProduct.purchaseLinks.amazon && (
+      {currentPurchaseLinks.amazon && (
         <a
-          href={currentProduct.purchaseLinks.amazon}
+          href={currentPurchaseLinks.amazon}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
@@ -3259,9 +3274,9 @@ export default async function ProductPage({
         </a>
       )}
 
-      {currentProduct.purchaseLinks.aliexpress && (
+      {currentPurchaseLinks.aliexpress && (
         <a
-          href={currentProduct.purchaseLinks.aliexpress}
+          href={currentPurchaseLinks.aliexpress}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
@@ -3270,9 +3285,9 @@ export default async function ProductPage({
         </a>
       )}
 
-      {currentProduct.purchaseLinks.alibaba && (
+      {currentPurchaseLinks.alibaba && (
         <a
-          href={currentProduct.purchaseLinks.alibaba}
+          href={currentPurchaseLinks.alibaba}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
