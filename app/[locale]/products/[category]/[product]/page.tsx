@@ -3153,6 +3153,7 @@ const purchaseLinks: Record<string, {
   amazon?: string;
   aliexpress?: string;
   alibaba?: string;
+  jd?: string;
 }> = {
   "ja-series-electric-tank-transporters": {
     amazon: "https://www.amazon.com/dp/B0G3WY4GQZ",
@@ -3250,13 +3251,15 @@ export default async function ProductPage({
 {/* PURCHASE LINKS */}
 {(currentPurchaseLinks.amazon ||
   currentPurchaseLinks.aliexpress ||
-  currentPurchaseLinks.alibaba) && (
+  currentPurchaseLinks.alibaba ||
+  currentPurchaseLinks.jd) && (
   <div className="mb-8 mt-8">
     <p className="mb-4 text-sm font-bold uppercase tracking-wider text-orange-500">
       Purchase Online
     </p>
 
-    <div className="grid gap-3 sm:grid-cols-3">
+    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+
       {currentPurchaseLinks.amazon && (
         <a
           href={currentPurchaseLinks.amazon}
@@ -3289,6 +3292,18 @@ export default async function ProductPage({
           Alibaba
         </a>
       )}
+
+      {currentPurchaseLinks.jd && (
+        <a
+          href={currentPurchaseLinks.jd}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
+        >
+          JD.com
+        </a>
+      )}
+
     </div>
   </div>
 )}
