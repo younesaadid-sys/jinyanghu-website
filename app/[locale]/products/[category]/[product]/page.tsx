@@ -3159,6 +3159,7 @@ const purchaseLinks: Record<string, {
     amazon: "https://www.amazon.com/dp/B0G3WY4GQZ",
     aliexpress: "https://es.aliexpress.com/item/1005009383246418.html?gatewayAdapt=glo2esp",
     alibaba: "https://www.alibaba.com/product-detail/Heavy-Duty-Electric-Track-Tank-Vehicle_1601681053613.html?spm=a2700.shop_pl.41413.19.2f7d23aeE8vZ8W",
+    jd: "https://item.jd.com/10210614864503.html?sdx=ehi-lLxFuZiE6JnKYINajcIotjSVAQIrsmpKuadAYZH7cJjZKZla5nThpkDmUA&purchasetab=dpgm&pcdk=hU4t4Ct5Rs5ttmsqYiyE21miRQ4XDjLIS1sEdSLLPHE%3D.rQ4a.tlbT",
   },
 };
 
