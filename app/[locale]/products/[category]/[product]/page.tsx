@@ -3161,7 +3161,13 @@ const purchaseLinks: Record<string, {
     alibaba: "https://www.alibaba.com/product-detail/Heavy-Duty-Electric-Track-Tank-Vehicle_1601681053613.html?spm=a2700.shop_pl.41413.19.2f7d23aeE8vZ8W",
     jd: "https://item.jd.com/10210614864503.html?sdx=ehi-lLxFuZiE6JnKYINajcIotjSVAQIrsmpKuadAYZH7cJjZKZla5nThpkDmUA&purchasetab=dpgm&pcdk=hU4t4Ct5Rs5ttmsqYiyE21miRQ4XDjLIS1sEdSLLPHE%3D.rQ4a.tlbT",
   },
+  "ja-b-series-electric-tank-transporters": {
+  amazon: "https://www.amazon.com/gp/product/B0FWRJQQCW?th=1",
+  aliexpress: "https://ko.aliexpress.com/item/1005009077667743.html?gatewayAdapt=glo2kor",
+  jd: "https://item.jd.com/10118626406030.html?sdx=ehi-lLxFuZiE6JnJYItajsAksDaRCwsrsmpKuadAYZH7cJjZKZla5nThpkDmUA&purchasetab=dpgm",
+},
 };
+
 
 export default async function ProductPage({
   params,
