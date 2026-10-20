@@ -3164,6 +3164,7 @@ const purchaseLinks: Record<string, {
   "ja-b-series-electric-tank-transporters": {
   amazon: "https://www.amazon.com/gp/product/B0FWRJQQCW?th=1",
   aliexpress: "https://ko.aliexpress.com/item/1005009077667743.html?gatewayAdapt=glo2kor",
+  alibaba: "https://www.alibaba.com/product-detail/30T-50T-Heavy-Duty-Electric-Roller_1601430510771.html?spm=a2700.micro_product_manager.0.0.5d083e5f050og1",
   jd: "https://item.jd.com/10118626406030.html?sdx=ehi-lLxFuZiE6JnJYItajsAksDaRCwsrsmpKuadAYZH7cJjZKZla5nThpkDmUA&purchasetab=dpgm",
 },
 };
