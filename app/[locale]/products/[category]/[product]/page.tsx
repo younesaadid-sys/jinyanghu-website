@@ -3171,6 +3171,7 @@ const purchaseLinks: Record<string, {
   amazon: "https://www.amazon.com/dp/B0HNMSZ3M8",
   alibaba: "https://www.alibaba.com/product-detail/CE-Battery-Powered-Moving-Trolley-Electric_1601986288524.html?spm=a2700.micro_product_manager.0.0.1db43e5f1jOIKF",
   aliexpress: "https://www.aliexpress.com/item/1005013463668030.html",
+  taobao: "https://detail.tmall.com/item.htm?abbucket=5&id=1064539961704&mi_id=0000tzZY_JPovFMaZ5dooh8qXfjVPBuGzWk08OMRGJgMnWY&ns=1&priceTId=213e071117925476845252541e1936&skuId=6110720680975&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%228c5c15a93def838e34a1899c5bacb417%22%7D&xxc=taobaoSearch",
 },
 };
 
