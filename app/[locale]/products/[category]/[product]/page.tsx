@@ -3179,7 +3179,7 @@ const purchaseLinks: Record<string, {
   alibaba: "https://www.alibaba.com/product-detail/20t-30t-40t-Cargo-Rigger-Moving_1601741105198.html?spm=a2700.micro_product_manager.0.0.5d083e5fWzshut",
   taobao: "https://item.jd.com/10229506310611.html?sdx=ehi-lLxFuZiE6JnKY4pZjMAjsTCXCQorsmpKuadAYZH7cJjZKZlU5H3hokjiVg&purchasetab=dpgm",
 },
-"jx-series-electric-tank-transporters": {
+"jx-series-electric-machinery-skate-dolly": {
   amazon: "https://www.amazon.com/dp/B0H6SBPFQ2?th=1",
   aliexpress: "https://www.aliexpress.com/item/1005012641922853.html",
   alibaba: "https://www.alibaba.com/product-detail/JYH-20T-35T-60T-Center-Lift_1601851291042.html?spm=a2700.shop_pl.41413.20.a6c423aeLJ7o3x",
