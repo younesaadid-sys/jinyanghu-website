@@ -3202,6 +3202,11 @@ const purchaseLinks: Record<string, {
   alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.2.c7804c0bauqfDw",
   taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=1027007496325&mi_id=0000VUgjqUINs3WLLHHjj42U84-9pxl_5BtS4Nj3woMTmxk&ns=1&skuId=6201135802515&spm=a21xtw.29978516.product_shelf.114.a6851f34r8zNgC&xxc=taobaoSearch",
 },
+"crd-series-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0G8CTZZX5/ref=mweb_up_am_fl_st_na_un_up_sm_sxts_snpl_1_0_d26e24db-d6a0-41ff-bb8a-bf1969aea086",
+  alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.2.c7804c0bauqfDw",
+  taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=1027007496325&mi_id=0000VUgjqUINs3WLLHHjj42U8xcOYDgQ77EpwnP-ivtDpqI&ns=1&skuId=6201135802513&spm=a21xtw.29178619.product_shelf.113.17a41f34mxjMKi&xxc=taobaoSearch",
+},
 };
 
 
