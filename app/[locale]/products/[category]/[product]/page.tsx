@@ -3197,6 +3197,11 @@ const purchaseLinks: Record<string, {
   alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.2.c7804c0bauqfDw",
   taobao: "https://detail.tmall.com/item.htm?id=1027007496325&spm=a21dvs.23580594.0.0.4fee2c1bHVVzJ9",
 },
+"cwa-series-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0F29DCKLC",
+  alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.2.c7804c0bauqfDw",
+  taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=1027007496325&mi_id=0000VUgjqUINs3WLLHHjj42U84-9pxl_5BtS4Nj3woMTmxk&ns=1&skuId=6201135802515&spm=a21xtw.29978516.product_shelf.114.a6851f34r8zNgC&xxc=taobaoSearch",
+},
 };
 
 
