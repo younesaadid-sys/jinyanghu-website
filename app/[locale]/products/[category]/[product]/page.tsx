@@ -3191,6 +3191,12 @@ const purchaseLinks: Record<string, {
   alibaba: "YOUR_ALIBABA_LINK",
   taobao: "YOUR_TAOBAO_LINK",
 },
+"cra-series-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0HNWCM1YX",
+  aliexpress: "https://it.aliexpress.com/item/1005012497545256.html?gatewayAdapt=glo2ita",
+  alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.2.c7804c0bauqfDw",
+  taobao: "https://detail.tmall.com/item.htm?id=1027007496325&spm=a21dvs.23580594.0.0.4fee2c1bHVVzJ9",
+},
 };
 
 
