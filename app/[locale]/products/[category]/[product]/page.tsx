@@ -3173,6 +3173,12 @@ const purchaseLinks: Record<string, {
   aliexpress: "https://www.aliexpress.com/item/1005013463668030.html",
   taobao: "https://detail.tmall.com/item.htm?abbucket=5&id=1064539961704&mi_id=0000tzZY_JPovFMaZ5dooh8qXfjVPBuGzWk08OMRGJgMnWY&ns=1&priceTId=213e071117925476845252541e1936&skuId=6110720680975&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%228c5c15a93def838e34a1899c5bacb417%22%7D&xxc=taobaoSearch",
 },
+"jd-series-electric-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0F9L9P873?th=1",
+  aliexpress: "https://es.aliexpress.com/item/1005012970386896.html?gatewayAdapt=glo2esp",
+  alibaba: "https://www.alibaba.com/product-detail/20t-30t-40t-Cargo-Rigger-Moving_1601741105198.html?spm=a2700.micro_product_manager.0.0.5d083e5fWzshut",
+  taobao: "https://item.jd.com/10229506310611.html?sdx=ehi-lLxFuZiE6JnKY4pZjMAjsTCXCQorsmpKuadAYZH7cJjZKZlU5H3hokjiVg&purchasetab=dpgm",
+},
 };
 
 
