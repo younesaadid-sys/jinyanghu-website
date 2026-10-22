@@ -3153,23 +3153,24 @@ const purchaseLinks: Record<string, {
   amazon?: string;
   aliexpress?: string;
   alibaba?: string;
-  jd?: string;
+  taobao?: string;
 }> = {
   "ja-series-electric-tank-transporters": {
     amazon: "https://www.amazon.com/dp/B0G3WY4GQZ",
     aliexpress: "https://es.aliexpress.com/item/1005009383246418.html?gatewayAdapt=glo2esp",
     alibaba: "https://www.alibaba.com/product-detail/Heavy-Duty-Electric-Track-Tank-Vehicle_1601681053613.html?spm=a2700.shop_pl.41413.19.2f7d23aeE8vZ8W",
-    jd: "https://item.jd.com/10210614864503.html?sdx=ehi-lLxFuZiE6JnKYINajcIotjSVAQIrsmpKuadAYZH7cJjZKZla5nThpkDmUA&purchasetab=dpgm&pcdk=hU4t4Ct5Rs5ttmsqYiyE21miRQ4XDjLIS1sEdSLLPHE%3D.rQ4a.tlbT",
+    taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=1019672290504&mi_id=0000F2uTZ6UPP2ovsJoRGtfr5xpwHCTAzdYcqDt0aNZPJsk&ns=1&skuId=6030163440725&spm=a21xtw.29978516.product_shelf.110.18351f34tsKIWS&xxc=taobaoSearch",
   },
   "ja-b-series-electric-tank-transporters": {
   amazon: "https://www.amazon.com/gp/product/B0FWRJQQCW?th=1",
   aliexpress: "https://ko.aliexpress.com/item/1005009077667743.html?gatewayAdapt=glo2kor",
   alibaba: "https://www.alibaba.com/product-detail/30T-50T-Heavy-Duty-Electric-Roller_1601430510771.html?spm=a2700.micro_product_manager.0.0.5d083e5f050og1",
-  jd: "https://item.jd.com/10118626406030.html?sdx=ehi-lLxFuZiE6JnJYItajsAksDaRCwsrsmpKuadAYZH7cJjZKZla5nThpkDmUA&purchasetab=dpgm",
+  taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=972406463364&mi_id=0000q8H4lgb3EqK1FSyCHGxBC8mCKHk0h0W4tcG4ScljCWc&ns=1&skuId=5925771589743&spm=a21xtw.29978516.product_shelf.105.18351f34tsKIWS&xxc=taobaoSearch",
 },
 "js-series-electric-tank-transporters": {
   amazon: "https://www.amazon.com/dp/B0HNMSZ3M8",
   alibaba: "https://www.alibaba.com/product-detail/CE-Battery-Powered-Moving-Trolley-Electric_1601986288524.html?spm=a2700.micro_product_manager.0.0.1db43e5f1jOIKF",
+  aliexpress: "https://www.aliexpress.com/item/1005013463668030.html",
 },
 };
 
@@ -3264,7 +3265,7 @@ export default async function ProductPage({
 {(currentPurchaseLinks.amazon ||
   currentPurchaseLinks.aliexpress ||
   currentPurchaseLinks.alibaba ||
-  currentPurchaseLinks.jd) && (
+  currentPurchaseLinks.taobao) && (
   <div className="mb-8 mt-8">
     <p className="mb-4 text-sm font-bold uppercase tracking-wider text-orange-500">
       Purchase Online
@@ -3305,14 +3306,14 @@ export default async function ProductPage({
         </a>
       )}
 
-      {currentPurchaseLinks.jd && (
+      {currentPurchaseLinks.taobao && (
         <a
-          href={currentPurchaseLinks.jd}
+          href={currentPurchaseLinks.taobao}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 font-bold text-white transition hover:border-orange-500 hover:bg-zinc-800"
         >
-          JD.com
+          Taobao
         </a>
       )}
 
