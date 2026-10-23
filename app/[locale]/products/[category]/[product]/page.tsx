@@ -3207,6 +3207,10 @@ const purchaseLinks: Record<string, {
   alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.2.c7804c0bauqfDw",
   taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=1027007496325&mi_id=0000VUgjqUINs3WLLHHjj42U8xcOYDgQ77EpwnP-ivtDpqI&ns=1&skuId=6201135802513&spm=a21xtw.29178619.product_shelf.113.17a41f34mxjMKi&xxc=taobaoSearch",
 },
+"cx-y-series-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0DGGKQPNY",
+  alibaba: "https://www.alibaba.com/product-detail/New-JYH-Stainless-Steel-3-Ton_1601975312010.html?spm=a2700.shop_pl.41413.14.a7fa23aeqM2Q2r",
+},
 };
 
 
