@@ -3282,11 +3282,20 @@ const categoryProducts = productOrder[category] || [];
 
 const currentIndex = categoryProducts.indexOf(product);
 
+const previousProduct =
+  currentIndex >= 0
+    ? categoryProducts[
+        (currentIndex - 1 + categoryProducts.length) %
+          categoryProducts.length
+      ]
+    : null;
+
 const nextProduct =
   currentIndex >= 0
     ? categoryProducts[(currentIndex + 1) % categoryProducts.length]
     : null;
-  const currentPurchaseLinks = purchaseLinks[product] || {};
+
+const currentPurchaseLinks = purchaseLinks[product] || {};
 
   if (!currentProduct) {
     return (
@@ -3309,18 +3318,30 @@ const nextProduct =
       {/* PRODUCT HERO */}
       <section className="bg-zinc-950 text-white">
   <div className="mx-auto max-w-7xl px-6 pt-8">
+  <div className="flex items-center justify-between gap-4">
+    {previousProduct ? (
+      <a
+        href={`/products/${category}/${previousProduct}`}
+        className="inline-flex items-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-bold text-white transition hover:border-orange-500 hover:text-orange-500"
+      >
+        <span>←</span>
+        Previous Product
+      </a>
+    ) : (
+      <div />
+    )}
+
     {nextProduct && (
-      <div className="flex justify-end">
-        <a
-          href={`/products/${category}/${nextProduct}`}
-          className="inline-flex items-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-bold text-white transition hover:border-orange-500 hover:text-orange-500"
-        >
-          Next Product
-          <span>→</span>
-        </a>
-      </div>
+      <a
+        href={`/products/${category}/${nextProduct}`}
+        className="inline-flex items-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-bold text-white transition hover:border-orange-500 hover:text-orange-500"
+      >
+        Next Product
+        <span>→</span>
+      </a>
     )}
   </div>
+</div>
 
   <div className="mx-auto grid max-w-7xl gap-12 px-6 pb-16 pt-6 lg:grid-cols-2 lg:items-start">
           {/* LEFT */}
