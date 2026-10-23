@@ -3211,9 +3211,50 @@ const purchaseLinks: Record<string, {
   amazon: "https://www.amazon.com/dp/B0DGGKQPNY",
   alibaba: "https://www.alibaba.com/product-detail/New-JYH-Stainless-Steel-3-Ton_1601975312010.html?spm=a2700.shop_pl.41413.14.a7fa23aeqM2Q2r",
 },
+"crp-series-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0F211PG7X",
+  alibaba: "https://www.alibaba.com/product-detail/JIN-YANG-HU-Steel-New-CRP_1601686004188.html?spm=a2700.shop_plser.41413.2.13c44c0bx8O5nf",
+  taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=1049340233029&mi_id=0000kn3iMa02zD1EVlA769kggwIE3npxs9GbkVPIrQAnkbU&ns=1&skuId=6242779686889&spm=a21xtw.29978516.product_shelf.116.39571f34wrDNVk&xxc=taobaoSearch",
+},
 };
 
+const productOrder: Record<string, string[]> = {
+  "electric-heavy-duty-load-skates": [
+    "ja-series-electric-tank-transporters",
+    "ja-b-series-electric-tank-transporters",
+    "js-series-electric-tank-transporters",
+    "jd-series-electric-tank-transporters",
+    "jx-series-electric-machinery-skate-dolly",
+    "jz-series-electric-pallet-truck",
+    "jq-series-low-profile-tank-transporters",
+  ],
 
+  "manual-load-skates": [
+    "cra-series-tank-transporters",
+    "cwa-series-tank-transporters",
+    "crd-series-tank-transporters",
+    "cx-y-series-tank-transporters",
+    "crp-series-tank-transporters",
+    "crq-series-tank-transporters",
+    "crm-series-tank-transporters",
+    "crf-series-tank-transporters",
+    "crw-series-tank-transporters",
+  ],
+
+  "equipment-jacks": [
+    "ma-series-dual-purpose-claw-jacks",
+    "mb-series-multi-stage-claw-jacks",
+    "mc-series-single-stage-claw-jacks",
+    "md-series-manual-claw-jacks",
+    "me-series-remote-operated-claw-jacks",
+    "mf-series-hydraulic-lifters",
+    "mg-series-wedge-jacks",
+    "mh-series-remote-operated-jacks",
+    "mi-series-hand-operated-toe-jacks",
+    "mj-series-low-profile-hand-operated-toe-jacks",
+    "mk-series-multi-position-adjustable-toe-jacks",
+  ],
+};
 export default async function ProductPage({
   params,
 }: {
@@ -3237,7 +3278,14 @@ export default async function ProductPage({
 
   const currentProduct =
     productData[product as keyof typeof productData];
+const categoryProducts = productOrder[category] || [];
 
+const currentIndex = categoryProducts.indexOf(product);
+
+const nextProduct =
+  currentIndex >= 0
+    ? categoryProducts[(currentIndex + 1) % categoryProducts.length]
+    : null;
   const currentPurchaseLinks = purchaseLinks[product] || {};
 
   if (!currentProduct) {
@@ -3260,7 +3308,21 @@ export default async function ProductPage({
     <main className="min-h-screen bg-white text-zinc-900">
       {/* PRODUCT HERO */}
       <section className="bg-zinc-950 text-white">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-start">
+  <div className="mx-auto max-w-7xl px-6 pt-8">
+    {nextProduct && (
+      <div className="flex justify-end">
+        <a
+          href={`/products/${category}/${nextProduct}`}
+          className="inline-flex items-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-bold text-white transition hover:border-orange-500 hover:text-orange-500"
+        >
+          Next Product
+          <span>→</span>
+        </a>
+      </div>
+    )}
+  </div>
+
+  <div className="mx-auto grid max-w-7xl gap-12 px-6 pb-16 pt-6 lg:grid-cols-2 lg:items-start">
           {/* LEFT */}
           <ProductGallery images={currentProduct.gallery} />
 
