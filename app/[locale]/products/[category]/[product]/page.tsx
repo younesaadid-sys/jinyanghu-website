@@ -3216,6 +3216,17 @@ const purchaseLinks: Record<string, {
   alibaba: "https://www.alibaba.com/product-detail/JIN-YANG-HU-Steel-New-CRP_1601686004188.html?spm=a2700.shop_plser.41413.2.13c44c0bx8O5nf",
   taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=1049340233029&mi_id=0000kn3iMa02zD1EVlA769kggwIE3npxs9GbkVPIrQAnkbU&ns=1&skuId=6242779686889&spm=a21xtw.29978516.product_shelf.116.39571f34wrDNVk&xxc=taobaoSearch",
 },
+"crq-series-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0HNZQDMHH",
+  alibaba: "https://www.alibaba.com/product-detail/360-Degree-5T-Universal-Tank-Heavy_1601656419820.html?spm=a2700.shop_plser.41413.8.13c44c0b5un84t",
+  taobao: "https://detail.tmall.com/item.htm?id=1049340233029&spm=a21dvs.23580594.0.0.4fee2c1bjJQzBA",
+},
+"crm-series-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0F21SZLCJ",
+  aliexpress: "https://it.aliexpress.com/item/1005012204582390.html?gatewayAdapt=glo2ita",
+  alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.1.c7804c0bpu2yGJ",
+  taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=853285512178&mi_id=00003M3aJ2x60M-sT2Gj2JJPJ31nBEwlcJ5M7flahTfl9hw&ns=1&skuId=5650989856920&spm=a21xtw.29178619.product_shelf.91.7ce91f347zN4PX&xxc=taobaoSearch",
+},
 };
 
 const productOrder: Record<string, string[]> = {
