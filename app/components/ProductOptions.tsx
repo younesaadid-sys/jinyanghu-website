@@ -1,4 +1,5 @@
 "use client";
+
 import QuoteModal from "@/app/components/QuoteModal";
 import { useState } from "react";
 import { Icon } from "@iconify/react";
@@ -23,6 +24,16 @@ const capacities = [
     value: "30T",
     label: "30T Capacity",
     description: "Factory heavy-load handling",
+  },
+  {
+    value: "35T",
+    label: "35T Capacity",
+    description: "Heavy industrial machinery handling",
+  },
+  {
+    value: "40T",
+    label: "40T Capacity",
+    description: "High-load industrial transport",
   },
   {
     value: "50T",
@@ -114,7 +125,7 @@ export default function ProductOptions() {
         </div>
 
         {/* CAPACITY OPTIONS */}
-        <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {capacities.map((capacity) => {
             const active = selectedCapacity === capacity.value;
 
@@ -123,7 +134,7 @@ export default function ProductOptions() {
                 key={capacity.value}
                 type="button"
                 onClick={() => setSelectedCapacity(capacity.value)}
-                className={`group relative min-h-[145px] rounded-2xl border-2 p-4 text-left transition duration-300 ${
+                className={`group relative min-h-[165px] rounded-2xl border-2 p-5 text-left transition duration-300 ${
                   active
                     ? "border-orange-500 bg-orange-50 shadow-lg shadow-orange-500/10"
                     : "border-zinc-200 bg-white hover:-translate-y-1 hover:border-orange-300 hover:shadow-lg"
@@ -152,7 +163,7 @@ export default function ProductOptions() {
                 </div>
 
                 <div
-                  className={`mt-3 text-xs font-bold ${
+                  className={`mt-4 text-xs font-bold ${
                     active ? "text-orange-500" : "text-zinc-400"
                   }`}
                 >
@@ -189,9 +200,7 @@ export default function ProductOptions() {
               <div
                 key={spec.label}
                 className={`flex items-center gap-4 border-zinc-200 px-6 py-5 ${
-                  index < specifications.length - 2
-                    ? "border-b"
-                    : ""
+                  index < specifications.length - 2 ? "border-b" : ""
                 } md:[&:nth-child(odd)]:border-r`}
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-orange-100">
@@ -227,11 +236,11 @@ export default function ProductOptions() {
             </p>
           </div>
 
-         <QuoteModal
-  buttonText={`Request Price for ${selectedCapacity}`}
-  product="JA Series Electric Tank Transporter"
-  capacity={selectedCapacity}
-/>
+          <QuoteModal
+            buttonText={`Request Price for ${selectedCapacity}`}
+            product="JA Series Electric Tank Transporter"
+            capacity={selectedCapacity}
+          />
         </div>
       </div>
     </section>

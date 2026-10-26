@@ -3227,6 +3227,11 @@ const purchaseLinks: Record<string, {
   alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.1.c7804c0bpu2yGJ",
   taobao: "https://detail.tmall.com/item.htm?abbucket=0&id=853285512178&mi_id=00003M3aJ2x60M-sT2Gj2JJPJ31nBEwlcJ5M7flahTfl9hw&ns=1&skuId=5650989856920&spm=a21xtw.29178619.product_shelf.91.7ce91f347zN4PX&xxc=taobaoSearch",
 },
+"crf-series-tank-transporters": {
+  amazon: "https://www.amazon.com/dp/B0HP8VMDJ7",
+  alibaba: "https://www.alibaba.com/product-detail/CRA-Type-Mechanical-Movers-4T-6T_1601873441132.html?spm=a2700.shop_plser.41413.1.c7804c0bkwoGxm",
+  taobao: "https://detail.tmall.com/item.htm?id=1027007496325&spm=a21dvs.23580594.0.0.4fee2c1bHVVzJ9",
+},
 };
 
 const productOrder: Record<string, string[]> = {
