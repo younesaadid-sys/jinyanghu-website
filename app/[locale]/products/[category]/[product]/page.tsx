@@ -3507,87 +3507,89 @@ const currentPurchaseLinks = purchaseLinks[product] || {};
     </div>
 
     <div className="grid overflow-hidden rounded-3xl border border-zinc-200 bg-white lg:grid-cols-3">
-      {/* LEFT SIDE */}
-      <div>
-        <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
-  <h3 className="text-xl font-black text-white">
-    Item Details
-  </h3>
-</div>
+        {/* ITEM DETAILS */}
+  <div>
+    <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+      <h3 className="text-xl font-black text-white">
+        Item Details
+      </h3>
+    </div>
 
-        {[
-          ["Brand Name", "JIN YANG HU"],
-          ["Model Number", "JY-20"],
-          ["Manufacturer", "JIN YANG HU"],
-          ["Number of Items", "1"],
-          ["Manufacturer Part Number", "JY-20"],
-          ["ASIN", "B0HLKK3HCJ"],
-        ].map(([label, value]) => (
-          <div
-            key={label}
-            className="grid grid-cols-[160px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
-          >
-            <span className="font-bold text-zinc-600">
-              {label}
-            </span>
+    {[
+      ["Brand Name", "JIN YANG HU"],
+      ["Model Number", "JY-20"],
+      ["Manufacturer", "JIN YANG HU"],
+      ["Number of Items", "1"],
+      ["Manufacturer Part Number", "JY-20"],
+      ["ASIN", "B0HLKK3HCJ"],
+    ].map(([label, value]) => (
+      <div
+        key={label}
+        className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
+      >
+        <span className="font-bold text-zinc-600">
+          {label}
+        </span>
 
-            <span className="text-zinc-900">
-              {value}
-            </span>
-          </div>
-        ))}
+        <span className="text-zinc-900">
+          {value}
+        </span>
       </div>
+    ))}
+  </div>
 
-      {/* RIGHT SIDE */}
-      <div>
-        <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
-  <h3 className="text-xl font-black text-white">
-    Features & Specs
-  </h3>
-</div>
+  {/* FEATURES & SPECS */}
+  <div>
+    <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+      <h3 className="text-xl font-black text-white">
+        Features & Specs
+      </h3>
+    </div>
 
-        {[
-          ["Wheel Type", "Polyurethane"],
-          ["Load Capacity", "20 T"],
-          ["Number of Wheels", "6"],
-        ].map(([label, value]) => (
-          <div
-            key={label}
-            className="grid grid-cols-[160px_1fr] border-b border-zinc-200 px-6 py-4"
-          >
-            <span className="font-bold text-zinc-600">
-              {label}
-            </span>
+    {[
+      ["Wheel Type", "Polyurethane"],
+      ["Load Capacity", "20 T"],
+      ["Number of Wheels", "6"],
+    ].map(([label, value]) => (
+      <div
+        key={label}
+        className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
+      >
+        <span className="font-bold text-zinc-600">
+          {label}
+        </span>
 
-            <span className="text-zinc-900">
-              {value}
-            </span>
-          </div>
-        ))}
+        <span className="text-zinc-900">
+          {value}
+        </span>
+      </div>
+    ))}
+  </div>
 
-        {/* STYLE */}
-        <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
-  <h3 className="text-xl font-black text-white">
-    Style
-  </h3>
-</div>
+  {/* STYLE */}
+  <div>
+    <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+      <h3 className="text-xl font-black text-white">
+        Style
+      </h3>
+    </div>
 
-        {[
-          ["Color", "Yellow"],
-          ["Style Name", "Industrial"],
-        ].map(([label, value]) => (
-          <div
-            key={label}
-            className="grid grid-cols-[160px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
-          >
-            <span className="font-bold text-zinc-600">
-              {label}
-            </span>
+    {[
+      ["Color", "Yellow"],
+      ["Style Name", "Industrial"],
+    ].map(([label, value]) => (
+      <div
+        key={label}
+        className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
+      >
+        <span className="font-bold text-zinc-600">
+          {label}
+        </span>
 
-            <span className="text-zinc-900">
-              {value}
-            </span>
-          </div>
+        <span className="text-zinc-900">
+          {value}
+        </span>
+      </div>
         ))}
       </div>
     </div>
