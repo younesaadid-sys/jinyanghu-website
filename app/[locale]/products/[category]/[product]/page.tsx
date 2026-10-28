@@ -3596,23 +3596,88 @@ const currentPurchaseLinks = purchaseLinks[product] || {};
   </div>
 </section>
 
-      {/* FINAL CTA */}
-      <section className="bg-zinc-950 text-white">
-        <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-6 py-14 md:flex-row md:items-center">
-          <div>
-            <h2 className="text-3xl font-black">
-              Need the right model for your application?
-            </h2>
+      <footer className="border-t border-zinc-800 bg-zinc-950 text-white">
+  <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-4">
+    <div>
+      <h3 className="text-xl font-black text-orange-500">
+        JIN YANG HU
+      </h3>
 
-            <p className="mt-3 text-zinc-400">
-              Tell us your load capacity and working conditions.
-              Our team can recommend the suitable configuration.
-            </p>
-          </div>
+      <p className="mt-4 text-sm leading-6 text-zinc-400">
+        Industrial lifting and transport solutions for heavy machinery,
+        factories, warehouses and material handling applications.
+      </p>
+    </div>
 
-          <QuoteModal />
-        </div>
-      </section>
-    </main>
-  );
+    <div>
+      <h4 className="font-bold">
+        Products
+      </h4>
+
+      <div className="mt-4 space-y-3 text-sm text-zinc-400">
+        <a href="/products?category=electric-heavy-duty-movers" className="block hover:text-orange-500">
+          Electric Movers
+        </a>
+
+        <a href="/products?category=manual-heavy-duty-movers" className="block hover:text-orange-500">
+          Manual Movers
+        </a>
+
+        <a href="/products?category=jacks" className="block hover:text-orange-500">
+          Jacks
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <h4 className="font-bold">
+        Company
+      </h4>
+
+      <div className="mt-4 space-y-3 text-sm text-zinc-400">
+        <a href="/#about" className="block hover:text-orange-500">
+          About Us
+        </a>
+
+        <a href="/#contact" className="block hover:text-orange-500">
+          Contact
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <h4 className="font-bold">
+        Contact
+      </h4>
+
+      <div className="mt-4 space-y-3 text-sm text-zinc-400">
+        <p>genefen@jcsqz.com</p>
+        <p>+86 131 0000 6833</p>
+
+        <a
+          href="https://wa.me/8613100006833"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block font-semibold text-orange-500 hover:text-orange-400"
+        >
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div className="border-t border-zinc-800">
+    <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-5 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
+      <p>
+        © 2026 JIN YANG HU. All rights reserved.
+      </p>
+
+      <p>
+        Industrial Lifting and Transport Solutions
+      </p>
+    </div>
+  </div>
+</footer>
+</main>
+);
 }
