@@ -3493,43 +3493,106 @@ const currentPurchaseLinks = purchaseLinks[product] || {};
       <ProductOptions />
 
       {/* KEY FEATURES */}
-      <section className="bg-zinc-100">
-        <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="max-w-2xl">
-            <p className="font-semibold uppercase tracking-wider text-orange-500">
-              Key Features
-            </p>
+      {/* PRODUCT INFORMATION */}
+<section className="bg-zinc-100">
+  <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
+    <div className="mb-8">
+      <p className="text-sm font-bold uppercase tracking-[0.18em] text-orange-500">
+        Product Details
+      </p>
 
-            <h2 className="mt-3 text-4xl font-black">
-              Designed for industrial performance
-            </h2>
-          </div>
+      <h2 className="mt-3 text-3xl font-black text-zinc-900 md:text-4xl">
+        Product Information
+      </h2>
+    </div>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {currentProduct.features.map((feature) => (
-              <div
-                key={feature.title}
-                className="rounded-2xl border border-zinc-200 bg-white p-7 shadow-sm"
-              >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-500 text-white">
-                  <Icon
-                    icon={feature.icon}
-                    className="text-2xl"
-                  />
-                </div>
-
-                <h3 className="mt-5 text-xl font-black">
-                  {feature.title}
-                </h3>
-
-                <p className="mt-3 leading-7 text-zinc-600">
-                  {feature.text}
-                </p>
-              </div>
-            ))}
-          </div>
+    <div className="grid overflow-hidden rounded-3xl border border-zinc-200 bg-white lg:grid-cols-2">
+      {/* LEFT SIDE */}
+      <div className="border-zinc-200 lg:border-r">
+        <div className="border-b border-zinc-200 bg-zinc-100 px-6 py-4">
+          <h3 className="text-xl font-black text-zinc-900">
+            Item Details
+          </h3>
         </div>
-      </section>
+
+        {[
+          ["Brand Name", "JIN YANG HU"],
+          ["Model Number", "JY-20"],
+          ["Manufacturer", "JIN YANG HU"],
+          ["Number of Items", "1"],
+          ["Manufacturer Part Number", "JY-20"],
+          ["ASIN", "B0HLKK3HCJ"],
+        ].map(([label, value]) => (
+          <div
+            key={label}
+            className="grid grid-cols-[160px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
+          >
+            <span className="font-bold text-zinc-600">
+              {label}
+            </span>
+
+            <span className="text-zinc-900">
+              {value}
+            </span>
+          </div>
+        ))}
+      </div>
+
+      {/* RIGHT SIDE */}
+      <div>
+        <div className="border-b border-zinc-200 bg-zinc-100 px-6 py-4">
+          <h3 className="text-xl font-black text-zinc-900">
+            Features & Specs
+          </h3>
+        </div>
+
+        {[
+          ["Wheel Type", "Polyurethane"],
+          ["Load Capacity", "20 T"],
+          ["Number of Wheels", "6"],
+        ].map(([label, value]) => (
+          <div
+            key={label}
+            className="grid grid-cols-[160px_1fr] border-b border-zinc-200 px-6 py-4"
+          >
+            <span className="font-bold text-zinc-600">
+              {label}
+            </span>
+
+            <span className="text-zinc-900">
+              {value}
+            </span>
+          </div>
+        ))}
+
+        {/* STYLE */}
+        <div className="border-b border-zinc-200 bg-zinc-100 px-6 py-4">
+          <h3 className="text-xl font-black text-zinc-900">
+            Style
+          </h3>
+        </div>
+
+        {[
+          ["Color", "Yellow"],
+          ["Style Name", "Industrial"],
+        ].map(([label, value]) => (
+          <div
+            key={label}
+            className="grid grid-cols-[160px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
+          >
+            <span className="font-bold text-zinc-600">
+              {label}
+            </span>
+
+            <span className="text-zinc-900">
+              {value}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* APPLICATIONS */}
       <section className="bg-white">
