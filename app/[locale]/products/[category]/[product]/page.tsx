@@ -116,7 +116,89 @@ const productData = {
     },
     name: "JA-B Series Electric Tank Transporters",
     shortName: "JA-B Series",
+options: {
+  defaultCapacity: "20Ton",
 
+  capacities: [
+    {
+      value: "20Ton",
+      label: "20Ton",
+      description: "Standard configuration",
+      tooltip: "Size: 20Ton",
+    },
+    {
+      value: "20Ton + Auxiliary Wheels",
+      label: "20Ton + Auxiliary Wheels",
+      description: "20-ton configuration with auxiliary wheels",
+      tooltip: "Size: 20Ton + Auxiliary wheels",
+    },
+    {
+      value: "25Ton + Auxiliary Wheels",
+      label: "25Ton + Auxiliary Wheels",
+      description: "25-ton configuration with auxiliary wheels",
+      tooltip: "Size: 25Ton + Auxiliary wheels",
+    },
+    {
+      value: "30Ton",
+      label: "30Ton",
+      description: "Standard 30-ton configuration",
+      tooltip: "Size: 30Ton",
+    },
+    {
+      value: "30Ton + Auxiliary Wheels",
+      label: "30Ton + Auxiliary Wheels",
+      description: "30-ton configuration with auxiliary wheels",
+      tooltip: "Size: 30Ton + Auxiliary wheels",
+    },
+    {
+      value: "40Ton",
+      label: "40Ton",
+      description: "Standard 40-ton configuration",
+      tooltip: "Size: 40Ton",
+    },
+    {
+      value: "40Ton + Auxiliary Wheels",
+      label: "40Ton + Auxiliary Wheels",
+      description: "40-ton configuration with auxiliary wheels",
+      tooltip: "Size: 40Ton + Auxiliary wheels",
+    },
+    {
+      value: "50Ton",
+      label: "50Ton",
+      description: "Standard 50-ton configuration",
+      tooltip: "Size: 50Ton",
+    },
+    {
+      value: "50Ton + Auxiliary Wheels",
+      label: "50Ton + Auxiliary Wheels",
+      description: "50-ton configuration with auxiliary wheels",
+      tooltip: "Size: 50Ton + Auxiliary wheels",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Customization Tailored to Your Needs",
+      text: "Supports customized colors, logos and enterprise batch customization.",
+    },
+    {
+      title: "Wireless Remote Control",
+      text: "Equipped with wireless intelligent remote control for convenient operation.",
+    },
+    {
+      title: "360° Rotating Platform",
+      text: "Designed for flexible positioning and heavy machinery movement.",
+    },
+    {
+      title: "Power Monitoring",
+      text: "Built-in power display helps operators monitor battery status.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, warehouses, workshops and docks.",
+    },
+  ],
+},
     description:
       "Heavy-duty electric transporter series designed for industrial machinery handling, flexible steering and high-capacity load movement.",
 
@@ -3296,6 +3378,23 @@ export default async function ProductPage({
 
   const currentProduct =
     productData[product as keyof typeof productData];
+    const currentOptions =
+  currentProduct &&
+  "options" in currentProduct
+    ? (currentProduct.options as {
+        defaultCapacity?: string;
+        capacities: {
+          value: string;
+          label: string;
+          description: string;
+          tooltip?: string;
+        }[];
+        aboutItems: {
+          title: string;
+          text: string;
+        }[];
+      })
+    : null;
 const categoryProducts = productOrder[category] || [];
 
 const currentIndex = categoryProducts.indexOf(product);
@@ -3491,8 +3590,14 @@ const t = await getTranslations("home");
         </div>
       </section>
 
-      {/* PRODUCT OPTIONS */}
-      <ProductOptions />
+   {currentOptions && (
+  <ProductOptions
+    productName={currentProduct.name}
+    capacities={currentOptions.capacities}
+    aboutItems={currentOptions.aboutItems}
+    defaultCapacity={currentOptions.defaultCapacity}
+  />
+)}
 
       {/* KEY FEATURES */}
       {/* PRODUCT INFORMATION */}
