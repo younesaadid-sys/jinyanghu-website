@@ -185,26 +185,26 @@ export default function ProductOptions() {
           })}
         </div>
 {/* SMALL CTA */}
-        <div className="mt-8 flex flex-col gap-4 rounded-2xl bg-orange-500 p-6 text-white sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <h3 className="text-xl font-black">
-              Need the {selectedCapacity} configuration?
-            </h3>
+<div className="mt-8 flex flex-col gap-4 rounded-2xl bg-orange-500 p-6 text-white sm:flex-row sm:items-center sm:justify-between">
+  <div>
+    <h3 className="text-xl font-black">
+      Need the {selectedCapacity} configuration?
+    </h3>
 
-            <p className="mt-1 text-sm text-orange-100">
-              Contact our sales team for technical details and quotation.
-            </p>
-          </div>
+    <p className="mt-1 text-sm text-orange-100">
+      Contact our sales team for technical details and quotation.
+    </p>
+  </div>
 
-          <QuoteModal
-            buttonText={`Request Price for ${selectedCapacity}`}
-            product="JA Series Electric Tank Transporter"
-            capacity={selectedCapacity}
-          />
-        </div>
-      </div>
-        {/* ABOUT THIS ITEM */}
-<div className="mt-14 overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50">
+  <QuoteModal
+    buttonText={`Request Price for ${selectedCapacity}`}
+    product="JA Series Electric Tank Transporter"
+    capacity={selectedCapacity}
+  />
+</div>
+
+{/* ABOUT THIS ITEM */}
+<div className="mt-8 overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50">
   <div className="border-b border-zinc-200 bg-zinc-950 px-6 py-5 text-white">
     <div className="flex items-center gap-3">
       <Icon
@@ -235,8 +235,8 @@ export default function ProductOptions() {
         <span className="font-bold text-zinc-900">
           Electric Machinery Mover Skate Kit:
         </span>{" "}
-        Our machinery skates dolly is engineered with 12mm manganese steel and
-        industrial PU wheels to handle the heaviest loads with tier capacity.
+        Our machinery skates dolly is engineered with 12mm manganese steel
+        and industrial PU wheels to handle demanding heavy-load applications.
       </p>
     </div>
 
@@ -297,12 +297,14 @@ export default function ProductOptions() {
         <span className="font-bold text-zinc-900">
           Versatile Industrial Application:
         </span>{" "}
-        Ideal for demanding environments such as factories, construction sites,
-        and docks, meeting diverse heavy-duty handling needs.
+        Ideal for demanding environments such as factories, construction
+        sites, and docks, meeting diverse heavy-duty handling needs.
       </p>
     </div>
   </div>
 </div>
-    </section>
-  );
+
+</div>
+</section>
+);
 }
