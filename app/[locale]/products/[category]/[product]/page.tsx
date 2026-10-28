@@ -3377,8 +3377,9 @@ export default async function ProductPage({
           : "Industrial Equipment";
 
   const currentProduct =
-    productData[product as keyof typeof productData];
-   const currentOptions =
+  productData[product as keyof typeof productData];
+
+const currentOptions =
   currentProduct &&
   "options" in currentProduct
     ? (currentProduct.options as {
@@ -3395,6 +3396,26 @@ export default async function ProductPage({
         }[];
       })
     : null;
+
+const currentProductInfo =
+  currentProduct &&
+  "productInfo" in currentProduct
+    ? (currentProduct.productInfo as {
+        features: {
+          label: string;
+          value: string;
+        }[];
+        additionalDetails: {
+          label: string;
+          value: string;
+        }[];
+        style: {
+          label: string;
+          value: string;
+        }[];
+      })
+    : null;
+
 const categoryProducts = productOrder[category] || [];
 
 const currentIndex = categoryProducts.indexOf(product);
