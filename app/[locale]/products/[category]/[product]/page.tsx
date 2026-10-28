@@ -3509,11 +3509,11 @@ const currentPurchaseLinks = purchaseLinks[product] || {};
     <div className="grid overflow-hidden rounded-3xl border border-zinc-200 bg-white lg:grid-cols-2">
       {/* LEFT SIDE */}
       <div className="border-zinc-200 lg:border-r">
-        <div className="border-b border-zinc-200 bg-zinc-100 px-6 py-4">
-          <h3 className="text-xl font-black text-zinc-900">
-            Item Details
-          </h3>
-        </div>
+        <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+  <h3 className="text-xl font-black text-white">
+    Item Details
+  </h3>
+</div>
 
         {[
           ["Brand Name", "JIN YANG HU"],
@@ -3540,11 +3540,11 @@ const currentPurchaseLinks = purchaseLinks[product] || {};
 
       {/* RIGHT SIDE */}
       <div>
-        <div className="border-b border-zinc-200 bg-zinc-100 px-6 py-4">
-          <h3 className="text-xl font-black text-zinc-900">
-            Features & Specs
-          </h3>
-        </div>
+        <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+  <h3 className="text-xl font-black text-white">
+    Features & Specs
+  </h3>
+</div>
 
         {[
           ["Wheel Type", "Polyurethane"],
@@ -3566,11 +3566,11 @@ const currentPurchaseLinks = purchaseLinks[product] || {};
         ))}
 
         {/* STYLE */}
-        <div className="border-b border-zinc-200 bg-zinc-100 px-6 py-4">
-          <h3 className="text-xl font-black text-zinc-900">
-            Style
-          </h3>
-        </div>
+        <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+  <h3 className="text-xl font-black text-white">
+    Style
+  </h3>
+</div>
 
         {[
           ["Color", "Yellow"],
