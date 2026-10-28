@@ -3596,47 +3596,6 @@ const currentPurchaseLinks = purchaseLinks[product] || {};
   </div>
 </section>
 
-      {/* APPLICATIONS */}
-      <section className="bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-            <div>
-              <p className="font-semibold uppercase tracking-wider text-orange-500">
-                Applications
-              </p>
-
-              <h2 className="mt-3 text-4xl font-black">
-                Built for demanding industrial work
-              </h2>
-
-              <p className="mt-5 max-w-2xl leading-8 text-zinc-600">
-                {currentProduct.shortName} is designed for
-                professional machinery handling, positioning
-                and industrial equipment movement.
-              </p>
-            </div>
-
-            <div className="grid gap-4 sm:grid-cols-2">
-              {currentProduct.applications.map((application) => (
-                <div
-                  key={application}
-                  className="flex items-center gap-4 rounded-xl border border-zinc-200 bg-zinc-50 p-5"
-                >
-                  <Icon
-                    icon="mdi:factory"
-                    className="shrink-0 text-2xl text-orange-500"
-                  />
-
-                  <span className="font-semibold text-zinc-800">
-                    {application}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FINAL CTA */}
       <section className="bg-zinc-950 text-white">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-6 py-14 md:flex-row md:items-center">
