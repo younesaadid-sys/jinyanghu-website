@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import QuoteModal from "@/app/components/QuoteModal";
 import ProductGallery from "@/app/components/ProductGallery";
-import ProductOptions from "@/app/components/ProductOptions";
+
 
 const productData = {
   // =========================================================
@@ -3329,8 +3329,6 @@ export default async function ProductPage({
         </div>
       </section>
 
-      {/* PRODUCT OPTIONS */}
-      <ProductOptions />
 
       {/* KEY FEATURES */}
       <section className="bg-zinc-100">

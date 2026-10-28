@@ -3378,7 +3378,7 @@ export default async function ProductPage({
 
   const currentProduct =
     productData[product as keyof typeof productData];
-    const currentOptions =
+   const currentOptions =
   currentProduct &&
   "options" in currentProduct
     ? (currentProduct.options as {
@@ -3590,7 +3590,7 @@ const t = await getTranslations("home");
         </div>
       </section>
 
-   {currentOptions && (
+{currentOptions && (
   <ProductOptions
     productName={currentProduct.name}
     capacities={currentOptions.capacities}
