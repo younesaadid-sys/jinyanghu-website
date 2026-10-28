@@ -6,44 +6,52 @@ import { Icon } from "@iconify/react";
 
 const capacities = [
   {
-    value: "10T",
-    label: "10T Capacity",
-    description: "For medium industrial loads",
-  },
+  value: "10T",
+  label: "10T Capacity",
+  description: "For medium industrial loads",
+  tooltip: "Size: 10T - with a pair of auxiliary wheels",
+},
   {
     value: "20T",
     label: "20T Capacity",
     description: "Heavy machinery transport",
+    tooltip: "Size: 20T - with a pair of auxiliary wheels",
   },
   {
     value: "25T",
     label: "25T Capacity",
     description: "Industrial equipment moving",
+    tooltip: "Size: 25T - with a pair of auxiliary wheels",
   },
   {
     value: "30T",
     label: "30T Capacity",
     description: "Factory heavy-load handling",
+    tooltip: "Size: 30T - with a pair of auxiliary wheels",
   },
   {
     value: "35T",
     label: "35T Capacity",
     description: "Heavy industrial machinery handling",
+    tooltip: "Size: 35T - with a pair of auxiliary wheels",
   },
   {
     value: "40T",
     label: "40T Capacity",
     description: "High-load industrial transport",
+    tooltip: "Size: 40T - with a pair of auxiliary wheels",
   },
   {
     value: "50T",
     label: "50T Capacity",
     description: "High-capacity industrial use",
+    tooltip: "Size: 50T - with a pair of auxiliary wheels",
   },
   {
     value: "60T",
     label: "60T Capacity",
     description: "Maximum heavy-load configuration",
+    tooltip: "Size: 60T - with a pair of auxiliary wheels",
   },
 ];
 
@@ -151,6 +159,9 @@ export default function ProductOptions() {
                     active ? "text-orange-500" : "text-zinc-900"
                   }`}
                 >
+                  <div className="pointer-events-none absolute left-1/2 top-[-42px] z-20 hidden -translate-x-1/2 whitespace-nowrap rounded-md bg-zinc-950 px-3 py-2 text-xs font-semibold text-white shadow-lg group-hover:block">
+  {capacity.tooltip}
+</div>
                   {capacity.value}
                 </div>
 
