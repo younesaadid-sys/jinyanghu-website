@@ -176,7 +176,7 @@ options: {
     },
   ],
 
-  aboutItems: [
+aboutItems: [
   {
     title: "Customization Tailored to Your Needs",
     text: "Enjoy comprehensive customization options with the JIN YANG HU electric machinery skate dolly. We support customized colors, logos, punching, alarm installation and enterprise batch customization.",
@@ -198,6 +198,7 @@ options: {
     text: "Suitable for factories, warehouses, workshops, docks and other industrial environments where heavy equipment needs to be transported. Custom solutions are also available for special applications and enterprise batch requirements.",
   },
 ],
+}, // ✅ HNA KANSADDO options
 
 productInfo: {
   features: [
@@ -233,42 +234,6 @@ productInfo: {
     },
   ],
 },
-
-productInfo: {
-  features: [
-    {
-      label: "Wheel Type",
-      value: "Polyurethane",
-    },
-    {
-      label: "Load Capacity",
-      value: "20 tons",
-    },
-    {
-      label: "Number of Wheels",
-      value: "6",
-    },
-  ],
-
-  additionalDetails: [
-    {
-      label: "Material Type",
-      value: "Manganese Steel",
-    },
-  ],
-
-  style: [
-    {
-      label: "Color",
-      value: "Red",
-    },
-    {
-      label: "Style Name",
-      value: "Industrial",
-    },
-  ],
-},
-
 description:
   "Heavy-duty electric transporter series designed for industrial machinery handling, flexible steering and high-capacity load movement.",
     loadCapacity: "10T–100T",
