@@ -204,6 +204,40 @@ const productData = {
       "Industrial workshops",
       "Manufacturing facilities",
     ],
+    productInfo: {
+  features: [
+    {
+      label: "Wheel Type",
+      value: "Polyurethane",
+    },
+    {
+      label: "Load Capacity",
+      value: "20 tons",
+    },
+    {
+      label: "Number of Wheels",
+      value: "6",
+    },
+  ],
+
+  additionalDetails: [
+    {
+      label: "Material Type",
+      value: "Manganese Steel",
+    },
+  ],
+
+  style: [
+    {
+      label: "Color",
+      value: "Red",
+    },
+    {
+      label: "Style Name",
+      value: "Industrial",
+    },
+  ],
+},
   },
 
   // =========================================================

@@ -177,27 +177,27 @@ options: {
   ],
 
   aboutItems: [
-    {
-      title: "Customization Tailored to Your Needs",
-      text: "Supports customized colors, logos and enterprise batch customization.",
-    },
-    {
-      title: "Wireless Remote Control",
-      text: "Equipped with wireless intelligent remote control for convenient operation.",
-    },
-    {
-      title: "360° Rotating Platform",
-      text: "Designed for flexible positioning and heavy machinery movement.",
-    },
-    {
-      title: "Power Monitoring",
-      text: "Built-in power display helps operators monitor battery status.",
-    },
-    {
-      title: "Industrial Applications",
-      text: "Suitable for factories, warehouses, workshops and docks.",
-    },
-  ],
+  {
+    title: "Customization Tailored to Your Needs",
+    text: "Enjoy comprehensive customization options with the JIN YANG HU electric machinery skate dolly. We support customized colors, logos, punching, alarm installation and enterprise batch customization.",
+  },
+  {
+    title: "How to Use",
+    text: "The machinery skate dolly should be used together with suitable straight-line auxiliary wheels. Lift the heavy object with appropriate lifting equipment, place the transporter underneath, then lower the load securely onto the tank car.",
+  },
+  {
+    title: "Wireless Remote Control",
+    text: "Equipped with an advanced C7 wireless intelligent remote control for smooth and convenient operation within an approximate range of 6–10 meters. Industrial-specific remote control options are also available.",
+  },
+  {
+    title: "Thoughtful Design Details",
+    text: "Features an integrated 360° anti-slip turntable for enhanced stability and controlled rotation, a built-in power display for easy battery monitoring, and front lighting to improve visibility in low-light environments.",
+  },
+  {
+    title: "Wide Range of Uses",
+    text: "Suitable for factories, warehouses, workshops, docks and other industrial environments where heavy equipment needs to be transported. Custom solutions are also available for special applications and enterprise batch requirements.",
+  },
+],
 },
     description:
       "Heavy-duty electric transporter series designed for industrial machinery handling, flexible steering and high-capacity load movement.",
