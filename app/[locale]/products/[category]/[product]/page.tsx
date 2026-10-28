@@ -3506,7 +3506,7 @@ const currentPurchaseLinks = purchaseLinks[product] || {};
       </h2>
     </div>
 
-    <div className="grid overflow-hidden rounded-3xl border border-zinc-200 bg-white lg:grid-cols-2">
+    <div className="grid overflow-hidden rounded-3xl border border-zinc-200 bg-white lg:grid-cols-3">
       {/* LEFT SIDE */}
       <div>
         <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
