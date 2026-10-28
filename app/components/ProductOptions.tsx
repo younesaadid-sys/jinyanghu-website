@@ -184,7 +184,25 @@ export default function ProductOptions() {
             );
           })}
         </div>
+{/* SMALL CTA */}
+        <div className="mt-8 flex flex-col gap-4 rounded-2xl bg-orange-500 p-6 text-white sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h3 className="text-xl font-black">
+              Need the {selectedCapacity} configuration?
+            </h3>
 
+            <p className="mt-1 text-sm text-orange-100">
+              Contact our sales team for technical details and quotation.
+            </p>
+          </div>
+
+          <QuoteModal
+            buttonText={`Request Price for ${selectedCapacity}`}
+            product="JA Series Electric Tank Transporter"
+            capacity={selectedCapacity}
+          />
+        </div>
+      </div>
         {/* ABOUT THIS ITEM */}
 <div className="mt-14 overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50">
   <div className="border-b border-zinc-200 bg-zinc-950 px-6 py-5 text-white">
@@ -285,26 +303,6 @@ export default function ProductOptions() {
     </div>
   </div>
 </div>
-
-        {/* SMALL CTA */}
-        <div className="mt-8 flex flex-col gap-4 rounded-2xl bg-orange-500 p-6 text-white sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <h3 className="text-xl font-black">
-              Need the {selectedCapacity} configuration?
-            </h3>
-
-            <p className="mt-1 text-sm text-orange-100">
-              Contact our sales team for technical details and quotation.
-            </p>
-          </div>
-
-          <QuoteModal
-            buttonText={`Request Price for ${selectedCapacity}`}
-            product="JA Series Electric Tank Transporter"
-            capacity={selectedCapacity}
-          />
-        </div>
-      </div>
     </section>
   );
 }
