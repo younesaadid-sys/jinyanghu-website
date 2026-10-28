@@ -185,55 +185,106 @@ export default function ProductOptions() {
           })}
         </div>
 
-        {/* SPECS */}
-        <div className="mt-14 overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50">
-          <div className="border-b border-zinc-200 bg-zinc-950 px-6 py-5 text-white">
-            <div className="flex items-center gap-3">
-              <Icon
-                icon="mdi:clipboard-text-outline"
-                className="text-2xl text-orange-500"
-              />
+        {/* ABOUT THIS ITEM */}
+<div className="mt-14 overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50">
+  <div className="border-b border-zinc-200 bg-zinc-950 px-6 py-5 text-white">
+    <div className="flex items-center gap-3">
+      <Icon
+        icon="mdi:information-outline"
+        className="text-2xl text-orange-500"
+      />
 
-              <div>
-                <h3 className="text-xl font-black">
-                  Product Specifications
-                </h3>
+      <div>
+        <h3 className="text-xl font-black">
+          About This Item
+        </h3>
 
-                <p className="mt-1 text-sm text-zinc-400">
-                  JA Series Electric Tank Transporter
-                </p>
-              </div>
-            </div>
-          </div>
+        <p className="mt-1 text-sm text-zinc-400">
+          JA Series Electric Tank Transporter
+        </p>
+      </div>
+    </div>
+  </div>
 
-          <div className="grid md:grid-cols-2">
-            {specifications.map((spec, index) => (
-              <div
-                key={spec.label}
-                className={`flex items-center gap-4 border-zinc-200 px-6 py-5 ${
-                  index < specifications.length - 2 ? "border-b" : ""
-                } md:[&:nth-child(odd)]:border-r`}
-              >
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-orange-100">
-                  <Icon
-                    icon={spec.icon}
-                    className="text-2xl text-orange-500"
-                  />
-                </div>
+  <div className="space-y-5 p-6 md:p-8">
+    <div className="flex gap-4">
+      <Icon
+        icon="mdi:check-circle"
+        className="mt-1 shrink-0 text-xl text-orange-500"
+      />
 
-                <div className="min-w-0">
-                  <div className="text-xs font-semibold uppercase tracking-wider text-zinc-400">
-                    {spec.label}
-                  </div>
+      <p className="leading-7 text-zinc-700">
+        <span className="font-bold text-zinc-900">
+          Electric Machinery Mover Skate Kit:
+        </span>{" "}
+        Our machinery skates dolly is engineered with 12mm manganese steel and
+        industrial PU wheels to handle the heaviest loads with tier capacity.
+      </p>
+    </div>
 
-                  <div className="mt-1 font-bold text-zinc-900">
-                    {spec.value}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+    <div className="flex gap-4">
+      <Icon
+        icon="mdi:check-circle"
+        className="mt-1 shrink-0 text-xl text-orange-500"
+      />
+
+      <p className="leading-7 text-zinc-700">
+        <span className="font-bold text-zinc-900">
+          High-Efficiency Power System:
+        </span>{" "}
+        Features a high-power, full-copper motor for low heat and superior
+        dissipation, paired with a large-capacity, long-life lithium battery
+        for extended runtime.
+      </p>
+    </div>
+
+    <div className="flex gap-4">
+      <Icon
+        icon="mdi:check-circle"
+        className="mt-1 shrink-0 text-xl text-orange-500"
+      />
+
+      <p className="leading-7 text-zinc-700">
+        <span className="font-bold text-zinc-900">
+          Effortless 360° Maneuverability:
+        </span>{" "}
+        A high-precision rotating disc allows smooth and easy directional
+        changes, even under full load.
+      </p>
+    </div>
+
+    <div className="flex gap-4">
+      <Icon
+        icon="mdi:check-circle"
+        className="mt-1 shrink-0 text-xl text-orange-500"
+      />
+
+      <p className="leading-7 text-zinc-700">
+        <span className="font-bold text-zinc-900">
+          User-Centric Operation:
+        </span>{" "}
+        This machine skates dolly is equipped with a clear power display and
+        front lighting for convenient power monitoring and enhanced visibility
+        during use.
+      </p>
+    </div>
+
+    <div className="flex gap-4">
+      <Icon
+        icon="mdi:check-circle"
+        className="mt-1 shrink-0 text-xl text-orange-500"
+      />
+
+      <p className="leading-7 text-zinc-700">
+        <span className="font-bold text-zinc-900">
+          Versatile Industrial Application:
+        </span>{" "}
+        Ideal for demanding environments such as factories, construction sites,
+        and docks, meeting diverse heavy-duty handling needs.
+      </p>
+    </div>
+  </div>
+</div>
 
         {/* SMALL CTA */}
         <div className="mt-8 flex flex-col gap-4 rounded-2xl bg-orange-500 p-6 text-white sm:flex-row sm:items-center sm:justify-between">
