@@ -3622,108 +3622,98 @@ const t = await getTranslations("home");
 
       {/* KEY FEATURES */}
       {/* PRODUCT INFORMATION */}
-<section className="bg-zinc-100">
-  <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
-    <div className="mb-8">
-      <p className="text-sm font-bold uppercase tracking-[0.18em] text-orange-500">
-        Product Details
-      </p>
+{/* PRODUCT INFORMATION */}
+{currentProductInfo && (
+  <section className="bg-zinc-100">
+    <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
+      <div className="mb-8">
+        <p className="text-sm font-bold uppercase tracking-[0.18em] text-orange-500">
+          Product Details
+        </p>
 
-      <h2 className="mt-3 text-3xl font-black text-zinc-900 md:text-4xl">
-        Product Information
-      </h2>
-    </div>
-
-    <div className="grid overflow-hidden rounded-3xl border border-zinc-200 bg-white lg:grid-cols-3">
-        {/* ITEM DETAILS */}
-  <div>
-    <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
-      <h3 className="text-xl font-black text-white">
-        Item Details
-      </h3>
-    </div>
-
-    {[
-      ["Brand Name", "JIN YANG HU"],
-      ["Model Number", "JY-20"],
-      ["Manufacturer", "JIN YANG HU"],
-      ["Number of Items", "1"],
-      ["Manufacturer Part Number", "JY-20"],
-      ["ASIN", "B0HLKK3HCJ"],
-    ].map(([label, value]) => (
-      <div
-        key={label}
-        className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
-      >
-        <span className="font-bold text-zinc-600">
-          {label}
-        </span>
-
-        <span className="text-zinc-900">
-          {value}
-        </span>
+        <h2 className="mt-3 text-3xl font-black text-zinc-900 md:text-4xl">
+          Product Information
+        </h2>
       </div>
-    ))}
-  </div>
 
-  {/* FEATURES & SPECS */}
-  <div>
-    <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
-      <h3 className="text-xl font-black text-white">
-        Features & Specs
-      </h3>
-    </div>
+      <div className="grid overflow-hidden rounded-3xl border border-zinc-200 bg-white lg:grid-cols-3">
 
-    {[
-      ["Wheel Type", "Polyurethane"],
-      ["Load Capacity", "20 T"],
-      ["Number of Wheels", "6"],
-    ].map(([label, value]) => (
-      <div
-        key={label}
-        className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
-      >
-        <span className="font-bold text-zinc-600">
-          {label}
-        </span>
+        {/* FEATURES & SPECS */}
+        <div>
+          <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+            <h3 className="text-xl font-black text-white">
+              Features & Specs
+            </h3>
+          </div>
 
-        <span className="text-zinc-900">
-          {value}
-        </span>
-      </div>
-    ))}
-  </div>
+          {currentProductInfo.features.map((item) => (
+            <div
+              key={item.label}
+              className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
+            >
+              <span className="font-bold text-zinc-600">
+                {item.label}
+              </span>
 
-  {/* STYLE */}
-  <div>
-    <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
-      <h3 className="text-xl font-black text-white">
-        Style
-      </h3>
-    </div>
+              <span className="text-zinc-900">
+                {item.value}
+              </span>
+            </div>
+          ))}
+        </div>
 
-    {[
-      ["Color", "Yellow"],
-      ["Style Name", "Industrial"],
-    ].map(([label, value]) => (
-      <div
-        key={label}
-        className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
-      >
-        <span className="font-bold text-zinc-600">
-          {label}
-        </span>
+        {/* ADDITIONAL DETAILS */}
+        <div>
+          <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+            <h3 className="text-xl font-black text-white">
+              Additional Details
+            </h3>
+          </div>
 
-        <span className="text-zinc-900">
-          {value}
-        </span>
-      </div>
-        ))}
+          {currentProductInfo.additionalDetails.map((item) => (
+            <div
+              key={item.label}
+              className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
+            >
+              <span className="font-bold text-zinc-600">
+                {item.label}
+              </span>
+
+              <span className="text-zinc-900">
+                {item.value}
+              </span>
+            </div>
+          ))}
+        </div>
+
+        {/* STYLE */}
+        <div>
+          <div className="border-b border-orange-600 bg-orange-500 px-6 py-4">
+            <h3 className="text-xl font-black text-white">
+              Style
+            </h3>
+          </div>
+
+          {currentProductInfo.style.map((item) => (
+            <div
+              key={item.label}
+              className="grid grid-cols-[140px_1fr] border-b border-zinc-200 px-6 py-4 last:border-b-0"
+            >
+              <span className="font-bold text-zinc-600">
+                {item.label}
+              </span>
+
+              <span className="text-zinc-900">
+                {item.value}
+              </span>
+            </div>
+          ))}
+        </div>
+
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
+)}
       {/* FOOTER */}
             <footer className="bg-zinc-950 text-zinc-400">
               <div className="mx-auto max-w-7xl px-6 py-14">
