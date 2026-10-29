@@ -331,36 +331,44 @@ aboutItems: [
 ],
 }, // ✅ HNA KANSADDO options
 
-productInfo: {
-  features: [
+specTable: {
+  columns: [
+    "Configuration",
+    "Load Capacity",
+    "Auxiliary Wheels",
+  ],
+
+  rows: [
+    ["20Ton", "20Ton", "No"],
+    ["20Ton + Auxiliary Wheels", "20Ton", "Yes"],
+    ["25Ton + Auxiliary Wheels", "25Ton", "Yes"],
+    ["30Ton", "30Ton", "No"],
+    ["30Ton + Auxiliary Wheels", "30Ton", "Yes"],
+    ["40Ton", "40Ton", "No"],
+    ["40Ton + Auxiliary Wheels", "40Ton", "Yes"],
+    ["50Ton", "50Ton", "No"],
+    ["50Ton + Auxiliary Wheels", "50Ton", "Yes"],
+  ],
+
+  commonSpecs: [
     {
       label: "Wheel Type",
       value: "Polyurethane",
     },
     {
-      label: "Load Capacity",
-      value: "20 tons",
-    },
-    {
       label: "Number of Wheels",
       value: "6",
     },
-  ],
-
-  additionalDetails: [
     {
       label: "Material Type",
       value: "Manganese Steel",
     },
-  ],
-
-  style: [
     {
       label: "Color",
       value: "Red",
     },
     {
-      label: "Style Name",
+      label: "Style",
       value: "Industrial",
     },
   ],
