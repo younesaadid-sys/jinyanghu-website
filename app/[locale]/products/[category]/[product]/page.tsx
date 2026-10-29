@@ -1780,7 +1780,184 @@ specTable: {
     },
     name: "CRA Series Cargo Moving Skates",
     shortName: "CRA Series",
+options: {
+  defaultCapacity: "CRA-4",
 
+  capacities: [
+    {
+      value: "CRA-4",
+      label: "CRA-4",
+      description: "4T normal load capacity",
+      tooltip: "Maximum Load: 6T | Normal Load: 4T",
+    },
+    {
+      value: "CRA-6",
+      label: "CRA-6",
+      description: "6T normal load capacity",
+      tooltip: "Maximum Load: 8T | Normal Load: 6T",
+    },
+    {
+      value: "CRA-8",
+      label: "CRA-8",
+      description: "8T normal load capacity",
+      tooltip: "Maximum Load: 12T | Normal Load: 8T",
+    },
+    {
+      value: "CRA-9",
+      label: "CRA-9",
+      description: "9T normal load capacity",
+      tooltip: "Maximum Load: 15T | Normal Load: 9T",
+    },
+    {
+      value: "CRA-12",
+      label: "CRA-12",
+      description: "12T normal load capacity",
+      tooltip: "Maximum Load: 18T | Normal Load: 12T",
+    },
+    {
+      value: "CRA-16",
+      label: "CRA-16",
+      description: "16T normal load capacity",
+      tooltip: "Maximum Load: 24T | Normal Load: 16T",
+    },
+    {
+      value: "CRA-20",
+      label: "CRA-20",
+      description: "20T normal load capacity",
+      tooltip: "Maximum Load: 30T | Normal Load: 20T",
+    },
+    {
+      value: "CRA-25",
+      label: "CRA-25",
+      description: "25T normal load capacity",
+      tooltip: "Maximum Load: 36T | Normal Load: 25T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Heavy-Duty Manual Transport",
+      text: "Designed for moving heavy machinery and industrial equipment with stable and controlled manual operation.",
+    },
+    {
+      title: "Multiple Load Capacities",
+      text: "Available in several configurations with normal load capacities ranging from 4T to 25T.",
+    },
+    {
+      title: "PU Wheel System",
+      text: "Equipped with polyurethane wheels designed for smooth movement and reduced floor damage.",
+    },
+    {
+      title: "Compact Industrial Design",
+      text: "The low-profile structure allows easier positioning underneath machinery and heavy equipment.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, workshops, warehouses, machinery installation and equipment relocation.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Maximum Load",
+    "Normal Load",
+    "Number of Wheels",
+    "Product Weight",
+    "Wheel Material",
+  ],
+
+  rows: [
+    [
+      "CRA-4",
+      "300×215×110 mm",
+      "6T",
+      "4T",
+      "4",
+      "13.5 kg",
+      "PU wheels",
+    ],
+    [
+      "CRA-6",
+      "395×215×110 mm",
+      "8T",
+      "6T",
+      "6",
+      "20 kg",
+      "PU wheels",
+    ],
+    [
+      "CRA-8",
+      "475×220×110 mm",
+      "12T",
+      "8T",
+      "8",
+      "27.5 kg",
+      "PU wheels",
+    ],
+    [
+      "CRA-9",
+      "380×300×110 mm",
+      "15T",
+      "9T",
+      "9",
+      "28.5 kg",
+      "PU wheels",
+    ],
+    [
+      "CRA-12",
+      "475×300×110 mm",
+      "18T",
+      "12T",
+      "12",
+      "37 kg",
+      "PU wheels",
+    ],
+    [
+      "CRA-16",
+      "490×390×110 mm",
+      "24T",
+      "16T",
+      "16",
+      "52 kg",
+      "PU wheels",
+    ],
+    [
+      "CRA-20",
+      "590×390×110 mm",
+      "30T",
+      "20T",
+      "20",
+      "68 kg",
+      "PU wheels",
+    ],
+    [
+      "CRA-25",
+      "590×480×110 mm",
+      "36T",
+      "25T",
+      "25",
+      "82 kg",
+      "PU wheels",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Wheel Material",
+      value: "Polyurethane (PU)",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery and industrial equipment relocation",
+    },
+  ],
+},
     description:
       "Manual heavy-duty cargo moving skates designed for stable, smooth and controlled movement of industrial machinery and equipment.",
 
