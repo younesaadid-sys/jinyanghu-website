@@ -1099,7 +1099,147 @@ specTable: {
     },
     name: "JX Series Electric Machinery Skate Dolly",
     shortName: "JX Series",
+options: {
+  defaultCapacity: "JX-20T",
 
+  capacities: [
+    {
+      value: "JX-20T",
+      label: "JX-20T",
+      description: "20T traction capacity",
+      tooltip: "Rated Load: 10T | Lifting Capacity: 12T",
+    },
+    {
+      value: "JX-35T",
+      label: "JX-35T",
+      description: "35T traction capacity",
+      tooltip: "Rated Load: 18T | Lifting Capacity: 18T",
+    },
+    {
+      value: "JX-60T",
+      label: "JX-60T",
+      description: "60T traction capacity",
+      tooltip: "Rated Load: 30T | Lifting Capacity: 30T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Integrated Lifting Function",
+      text: "Combines heavy-load transport and lifting functions in one machine for easier equipment relocation and positioning.",
+    },
+    {
+      title: "Wireless Remote Control",
+      text: "Remote-controlled operation improves convenience and allows safer handling of heavy industrial loads.",
+    },
+    {
+      title: "Heavy-Duty Electric Drive",
+      text: "High-power electric motors provide strong traction for demanding industrial transportation applications.",
+    },
+    {
+      title: "High-Capacity Battery System",
+      text: "Equipped with high-capacity batteries designed to support heavy-duty operation and extended working time.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for workshops, factories, production lines, machinery relocation and heavy equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Rated Load",
+    "Traction",
+    "Lifting Capacity",
+    "Battery",
+    "Motor",
+    "Floor Clearance",
+    "Drive Wheels",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "Weight",
+    "Packaging Dimensions",
+  ],
+
+  rows: [
+    [
+      "JX-20T",
+      "10T",
+      "20T",
+      "12T",
+      "48V/60A",
+      "750W×2",
+      "10mm",
+      "4 pcs 135×90 mm",
+      "1050 mm",
+      "860 mm",
+      "240 mm",
+      "195 mm",
+      "12 mm",
+      "275 kg",
+      "1400×1020×380 mm",
+    ],
+
+    [
+      "JX-35T",
+      "18T",
+      "35T",
+      "18T",
+      "48V/120A",
+      "1500W×2",
+      "12mm",
+      "4 pcs 145×120 mm",
+      "1145 mm",
+      "860 mm",
+      "240 mm",
+      "195 mm",
+      "10 mm",
+      "310 kg",
+      "1400×1020×380 mm",
+    ],
+
+    [
+      "JX-60T",
+      "30T",
+      "60T",
+      "30T",
+      "48V/120A",
+      "3000W×2",
+      "14mm",
+      "4 pcs 156×160 mm",
+      "1343 mm",
+      "860 mm",
+      "260 mm",
+      "195 mm",
+      "10 mm",
+      "340 kg",
+      "1400×1020×380 mm",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Electric",
+    },
+    {
+      label: "Control Type",
+      value: "Wireless Remote Control",
+    },
+    {
+      label: "Function",
+      value: "Transport + Integrated Lifting",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery relocation and positioning",
+    },
+  ],
+},
     description:
       "Remote-controlled electric machinery skate dolly engineered for heavy industrial load movement, precise positioning and safe material handling.",
 
