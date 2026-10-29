@@ -102,56 +102,31 @@ options: {
   ],
 },
 
-productInfo: {
-  features: [
-    {
-      label: "JA-10T",
-      value:
-        "Towing Capacity: 10T | Rated Load: 5T | Motor Power: 500W×2 | Battery: 48V60A | Drive Wheels: 4pcs 135×90 | Steel Plate: 10mm | Net Weight: 115KG",
-    },
-    {
-      label: "JA-20T",
-      value:
-        "Towing Capacity: 20T | Rated Load: 10T | Motor Power: 750W×2 | Battery: 48V60A | Drive Wheels: 4pcs 135×90 | Steel Plate: 10mm | Net Weight: 120KG",
-    },
-    {
-      label: "JA-25T",
-      value:
-        "Towing Capacity: 25T | Rated Load: 12.5T | Motor Power: 1000W×2 | Battery: 48V60A | Drive Wheels: 4pcs 135×90 | Steel Plate: 12mm | Net Weight: 130KG",
-    },
-    {
-      label: "JA-30T",
-      value:
-        "Towing Capacity: 30T | Rated Load: 15T | Motor Power: 1000W×2 | Battery: 48V60A | Drive Wheels: 4pcs 140×110 | Steel Plate: 12mm | Net Weight: 150KG",
-    },
-    {
-      label: "JA-35T",
-      value:
-        "Towing Capacity: 35T | Rated Load: 17.5T | Motor Power: 1000W×2 | Battery: 48V60A | Drive Wheels: 4pcs 140×110 | Steel Plate: 12mm | Net Weight: 180KG",
-    },
-    {
-      label: "JA-40T",
-      value:
-        "Towing Capacity: 40T | Rated Load: 20T | Motor Power: 1500W×2 | Battery: 48V120A | Drive Wheels: 4pcs 140×140 | Steel Plate: 16mm | Net Weight: 180KG",
-    },
-    {
-      label: "JA-50T",
-      value:
-        "Towing Capacity: 50T | Rated Load: 25T | Motor Power: 2000W×2 | Battery: 48V120A | Drive Wheels: 4pcs 140×140 | Steel Plate: 16mm | Net Weight: 210KG",
-    },
-    {
-      label: "JA-60T",
-      value:
-        "Towing Capacity: 60T | Rated Load: 30T | Motor Power: 3000W×2 | Battery: 72V120A | Drive Wheels: 4pcs 165×150 | Steel Plate: 18mm | Net Weight: 220KG",
-    },
-    {
-      label: "JA-100T",
-      value:
-        "Towing Capacity: 100T | Rated Load: 50T | Motor Power: 2000W×4 | Battery: 48V240A | Drive Wheels: 8pcs 140×140 | Steel Plate: 20mm | Net Weight: 600KG",
-    },
+specTable: {
+  columns: [
+    "Model",
+    "Towing Capacity",
+    "Rated Load",
+    "Motor Power",
+    "Battery",
+    "Drive Wheels",
+    "Steel Plate",
+    "Net Weight",
   ],
 
-  additionalDetails: [
+  rows: [
+    ["JA-10T", "10T", "5T", "500W×2", "48V60A", "4pcs 135×90", "10mm", "115KG"],
+    ["JA-20T", "20T", "10T", "750W×2", "48V60A", "4pcs 135×90", "10mm", "120KG"],
+    ["JA-25T", "25T", "12.5T", "1000W×2", "48V60A", "4pcs 135×90", "12mm", "130KG"],
+    ["JA-30T", "30T", "15T", "1000W×2", "48V60A", "4pcs 140×110", "12mm", "150KG"],
+    ["JA-35T", "35T", "17.5T", "1000W×2", "48V60A", "4pcs 140×110", "12mm", "180KG"],
+    ["JA-40T", "40T", "20T", "1500W×2", "48V120A", "4pcs 140×140", "16mm", "180KG"],
+    ["JA-50T", "50T", "25T", "2000W×2", "48V120A", "4pcs 140×140", "16mm", "210KG"],
+    ["JA-60T", "60T", "30T", "3000W×2", "72V120A", "4pcs 165×150", "18mm", "220KG"],
+    ["JA-100T", "100T", "50T", "2000W×4", "48V240A", "8pcs 140×140", "20mm", "600KG"],
+  ],
+
+  commonSpecs: [
     {
       label: "Remote Control",
       value: "C6/C7 Remote Control (Industrial-Grade Remote Control)",
@@ -164,9 +139,6 @@ productInfo: {
       label: "Gears",
       value: "High-Strength Titanium Alloy Gears",
     },
-  ],
-
-  style: [
     {
       label: "Operating Time",
       value: "4–6 hours",
@@ -3695,7 +3667,18 @@ const currentProductInfo =
         }[];
       })
     : null;
-
+const currentSpecTable =
+  currentProduct &&
+  "specTable" in currentProduct
+    ? (currentProduct.specTable as {
+        columns: string[];
+        rows: string[][];
+        commonSpecs: {
+          label: string;
+          value: string;
+        }[];
+      })
+    : null;
 const categoryProducts = productOrder[category] || [];
 
 const currentIndex = categoryProducts.indexOf(product);
@@ -3901,6 +3884,88 @@ const t = await getTranslations("home");
 )}
 
       {/* KEY FEATURES */}
+      {/* PRODUCT SPECIFICATIONS TABLE */}
+{currentSpecTable && (
+  <section className="bg-zinc-100">
+    <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
+      <div className="mb-8">
+        <p className="text-sm font-bold uppercase tracking-[0.18em] text-orange-500">
+          Technical Data
+        </p>
+
+        <h2 className="mt-3 text-3xl font-black text-zinc-900 md:text-4xl">
+          Product Specifications
+        </h2>
+
+        <p className="mt-3 max-w-2xl text-zinc-600">
+          Compare available models and technical specifications.
+        </p>
+      </div>
+
+      <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
+        <div className="overflow-x-auto">
+          <table className="min-w-[1100px] w-full border-collapse text-sm">
+            <thead>
+              <tr className="bg-orange-500 text-white">
+                {currentSpecTable.columns.map((column) => (
+                  <th
+                    key={column}
+                    className="whitespace-nowrap border-r border-orange-400 px-5 py-4 text-left font-black last:border-r-0"
+                  >
+                    {column}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+
+            <tbody>
+              {currentSpecTable.rows.map((row, rowIndex) => (
+                <tr
+                  key={row[0]}
+                  className={
+                    rowIndex % 2 === 0
+                      ? "bg-white"
+                      : "bg-zinc-50"
+                  }
+                >
+                  {row.map((cell, cellIndex) => (
+                    <td
+                      key={`${row[0]}-${cellIndex}`}
+                      className={`whitespace-nowrap border-b border-r border-zinc-200 px-5 py-4 last:border-r-0 ${
+                        cellIndex === 0
+                          ? "font-black text-orange-600"
+                          : "text-zinc-700"
+                      }`}
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div className="grid border-t border-zinc-200 md:grid-cols-2 lg:grid-cols-5">
+          {currentSpecTable.commonSpecs.map((item) => (
+            <div
+              key={item.label}
+              className="border-b border-r border-zinc-200 p-5 last:border-r-0 md:border-b-0"
+            >
+              <p className="text-xs font-black uppercase tracking-wider text-zinc-500">
+                {item.label}
+              </p>
+
+              <p className="mt-2 font-bold leading-relaxed text-zinc-900">
+                {item.value}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+)}
       {/* PRODUCT INFORMATION */}
 {/* PRODUCT INFORMATION */}
 {currentProductInfo && (
