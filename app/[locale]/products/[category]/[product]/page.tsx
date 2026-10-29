@@ -15,15 +15,149 @@ const productData = {
       aliexpress: "",
       alibaba: "",
     },
-    name: "JA Series Electric Tank Transporters",
-    shortName: "JA Series",
+   name: "JA Series Electric Tank Tugger",
+shortName: "JA Series",
 
-    description:
-      "Electric Machinery Skates Dolly, 360° Mobile Mechanical Transporters, Machine Skates Dolly with 2pcs Straight Auxiliary Wheels Skates (60t - with a Pair of Auxiliary Wheels)",
+options: {
+  defaultCapacity: "10T",
 
-    loadCapacity: "10T–60T",
-    driveType: "Electric",
+  capacities: [
+    {
+      value: "10T",
+      label: "10T",
+      description: "JA-10T model",
+      tooltip: "Towing Capacity: 10T | Rated Load: 5T",
+    },
+    {
+      value: "20T",
+      label: "20T",
+      description: "JA-20T model",
+      tooltip: "Towing Capacity: 20T | Rated Load: 10T",
+    },
+    {
+      value: "25T",
+      label: "25T",
+      description: "JA-25T model",
+      tooltip: "Towing Capacity: 25T | Rated Load: 12.5T",
+    },
+    {
+      value: "30T",
+      label: "30T",
+      description: "JA-30T model",
+      tooltip: "Towing Capacity: 30T | Rated Load: 15T",
+    },
+    {
+      value: "35T",
+      label: "35T",
+      description: "JA-35T model",
+      tooltip: "Towing Capacity: 35T | Rated Load: 17.5T",
+    },
+    {
+      value: "40T",
+      label: "40T",
+      description: "JA-40T model",
+      tooltip: "Towing Capacity: 40T | Rated Load: 20T",
+    },
+    {
+      value: "50T",
+      label: "50T",
+      description: "JA-50T model",
+      tooltip: "Towing Capacity: 50T | Rated Load: 25T",
+    },
+    {
+      value: "60T",
+      label: "60T",
+      description: "JA-60T model",
+      tooltip: "Towing Capacity: 60T | Rated Load: 30T",
+    },
+    {
+      value: "100T",
+      label: "100T",
+      description: "JA-100T model",
+      tooltip: "Towing Capacity: 100T | Rated Load: 50T",
+    },
+  ],
 
+  aboutItems: [
+    {
+      title: "Heavy-Duty Electric Transport",
+      text: "Designed specifically for efficient transportation of large machinery, industrial equipment and steel structural components.",
+    },
+    {
+      title: "Powerful Electric Drive",
+      text: "Equipped with a powerful electric drive system and wireless remote control operation for easier heavy-load movement.",
+    },
+    {
+      title: "Stable Straight-Line Movement",
+      text: "One electric transport trolley together with two straight-line trolleys provides stable straight-line movement.",
+    },
+    {
+      title: "Improved Load Distribution",
+      text: "Using multiple electric transport trolleys can improve load-carrying capacity, maneuverability and load distribution for ultra-heavy equipment.",
+    },
+    {
+      title: "Wireless Remote Control",
+      text: "Remote-controlled operation improves safety and convenience when moving heavy machinery in industrial environments.",
+    },
+  ],
+},
+
+productInfo: {
+  features: [
+    {
+      label: "Model Range",
+      value: "JA-10T – JA-100T",
+    },
+    {
+      label: "Towing Capacity",
+      value: "10T – 100T",
+    },
+    {
+      label: "Rated Load",
+      value: "5T – 50T",
+    },
+    {
+      label: "Operating Time",
+      value: "4–6 hours",
+    },
+    {
+      label: "Charging Time",
+      value: "6–8 hours",
+    },
+  ],
+
+  additionalDetails: [
+    {
+      label: "Remote Control",
+      value: "C6/C7 Industrial-Grade Remote Control",
+    },
+    {
+      label: "Wheel Material",
+      value: "High-hardness imported polyurethane",
+    },
+    {
+      label: "Gear Material",
+      value: "High-strength titanium alloy gears",
+    },
+  ],
+
+  style: [
+    {
+      label: "Drive Type",
+      value: "Electric",
+    },
+    {
+      label: "Application",
+      value: "Heavy-duty industrial machinery transport",
+    },
+  ],
+},
+
+description:
+  "Heavy-duty electric tank tugger designed for efficient transportation of large machinery, industrial equipment and steel structural components, with electric drive and wireless remote control.",
+
+loadCapacity: "10T–100T",
+driveType: "Electric",
     gallery: [
       {
         src: "/products/ja-series/ja-main.jpg",
@@ -375,6 +509,7 @@ options: {
     text: "Suitable for moving large machinery, industrial equipment, and other heavy loads on compatible floors.",
   },
 ],
+
 productInfo: {
   features: [
     {
