@@ -335,7 +335,47 @@ description:
     },
     name: "JS Series Electric Tank Transporters",
     shortName: "JS Series",
+options: {
+  defaultCapacity: "20 T",
 
+  capacities: [
+    {
+      value: "20 T",
+      label: "20 T",
+      description: "20-ton configuration",
+      tooltip: "Size: 20 T",
+    },
+    {
+      value: "30 T",
+      label: "30 T",
+      description: "30-ton configuration",
+      tooltip: "Size: 30 T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Wireless Remote Control",
+      text: "The JS Series is equipped with wireless remote control for convenient long-distance operation, allowing safer and more flexible movement of heavy industrial equipment.",
+    },
+    {
+      title: "Electric Lifting System",
+      text: "An integrated electric lifting mechanism helps raise and position heavy machinery while reducing manual handling effort during relocation and installation.",
+    },
+    {
+      title: "High-Performance Copper-Core Motor",
+      text: "The powerful copper-core motor delivers efficient and stable power for demanding industrial transportation and heavy-load handling applications.",
+    },
+    {
+      title: "Flexible Heavy-Load Movement",
+      text: "Designed for flexible movement and precise positioning, the JS Series is suitable for relocating machinery, molds and other heavy industrial equipment.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Ideal for factories, warehouses, production lines, machinery installation, equipment relocation and other heavy-duty industrial handling environments.",
+    },
+  ],
+},
     description:
       "Electric heavy-duty transporter designed for moving, lifting and positioning industrial machinery. The JS Series combines wireless remote control, electric lifting, flexible movement and a powerful copper-core motor for efficient heavy-equipment handling.",
 
