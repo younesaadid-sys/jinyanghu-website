@@ -354,27 +354,73 @@ options: {
   ],
 
   aboutItems: [
+  {
+    title: "Electric Powered Movement",
+    text: "Helps reduce manual effort when transporting heavy machinery and industrial equipment.",
+  },
+  {
+    title: "Integrated Lifting Function",
+    text: "Designed to assist with lifting and positioning heavy equipment during machinery relocation.",
+  },
+  {
+    title: "Remote Control Operation",
+    text: "Allows convenient control of the mover during equipment handling and positioning.",
+  },
+  {
+    title: "Heavy-Duty Industrial Design",
+    text: "Built for demanding machinery transport tasks in warehouses, factories, workshops, and industrial facilities.",
+  },
+  {
+    title: "Wide Application",
+    text: "Suitable for moving large machinery, industrial equipment, and other heavy loads on compatible floors.",
+  },
+],
+productInfo: {
+  features: [
     {
-      title: "Wireless Remote Control",
-      text: "The JS Series is equipped with wireless remote control for convenient long-distance operation, allowing safer and more flexible movement of heavy industrial equipment.",
+      label: "Wheel Type",
+      value: "Polyurethane Swivel Caster",
     },
     {
-      title: "Electric Lifting System",
-      text: "An integrated electric lifting mechanism helps raise and position heavy machinery while reducing manual handling effort during relocation and installation.",
+      label: "Load Capacity",
+      value: "20 T",
     },
     {
-      title: "High-Performance Copper-Core Motor",
-      text: "The powerful copper-core motor delivers efficient and stable power for demanding industrial transportation and heavy-load handling applications.",
+      label: "Number of Wheels",
+      value: "4",
     },
     {
-      title: "Flexible Heavy-Load Movement",
-      text: "Designed for flexible movement and precise positioning, the JS Series is suitable for relocating machinery, molds and other heavy industrial equipment.",
-    },
-    {
-      title: "Industrial Applications",
-      text: "Ideal for factories, warehouses, production lines, machinery installation, equipment relocation and other heavy-duty industrial handling environments.",
+      label: "Caster Wheel Diameter",
+      value: "6 inches",
     },
   ],
+
+  additionalDetails: [
+    {
+      label: "Material Type",
+      value: "Alloy Steel, Heavy-duty Polyurethane",
+    },
+    {
+      label: "Item Weight",
+      value: "135 pounds",
+    },
+    {
+      label: "Item Dimensions L x W x H",
+      value: '29"L x 8"W x 39"H',
+    },
+  ],
+
+  style: [
+    {
+      label: "Color",
+      value: "Red",
+    },
+    {
+      label: "Style Name",
+      value: "Industrial",
+    },
+  ],
+},
 },
     description:
       "Electric heavy-duty transporter designed for moving, lifting and positioning industrial machinery. The JS Series combines wireless remote control, electric lifting, flexible movement and a powerful copper-core motor for efficient heavy-equipment handling.",
