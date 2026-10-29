@@ -724,6 +724,77 @@ specTable: {
     },
     name: "JD Series Electric Machinery Skate Dolly",
     shortName: "JD Series",
+    options: {
+  defaultCapacity: "JD-10T",
+
+  capacities: [
+    {
+      value: "JD-10T",
+      label: "JD-10T",
+      description: "10T towing capacity",
+      tooltip: "Rated Load: 4T | Towing Capacity: 10T",
+    },
+    {
+      value: "JD-20T",
+      label: "JD-20T",
+      description: "20T towing capacity",
+      tooltip: "Rated Load: 12T | Towing Capacity: 20T",
+    },
+    {
+      value: "JD-25T",
+      label: "JD-25T",
+      description: "25T towing capacity",
+      tooltip: "Rated Load: 12T | Towing Capacity: 25T",
+    },
+    {
+      value: "JD-30T",
+      label: "JD-30T",
+      description: "30T towing capacity",
+      tooltip: "Rated Load: 15T | Towing Capacity: 30T",
+    },
+    {
+      value: "JD-35T",
+      label: "JD-35T",
+      description: "35T towing capacity",
+      tooltip: "Rated Load: 18T | Towing Capacity: 35T",
+    },
+    {
+      value: "JD-50T",
+      label: "JD-50T",
+      description: "50T towing capacity",
+      tooltip: "Rated Load: 25T | Towing Capacity: 50T",
+    },
+    {
+      value: "JD-60T",
+      label: "JD-60T",
+      description: "60T towing capacity",
+      tooltip: "Rated Load: 25T | Towing Capacity: 60T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Wireless Remote Control",
+      text: "Equipped with an intelligent industrial remote controller for convenient and safe heavy-load movement.",
+    },
+    {
+      title: "Heavy-Duty Transport",
+      text: "Designed for transporting and positioning large industrial machinery and equipment.",
+    },
+    {
+      title: "Multiple Load Configurations",
+      text: "Available in several towing capacities from 10T to 60T to meet different industrial transport requirements.",
+    },
+    {
+      title: "Industrial Construction",
+      text: "Built with Q355 manganese steel for strength, durability and demanding industrial applications.",
+    },
+    {
+      title: "Flexible Operation",
+      text: "Suitable for factories, workshops, warehouses and machinery installation environments.",
+    },
+  ],
+},
 specTable: {
   columns: [
     "Model",
