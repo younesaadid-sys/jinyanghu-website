@@ -333,43 +333,65 @@ aboutItems: [
 
 specTable: {
   columns: [
-    "Configuration",
-    "Load Capacity",
-    "Auxiliary Wheels",
+    "Net Weight",
+    "Rated Load",
+    "Wheel Size",
+    "Motor Power",
+    "Battery Specification",
+    "Dimensions (L × W × H)",
   ],
 
   rows: [
-    ["20Ton", "20Ton", "No"],
-    ["20Ton + Auxiliary Wheels", "20Ton", "Yes"],
-    ["25Ton + Auxiliary Wheels", "25Ton", "Yes"],
-    ["30Ton", "30Ton", "No"],
-    ["30Ton + Auxiliary Wheels", "30Ton", "Yes"],
-    ["40Ton", "40Ton", "No"],
-    ["40Ton + Auxiliary Wheels", "40Ton", "Yes"],
-    ["50Ton", "50Ton", "No"],
-    ["50Ton + Auxiliary Wheels", "50Ton", "Yes"],
+    [
+      "120 kg",
+      "10T",
+      "90×135×4",
+      "2×750W",
+      "48V/60Ah",
+      "720×640×170 mm",
+    ],
+    [
+      "130 kg",
+      "12.5T",
+      "90×135×4",
+      "2×1000W",
+      "48V/60Ah",
+      "720×640×170 mm",
+    ],
+    [
+      "155 kg",
+      "15T",
+      "90×135×4",
+      "2×1000W",
+      "48V/60Ah",
+      "770×640×190 mm",
+    ],
+    [
+      "205 kg",
+      "20T",
+      "140×140×4",
+      "2×1500W",
+      "48V/120Ah",
+      "810×810×190 mm",
+    ],
+    [
+      "215 kg",
+      "25T",
+      "140×140×4",
+      "2×2000W",
+      "48V/120Ah",
+      "810×800×210 mm",
+    ],
   ],
 
   commonSpecs: [
     {
-      label: "Wheel Type",
-      value: "Polyurethane",
+      label: "Drive Type",
+      value: "Electric",
     },
     {
-      label: "Number of Wheels",
-      value: "6",
-    },
-    {
-      label: "Material Type",
-      value: "Manganese Steel",
-    },
-    {
-      label: "Color",
-      value: "Red",
-    },
-    {
-      label: "Style",
-      value: "Industrial",
+      label: "Application",
+      value: "Heavy-duty industrial machinery transport",
     },
   ],
 },
