@@ -536,53 +536,99 @@ options: {
     text: "Suitable for moving large machinery, industrial equipment, and other heavy loads on compatible floors.",
   },
 ],
-
-productInfo: {
-  features: [
-    {
-      label: "Wheel Type",
-      value: "Polyurethane Swivel Caster",
-    },
-    {
-      label: "Load Capacity",
-      value: "20 T",
-    },
-    {
-      label: "Number of Wheels",
-      value: "4",
-    },
-    {
-      label: "Caster Wheel Diameter",
-      value: "6 inches",
-    },
-  ],
-
-  additionalDetails: [
-    {
-      label: "Material Type",
-      value: "Alloy Steel, Heavy-duty Polyurethane",
-    },
-    {
-      label: "Item Weight",
-      value: "135 pounds",
-    },
-    {
-      label: "Item Dimensions L x W x H",
-      value: '29"L x 8"W x 39"H',
-    },
-  ],
-
-  style: [
-    {
-      label: "Color",
-      value: "Red",
-    },
-    {
-      label: "Style Name",
-      value: "Industrial",
-    },
-  ],
 },
+
+specTable: {
+  columns: [
+    "Rated Load",
+    "Lifting Load",
+    "Wheel Size",
+    "Motor Power",
+    "Battery Specification",
+    "Dimensions (L × W × H)",
+  ],
+
+  rows: [
+    [
+      "5T",
+      "5T",
+      "4 pcs 110×100",
+      "500W×2",
+      "48V60A",
+      "980×750×190 mm",
+    ],
+    [
+      "10T",
+      "10T",
+      "4 pcs 135×90",
+      "750W×2",
+      "48V60A",
+      "980×750×190 mm",
+    ],
+    [
+      "12.5T",
+      "12.5T",
+      "4 pcs 135×90",
+      "1000W×2",
+      "48V60A",
+      "980×750×190 mm",
+    ],
+    [
+      "15T",
+      "15T",
+      "4 pcs 140×110",
+      "1000W×2",
+      "48V60A",
+      "1220×950×200 mm",
+    ],
+    [
+      "17.5T",
+      "15T",
+      "4 pcs 140×110",
+      "1000W×2",
+      "48V60A",
+      "1220×950×200 mm",
+    ],
+    [
+      "20T",
+      "15T",
+      "4 pcs 140×140",
+      "1500W×2",
+      "48V120A",
+      "1220×950×200 mm",
+    ],
+    [
+      "25T",
+      "15T",
+      "4 pcs 140×140",
+      "2000W×2",
+      "48V120A",
+      "1220×950×200 mm",
+    ],
+    [
+      "25T",
+      "15T",
+      "4 pcs 165×150",
+      "3000W×2",
+      "48V120A",
+      "1220×950×200 mm",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Electric",
+    },
+    {
+      label: "Control Type",
+      value: "Wireless Remote Control",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery lifting and transport",
+    },
+  ],
 },
     description:
       "Electric heavy-duty transporter designed for moving, lifting and positioning industrial machinery. The JS Series combines wireless remote control, electric lifting, flexible movement and a powerful copper-core motor for efficient heavy-equipment handling.",
