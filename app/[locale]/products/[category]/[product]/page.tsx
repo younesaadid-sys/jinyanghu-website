@@ -105,17 +105,68 @@ options: {
 productInfo: {
   features: [
     {
-      label: "Model Range",
-      value: "JA-10T – JA-100T",
+      label: "JA-10T",
+      value:
+        "Towing Capacity: 10T | Rated Load: 5T | Motor Power: 500W×2 | Battery: 48V60A | Drive Wheels: 4pcs 135×90 | Steel Plate: 10mm | Net Weight: 115KG",
     },
     {
-      label: "Towing Capacity",
-      value: "10T – 100T",
+      label: "JA-20T",
+      value:
+        "Towing Capacity: 20T | Rated Load: 10T | Motor Power: 750W×2 | Battery: 48V60A | Drive Wheels: 4pcs 135×90 | Steel Plate: 10mm | Net Weight: 120KG",
     },
     {
-      label: "Rated Load",
-      value: "5T – 50T",
+      label: "JA-25T",
+      value:
+        "Towing Capacity: 25T | Rated Load: 12.5T | Motor Power: 1000W×2 | Battery: 48V60A | Drive Wheels: 4pcs 135×90 | Steel Plate: 12mm | Net Weight: 130KG",
     },
+    {
+      label: "JA-30T",
+      value:
+        "Towing Capacity: 30T | Rated Load: 15T | Motor Power: 1000W×2 | Battery: 48V60A | Drive Wheels: 4pcs 140×110 | Steel Plate: 12mm | Net Weight: 150KG",
+    },
+    {
+      label: "JA-35T",
+      value:
+        "Towing Capacity: 35T | Rated Load: 17.5T | Motor Power: 1000W×2 | Battery: 48V60A | Drive Wheels: 4pcs 140×110 | Steel Plate: 12mm | Net Weight: 180KG",
+    },
+    {
+      label: "JA-40T",
+      value:
+        "Towing Capacity: 40T | Rated Load: 20T | Motor Power: 1500W×2 | Battery: 48V120A | Drive Wheels: 4pcs 140×140 | Steel Plate: 16mm | Net Weight: 180KG",
+    },
+    {
+      label: "JA-50T",
+      value:
+        "Towing Capacity: 50T | Rated Load: 25T | Motor Power: 2000W×2 | Battery: 48V120A | Drive Wheels: 4pcs 140×140 | Steel Plate: 16mm | Net Weight: 210KG",
+    },
+    {
+      label: "JA-60T",
+      value:
+        "Towing Capacity: 60T | Rated Load: 30T | Motor Power: 3000W×2 | Battery: 72V120A | Drive Wheels: 4pcs 165×150 | Steel Plate: 18mm | Net Weight: 220KG",
+    },
+    {
+      label: "JA-100T",
+      value:
+        "Towing Capacity: 100T | Rated Load: 50T | Motor Power: 2000W×4 | Battery: 48V240A | Drive Wheels: 8pcs 140×140 | Steel Plate: 20mm | Net Weight: 600KG",
+    },
+  ],
+
+  additionalDetails: [
+    {
+      label: "Remote Control",
+      value: "C6/C7 Remote Control (Industrial-Grade Remote Control)",
+    },
+    {
+      label: "Wheel Material",
+      value: "High-hardness, fully imported polyurethane material",
+    },
+    {
+      label: "Gears",
+      value: "High-Strength Titanium Alloy Gears",
+    },
+  ],
+
+  style: [
     {
       label: "Operating Time",
       value: "4–6 hours",
@@ -123,32 +174,6 @@ productInfo: {
     {
       label: "Charging Time",
       value: "6–8 hours",
-    },
-  ],
-
-  additionalDetails: [
-    {
-      label: "Remote Control",
-      value: "C6/C7 Industrial-Grade Remote Control",
-    },
-    {
-      label: "Wheel Material",
-      value: "High-hardness imported polyurethane",
-    },
-    {
-      label: "Gear Material",
-      value: "High-strength titanium alloy gears",
-    },
-  ],
-
-  style: [
-    {
-      label: "Drive Type",
-      value: "Electric",
-    },
-    {
-      label: "Application",
-      value: "Heavy-duty industrial machinery transport",
     },
   ],
 },
