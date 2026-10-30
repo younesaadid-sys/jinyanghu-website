@@ -727,45 +727,58 @@ export default async function Home() {
       </div>
 
       {/* CONTACT */}
-      <div id="contact">
-        <h4 className="text-base font-bold text-white">
-          Contact
-        </h4>
+     <div id="contact">
+  <h4 className="text-base font-bold text-white">
+    Contact
+  </h4>
 
-        <div className="mt-6 space-y-5 text-sm text-zinc-400">
+  <div className="mt-6 space-y-5 text-sm text-zinc-400">
 
-          <a
-            href="mailto:genefen@jcsqz.com"
-            className="flex items-center gap-3 transition hover:text-orange-500"
-          >
-            <span className="text-lg text-orange-500">✉</span>
-            genefen@jcsqz.com
-          </a>
+    <a
+      href="mailto:genefen@jcsqz.com"
+      className="flex items-center gap-3 transition hover:text-orange-500"
+    >
+      <Icon
+        icon="mdi:email-outline"
+        className="text-xl text-orange-500"
+      />
+      <span>genefen@jcsqz.com</span>
+    </a>
 
-          <a
-            href="tel:+8613100006833"
-            className="flex items-center gap-3 transition hover:text-orange-500"
-          >
-            <span className="text-lg text-orange-500">☎</span>
-            +86 131 0000 6833
-          </a>
+    <a
+      href="tel:+8613100006833"
+      className="flex items-center gap-3 transition hover:text-orange-500"
+    >
+      <Icon
+        icon="mdi:phone-outline"
+        className="text-xl text-orange-500"
+      />
+      <span>+86 131 0000 6833</span>
+    </a>
 
-          <a
-            href="https://wa.me/8613100006833"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 transition hover:text-orange-500"
-          >
-            <span className="text-lg text-orange-500">◉</span>
-            WhatsApp
-          </a>
+    <a
+      href="https://wa.me/8613100006833"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-3 transition hover:text-orange-500"
+    >
+      <Icon
+        icon="mdi:whatsapp"
+        className="text-xl text-orange-500"
+      />
+      <span>WhatsApp</span>
+    </a>
 
-          <div className="flex items-center gap-3">
-            <span className="text-lg text-orange-500">⌖</span>
-            China
-          </div>
-        </div>
-      </div>
+    <div className="flex items-center gap-3">
+      <Icon
+        icon="mdi:map-marker-outline"
+        className="text-xl text-orange-500"
+      />
+      <span>China</span>
+    </div>
+
+  </div>
+</div>
     </div>
 
     {/* BOTTOM */}
