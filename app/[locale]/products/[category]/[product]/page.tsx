@@ -2893,7 +2893,192 @@ specTable: {
     },
     name: "CRP Series Machinery Moving Skate",
     shortName: "CRP Series",
+options: {
+  defaultCapacity: "CRP-3",
 
+  capacities: [
+    {
+      value: "CRP-3",
+      label: "CRP-3",
+      description: "2T normal load capacity",
+      tooltip: "Maximum Load: 3T | Normal Load: 2T",
+    },
+    {
+      value: "CRP-4",
+      label: "CRP-4",
+      description: "3T normal load capacity",
+      tooltip: "Maximum Load: 4T | Normal Load: 3T",
+    },
+    {
+      value: "CRP-5",
+      label: "CRP-5",
+      description: "4T normal load capacity",
+      tooltip: "Maximum Load: 5T | Normal Load: 4T",
+    },
+    {
+      value: "CRP-6",
+      label: "CRP-6",
+      description: "5T normal load capacity",
+      tooltip: "Maximum Load: 6T | Normal Load: 5T",
+    },
+    {
+      value: "CRP-10",
+      label: "CRP-10",
+      description: "8T normal load capacity",
+      tooltip: "Maximum Load: 10T | Normal Load: 8T",
+    },
+    {
+      value: "CRP-15",
+      label: "CRP-15",
+      description: "12T normal load capacity",
+      tooltip: "Maximum Load: 15T | Normal Load: 12T",
+    },
+    {
+      value: "CRP-20",
+      label: "CRP-20",
+      description: "16T normal load capacity",
+      tooltip: "Maximum Load: 20T | Normal Load: 16T",
+    },
+    {
+      value: "CRP-30",
+      label: "CRP-30",
+      description: "25T normal load capacity",
+      tooltip: "Maximum Load: 30T | Normal Load: 25T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "360° Rotating Movement",
+      text: "Designed for flexible rotation and controlled positioning of heavy machinery in confined industrial spaces.",
+    },
+    {
+      title: "Multiple Load Capacities",
+      text: "Available in models with normal load capacities ranging from 2T to 25T.",
+    },
+    {
+      title: "Heavy-Duty Wheel Options",
+      text: "Lower-capacity models use polyurethane wheels, while higher-capacity models use alloy steel wheels.",
+    },
+    {
+      title: "Compact Industrial Design",
+      text: "The low-profile structure allows easier placement underneath machinery and heavy industrial equipment.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for equipment relocation, machinery installation, workshops, factories and heavy-load positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Maximum Load",
+    "Normal Load",
+    "Number of Wheels",
+    "Product Weight",
+    "Wheel Material & Size",
+  ],
+
+  rows: [
+    [
+      "CRP-3",
+      "480×400×115 mm",
+      "3T",
+      "2T",
+      "3",
+      "25 kg",
+      "PU wheels 80×70 mm",
+    ],
+    [
+      "CRP-4",
+      "530×410×115 mm",
+      "4T",
+      "3T",
+      "4",
+      "33 kg",
+      "PU wheels 80×70 mm",
+    ],
+    [
+      "CRP-5",
+      "580×470×115 mm",
+      "5T",
+      "4T",
+      "5",
+      "42 kg",
+      "PU wheels 80×70 mm",
+    ],
+    [
+      "CRP-6",
+      "670×560×115 mm",
+      "6T",
+      "5T",
+      "6",
+      "55 kg",
+      "PU wheels 80×70 mm",
+    ],
+    [
+      "CRP-10",
+      "680×550×115 mm",
+      "10T",
+      "8T",
+      "4",
+      "67 kg",
+      "Alloy steel wheels",
+    ],
+    [
+      "CRP-15",
+      "750×600×115 mm",
+      "15T",
+      "12T",
+      "5",
+      "78 kg",
+      "Alloy steel wheels",
+    ],
+    [
+      "CRP-20",
+      "900×780×145 mm",
+      "20T",
+      "16T",
+      "5",
+      "148 kg",
+      "Alloy steel wheels",
+    ],
+    [
+      "CRP-30",
+      "950×830×165 mm",
+      "30T",
+      "25T",
+      "5",
+      "185 kg",
+      "Alloy steel wheels",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Movement Type",
+      value: "360° Rotating",
+    },
+    {
+      label: "Load Range",
+      value: "2T–25T Normal Load",
+    },
+    {
+      label: "Wheel Options",
+      value: "Polyurethane / Alloy Steel",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery relocation and positioning",
+    },
+  ],
+},
     description:
       "Manual heavy-duty machinery moving skate designed for controlled equipment relocation, featuring a 360° rotating platform, durable steel construction and wear-resistant caster wheels.",
 
