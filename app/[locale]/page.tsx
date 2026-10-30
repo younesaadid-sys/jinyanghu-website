@@ -195,21 +195,19 @@ export default async function Home() {
       {/* ABOUT */}
       <section id="about" className="bg-zinc-100">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-2 lg:items-center">
-          {/* IMAGE PLACEHOLDER */}
-          <div className="relative min-h-[420px] overflow-hidden rounded-2xl bg-zinc-300">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <Icon
-                  icon="mdi:factory"
-                  className="mx-auto text-7xl text-zinc-400"
-                />
-
-                <p className="mt-4 font-semibold text-zinc-500">
-                  {t("about.companyImage")}
-                </p>
-              </div>
-            </div>
-          </div>
+          {/* COMPANY / FACTORY VIDEO */}
+<div className="relative min-h-[420px] overflow-hidden rounded-2xl bg-black">
+  <video
+    className="absolute inset-0 h-full w-full object-cover"
+    autoPlay
+    muted
+    loop
+    playsInline
+    preload="metadata"
+  >
+    <source src="/videos/company-factory.mp4" type="video/mp4" />
+  </video>
+</div>
 
           <div>
             <p className="font-semibold uppercase tracking-wider text-orange-500">
