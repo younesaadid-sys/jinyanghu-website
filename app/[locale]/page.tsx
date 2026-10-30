@@ -194,19 +194,17 @@ export default async function Home() {
 
       {/* ABOUT */}
       <section id="about" className="bg-zinc-100">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-2 lg:items-center">
+        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-[1.25fr_1fr] lg:items-center">
           {/* COMPANY / FACTORY VIDEO */}
-<div className="relative min-h-[420px] overflow-hidden rounded-2xl bg-black">
+<div className="relative h-[320px] w-full overflow-hidden rounded-2xl bg-black sm:h-[420px] lg:h-[620px]">
   <video
     className="absolute inset-0 h-full w-full object-cover"
+    src="/videos/company-factory.mp4"
     autoPlay
     muted
     loop
     playsInline
-    preload="metadata"
-  >
-    <source src="/videos/company-factory.mp4" type="video/mp4" />
-  </video>
+  />
 </div>
 
           <div>
