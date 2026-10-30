@@ -2052,7 +2052,128 @@ specTable: {
     },
     name: "CRD Series Hand-Cranked Machine Skates",
     shortName: "CRD Series",
+options: {
+  defaultCapacity: "CRD-6",
 
+  capacities: [
+    {
+      value: "CRD-6",
+      label: "CRD-6",
+      description: "4T normal load capacity",
+      tooltip: "Maximum Load: 6T | Normal Load: 4T",
+    },
+    {
+      value: "CRD-8",
+      label: "CRD-8",
+      description: "6T normal load capacity",
+      tooltip: "Maximum Load: 8T | Normal Load: 6T",
+    },
+    {
+      value: "CRD-12",
+      label: "CRD-12",
+      description: "8T normal load capacity",
+      tooltip: "Maximum Load: 12T | Normal Load: 8T",
+    },
+    {
+      value: "CRD-18",
+      label: "CRD-18",
+      description: "12T normal load capacity",
+      tooltip: "Maximum Load: 18T | Normal Load: 12T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Hand-Cranked Operation",
+      text: "Designed with a manual hand-cranked mechanism for controlled movement and positioning of heavy industrial machinery.",
+    },
+    {
+      title: "Heavy-Duty Load Handling",
+      text: "Available in multiple configurations with maximum load capacities ranging from 6T to 18T.",
+    },
+    {
+      title: "Compact Low-Profile Design",
+      text: "The compact structure allows easier placement underneath machinery and industrial equipment.",
+    },
+    {
+      title: "Durable Wheel Options",
+      text: "Available with nylon wheels and steel wheels depending on the model and operating requirements.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, workshops, machinery installation, relocation and heavy equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Maximum Load",
+    "Normal Load",
+    "Number of Wheels",
+    "Product Weight",
+    "Wheel Material",
+  ],
+
+  rows: [
+    [
+      "CRD-6",
+      "350×400×110 mm",
+      "6T",
+      "4T",
+      "4",
+      "22.5 kg",
+      "Nylon wheels",
+    ],
+    [
+      "CRD-8",
+      "460×400×110 mm",
+      "8T",
+      "6T",
+      "6",
+      "29 kg",
+      "Nylon wheels",
+    ],
+    [
+      "CRD-12",
+      "560×400×110 mm",
+      "12T",
+      "8T",
+      "8",
+      "42 kg",
+      "Nylon wheels",
+    ],
+    [
+      "CRD-18",
+      "560×400×110 mm",
+      "18T",
+      "12T",
+      "8",
+      "58 kg",
+      "Steel wheel",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Operation Type",
+      value: "Hand-Cranked",
+    },
+    {
+      label: "Load Range",
+      value: "6T–18T",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery movement and positioning",
+    },
+  ],
+},
     description:
       "Manual hand-cranked machine skates designed for controlled movement and positioning of heavy industrial machinery, with a 360° swivel platform and optional nylon or steel wheels.",
 
@@ -2151,7 +2272,165 @@ specTable: {
     },
     name: "CWA Series Tank Transporters",
     shortName: "CWA Series",
+options: {
+  defaultCapacity: "CWA-6T",
 
+  capacities: [
+    {
+      value: "CWA-6T",
+      label: "CWA-6T",
+      description: "4T normal load capacity",
+      tooltip: "Maximum Load: 6T | Normal Load: 4T",
+    },
+    {
+      value: "CWA-8T",
+      label: "CWA-8T",
+      description: "6T normal load capacity",
+      tooltip: "Maximum Load: 8T | Normal Load: 6T",
+    },
+    {
+      value: "CWA-12T",
+      label: "CWA-12T",
+      description: "8T normal load capacity",
+      tooltip: "Maximum Load: 12T | Normal Load: 8T",
+    },
+    {
+      value: "CWA-18T",
+      label: "CWA-18T",
+      description: "12T normal load capacity",
+      tooltip: "Maximum Load: 18T | Normal Load: 12T",
+    },
+    {
+      value: "CWA-24T",
+      label: "CWA-24T",
+      description: "16T normal load capacity",
+      tooltip: "Maximum Load: 24T | Normal Load: 16T",
+    },
+    {
+      value: "CWA-30T",
+      label: "CWA-30T",
+      description: "20T normal load capacity",
+      tooltip: "Maximum Load: 30T | Normal Load: 20T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Flexible Manual Steering",
+      text: "Designed for controlled movement of heavy machinery with a long steering handle for easier directional adjustment.",
+    },
+    {
+      title: "Heavy-Duty Load Handling",
+      text: "Available in multiple configurations with maximum load capacities ranging from 6T to 30T.",
+    },
+    {
+      title: "Stable Load Distribution",
+      text: "Multiple polyurethane wheels help distribute heavy loads more evenly during transport.",
+    },
+    {
+      title: "Industrial Construction",
+      text: "Built for demanding machinery relocation tasks in factories, workshops and warehouses.",
+    },
+    {
+      title: "PU Wheel System",
+      text: "Equipped with polyurethane wheels designed for smooth movement and reduced floor damage.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Maximum Load",
+    "Normal Load",
+    "Number of Wheels",
+    "Product Weight",
+    "Wheel Material",
+    "Wheel Size",
+  ],
+
+  rows: [
+    [
+      "CWA-6T",
+      "385×265×110 mm",
+      "6T",
+      "4T",
+      "4",
+      "21 kg",
+      "PU wheels",
+      "80×70 mm",
+    ],
+    [
+      "CWA-8T",
+      "440×265×110 mm",
+      "8T",
+      "6T",
+      "6",
+      "27 kg",
+      "PU wheels",
+      "80×70 mm",
+    ],
+    [
+      "CWA-12T",
+      "550×275×110 mm",
+      "12T",
+      "8T",
+      "8",
+      "36 kg",
+      "PU wheels",
+      "80×70 mm",
+    ],
+    [
+      "CWA-18T",
+      "590×220×110 mm",
+      "18T",
+      "12T",
+      "11",
+      "56 kg",
+      "PU wheels",
+      "80×70 mm",
+    ],
+    [
+      "CWA-24T",
+      "680×410×110 mm",
+      "24T",
+      "16T",
+      "16",
+      "82 kg",
+      "PU wheels",
+      "80×70 mm",
+    ],
+    [
+      "CWA-30T",
+      "770×410×110 mm",
+      "30T",
+      "20T",
+      "20",
+      "100 kg",
+      "PU wheels",
+      "80×70 mm",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Steering Type",
+      value: "Manual Steering Handle",
+    },
+    {
+      label: "Wheel Material",
+      value: "Polyurethane (PU)",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery relocation and industrial transport",
+    },
+  ],
+},
     description:
       "Manual heavy-duty tank transporters designed for controlled movement of industrial machinery, with flexible steering, stable load distribution and rugged steel construction.",
 
@@ -2246,7 +2525,276 @@ specTable: {
     },
     name: "CX+Y Series Tank Transporters",
     shortName: "CX+Y Series",
+options: {
+  defaultCapacity: "CX4+Y4",
 
+  capacities: [
+    {
+      value: "CX4+Y4",
+      label: "CX4+Y4",
+      description: "4T rated load capacity",
+      tooltip: "X4 + Y4 combined transporter set",
+    },
+    {
+      value: "CX8+Y8",
+      label: "CX8+Y8",
+      description: "8T rated load capacity",
+      tooltip: "X8 + Y8 combined transporter set",
+    },
+    {
+      value: "CX12+Y12",
+      label: "CX12+Y12",
+      description: "12T rated load capacity",
+      tooltip: "X12 + Y12 combined transporter set",
+    },
+    {
+      value: "CX16+Y16",
+      label: "CX16+Y16",
+      description: "16T rated load capacity",
+      tooltip: "X16 + Y16 combined transporter set",
+    },
+    {
+      value: "CX18+Y18",
+      label: "CX18+Y18",
+      description: "18T rated load capacity",
+      tooltip: "X18 + Y18 combined transporter set",
+    },
+    {
+      value: "CX24+Y24",
+      label: "CX24+Y24",
+      description: "24T rated load capacity",
+      tooltip: "X24 + Y24 combined transporter set",
+    },
+    {
+      value: "CX32+Y32",
+      label: "CX32+Y32",
+      description: "32T rated load capacity",
+      tooltip: "X32 + Y32 combined transporter set",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Combined Transport System",
+      text: "Combines a steering X unit with a straight-running Y unit for controlled movement of heavy industrial machinery.",
+    },
+    {
+      title: "Adjustable Handle System",
+      text: "The transporter uses adjustable handle lengths to improve control and positioning during machinery relocation.",
+    },
+    {
+      title: "Multiple Load Capacities",
+      text: "Available in configurations from 4T up to 32T rated load capacity for different industrial applications.",
+    },
+    {
+      title: "Heavy-Duty Wheel System",
+      text: "All configurations use Ø80×70 mm wheels designed for stable heavy-load movement.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machinery relocation, factory equipment handling, workshops and warehouse transport operations.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Configuration",
+    "Unit",
+    "Wheel Size",
+    "Number of Wheels",
+    "Contact Surface Size",
+    "Handle Adjustment Length",
+    "Overall Dimensions",
+    "Rated Load Capacity",
+    "Net Weight",
+  ],
+
+  rows: [
+    [
+      "CX4+Y4",
+      "X4",
+      "Ø80×70 mm",
+      "4",
+      "D: Ø160",
+      "F: 800",
+      "230×230×110 mm",
+      "4T",
+      "14 kg",
+    ],
+    [
+      "CX4+Y4",
+      "Y4",
+      "Ø80×70 mm",
+      "4",
+      "E: 180×140",
+      "J: 300–1000",
+      "180×140×110 mm",
+      "4T",
+      "16 kg",
+    ],
+
+    [
+      "CX8+Y8",
+      "X8",
+      "Ø80×70 mm",
+      "8",
+      "D: Ø160",
+      "F: 1400",
+      "580×410×110 mm",
+      "8T",
+      "43 kg",
+    ],
+    [
+      "CX8+Y8",
+      "Y8",
+      "Ø80×70 mm",
+      "8",
+      "E: 200×160",
+      "J: 400–1500",
+      "230×200×110 mm",
+      "8T",
+      "28 kg",
+    ],
+
+    [
+      "CX12+Y12",
+      "X12",
+      "Ø80×70 mm",
+      "12",
+      "D: Ø160",
+      "F: 1400",
+      "790×420×110 mm",
+      "12T",
+      "64 kg",
+    ],
+    [
+      "CX12+Y12",
+      "Y12",
+      "Ø80×70 mm",
+      "12",
+      "E: 220×180",
+      "J: 400–1500",
+      "300×230×110 mm",
+      "12T",
+      "43 kg",
+    ],
+
+    [
+      "CX16+Y16",
+      "X16",
+      "Ø80×70 mm",
+      "16",
+      "D: Ø200",
+      "F: 1400",
+      "1020×460×120 mm",
+      "16T",
+      "88 kg",
+    ],
+    [
+      "CX16+Y16",
+      "Y16",
+      "Ø80×70 mm",
+      "16",
+      "E: 240×180",
+      "J: 400–1500",
+      "385×240×120 mm",
+      "16T",
+      "66 kg",
+    ],
+
+    [
+      "CX18+Y18",
+      "X18",
+      "Ø80×70 mm",
+      "18",
+      "D: Ø200",
+      "F: 1400",
+      "830×590×120 mm",
+      "18T",
+      "104 kg",
+    ],
+    [
+      "CX18+Y18",
+      "Y18",
+      "Ø80×70 mm",
+      "18",
+      "E: 280×200",
+      "J: 400–1500",
+      "350×300×120 mm",
+      "18T",
+      "74 kg",
+    ],
+
+    [
+      "CX24+Y24",
+      "X24",
+      "Ø80×70 mm",
+      "24",
+      "D: Ø200",
+      "F: 1400",
+      "1020×600×120 mm",
+      "24T",
+      "120 kg",
+    ],
+    [
+      "CX24+Y24",
+      "Y24",
+      "Ø80×70 mm",
+      "24",
+      "E: 350×220",
+      "J: 400–1500",
+      "390×330×120 mm",
+      "24T",
+      "91 kg",
+    ],
+
+    [
+      "CX32+Y32",
+      "X32",
+      "Ø80×70 mm",
+      "32",
+      "D: Ø200",
+      "F: 1400",
+      "1020×700×140 mm",
+      "32T",
+      "175 kg",
+    ],
+    [
+      "CX32+Y32",
+      "Y32",
+      "Ø80×70 mm",
+      "32",
+      "E: 440×220",
+      "J: 400–1500",
+      "430×490×140 mm",
+      "32T",
+      "118 kg",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "System Type",
+      value: "Combined X + Y Transporter",
+    },
+    {
+      label: "Wheel Size",
+      value: "Ø80×70 mm",
+    },
+    {
+      label: "Load Range",
+      value: "4T–32T",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery relocation and industrial transport",
+    },
+  ],
+},
     description:
       "Manual heavy-duty transporter system combining steering and straight-running machine skates for controlled movement of industrial machinery and large equipment.",
 
@@ -2437,11 +2985,127 @@ specTable: {
     },
     name: "CRQ Series Heavy-Duty Universal Skates",
     shortName: "CRQ Series",
+options: {
+  defaultCapacity: "CRQ-6",
 
+  capacities: [
+    {
+      value: "CRQ-6",
+      label: "CRQ-6",
+      description: "8T normal load capacity",
+      tooltip: "Normal Load: 8T | 6 wheels",
+    },
+    {
+      value: "CRQ-8",
+      label: "CRQ-8",
+      description: "12T normal load capacity",
+      tooltip: "Normal Load: 12T | 8 wheels",
+    },
+    {
+      value: "CRQ-12",
+      label: "CRQ-12",
+      description: "18T normal load capacity",
+      tooltip: "Normal Load: 18T | 12 wheels",
+    },
+    {
+      value: "CRQ-16",
+      label: "CRQ-16",
+      description: "24T normal load capacity",
+      tooltip: "Normal Load: 24T | 16 wheels",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Universal Multi-Direction Movement",
+      text: "Designed for flexible multi-direction movement and precise positioning of heavy industrial machinery.",
+    },
+    {
+      title: "Heavy-Duty Load Support",
+      text: "Available in multiple configurations with normal load capacities from 8T to 24T.",
+    },
+    {
+      title: "Stable Wheel Arrangement",
+      text: "Multiple polyurethane wheels provide stable support and smooth movement under heavy loads.",
+    },
+    {
+      title: "Compact Industrial Design",
+      text: "The low-profile structure helps position the skate underneath machinery and industrial equipment.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machine relocation, industrial equipment movement and precise heavy-load positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Normal Load Capacity",
+    "Number of Wheels",
+    "Product Weight",
+    "Wheel Material",
+  ],
+
+  rows: [
+    [
+      "CRQ-6",
+      "670×620×165 mm",
+      "8T",
+      "6",
+      "70 kg",
+      "PU wheels 115×60",
+    ],
+    [
+      "CRQ-8",
+      "810×620×165 mm",
+      "12T",
+      "8",
+      "85 kg",
+      "PU wheels 115×60",
+    ],
+    [
+      "CRQ-12",
+      "810×620×165 mm",
+      "18T",
+      "12",
+      "108 kg",
+      "PU wheels 115×60",
+    ],
+    [
+      "CRQ-16",
+      "930×640×165 mm",
+      "24T",
+      "16",
+      "125 kg",
+      "PU wheels 115×60",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Movement Type",
+      value: "Universal Multi-Direction",
+    },
+    {
+      label: "Wheel Material",
+      value: "Polyurethane (PU)",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery movement and positioning",
+    },
+  ],
+},
     description:
       "Manual heavy-duty universal skates designed for industrial equipment moving, machine relocation and precise positioning with multi-directional movement and stable load support.",
 
-    loadCapacity: "6T–16T",
+    loadCapacity: "8T–24T",
     driveType: "Manual",
 
     gallery: [
@@ -2533,7 +3197,208 @@ specTable: {
     },
     name: "CRM Series Crawler Machinery Skates",
     shortName: "CRM Series",
+options: {
+  defaultCapacity: "CRM8",
 
+  capacities: [
+    {
+      value: "CRM8",
+      label: "CRM8",
+      description: "8T maximum load",
+      tooltip: "Maximum Load: 8T | Weight: 19 kg",
+    },
+    {
+      value: "CRM10",
+      label: "CRM10",
+      description: "10T maximum load",
+      tooltip: "Maximum Load: 10T | Weight: 21 kg",
+    },
+    {
+      value: "CRM15",
+      label: "CRM15",
+      description: "15T maximum load",
+      tooltip: "Maximum Load: 15T | Weight: 28 kg",
+    },
+    {
+      value: "CRM20",
+      label: "CRM20",
+      description: "20T maximum load",
+      tooltip: "Maximum Load: 20T | Weight: 30 kg",
+    },
+    {
+      value: "CRM25",
+      label: "CRM25",
+      description: "25T maximum load",
+      tooltip: "Maximum Load: 25T | Weight: 35 kg",
+    },
+    {
+      value: "CRM30",
+      label: "CRM30",
+      description: "30T maximum load",
+      tooltip: "Maximum Load: 30T | Weight: 60 kg",
+    },
+    {
+      value: "CRM40",
+      label: "CRM40",
+      description: "40T maximum load",
+      tooltip: "Maximum Load: 40T | Weight: 70 kg",
+    },
+    {
+      value: "CRM50",
+      label: "CRM50",
+      description: "50T maximum load",
+      tooltip: "Maximum Load: 50T | Weight: 80 kg",
+    },
+    {
+      value: "CRM60",
+      label: "CRM60",
+      description: "60T maximum load",
+      tooltip: "Maximum Load: 60T | Weight: 105 kg",
+    },
+    {
+      value: "CRM80",
+      label: "CRM80",
+      description: "80T maximum load",
+      tooltip: "Maximum Load: 80T | Weight: 120 kg",
+    },
+    {
+      value: "CRM100",
+      label: "CRM100",
+      description: "100T maximum load",
+      tooltip: "Maximum Load: 100T | Weight: 135 kg",
+    },
+    {
+      value: "CRM120",
+      label: "CRM120",
+      description: "120T maximum load",
+      tooltip: "Maximum Load: 120T | Weight: 180 kg",
+    },
+    {
+      value: "CRM150",
+      label: "CRM150",
+      description: "150T maximum load",
+      tooltip: "Maximum Load: 150T | Weight: 200 kg",
+    },
+    {
+      value: "CRM200",
+      label: "CRM200",
+      description: "200T maximum load",
+      tooltip: "Maximum Load: 200T | Weight: 230 kg",
+    },
+    {
+      value: "CRM250",
+      label: "CRM250",
+      description: "250T maximum load",
+      tooltip: "Maximum Load: 250T | Weight: 260 kg",
+    },
+    {
+      value: "CRM300",
+      label: "CRM300",
+      description: "300T maximum load",
+      tooltip: "Maximum Load: 300T | Weight: 290 kg",
+    },
+    {
+      value: "CRM350",
+      label: "CRM350",
+      description: "350T maximum load",
+      tooltip: "Maximum Load: 350T | Weight: 400 kg",
+    },
+    {
+      value: "CRM400",
+      label: "CRM400",
+      description: "400T maximum load",
+      tooltip: "Maximum Load: 400T | Weight: 440 kg",
+    },
+    {
+      value: "CRM450",
+      label: "CRM450",
+      description: "450T maximum load",
+      tooltip: "Maximum Load: 450T | Weight: 490 kg",
+    },
+    {
+      value: "CRM500",
+      label: "CRM500",
+      description: "500T maximum load",
+      tooltip: "Maximum Load: 500T | Weight: 530 kg",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Crawler-Type Heavy Load Transport",
+      text: "Designed for straight-line movement of extremely heavy industrial machinery and equipment.",
+    },
+    {
+      title: "Very High Load Capacity",
+      text: "Available in configurations ranging from 8T up to 500T maximum load capacity.",
+    },
+    {
+      title: "Heavy-Duty Roller System",
+      text: "Crawler-style rollers provide stable support and smooth movement under very heavy loads.",
+    },
+    {
+      title: "Reinforced Industrial Structure",
+      text: "Built for demanding industrial relocation tasks requiring high strength and load stability.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, heavy machinery relocation, large equipment installation and industrial transport.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Maximum Load",
+    "Length (A)",
+    "Width (B)",
+    "Height (C)",
+    "Total Weight",
+    "Side Panel Distance",
+  ],
+
+  rows: [
+    ["CRM8", "8T", "370 mm", "230 mm", "90 mm", "19 kg", "152 mm"],
+    ["CRM10", "10T", "400 mm", "230 mm", "90 mm", "21 kg", "152 mm"],
+    ["CRM15", "15T", "415 mm", "240 mm", "110 mm", "28 kg", "160 mm"],
+    ["CRM20", "20T", "450 mm", "240 mm", "110 mm", "30 kg", "160 mm"],
+    ["CRM25", "25T", "490 mm", "240 mm", "110 mm", "35 kg", "160 mm"],
+    ["CRM30", "30T", "530 mm", "300 mm", "140 mm", "60 kg", "190 mm"],
+    ["CRM40", "40T", "580 mm", "300 mm", "145 mm", "70 kg", "190 mm"],
+    ["CRM50", "50T", "625 mm", "300 mm", "150 mm", "80 kg", "190 mm"],
+    ["CRM60", "60T", "660 mm", "340 mm", "165 mm", "105 kg", "190 mm"],
+    ["CRM80", "80T", "710 mm", "340 mm", "170 mm", "120 kg", "218 mm"],
+    ["CRM100", "100T", "760 mm", "340 mm", "175 mm", "135 kg", "218 mm"],
+    ["CRM120", "120T", "870 mm", "365 mm", "190 mm", "180 kg", "218 mm"],
+    ["CRM150", "150T", "920 mm", "365 mm", "195 mm", "200 kg", "278 mm"],
+    ["CRM200", "200T", "930 mm", "393 mm", "220 mm", "230 kg", "278 mm"],
+    ["CRM250", "250T", "990 mm", "393 mm", "225 mm", "260 kg", "278 mm"],
+    ["CRM300", "300T", "1060 mm", "393 mm", "230 mm", "290 kg", "298 mm"],
+    ["CRM350", "350T", "1190 mm", "423 mm", "255 mm", "400 kg", "318 mm"],
+    ["CRM400", "400T", "1270 mm", "423 mm", "260 mm", "440 kg", "318 mm"],
+    ["CRM450", "450T", "1355 mm", "423 mm", "265 mm", "490 kg", "338 mm"],
+    ["CRM500", "500T", "1440 mm", "423 mm", "270 mm", "530 kg", "338 mm"],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Movement Type",
+      value: "Crawler / Straight-Line",
+    },
+    {
+      label: "Load Range",
+      value: "8T–500T",
+    },
+    {
+      label: "Application",
+      value: "Ultra-heavy machinery relocation and industrial transport",
+    },
+  ],
+},
     description:
       "Manual heavy-duty crawler machinery skates designed for straight-line movement of industrial machinery and extremely heavy loads, featuring alloy steel rollers, anti-slip support pads and reinforced steel construction.",
 
@@ -2640,11 +3505,157 @@ specTable: {
     },
     name: "CRF Series Heavy-Duty Machinery Skates",
     shortName: "CRF Series",
+options: {
+  defaultCapacity: "CRF-4",
 
+  capacities: [
+    {
+      value: "CRF-4",
+      label: "CRF-4",
+      description: "4T standard load capacity",
+      tooltip: "Maximum Load: 9T | Standard Load: 4T",
+    },
+    {
+      value: "CRF-6",
+      label: "CRF-6",
+      description: "6T standard load capacity",
+      tooltip: "Maximum Load: 8T | Standard Load: 6T",
+    },
+    {
+      value: "CRF-8",
+      label: "CRF-8",
+      description: "8T standard load capacity",
+      tooltip: "Maximum Load: 12T | Standard Load: 8T",
+    },
+    {
+      value: "CRF-12",
+      label: "CRF-12",
+      description: "12T standard load capacity",
+      tooltip: "Maximum Load: 18T | Standard Load: 12T",
+    },
+    {
+      value: "CRF-16",
+      label: "CRF-16",
+      description: "16T standard load capacity",
+      tooltip: "Maximum Load: 24T | Standard Load: 16T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Obstacle-Surmounting Design",
+      text: "Designed to help heavy machinery move across small floor obstacles with a 20 mm obstacle clearance.",
+    },
+    {
+      title: "Heavy-Duty Load Handling",
+      text: "Available in several configurations with standard load capacities from 4T to 16T.",
+    },
+    {
+      title: "PU Wheel System",
+      text: "Equipped with 80×70 mm polyurethane wheels for smooth movement and reduced floor damage.",
+    },
+    {
+      title: "Stable Industrial Construction",
+      text: "Built for controlled movement and positioning of heavy machinery in demanding industrial environments.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, workshops, equipment relocation and heavy machinery positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Maximum Load",
+    "Standard Load",
+    "Obstacle Clearance",
+    "Product Weight",
+    "Number of Wheels",
+    "Wheel Material & Size",
+  ],
+
+  rows: [
+    [
+      "CRF-4",
+      "410×285×120 mm",
+      "9T",
+      "4T",
+      "20 mm",
+      "28 kg",
+      "4",
+      "PU wheel 80×70 mm",
+    ],
+    [
+      "CRF-6",
+      "410×395×120 mm",
+      "8T",
+      "6T",
+      "20 mm",
+      "35 kg",
+      "6",
+      "PU wheel 80×70 mm",
+    ],
+    [
+      "CRF-8",
+      "650×285×120 mm",
+      "12T",
+      "8T",
+      "20 mm",
+      "52 kg",
+      "8",
+      "PU wheel 80×70 mm",
+    ],
+    [
+      "CRF-12",
+      "650×410×125 mm",
+      "18T",
+      "12T",
+      "20 mm",
+      "73 kg",
+      "12",
+      "PU wheel 80×70 mm",
+    ],
+    [
+      "CRF-16",
+      "650×530×125 mm",
+      "24T",
+      "16T",
+      "20 mm",
+      "95 kg",
+      "16",
+      "PU wheel 80×70 mm",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Obstacle Clearance",
+      value: "20 mm",
+    },
+    {
+      label: "Wheel Material",
+      value: "Polyurethane (PU)",
+    },
+    {
+      label: "Wheel Size",
+      value: "80×70 mm",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery transport and obstacle crossing",
+    },
+  ],
+},
     description:
       "Manual heavy-duty machinery skates designed for controlled movement and positioning of industrial equipment, featuring a 360° rotating turntable, reinforced steel construction and optional alloy steel or polyurethane wheels.",
 
-    loadCapacity: "Heavy-Duty",
+    loadCapacity: "4T–16T",
     driveType: "Manual",
 
     gallery: [
@@ -2735,11 +3746,106 @@ specTable: {
     },
     name: "CRW Series Hydraulic Moving Skates",
     shortName: "CRW Series",
+options: {
+  defaultCapacity: "CRW-3",
 
+  capacities: [
+    {
+      value: "CRW-3",
+      label: "CRW-3",
+      description: "3T rated load capacity",
+      tooltip: "Rated Load: 3T | Lifting Height: 30mm",
+    },
+    {
+      value: "CRW-5",
+      label: "CRW-5",
+      description: "5T rated load capacity",
+      tooltip: "Rated Load: 5T | Lifting Height: 30mm",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Hydraulic Lifting Function",
+      text: "Designed with a hydraulic lifting system that allows controlled raising and lowering of heavy industrial equipment.",
+    },
+    {
+      title: "Omnidirectional Movement",
+      text: "The wheel arrangement allows flexible movement and precise positioning in multiple directions.",
+    },
+    {
+      title: "Compact Heavy-Duty Design",
+      text: "A compact industrial structure designed for machinery relocation and positioning in confined work areas.",
+    },
+    {
+      title: "PU Wheel System",
+      text: "Equipped with polyurethane wheels for smooth movement and reduced floor damage.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, workshops, machinery installation, relocation and heavy equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Rated Load Capacity",
+    "Lifting Height",
+    "Tube Length",
+    "Weight",
+    "Wheel Material",
+  ],
+
+  rows: [
+    [
+      "CRW-3",
+      "480×500×125 mm",
+      "3T",
+      "30 mm",
+      "1500 mm",
+      "42 kg",
+      "PU wheel",
+    ],
+    [
+      "CRW-5",
+      "580×570×125 mm",
+      "5T",
+      "30 mm",
+      "1500 mm",
+      "46 kg",
+      "PU wheel",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual / Hydraulic",
+    },
+    {
+      label: "Movement Type",
+      value: "Omnidirectional",
+    },
+    {
+      label: "Lifting Height",
+      value: "30 mm",
+    },
+    {
+      label: "Wheel Material",
+      value: "Polyurethane (PU)",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery lifting, movement and positioning",
+    },
+  ],
+},
     description:
       "Manual hydraulic lifting machinery skates designed for controlled movement, lifting and precise positioning of heavy industrial equipment. The omnidirectional wheel system provides flexible steering while the hydraulic unit allows controlled lifting and lowering.",
 
-    loadCapacity: "Heavy-Duty",
+    loadCapacity: "3T–5T",
     driveType: "Manual / Hydraulic",
 
     gallery: [
