@@ -648,148 +648,144 @@ export default async function Home() {
 </section>
 
       {/* FOOTER */}
-      <footer className="bg-zinc-950 text-zinc-400">
-        <div className="mx-auto max-w-7xl px-6 py-14">
-          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-            {/* COMPANY */}
-            <div>
-              <a href="/">
-                <Image
-                  src="/jin-yang-hu-logo.png"
-                  alt="JIN YANG HU"
-                  width={180}
-                  height={70}
-                  className="h-auto w-[170px] brightness-0 invert"
-                />
-              </a>
+      <footer className="border-t-4 border-orange-500 bg-zinc-950 text-white">
+  <div className="mx-auto max-w-7xl px-6 py-16">
+    <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 
-              <p className="mt-4 max-w-sm text-sm leading-6 text-zinc-400">
-                {t("footer.companyDescription")}
-              </p>
-            </div>
+      {/* BRAND */}
+      <div>
+        <h3 className="text-2xl font-black italic tracking-tight">
+          JIN YANG HU
+        </h3>
 
-            {/* QUICK LINKS */}
-            <div>
-              <h3 className="text-base font-bold text-white">
-                {t("footer.quickLinks")}
-              </h3>
+        <p className="mt-6 max-w-sm text-sm leading-7 text-zinc-400">
+          Professional industrial lifting, moving and material handling
+          equipment for factories, distributors and business partners.
+        </p>
+      </div>
 
-              <div className="mt-4 flex flex-col gap-3 text-sm">
-                <a
-                  href="/"
-                  className="transition hover:text-orange-500"
-                >
-                  {t("footer.home")}
-                </a>
+      {/* QUICK LINKS */}
+      <div>
+        <h4 className="text-base font-bold text-white">
+          Quick Links
+        </h4>
 
-                <a
-                  href="/#about"
-                  className="transition hover:text-orange-500"
-                >
-                  {t("footer.aboutUs")}
-                </a>
+        <div className="mt-6 flex flex-col gap-4 text-sm text-zinc-400">
+          <a href="#home" className="transition hover:text-orange-500">
+            Home
+          </a>
 
-                <a
-                  href="/#contact"
-                  className="transition hover:text-orange-500"
-                >
-                  {t("footer.contact")}
-                </a>
-              </div>
-            </div>
+          <a href="#about" className="transition hover:text-orange-500">
+            About Us
+          </a>
 
-            {/* FEATURED PRODUCT */}
-            <div>
-              <h3 className="text-base font-bold text-white">
-                {t("footer.featuredProducts")}
-              </h3>
+          <a href="#contact" className="transition hover:text-orange-500">
+            Contact
+          </a>
 
-              <div className="mt-4 flex flex-col gap-3 text-sm">
-                <a
-                  href="/products/electric-heavy-duty-movers/ja-series-electric-tank-transporters"
-                  className="transition hover:text-orange-500"
-                >
-                  {t("footer.jaSeries")}
-                </a>
+          <a href="/en/products" className="transition hover:text-orange-500">
+            Products
+          </a>
+        </div>
+      </div>
 
-                <a
-                  href="/products/electric-heavy-duty-movers/ja-b-series-electric-tank-transporters"
-                  className="transition hover:text-orange-500"
-                >
-                  {t("footer.jaBSeries")}
-                </a>
+      {/* FEATURED PRODUCTS */}
+      <div>
+        <h4 className="text-base font-bold text-white">
+          Featured Products
+        </h4>
 
-                <a
-                  href="/products/electric-heavy-duty-movers/js-series-electric-tank-transporters"
-                  className="transition hover:text-orange-500"
-                >
-                  {t("footer.jsSeries")}
-                </a>
-              </div>
-            </div>
+        <div className="mt-6 flex flex-col gap-4 text-sm text-zinc-400">
+          <a
+            href="/en/products/electric-heavy-duty-load-skates/ja-series-electric-tank-transporters"
+            className="transition hover:text-orange-500"
+          >
+            JA Series
+          </a>
 
-            {/* CONTACT */}
-            <div>
-              <h3 className="text-base font-bold text-white">
-                {t("footer.contact")}
-              </h3>
+          <a
+            href="/en/products/electric-heavy-duty-load-skates/ja-b-series-electric-tank-transporters"
+            className="transition hover:text-orange-500"
+          >
+            JA-B Series
+          </a>
 
-              <div className="mt-4 space-y-4 text-sm">
-                <div className="flex items-center gap-3">
-                  <Icon
-                    icon="mdi:email-outline"
-                    className="text-xl text-orange-500"
-                  />
+          <a
+            href="/en/products/electric-heavy-duty-load-skates/js-series-electric-tank-transporters"
+            className="transition hover:text-orange-500"
+          >
+            JS Series
+          </a>
 
-                  <span>sales@jinyanghu.com</span>
-                </div>
+          <a
+            href="/en/products/equipment-jacks/ma-series-dual-purpose-claw-jacks"
+            className="transition hover:text-orange-500"
+          >
+            MA Series
+          </a>
+        </div>
+      </div>
 
-                <div className="flex items-center gap-3">
-                  <Icon
-                    icon="mdi:phone-outline"
-                    className="text-xl text-orange-500"
-                  />
+      {/* CONTACT */}
+      <div id="contact">
+        <h4 className="text-base font-bold text-white">
+          Contact
+        </h4>
 
-                  <span>+86 XXX XXXX XXXX</span>
-                </div>
+        <div className="mt-6 space-y-5 text-sm text-zinc-400">
 
-                <div className="flex items-start gap-3">
-                  <Icon
-                    icon="mdi:map-marker-outline"
-                    className="mt-0.5 text-xl text-orange-500"
-                  />
+          <a
+            href="mailto:genefen@jcsqz.com"
+            className="flex items-center gap-3 transition hover:text-orange-500"
+          >
+            <span className="text-lg text-orange-500">✉</span>
+            genefen@jcsqz.com
+          </a>
 
-                  <span>China</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <a
+            href="tel:+8613100006833"
+            className="flex items-center gap-3 transition hover:text-orange-500"
+          >
+            <span className="text-lg text-orange-500">☎</span>
+            +86 131 0000 6833
+          </a>
 
-          <div className="mt-10 border-t border-zinc-800 pt-6">
-            <div className="flex flex-col gap-3 text-sm md:flex-row md:items-center md:justify-between">
-              <div>
-                © {t("footer.copyright")}
-              </div>
+          <a
+            href="https://wa.me/8613100006833"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 transition hover:text-orange-500"
+          >
+            <span className="text-lg text-orange-500">◉</span>
+            WhatsApp
+          </a>
 
-              <div className="flex gap-5">
-                <a
-                  href="#"
-                  className="transition hover:text-orange-500"
-                >
-                  {t("footer.privacyPolicy")}
-                </a>
-
-                <a
-                  href="#"
-                  className="transition hover:text-orange-500"
-                >
-                  {t("footer.terms")}
-                </a>
-              </div>
-            </div>
+          <div className="flex items-center gap-3">
+            <span className="text-lg text-orange-500">⌖</span>
+            China
           </div>
         </div>
-      </footer>
+      </div>
+    </div>
+
+    {/* BOTTOM */}
+    <div className="mt-14 flex flex-col gap-5 border-t border-zinc-800 pt-8 text-sm text-zinc-500 md:flex-row md:items-center md:justify-between">
+      <p>
+        © 2026 JIN YANG HU. All rights reserved.
+      </p>
+
+      <div className="flex gap-6">
+        <a href="#" className="transition hover:text-orange-500">
+          Privacy Policy
+        </a>
+
+        <a href="#" className="transition hover:text-orange-500">
+          Terms
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
     </main>
   );
 }
