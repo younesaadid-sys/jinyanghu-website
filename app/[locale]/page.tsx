@@ -194,9 +194,9 @@ export default async function Home() {
 
       {/* ABOUT */}
       <section id="about" className="bg-zinc-100">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-[1.25fr_1fr] lg:items-center">
+        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-2 lg:items-center">
           {/* COMPANY / FACTORY VIDEO */}
-<div className="relative h-[320px] w-full overflow-hidden rounded-2xl bg-black sm:h-[420px] lg:h-[620px]">
+<div className="relative aspect-video w-full overflow-hidden rounded-2xl bg-black">
   <video
     className="absolute inset-0 h-full w-full object-cover"
     src="/videos/company-factory.mp4"
