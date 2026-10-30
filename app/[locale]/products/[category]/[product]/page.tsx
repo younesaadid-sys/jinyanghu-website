@@ -4121,7 +4121,148 @@ specTable: {
     },
     name: "MA Series Dual-Purpose Claw Jacks",
     shortName: "MA Series",
+options: {
+  defaultCapacity: "MA-6",
 
+  capacities: [
+    {
+      value: "MA-6",
+      label: "MA-6",
+      description: "6T claw load",
+      tooltip: "Claw Load: 6T | Max Lifting Height: 157mm",
+    },
+    {
+      value: "MA-10",
+      label: "MA-10",
+      description: "10T claw load",
+      tooltip: "Claw Load: 10T | Max Lifting Height: 180mm",
+    },
+    {
+      value: "MA-15",
+      label: "MA-15",
+      description: "15T claw load",
+      tooltip: "Claw Load: 15T | Max Lifting Height: 205mm",
+    },
+    {
+      value: "MA-20",
+      label: "MA-20",
+      description: "20T claw load",
+      tooltip: "Claw Load: 20T | Max Lifting Height: 225mm",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Dual-Purpose Lifting",
+      text: "Designed for both low-position claw lifting and top lifting of heavy industrial machinery.",
+    },
+    {
+      title: "Multi-Stage Height Adjustment",
+      text: "Adjustable claw height allows the jack to work with machinery at different lifting positions.",
+    },
+    {
+      title: "Hydraulic Operation",
+      text: "Hydraulic lifting provides controlled and efficient raising of heavy equipment.",
+    },
+    {
+      title: "Mobile Industrial Design",
+      text: "Integrated wheels and compact construction make the jack easier to position around heavy machinery.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machinery installation, maintenance, relocation and heavy equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Claw Load",
+    "Base Size",
+    "Min. Claw Height",
+    "Max. Claw Height",
+    "Travel Distance",
+    "Claw Height Adjustment",
+    "Minimum Top Height",
+    "Effective Claw Length",
+    "Oil Storage",
+    "Self Weight",
+  ],
+
+  rows: [
+    [
+      "MA-6",
+      "6T",
+      "326×233 mm",
+      "12 mm",
+      "157 mm",
+      "140 mm",
+      "6×29",
+      "245 mm",
+      "50 mm",
+      "180 cm³",
+      "23 kg",
+    ],
+    [
+      "MA-10",
+      "10T",
+      "346×247 mm",
+      "15 mm",
+      "180 mm",
+      "150 mm",
+      "5×41",
+      "275 mm",
+      "55 mm",
+      "300 cm³",
+      "29 kg",
+    ],
+    [
+      "MA-15",
+      "15T",
+      "415×300 mm",
+      "20 mm",
+      "205 mm",
+      "175 mm",
+      "5×46",
+      "310 mm",
+      "66 mm",
+      "500 cm³",
+      "48 kg",
+    ],
+    [
+      "MA-20",
+      "20T",
+      "425×322 mm",
+      "20 mm",
+      "225 mm",
+      "190 mm",
+      "5×51",
+      "340 mm",
+      "66 mm",
+      "730 cm³",
+      "60 kg",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Hydraulic",
+    },
+    {
+      label: "Lifting Type",
+      value: "Claw Lifting + Top Lifting",
+    },
+    {
+      label: "Load Range",
+      value: "6T–20T",
+    },
+    {
+      label: "Application",
+      value: "Industrial machinery lifting, maintenance and positioning",
+    },
+  ],
+},
     description:
       "Heavy-duty hydraulic claw jack series designed for lifting, holding and positioning industrial machinery. The MA Series combines low-position claw lifting, top lifting, adjustable working height and mobile operation in one compact unit.",
 
@@ -4214,11 +4355,171 @@ features: [
   },
   name: "MB Series Multi-Stage Claw Jacks",
   shortName: "MB Series",
+options: {
+  defaultCapacity: "MB-10S",
 
+  capacities: [
+    {
+      value: "MB-10S",
+      label: "MB-10S",
+      description: "10T claw load capacity",
+      tooltip: "Claw Load: 10T | Max Claw Height: 286mm",
+    },
+    {
+      value: "MB-16S",
+      label: "MB-16S",
+      description: "16T claw load capacity",
+      tooltip: "Claw Load: 16T | Max Claw Height: 314mm",
+    },
+    {
+      value: "MB-20S",
+      label: "MB-20S",
+      description: "20T claw load capacity",
+      tooltip: "Claw Load: 20T | Max Claw Height: 338mm",
+    },
+    {
+      value: "MB-26S",
+      label: "MB-26S",
+      description: "26T claw load capacity",
+      tooltip: "Claw Load: 26T | Max Claw Height: 350mm",
+    },
+    {
+      value: "MB-35S",
+      label: "MB-35S",
+      description: "35T claw load capacity",
+      tooltip: "Claw Load: 35T | Max Claw Height: 254mm",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Multi-Stage Height Adjustment",
+      text: "Designed with multiple claw adjustment positions for flexible lifting at different equipment heights.",
+    },
+    {
+      title: "Heavy-Duty Load Support",
+      text: "Available in capacities from 10T to 35T for demanding industrial machinery lifting applications.",
+    },
+    {
+      title: "Stable Wide Base",
+      text: "The reinforced base provides stable support during lifting and positioning operations.",
+    },
+    {
+      title: "Manual Industrial Operation",
+      text: "Simple manual operation provides controlled lifting and support without requiring electric power.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machinery maintenance, installation, positioning and heavy equipment lifting.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Claw Load Capacity",
+    "Base Size",
+    "Minimum Claw Height",
+    "Maximum Claw Height",
+    "Stroke",
+    "Claw Adjustment Height",
+    "Maximum Top Height",
+    "Minimum Top Height",
+    "Oil Capacity",
+    "Weight",
+  ],
+
+  rows: [
+    [
+      "MB-10S",
+      "10T",
+      "205×200 mm",
+      "15 mm",
+      "286 mm",
+      "107 mm",
+      "45+41×4",
+      "373 mm",
+      "265 mm",
+      "210 cm³",
+      "20.5 kg",
+    ],
+    [
+      "MB-16S",
+      "16T",
+      "228×210 mm",
+      "20 mm",
+      "314 mm",
+      "110 mm",
+      "48+46×4",
+      "402 mm",
+      "292 mm",
+      "242 cm³",
+      "26.5 kg",
+    ],
+    [
+      "MB-20S",
+      "20T",
+      "250×245 mm",
+      "22 mm",
+      "338 mm",
+      "112 mm",
+      "52+51×4",
+      "432 mm",
+      "320 mm",
+      "316 cm³",
+      "38.5 kg",
+    ],
+    [
+      "MB-26S",
+      "26T",
+      "268×258 mm",
+      "23 mm",
+      "350 mm",
+      "115 mm",
+      "54+52×4",
+      "445 mm",
+      "330 mm",
+      "418 cm³",
+      "45.5 kg",
+    ],
+    [
+      "MB-35S",
+      "35T",
+      "295×288 mm",
+      "26 mm",
+      "254 mm",
+      "120 mm",
+      "5×57",
+      "362 mm",
+      "482 mm",
+      "",
+      "",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Jack Type",
+      value: "Multi-Stage Claw Jack",
+    },
+    {
+      label: "Load Range",
+      value: "10T–35T",
+    },
+    {
+      label: "Application",
+      value: "Industrial machinery lifting and positioning",
+    },
+  ],
+},
   description:
     "Heavy-duty multi-stage claw jacks designed for precise height adjustment, stable load support and industrial equipment lifting. The MB Series combines a reinforced steel body, adjustable lifting positions and a wide stable base for demanding machinery handling applications.",
 
-  loadCapacity: "Heavy-Duty",
+  loadCapacity: "10T–35T",
   driveType: "Manual",
 
   gallery: [
@@ -4308,7 +4609,125 @@ features: [
   },
   name: "MC Series Single-Stage Claw Jacks",
   shortName: "MC Series",
+options: {
+  defaultCapacity: "HMDF-05S",
 
+  capacities: [
+    {
+      value: "HMDF-05S",
+      label: "HMDF-05S",
+      description: "5T claw load",
+      tooltip: "Claw Load: 5T | Minimum Claw Height: 13mm",
+    },
+    {
+      value: "HMDF-10S",
+      label: "HMDF-10S",
+      description: "10T claw load",
+      tooltip: "Claw Load: 10T | Minimum Claw Height: 20mm",
+    },
+    {
+      value: "HMDF-16S",
+      label: "HMDF-16S",
+      description: "16T claw load",
+      tooltip: "Claw Load: 16T | Minimum Claw Height: 25mm",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Single-Stage Hydraulic Lifting",
+      text: "Designed for controlled vertical lifting and positioning of industrial machinery and heavy equipment.",
+    },
+    {
+      title: "Low Claw Starting Height",
+      text: "The low claw position allows the jack to work underneath machinery with limited ground clearance.",
+    },
+    {
+      title: "Multiple Load Capacities",
+      text: "Available in 5T, 10T and 16T claw-load configurations for different industrial lifting requirements.",
+    },
+    {
+      title: "Compact Heavy-Duty Construction",
+      text: "Compact construction and a stable base provide reliable support during industrial lifting operations.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machinery maintenance, installation, lifting and equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Claw Load",
+    "Base Size",
+    "Minimum Claw Height",
+    "Maximum Claw Height",
+    "Stroke",
+    "Minimum Top Height",
+    "Maximum Top Height",
+    "Oil Capacity",
+    "Weight",
+  ],
+
+  rows: [
+    [
+      "HMDF-05S",
+      "5T",
+      "145×145 mm",
+      "13 mm",
+      "245 mm",
+      "245 mm",
+      "350 mm",
+      "595 mm",
+      "60 ml",
+      "11 kg",
+    ],
+    [
+      "HMDF-10S",
+      "10T",
+      "200×200 mm",
+      "20 mm",
+      "260 mm",
+      "260 mm",
+      "370 mm",
+      "530 mm",
+      "120 ml",
+      "20 kg",
+    ],
+    [
+      "HMDF-16S",
+      "16T",
+      "220×218 mm",
+      "25 mm",
+      "200 mm",
+      "200 mm",
+      "328 mm",
+      "528 mm",
+      "250 ml",
+      "27.5 kg",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Hydraulic",
+    },
+    {
+      label: "Jack Type",
+      value: "Single-Stage Claw Jack",
+    },
+    {
+      label: "Load Range",
+      value: "5T–16T",
+    },
+    {
+      label: "Application",
+      value: "Industrial machinery lifting and positioning",
+    },
+  ],
+},
   description:
     "Single-stage high-stroke hydraulic claw jacks designed for vertical lifting, heavy equipment positioning and industrial maintenance. The MC Series combines high lifting stroke, stable load support and a compact reinforced structure for demanding industrial applications.",
 
@@ -4402,11 +4821,180 @@ features: [
   },
   name: "MD Series Manual Claw Jacks",
   shortName: "MD Series",
+options: {
+  defaultCapacity: "MD-2.5RS",
 
+  capacities: [
+    {
+      value: "MD-2.5RS",
+      label: "MD-2.5RS",
+      description: "2.5T claw load capacity",
+      tooltip: "Top Load: 5T | Claw Load: 2.5T",
+    },
+    {
+      value: "MD-5RS",
+      label: "MD-5RS",
+      description: "5T claw load capacity",
+      tooltip: "Top Load: 10T | Claw Load: 5T",
+    },
+    {
+      value: "MD-10RS",
+      label: "MD-10RS",
+      description: "10T claw load capacity",
+      tooltip: "Top Load: 20T | Claw Load: 10T",
+    },
+    {
+      value: "MD-15RS",
+      label: "MD-15RS",
+      description: "15T claw load capacity",
+      tooltip: "Top Load: 30T | Claw Load: 15T",
+    },
+    {
+      value: "MD-25RS",
+      label: "MD-25RS",
+      description: "25T claw load capacity",
+      tooltip: "Top Load: 50T | Claw Load: 25T",
+    },
+    {
+      value: "MD-50RS",
+      label: "MD-50RS",
+      description: "50T claw load capacity",
+      tooltip: "Top Load: 100T | Claw Load: 50T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Dual Lifting Positions",
+      text: "Designed for both top lifting and low-position claw lifting of heavy industrial machinery.",
+    },
+    {
+      title: "Heavy-Duty Load Capacity",
+      text: "Available in claw-load capacities from 2.5T to 50T, with top lifting capacities up to 100T.",
+    },
+    {
+      title: "Low Claw Position",
+      text: "The low claw height allows the jack to lift machinery with limited ground clearance.",
+    },
+    {
+      title: "Manual Hydraulic Operation",
+      text: "Manual hydraulic operation provides controlled lifting without requiring electrical power.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machinery installation, maintenance, heavy equipment lifting and industrial positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Lowest Claw Position",
+    "Claw Width",
+    "Claw Length",
+    "Lifting Height",
+    "Top Load",
+    "Claw Load",
+    "Weight",
+  ],
+
+  rows: [
+    [
+      "MD-2.5RS",
+      "210×40×232 mm",
+      "20 mm",
+      "65 mm",
+      "45 mm",
+      "115 mm",
+      "5T",
+      "2.5T",
+      "1.5 kg",
+    ],
+    [
+      "MD-5RS",
+      "260×200×283 mm",
+      "20 mm",
+      "100 mm",
+      "50 mm",
+      "148 mm",
+      "10T",
+      "5T",
+      "24.5 kg",
+    ],
+    [
+      "MD-10RS",
+      "295×220×322 mm",
+      "25 mm",
+      "115 mm",
+      "55 mm",
+      "158 mm",
+      "20T",
+      "10T",
+      "37 kg",
+    ],
+    [
+      "MD-15RS",
+      "305×255×350 mm",
+      "35 mm",
+      "130 mm",
+      "60 mm",
+      "158 mm",
+      "30T",
+      "15T",
+      "56 kg",
+    ],
+    [
+      "MD-25RS",
+      "340×285×350 mm",
+      "50 mm",
+      "130 mm",
+      "65 mm",
+      "158 mm",
+      "50T",
+      "25T",
+      "76 kg",
+    ],
+    [
+      "MD-50RS",
+      "570×440×430 mm",
+      "50 mm",
+      "220 mm",
+      "80 mm",
+      "158 mm",
+      "100T",
+      "50T",
+      "189 kg",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual / Hydraulic",
+    },
+    {
+      label: "Lifting Type",
+      value: "Top Lifting + Claw Lifting",
+    },
+    {
+      label: "Claw Load Range",
+      value: "2.5T–50T",
+    },
+    {
+      label: "Top Load Range",
+      value: "5T–100T",
+    },
+    {
+      label: "Application",
+      value: "Industrial machinery lifting and positioning",
+    },
+  ],
+},
   description:
     "Manual hydraulic claw jacks designed for heavy-duty industrial lifting, equipment positioning and maintenance. The MD Series combines a reinforced housing, stable load-bearing base, durable hydraulic reservoir and protected sealing system for reliable operation in demanding environments.",
 
-  loadCapacity: "Heavy-Duty",
+  loadCapacity: "2.5T–50T",
   driveType: "Manual / Hydraulic",
 
   gallery: [
@@ -4493,11 +5081,115 @@ features: [
   },
   name: "ME Series Remote-Operated Claw Jacks",
   shortName: "ME Series",
+options: {
+  defaultCapacity: "ME-40RS",
 
+  capacities: [
+    {
+      value: "ME-40RS",
+      label: "ME-40RS",
+      description: "40T claw load / 80T top load",
+      tooltip: "Claw Load: 40T | Top Load: 80T",
+    },
+    {
+      value: "ME-50RS",
+      label: "ME-50RS",
+      description: "50T claw load / 100T top load",
+      tooltip: "Claw Load: 50T | Top Load: 100T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Remote Electric Hydraulic Operation",
+      text: "Designed for efficient remote-operated hydraulic lifting of heavy industrial machinery and equipment.",
+    },
+    {
+      title: "Dual Lifting Positions",
+      text: "Supports both top lifting and claw lifting for different heavy-duty lifting requirements.",
+    },
+    {
+      title: "Low Claw Position",
+      text: "A 50 mm lowest claw position allows lifting of machinery with limited floor clearance.",
+    },
+    {
+      title: "Heavy-Duty Load Capacity",
+      text: "Available with claw lifting capacities up to 50T and top lifting capacities up to 100T.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, machinery installation, maintenance, relocation and heavy equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Dimensions (L × W × H)",
+    "Lowest Claw Position",
+    "Claw Width",
+    "Claw Length",
+    "Lift",
+    "Top Load",
+    "Claw Load",
+    "Weight",
+    "Oil Pipe Length",
+  ],
+
+  rows: [
+    [
+      "ME-40RS",
+      "260×520×400 mm",
+      "50 mm",
+      "180 mm",
+      "80 mm",
+      "150 mm",
+      "80T",
+      "40T",
+      "165 kg",
+      "380 cm",
+    ],
+    [
+      "ME-50RS",
+      "300×660×400 mm",
+      "50 mm",
+      "180 mm",
+      "100 mm",
+      "150 mm",
+      "100T",
+      "50T",
+      "207 kg",
+      "380 cm",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Electric Hydraulic",
+    },
+    {
+      label: "Operation Type",
+      value: "Remote Operated",
+    },
+    {
+      label: "Claw Load Range",
+      value: "40T–50T",
+    },
+    {
+      label: "Top Load Range",
+      value: "80T–100T",
+    },
+    {
+      label: "Application",
+      value: "Heavy machinery lifting and industrial positioning",
+    },
+  ],
+},
   description:
     "Remote-operated hydraulic claw jack series designed for efficient heavy-duty lifting, machine moving and equipment positioning. The ME Series combines an electric hydraulic power unit with a compact claw jack structure for fast, stable and labor-saving industrial operation.",
 
-  loadCapacity: "Heavy-Duty",
+  loadCapacity: "40T–50T Claw / 80T–100T Top",
   driveType: "Electric Hydraulic",
 
   gallery: [
@@ -4584,11 +5276,103 @@ features: [
   },
   name: "MF Series Hydraulic Lifters",
   shortName: "MF Series",
+options: {
+  defaultCapacity: "MF-16",
 
+  capacities: [
+    {
+      value: "MF-16",
+      label: "MF-16",
+      description: "16T lifting capacity",
+      tooltip: "Tonnage: 16T | Max Lift Height: 67.5mm",
+    },
+    {
+      value: "MF-18",
+      label: "MF-18",
+      description: "18T lifting capacity",
+      tooltip: "Tonnage: 18T | Max Lift Height: 67.5mm",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Compact Hydraulic Lifter",
+      text: "Designed for heavy-duty lifting and industrial positioning in a compact portable format.",
+    },
+    {
+      title: "High Load Capacity",
+      text: "Available in 16T and 18T configurations for demanding industrial lifting applications.",
+    },
+    {
+      title: "Low Minimum Clearance",
+      text: "A 10 mm minimum clearance allows the lifter to work underneath equipment with limited floor clearance.",
+    },
+    {
+      title: "Hydraulic Manual Operation",
+      text: "Manual hydraulic operation provides controlled lifting without requiring electrical power.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machinery lifting, maintenance, installation and heavy equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Tonnage",
+    "Minimum Clearance",
+    "Maximum Lift Height",
+    "Hydraulic Oil Capacity",
+    "Weight",
+  ],
+
+  rows: [
+    [
+      "MF-16",
+      "16T",
+      "10 mm",
+      "67.5 mm",
+      "78 cm³",
+      "9 kg",
+    ],
+    [
+      "MF-18",
+      "18T",
+      "10 mm",
+      "67.5 mm",
+      "/",
+      "12 kg",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Hydraulic Manual",
+    },
+    {
+      label: "Load Range",
+      value: "16T–18T",
+    },
+    {
+      label: "Minimum Clearance",
+      value: "10 mm",
+    },
+    {
+      label: "Maximum Lift Height",
+      value: "67.5 mm",
+    },
+    {
+      label: "Application",
+      value: "Industrial lifting and heavy equipment positioning",
+    },
+  ],
+},
   description:
     "Compact hydraulic lifter series designed for powerful lifting, load handling and industrial positioning tasks. The MF Series combines strong hydraulic force, portable operation and a durable structure for safe and efficient use in industrial environments.",
 
-  loadCapacity: "Heavy-Duty",
+  loadCapacity: "16T–18T",
   driveType: "Hydraulic Manual",
 
   gallery: [
@@ -4675,7 +5459,113 @@ features: [
   },
   name: "MG Series Wedge Jacks",
   shortName: "MG Series",
+options: {
+  defaultCapacity: "MG-30",
 
+  capacities: [
+    {
+      value: "MG-30",
+      label: "MG-30",
+      description: "30T lifting capacity",
+      tooltip: "Tonnage: 30T | Min. Clearance: 6mm",
+    },
+    {
+      value: "MG-40",
+      label: "MG-40",
+      description: "40T lifting capacity",
+      tooltip: "Tonnage: 40T | Min. Clearance: 6mm",
+    },
+    {
+      value: "MG-50",
+      label: "MG-50",
+      description: "50T lifting capacity",
+      tooltip: "Tonnage: 50T | Min. Clearance: 10mm",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Low-Profile Wedge Design",
+      text: "Designed for lifting and positioning heavy equipment in narrow spaces with very low ground clearance.",
+    },
+    {
+      title: "Heavy-Duty Hydraulic Lifting",
+      text: "Available in 30T, 40T and 50T configurations for demanding industrial lifting applications.",
+    },
+    {
+      title: "150 mm Shift Stroke",
+      text: "All models provide a 150 mm shift stroke for controlled horizontal movement and positioning.",
+    },
+    {
+      title: "Compact Industrial Structure",
+      text: "The compact wedge structure is suitable for machinery installation, leveling and maintenance work.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for heavy equipment positioning, machine leveling, rail maintenance and industrial installation tasks.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Tonnage",
+    "Minimum Clearance",
+    "Maximum Lift Height",
+    "Shift Stroke",
+    "Weight",
+  ],
+
+  rows: [
+    [
+      "MG-30",
+      "30T",
+      "6 mm",
+      "34 mm",
+      "150 mm",
+      "13 kg",
+    ],
+    [
+      "MG-40",
+      "40T",
+      "6 mm",
+      "34 mm",
+      "150 mm",
+      "16.55 kg",
+    ],
+    [
+      "MG-50",
+      "50T",
+      "10 mm",
+      "40 mm",
+      "150 mm",
+      "21.55 kg",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Hydraulic",
+    },
+    {
+      label: "Jack Type",
+      value: "Low-Profile Wedge Jack",
+    },
+    {
+      label: "Load Range",
+      value: "30T–50T",
+    },
+    {
+      label: "Shift Stroke",
+      value: "150 mm",
+    },
+    {
+      label: "Application",
+      value: "Heavy equipment lifting, leveling and positioning",
+    },
+  ],
+},
   description:
     "Low-profile hydraulic wedge jacks designed for precise lifting, pushing and positioning of heavy equipment in narrow spaces. The MG Series is ideal for industrial installation, machine leveling, rail maintenance and heavy-duty horizontal pushing applications.",
 
@@ -4766,11 +5656,109 @@ features: [
   },
   name: "MH Series Remote-Operated Jacks",
   shortName: "MH Series",
+options: {
+  defaultCapacity: "MH-101",
 
+  capacities: [
+    { value: "MH-101", label: "MH-101", description: "10T load capacity", tooltip: "Load: 10T | Stroke: 38mm" },
+    { value: "MH-201", label: "MH-201", description: "20T load capacity", tooltip: "Load: 20T | Stroke: 45mm" },
+    { value: "MH-302", label: "MH-302", description: "30T load capacity", tooltip: "Load: 30T | Stroke: 62mm" },
+    { value: "MH-502", label: "MH-502", description: "50T load capacity", tooltip: "Load: 50T | Stroke: 60mm" },
+    { value: "MH-1002", label: "MH-1002", description: "100T load capacity", tooltip: "Load: 100T | Stroke: 57mm" },
+    { value: "MH-1502", label: "MH-1502", description: "150T load capacity", tooltip: "Load: 150T | Stroke: 51mm" },
+
+    { value: "MHS-100", label: "MHS-100", description: "10T load capacity", tooltip: "Load: 10T | Stroke: 12mm" },
+    { value: "MHS-200", label: "MHS-200", description: "20T load capacity", tooltip: "Load: 20T | Stroke: 11mm" },
+    { value: "MHS-300", label: "MHS-300", description: "30T load capacity", tooltip: "Load: 30T | Stroke: 13mm" },
+    { value: "MHS-500", label: "MHS-500", description: "50T load capacity", tooltip: "Load: 50T | Stroke: 16mm" },
+    { value: "MHS-750", label: "MHS-750", description: "75T load capacity", tooltip: "Load: 75T | Stroke: 16mm" },
+    { value: "MHS-1000", label: "MHS-1000", description: "100T load capacity", tooltip: "Load: 100T | Stroke: 16mm" },
+    { value: "MHS-1500", label: "MHS-1500", description: "150T load capacity", tooltip: "Load: 150T | Stroke: 16mm" },
+    { value: "MHS-2000", label: "MHS-2000", description: "200T load capacity", tooltip: "Load: 200T | Stroke: 30mm" },
+
+    { value: "MHB-300", label: "MHB-300", description: "30T load capacity", tooltip: "Load: 30T | Stroke: 53.5mm" },
+    { value: "MHB-500", label: "MHB-500", description: "50T load capacity", tooltip: "Load: 50T | Stroke: 62mm" },
+  ],
+
+  aboutItems: [
+    {
+      title: "High-Capacity Hydraulic Lifting",
+      text: "Available in multiple configurations from 10T up to 200T for demanding industrial lifting applications.",
+    },
+    {
+      title: "Compact Low-Profile Design",
+      text: "Compact hydraulic cylinder construction allows operation in restricted industrial working spaces.",
+    },
+    {
+      title: "Multiple Series Options",
+      text: "MH, MHS and MHB configurations are available for different stroke, height and installation requirements.",
+    },
+    {
+      title: "Heavy-Duty Construction",
+      text: "Designed for reliable lifting and support of industrial machinery, steel structures and heavy equipment.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machinery installation, factory maintenance, steel structure support, shipbuilding and heavy equipment lifting.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Load",
+    "Stroke",
+    "Body Height",
+    "Cylinder Outer",
+    "Hydraulic Oil Capacity",
+    "Piston Diameter",
+    "Weight",
+  ],
+
+  rows: [
+    ["MH-101", "10T", "38 mm", "88 mm", "69 mm", "55 cc", "38.1 mm", "4.1 kg"],
+    ["MH-201", "20T", "45 mm", "98 mm", "92 mm", "129 cc", "50.8 mm", "5 kg"],
+    ["MH-302", "30T", "62 mm", "117 mm", "101 mm", "261 cc", "66.5 mm", "6.8 kg"],
+    ["MH-502", "50T", "60 mm", "122 mm", "124 mm", "373 cc", "69.8 mm", "10.9 kg"],
+    ["MH-1002", "100T", "57 mm", "141 mm", "165 mm", "722 cc", "92.2 mm", "22.7 kg"],
+    ["MH-1502", "150T", "51 mm", "162 mm", "205 mm", "900 cc", "114 mm", "38 kg"],
+
+    ["MHS-100", "10T", "12 mm", "42 mm", "82×55 mm", "18 cc", "38.1 mm", "1.4 kg"],
+    ["MHS-200", "20T", "11 mm", "51 mm", "107×76 mm", "32 cc", "50.8 mm", "3.1 kg"],
+    ["MHS-300", "30T", "13 mm", "58 mm", "117×95 mm", "55 cc", "63.4 mm", "4.5 kg"],
+    ["MHS-500", "50T", "16 mm", "66 mm", "140×114 mm", "99 cc", "69.8 mm", "6.8 kg"],
+    ["MHS-750", "75T", "16 mm", "79 mm", "165×139 mm", "164 cc", "82.6 mm", "11.3 kg"],
+    ["MHS-1000", "100T", "16 mm", "85 mm", "178×153 mm", "203 cc", "92.2 mm", "14.5 kg"],
+    ["MHS-1500", "150T", "16 mm", "100 mm", "215×190 mm", "317 cc", "114.3 mm", "26.3 kg"],
+    ["MHS-2000", "200T", "30 mm", "127 mm", "280×245 mm", "900 cc", "150.6 mm", "51.2 kg"],
+
+    ["MHB-300", "30T", "53.5 mm", "60 mm", "117×95 mm", "58 cc", "65 mm", "4.5 kg"],
+    ["MHB-500", "50T", "62 mm", "68 mm", "140×114 mm", "113 cc", "75 mm", "7 kg"],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Hydraulic",
+    },
+    {
+      label: "Series",
+      value: "MH / MHS / MHB",
+    },
+    {
+      label: "Load Range",
+      value: "10T–200T",
+    },
+    {
+      label: "Application",
+      value: "Industrial lifting, machinery installation and heavy equipment support",
+    },
+  ],
+},
   description:
     "The MH Series remote-operated jacks are compact hydraulic lifting solutions designed for industrial lifting, machine tool installation, steel structure support, shipbuilding, and factory equipment maintenance. They offer high-capacity lifting, reliable performance, and controlled operation in confined working spaces.",
 
-  loadCapacity: "10T–100T",
+  loadCapacity: "10T–200T",
   driveType: "Remote-Operated Hydraulic",
 
   gallery: [
@@ -4860,11 +5848,285 @@ features: [
   },
   name: "MI Series Hand-Operated Toe Jacks",
   shortName: "MI Series",
+options: {
+  defaultCapacity: "MI-1.5",
 
+  capacities: [
+    {
+      value: "MI-1.5",
+      label: "MI-1.5",
+      description: "1.5T rated capacity",
+      tooltip: "Top: 1.5T | Side: 1.5T",
+    },
+    {
+      value: "MI-3.0",
+      label: "MI-3.0",
+      description: "3T rated capacity",
+      tooltip: "Top: 3T | Side: 3T",
+    },
+    {
+      value: "MI-5.0",
+      label: "MI-5.0",
+      description: "5T rated capacity",
+      tooltip: "Top: 5T | Side: 5T",
+    },
+    {
+      value: "MI-10",
+      label: "MI-10",
+      description: "10T rated capacity",
+      tooltip: "Top: 10T | Side: 10T",
+    },
+    {
+      value: "MI-16",
+      label: "MI-16",
+      description: "16T top rated capacity",
+      tooltip: "Top: 16T | Side: 10T",
+    },
+    {
+      value: "MI-20",
+      label: "MI-20",
+      description: "20T top rated capacity",
+      tooltip: "Top: 20T | Side: 11.2T",
+    },
+    {
+      value: "MI-25",
+      label: "MI-25",
+      description: "25T rated capacity",
+      tooltip: "Top: 25T | Side: 25T",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Hand-Operated Mechanical Lifting",
+      text: "Designed for manual lifting, positioning and supporting of industrial machinery without electrical or hydraulic power.",
+    },
+    {
+      title: "Top and Side Lifting",
+      text: "Supports both top lifting and side lifting for different machinery installation and positioning requirements.",
+    },
+    {
+      title: "Self-Locking Ratchet Mechanism",
+      text: "The self-locking ratchet mechanism helps provide controlled and secure lifting during operation.",
+    },
+    {
+      title: "Foldable Operating Handle",
+      text: "A foldable operating handle improves portability and allows easier use in industrial work areas.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for machinery installation, maintenance, equipment positioning and heavy-load support.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Top Rated Capacity",
+    "Side Rated Capacity",
+    "Top Test Load",
+    "Side Test Load",
+    "Handle Stroke",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "K",
+    "R",
+    "S",
+    "T",
+    "Net Weight",
+    "Measurements",
+  ],
+
+  rows: [
+    [
+      "MI-1.5",
+      "1.5T",
+      "1.5T",
+      "18.4 kN",
+      "18.4 kN",
+      "150",
+      "81 mm",
+      "100 mm",
+      "600–520 mm",
+      "60–380 mm",
+      "55 mm",
+      "46 mm",
+      "110 mm",
+      "225 mm",
+      "163 mm",
+      "119 mm",
+      "175 mm",
+      "113 mm",
+      "13.5 kg",
+      "62×18×19",
+    ],
+    [
+      "MI-3.0",
+      "3T",
+      "3T",
+      "36.8 kN",
+      "36.8 kN",
+      "280",
+      "83 mm",
+      "130 mm",
+      "730–1090 mm",
+      "70–430 mm",
+      "60 mm",
+      "45 mm",
+      "140 mm",
+      "250 mm",
+      "197 mm",
+      "140 mm",
+      "235 mm",
+      "127 mm",
+      "21 kg",
+      "75×19×22",
+    ],
+    [
+      "MI-5.0",
+      "5T",
+      "5T",
+      "61.3 kN",
+      "61.3 kN",
+      "223",
+      "108 mm",
+      "140 mm",
+      "730–1075 mm",
+      "80–425 mm",
+      "71 mm",
+      "68 mm",
+      "170 mm",
+      "250 mm",
+      "189 mm",
+      "155 mm",
+      "217 mm",
+      "127 mm",
+      "28 kg",
+      "75×21×25",
+    ],
+    [
+      "MI-10",
+      "10T",
+      "10T",
+      "122.5 kN",
+      "122.5 kN",
+      "336",
+      "124 mm",
+      "140 mm",
+      "800–1210 mm",
+      "85–495 mm",
+      "86 mm",
+      "76 mm",
+      "170 mm",
+      "300 mm",
+      "250 mm",
+      "185 mm",
+      "187 mm",
+      "248 mm",
+      "46.8 kg",
+      "82×27×31",
+    ],
+    [
+      "MI-16",
+      "16T",
+      "10T",
+      "196 kN",
+      "198 kN",
+      "562",
+      "135 mm",
+      "150 mm",
+      "800–1210 mm",
+      "95–415 mm",
+      "78 mm",
+      "85 mm",
+      "180 mm",
+      "300 mm",
+      "275 mm",
+      "210 mm",
+      "210 mm",
+      "250 mm",
+      "65 kg",
+      "85×29×35",
+    ],
+    [
+      "MI-20",
+      "20T",
+      "11.2T",
+      "245 kN",
+      "245 kN",
+      "640",
+      "135 mm",
+      "150 mm",
+      "860–1180 mm",
+      "100–420 mm",
+      "78 mm",
+      "85 mm",
+      "180 mm",
+      "380 mm",
+      "275 mm",
+      "220 mm",
+      "210 mm",
+      "250 mm",
+      "75 kg",
+      "90×38×30",
+    ],
+    [
+      "MI-25",
+      "25T",
+      "25T",
+      "306 kN",
+      "306 kN",
+      "750",
+      "153 mm",
+      "198 mm",
+      "950–1360 mm",
+      "110–520 mm",
+      "85 mm",
+      "90 mm",
+      "230 mm",
+      "360 mm",
+      "388 mm",
+      "200 mm",
+      "205 mm",
+      "250 mm",
+      "93 kg",
+      "",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Jack Type",
+      value: "Hand-Operated Toe Jack",
+    },
+    {
+      label: "Top Load Range",
+      value: "1.5T–25T",
+    },
+    {
+      label: "Operation",
+      value: "Self-Locking Ratchet Mechanism",
+    },
+    {
+      label: "Application",
+      value: "Industrial machinery lifting, positioning and support",
+    },
+  ],
+},
   description:
     "Heavy-duty manual toe jacks designed for lifting, positioning and supporting industrial machinery. The MI Series features a self-locking ratchet mechanism, thickened non-slip lifting hook and foldable operating handle for safe and controlled operation.",
 
-  loadCapacity: "Heavy-Duty",
+  loadCapacity: "1.5T–25T",
   driveType: "Manual",
 
   gallery: [
@@ -4954,11 +6216,187 @@ features: [
   },
   name: "MJ Series Low-Profile Hand-Operated Toe Jacks",
   shortName: "MJ Series",
+options: {
+  defaultCapacity: "MJ-1.5",
 
+  capacities: [
+    {
+      value: "MJ-1.5",
+      label: "MJ-1.5",
+      description: "1.5T rated capacity",
+      tooltip: "Rated Capacity: 1.5T | Stroke: 310mm",
+    },
+    {
+      value: "MJ-3.0",
+      label: "MJ-3.0",
+      description: "3T rated capacity",
+      tooltip: "Rated Capacity: 3T | Stroke: 360mm",
+    },
+    {
+      value: "MJ-5.0",
+      label: "MJ-5.0",
+      description: "5T rated capacity",
+      tooltip: "Rated Capacity: 5T | Stroke: 350mm",
+    },
+    {
+      value: "MJ-10",
+      label: "MJ-10",
+      description: "10T rated capacity",
+      tooltip: "Rated Capacity: 10T | Stroke: 410mm",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Low-Profile Toe Lifting",
+      text: "Designed for lifting machinery and industrial equipment from low clearance positions.",
+    },
+    {
+      title: "Hand-Operated Mechanism",
+      text: "Manual operation provides controlled lifting without requiring electric or hydraulic power units.",
+    },
+    {
+      title: "Multiple Load Capacities",
+      text: "Available in 1.5T, 3T, 5T and 10T configurations for different industrial lifting requirements.",
+    },
+    {
+      title: "Long Lifting Stroke",
+      text: "Provides substantial lifting travel for machinery installation, leveling and positioning operations.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, workshops, machinery installation, maintenance and equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Rated Capacity",
+    "Test Load",
+    "Operating Force",
+    "Stroke",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "K",
+    "R",
+    "T",
+    "Net Weight",
+    "Measurements",
+  ],
+
+  rows: [
+    [
+      "MJ-1.5",
+      "1.5T",
+      "18.75 kN",
+      "150 N",
+      "310 mm",
+      "90 mm",
+      "160 mm",
+      "600–910 mm",
+      "25–325 mm",
+      "60 mm",
+      "55 mm",
+      "140 mm",
+      "225 mm",
+      "163 mm",
+      "130 mm",
+      "120 mm",
+      "15.2 kg",
+      "62×18×20.5 cm",
+    ],
+    [
+      "MJ-3.0",
+      "3T",
+      "37.5 kN",
+      "280 N",
+      "360 mm",
+      "90 mm",
+      "170 mm",
+      "730–1090 mm",
+      "30–390 mm",
+      "60 mm",
+      "55 mm",
+      "150 mm",
+      "250 mm",
+      "197 mm",
+      "150 mm",
+      "130 mm",
+      "22.5 kg",
+      "76×20×24 cm",
+    ],
+    [
+      "MJ-5.0",
+      "5T",
+      "62.5 kN",
+      "223 N",
+      "350 mm",
+      "115 mm",
+      "200 mm",
+      "740–1090 mm",
+      "30–390 mm",
+      "65 mm",
+      "75 mm",
+      "170 mm",
+      "250 mm",
+      "189 mm",
+      "165 mm",
+      "130 mm",
+      "31.7 kg",
+      "79×22×28 cm",
+    ],
+    [
+      "MJ-10",
+      "10T",
+      "125 kN",
+      "336 N",
+      "410 mm",
+      "130 mm",
+      "220 mm",
+      "805–1215 mm",
+      "40–450 mm",
+      "90 mm",
+      "76 mm",
+      "170 mm",
+      "300 mm",
+      "250 mm",
+      "195 mm",
+      "248 mm",
+      "51.5 kg",
+      "85×29×34 cm",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Jack Type",
+      value: "Low-Profile Hand-Operated Toe Jack",
+    },
+    {
+      label: "Load Range",
+      value: "1.5T–10T",
+    },
+    {
+      label: "Application",
+      value: "Industrial machinery lifting, leveling and positioning",
+    },
+  ],
+},
   description:
     "Heavy-duty low-profile hand-operated toe jacks designed for lifting, leveling and positioning industrial machinery in confined spaces. The MJ Series combines a compact toe lifting structure, manual operation, reinforced steel construction and easy positioning.",
 
-  loadCapacity: "Heavy-Duty",
+  loadCapacity: "1.5T–10T",
   driveType: "Manual",
 
   gallery: [
@@ -5048,11 +6486,149 @@ features: [
   },
   name: "MK Series Multi-Position Adjustable Toe Jacks",
   shortName: "MK Series",
+options: {
+  defaultCapacity: "MK-1.5",
 
+  capacities: [
+    {
+      value: "MK-1.5",
+      label: "MK-1.5",
+      description: "1.5T rated capacity",
+      tooltip: "Rated Capacity: 1.5T | Lifting Height: 310mm",
+    },
+    {
+      value: "MK-3.0",
+      label: "MK-3.0",
+      description: "3T rated capacity",
+      tooltip: "Rated Capacity: 3T | Lifting Height: 350mm",
+    },
+    {
+      value: "MK-5.0",
+      label: "MK-5.0",
+      description: "5T rated capacity",
+      tooltip: "Rated Capacity: 5T | Lifting Height: 350mm",
+    },
+  ],
+
+  aboutItems: [
+    {
+      title: "Multi-Position Height Adjustment",
+      text: "Designed with multiple lifting positions for flexible height adjustment during industrial machinery lifting and positioning.",
+    },
+    {
+      title: "Manual Operation",
+      text: "Hand-operated lifting provides controlled movement without requiring electric or hydraulic power units.",
+    },
+    {
+      title: "Compact Toe Lifting Design",
+      text: "The compact toe structure allows lifting and support of machinery in confined industrial working areas.",
+    },
+    {
+      title: "Stable Heavy-Duty Construction",
+      text: "Built for reliable load support during machinery installation, maintenance and positioning operations.",
+    },
+    {
+      title: "Industrial Applications",
+      text: "Suitable for factories, workshops, railway maintenance, warehouses and industrial equipment positioning.",
+    },
+  ],
+},
+specTable: {
+  columns: [
+    "Model",
+    "Rated Capacity",
+    "Test Load",
+    "Side Test Load",
+    "Operating Force",
+    "Lifting Height",
+    "A",
+    "B",
+    "E",
+    "C",
+    "D",
+    "F",
+    "S",
+    "Net Weight",
+    "Measurements",
+  ],
+
+  rows: [
+    [
+      "MK-1.5",
+      "1.5T",
+      "18.75 kN",
+      "1.13 kN",
+      "150 N",
+      "310 mm",
+      "90 mm",
+      "55 mm",
+      "55 mm",
+      "100 mm",
+      "100 mm",
+      "60–370 mm",
+      "400 mm",
+      "23.4 kg",
+      "75×9×22 cm",
+    ],
+    [
+      "MK-3.0",
+      "3T",
+      "37.5 kN",
+      "2.25 kN",
+      "280 N",
+      "350 mm",
+      "90 mm",
+      "55 mm",
+      "65 mm",
+      "130 mm",
+      "130 mm",
+      "70–430 mm",
+      "500 mm",
+      "35.6 kg",
+      "75×21×25 cm",
+    ],
+    [
+      "MK-5.0",
+      "5T",
+      "62.5 kN",
+      "3.75 kN",
+      "223 N",
+      "350 mm",
+      "115 mm",
+      "75 mm",
+      "71 mm",
+      "140 mm",
+      "170 mm",
+      "70–420 mm",
+      "500 mm",
+      "61 kg",
+      "82×27×31 cm",
+    ],
+  ],
+
+  commonSpecs: [
+    {
+      label: "Drive Type",
+      value: "Manual",
+    },
+    {
+      label: "Jack Type",
+      value: "Multi-Position Adjustable Toe Jack",
+    },
+    {
+      label: "Load Range",
+      value: "1.5T–5T",
+    },
+    {
+      label: "Application",
+      value: "Industrial machinery lifting, support and positioning",
+    },
+  ],
+},
   description:
     "Heavy-duty multi-position adjustable manual toe jacks designed for flexible height lifting, stable support and equipment positioning. The MK Series features a multi-level column structure, manual operation, secure locking and durable construction for industrial, railway, warehouse and port applications.",
 
-  loadCapacity: "Heavy-Duty",
+  loadCapacity: "1.5T–5T",
   driveType: "Manual",
 
   gallery: [
