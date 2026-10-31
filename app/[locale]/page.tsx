@@ -788,13 +788,19 @@ export default async function Home() {
       </p>
 
       <div className="flex gap-6">
-        <a href="#" className="transition hover:text-orange-500">
-          Privacy Policy
-        </a>
+        <a
+  href="/en/privacy-policy"
+  className="transition hover:text-orange-500"
+>
+  Privacy Policy
+</a>
 
-        <a href="#" className="transition hover:text-orange-500">
-          Terms
-        </a>
+        <a
+  href="/en/terms"
+  className="transition hover:text-orange-500"
+>
+  Terms
+</a>
       </div>
     </div>
   </div>
