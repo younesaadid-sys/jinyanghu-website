@@ -40,12 +40,12 @@ const products: Record<
 > = {
   "agv-automated-guided-vehicle": [
   {
-    name: "AGV Electric Pallet Stacker",
-    slug: "agv-electric-pallet-stacker",
-    description:
-      "Automated guided pallet stacker designed for intelligent material transport, pallet handling and warehouse automation.",
-    image: "/products/agv/agv-electric-pallet-stacker.png",
-  },
+  name: "JDD10-12.5",
+  slug: "jdd10-12-5",
+  description:
+    "Automated guided vehicle designed for pallet transport, material handling and warehouse automation.",
+  image: "/products/agv/jdd10-12-5.png",
+},
 ],
   // =========================================================
   // ELECTRIC HEAVY-DUTY MOVERS
