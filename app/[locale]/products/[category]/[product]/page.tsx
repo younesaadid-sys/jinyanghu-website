@@ -7380,8 +7380,20 @@ loadCapacity: "Model Specific",
 driveType: "Electric / AGV",
 gallery: [
   {
-    src: "/products/agv-series/jdd10-12-5.png",
-    alt: "JDD10-12.5 Automated Guided Vehicle",
+    src: "/products/agv-series/jdd10-12-5-main.png",
+    alt: "JDD10-12.5 Automated Guided Vehicle main view",
+  },
+  {
+    src: "/products/agv-series/jdd10-12-5-side.png",
+    alt: "JDD10-12.5 Automated Guided Vehicle side view",
+  },
+  {
+    src: "/products/agv-series/jdd10-12-5-front-angle.png",
+    alt: "JDD10-12.5 Automated Guided Vehicle front angle view",
+  },
+  {
+    src: "/products/agv-series/jdd10-12-5-front.png",
+    alt: "JDD10-12.5 Automated Guided Vehicle front view",
   },
 ],
 advantages: [
