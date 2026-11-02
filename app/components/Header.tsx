@@ -38,6 +38,15 @@ const products: Record<
     image?: string;
   }[]
 > = {
+  "agv-automated-guided-vehicle": [
+  {
+    name: "AGV Electric Pallet Stacker",
+    slug: "agv-electric-pallet-stacker",
+    description:
+      "Automated guided pallet stacker designed for intelligent material transport, pallet handling and warehouse automation.",
+    image: "/products/agv/agv-electric-pallet-stacker.png",
+  },
+],
   // =========================================================
   // ELECTRIC HEAVY-DUTY MOVERS
   // =========================================================
@@ -237,10 +246,6 @@ const products: Record<
     },
   ],
   "heavy-duty-load-skates": [
-  // products هنا
-],
-
-"agv-automated-guided-vehicle": [
   // products هنا
 ],
 };
