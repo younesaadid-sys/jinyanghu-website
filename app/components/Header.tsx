@@ -44,7 +44,7 @@ const products: Record<
   slug: "jdd10-12-5",
   description:
     "Automated guided vehicle designed for pallet transport, material handling and warehouse automation.",
-  image: "/products/agv/jdd10-12-5.png",
+  image: "/products/agv-series/jdd10-12-5.png",
 },
 ],
   // =========================================================
