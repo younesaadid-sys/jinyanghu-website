@@ -7698,7 +7698,10 @@ const t = await getTranslations("home");
 
   <div className="mx-auto grid max-w-7xl gap-12 px-6 pb-16 pt-6 lg:grid-cols-2 lg:items-start">
           {/* LEFT */}
-          <ProductGallery images={currentProduct.gallery} />
+          <ProductGallery
+  images={currentProduct.gallery}
+  hideThumbnails={category === "agv-automated-guided-vehicle"}
+/>
 
           {/* RIGHT */}
           <div className="lg:pt-4">
