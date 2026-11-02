@@ -7374,55 +7374,53 @@ specTable: {
   shortName: "JDD10-12.5",
 
   description:
-    "Automated guided vehicle designed for pallet transport, material handling and warehouse automation.",
+  "Electric automated pallet handling vehicle designed for material transport, pallet movement and intralogistics applications in warehouses and industrial facilities.",
 
-  loadCapacity: "10T–12.5T",
-  driveType: "Electric / Automated",
-
-  gallery: [
-    {
-      src: "/products/agv-series/jdd10-12-5.png",
-      alt: "JDD10-12.5 Automated Guided Vehicle",
-    },
-  ],
-
-  advantages: [
-    "Automated pallet transport",
-    "Electric drive system",
-    "Warehouse automation ready",
-    "Heavy-duty industrial construction",
-  ],
+loadCapacity: "Model Specific",
+driveType: "Electric / AGV",
+gallery: [
+  {
+    src: "/products/agv-series/jdd10-12-5.png",
+    alt: "JDD10-12.5 Automated Guided Vehicle",
+  },
+],
+advantages: [
+  "Automated pallet handling",
+  "Electric drive and lifting system",
+  "Designed for warehouse intralogistics",
+  "Industrial pallet transport",
+],
 
   features: [
-    {
-      icon: "mdi:robot-industrial",
-      title: "Automated Operation",
-      text: "Designed for automated pallet transportation and intelligent material handling.",
-    },
-    {
-      icon: "mdi:pallet",
-      title: "Pallet Handling",
-      text: "Designed for pallet movement in warehouses, factories and production environments.",
-    },
-    {
-      icon: "mdi:battery-charging",
-      title: "Electric Drive System",
-      text: "Electric-powered drive system supports efficient and reliable material transport.",
-    },
-    {
-      icon: "mdi:warehouse",
-      title: "Warehouse Automation",
-      text: "Suitable for integration into automated warehouse and factory logistics operations.",
-    },
-  ],
+  {
+    icon: "mdi:robot-industrial",
+    title: "Automated Material Handling",
+    text: "Designed to support automated pallet movement and repetitive material transport operations.",
+  },
+  {
+    icon: "mdi:pallet",
+    title: "Pallet Handling",
+    text: "Fork-style handling system designed for pallet pickup, transport and positioning.",
+  },
+  {
+    icon: "mdi:battery-charging",
+    title: "Electric Operation",
+    text: "Electric drive and lifting functions provide efficient operation for indoor industrial material handling.",
+  },
+  {
+    icon: "mdi:warehouse",
+    title: "Warehouse Applications",
+    text: "Suitable for warehouse logistics, production material flow and industrial intralogistics applications.",
+  },
+],
 
   applications: [
-    "Warehouse pallet transport",
-    "Factory material handling",
-    "Production line logistics",
-    "Automated warehouse systems",
-    "Industrial pallet movement",
-  ],
+  "Warehouse pallet handling",
+  "Factory material transport",
+  "Production line logistics",
+  "Intralogistics operations",
+  "Pallet pickup and positioning",
+],
 },
 };
 
