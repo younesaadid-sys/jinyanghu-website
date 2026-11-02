@@ -46,6 +46,13 @@ const products: Record<
     "Automated guided vehicle designed for pallet transport, material handling and warehouse automation.",
   image: "/products/agv-series/jdd10-12-5.png",
 },
+{
+  name: "JQD20-25",
+  slug: "jqd20-25",
+  description:
+    "Electric automated guided forklift designed for pallet handling, warehouse transport and industrial material movement.",
+  image: "/products/agv-series/jqd20-25.png",
+},
 ],
   // =========================================================
   // ELECTRIC HEAVY-DUTY MOVERS

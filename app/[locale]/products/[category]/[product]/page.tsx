@@ -7434,6 +7434,61 @@ advantages: [
   "Pallet pickup and positioning",
 ],
 },
+"jqd20-25": {
+  name: "JQD20-25",
+  shortName: "JQD20-25",
+
+  description:
+    "Electric automated guided forklift designed for pallet handling, warehouse transport and industrial material movement.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jqd20-25.png",
+      alt: "JQD20-25 Automated Guided Forklift",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Designed for warehouse logistics",
+    "Industrial forklift-style construction",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Forklift-Style Handling",
+      text: "Designed with a forklift-style mast and fork system for pallet lifting and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated warehouse transport and repetitive material movement operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics operations.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated material movement",
+    "Pallet lifting and positioning",
+  ],
+},
 };
 
 
