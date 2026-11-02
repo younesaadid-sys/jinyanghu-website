@@ -3206,7 +3206,7 @@ features: [
   advantages: [
     "Automated pallet transport",
     "Electric drive system",
-    "Designed for warehouse automation",
+    "Warehouse automation ready",
     "Heavy-duty industrial construction",
   ],
 
@@ -3214,22 +3214,22 @@ features: [
     {
       icon: "mdi:robot-industrial",
       title: "Automated Operation",
-      text: "Designed for automated material transport and intelligent warehouse handling.",
+      text: "Designed for automated pallet transportation and intelligent material handling.",
     },
     {
       icon: "mdi:pallet",
       title: "Pallet Handling",
-      text: "Suitable for pallet transport and industrial material movement.",
+      text: "Designed for pallet movement in warehouses, factories and production environments.",
     },
     {
       icon: "mdi:battery-charging",
-      title: "Electric Drive",
-      text: "Electric-powered operation for efficient industrial transport.",
+      title: "Electric Drive System",
+      text: "Electric-powered drive system supports efficient and reliable material transport.",
     },
     {
       icon: "mdi:warehouse",
       title: "Warehouse Automation",
-      text: "Designed for factories, warehouses and automated material handling systems.",
+      text: "Suitable for integration into automated warehouse and factory logistics operations.",
     },
   ],
 
