@@ -7369,6 +7369,61 @@ specTable: {
     "General industrial transport",
   ],
 },
+"jdd10-12-5": {
+  name: "JDD10-12.5",
+  shortName: "JDD10-12.5",
+
+  description:
+    "Automated guided vehicle designed for pallet transport, material handling and warehouse automation.",
+
+  loadCapacity: "10T–12.5T",
+  driveType: "Electric / Automated",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd10-12-5.png",
+      alt: "JDD10-12.5 Automated Guided Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet transport",
+    "Electric drive system",
+    "Warehouse automation ready",
+    "Heavy-duty industrial construction",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Operation",
+      text: "Designed for automated pallet transportation and intelligent material handling.",
+    },
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet movement in warehouses, factories and production environments.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Drive System",
+      text: "Electric-powered drive system supports efficient and reliable material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Automation",
+      text: "Suitable for integration into automated warehouse and factory logistics operations.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated warehouse systems",
+    "Industrial pallet movement",
+  ],
+},
 };
 
 
