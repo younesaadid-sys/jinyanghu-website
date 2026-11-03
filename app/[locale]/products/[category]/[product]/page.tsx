@@ -7489,6 +7489,2866 @@ advantages: [
     "Pallet lifting and positioning",
   ],
 },
+"jqd05-06": {
+  name: "JQD05-06",
+  shortName: "JQD05-06",
+
+  description:
+    "Compact electric automated guided forklift designed for pallet handling, warehouse transport and indoor material movement.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jqd05-06.png",
+      alt: "JQD05-06 Automated Guided Forklift",
+    },
+  ],
+
+  advantages: [
+    "Compact AGV forklift design",
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Designed for indoor warehouse logistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Compact Forklift Design",
+      text: "Compact forklift-style structure designed for pallet lifting and handling in indoor industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated pallet movement and repetitive warehouse transport operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient material handling and positioning.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics applications.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Indoor automated transport",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd25-50": {
+  name: "JDD25-50",
+  shortName: "JDD25-50",
+
+  description:
+    "Heavy-duty automated guided pallet transporter designed for industrial material movement, pallet handling and warehouse logistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd25-50.png",
+      alt: "JDD25-50 Automated Guided Pallet Transporter",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty AGV construction",
+    "Automated pallet transport",
+    "Electric drive system",
+    "Designed for industrial logistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Designed for automated movement of pallets and heavy industrial materials in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Fork-style pallet handling system supports transport and positioning of palletized loads.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Drive",
+      text: "Electric-powered operation supports efficient and repeatable material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Industrial Logistics",
+      text: "Suitable for warehouses, production facilities and intralogistics applications.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production logistics",
+    "Industrial intralogistics",
+    "Pallet movement and positioning",
+  ],
+},
+"jdd02b-20": {
+  name: "JDD02B-20",
+  shortName: "JDD02B-20",
+
+  description:
+    "Compact electric automated guided pallet stacker designed for pallet transport, lifting and indoor warehouse material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd02b-20.png",
+      alt: "JDD02B-20 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Compact AGV stacker design",
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Suitable for indoor logistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting System",
+      text: "Fork-style lifting system designed for pallet pickup, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Designed to support automated pallet movement and repetitive material transport operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor warehouse operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Compact Warehouse Design",
+      text: "Compact structure suitable for warehouses, production areas and intralogistics applications.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Indoor automated transport",
+    "Pallet lifting and positioning",
+  ],
+},
+"jbd": {
+  name: "JBD",
+  shortName: "JBD",
+
+  description:
+    "Compact electric automated guided pallet transporter designed for low-level pallet movement, warehouse logistics and indoor material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jbd.png",
+      alt: "JBD Automated Guided Pallet Transporter",
+    },
+  ],
+
+  advantages: [
+    "Compact low-profile AGV design",
+    "Automated pallet transport",
+    "Electric drive system",
+    "Designed for indoor warehouse logistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Low-Level Pallet Handling",
+      text: "Designed for transporting palletized loads at low lifting heights in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated pallet movement and intralogistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered movement supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Compact Warehouse Design",
+      text: "Compact structure suitable for warehouses, production areas and narrow indoor logistics routes.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material movement",
+    "Production line logistics",
+    "Indoor automated transport",
+    "Pallet positioning",
+  ],
+},
+"jdd-a": {
+  name: "JDD-A",
+  shortName: "JDD-A",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, transport and warehouse material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd.png",
+      alt: "JDD Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet stacking",
+    "Electric drive and lifting system",
+    "Compact industrial design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Stacking",
+      text: "Mast and fork system designed for pallet lifting, stacking and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet transport and warehouse material movement.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor industrial operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet stacking",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd-b": {
+  name: "JDD-B",
+  shortName: "JDD-B",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, transport and warehouse material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd-b.png",
+      alt: "JDD-B Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet stacking",
+    "Electric drive and lifting system",
+    "Compact AGV stacker design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Stacking",
+      text: "Mast and fork system designed for pallet lifting, stacking and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated pallet transport and repetitive warehouse material movement.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor industrial operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet stacking",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd-c": {
+  name: "JDD-C",
+  shortName: "JDD-C",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and intelligent material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd-c.png",
+      alt: "JDD-C Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet stacking",
+    "Electric drive and lifting system",
+    "Compact AGV design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Stacking",
+      text: "Fork and mast system designed for pallet lifting, stacking and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated pallet movement and repetitive warehouse transport operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor industrial operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet stacking",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd-d": {
+  name: "JDD-D",
+  shortName: "JDD-D",
+
+  description:
+    "Heavy-duty electric automated guided vehicle designed for industrial material transport and warehouse intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd-d.png",
+      alt: "JDD-D Automated Guided Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty AGV construction",
+    "Automated material transport",
+    "Electric drive system",
+    "Designed for industrial intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Transport",
+      text: "Designed for automated movement of industrial materials in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Industrial Intralogistics",
+      text: "Suitable for warehouse logistics, production areas and automated material flow operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient and repeatable indoor transport.",
+    },
+    {
+      icon: "mdi:weight-lifter",
+      title: "Heavy-Duty Structure",
+      text: "Robust industrial construction designed for demanding material handling applications.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material transport",
+    "Factory intralogistics",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial load transport",
+  ],
+},
+"jdd-e": {
+  name: "JDD-E",
+  shortName: "JDD-E",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd-e.png",
+      alt: "JDD-E Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Industrial AGV stacker design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting System",
+      text: "Mast and fork system designed for pallet lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated pallet transport and repetitive warehouse material movement.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor industrial operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd-f": {
+  name: "JDD-F",
+  shortName: "JDD-F",
+
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and indoor material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd-f.png",
+      alt: "JDD-F Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Compact AGV pallet truck design",
+    "Automated pallet transport",
+    "Electric drive system",
+    "Designed for indoor warehouse logistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Transport",
+      text: "Low-level fork system designed for pallet pickup, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated pallet movement and repetitive warehouse transport operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material movement",
+    "Production line logistics",
+    "Indoor automated transport",
+    "Pallet positioning",
+  ],
+},
+"jqd-a": {
+  name: "JQD-A",
+  shortName: "JQD-A",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and intelligent material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jqd-a.png",
+      alt: "JQD-A Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Industrial AGV stacker design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting System",
+      text: "Mast and fork system designed for pallet lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated pallet transport and repetitive warehouse material movement.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor industrial operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jqd-b": {
+  name: "JQD-B",
+  shortName: "JQD-B",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and intelligent material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jqd-b.png",
+      alt: "JQD-B Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Compact AGV stacker design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting System",
+      text: "Mast and fork system designed for pallet lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated pallet movement and repetitive warehouse transport operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor industrial operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jqd-c": {
+  name: "JQD-C",
+  shortName: "JQD-C",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and intelligent material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jqd-c.png",
+      alt: "JQD-C Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Industrial AGV stacker design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting System",
+      text: "Mast and fork system designed for pallet lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for automated pallet movement and repetitive warehouse transport operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric drive and lifting functions support efficient indoor industrial operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd": {
+  name: "JDD",
+  shortName: "JDD",
+
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd.png",
+      alt: "JDD Automated Guided Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive system",
+    "Industrial AGV design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Designed for automated pallet movement and repetitive warehouse transport operations.",
+    },
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Suitable for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Designed for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd10-16": {
+  name: "JDD10-16",
+  shortName: "JDD10-16",
+
+  description:
+    "Compact electric automated guided vehicle designed for industrial material handling, load transport and warehouse intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd10-16.png",
+      alt: "JDD10-16 Automated Guided Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Compact AGV design",
+    "Electric drive system",
+    "Automated material handling",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Designed for repetitive automated transport and industrial material movement.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and intralogistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor industrial use.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Industrial Design",
+      text: "Compact heavy-duty construction designed for demanding material handling environments.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material transport",
+    "Factory intralogistics",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial load handling",
+  ],
+},
+"jdd1": {
+  name: "JDD1",
+  shortName: "JDD1",
+
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd1.png",
+      alt: "JDD1 Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Compact AGV design",
+    "Automated pallet transport",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated material movement and warehouse transport operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics operations.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd2": {
+  name: "JDD2",
+  shortName: "JDD2",
+
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport, load positioning and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd2.png",
+      alt: "JDD2 Automated Guided Pallet Handling Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive system",
+    "Compact industrial AGV design",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, movement and positioning in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated transport and industrial material movement.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and intralogistics operations.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"agv": {
+  name: "AGV",
+  shortName: "AGV",
+
+  description:
+    "Heavy-duty automated guided vehicle designed for industrial material transport, warehouse automation and intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/agv.png",
+      alt: "Automated Guided Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty automated transport",
+    "Electric drive system",
+    "Industrial AGV construction",
+    "Designed for warehouse automation",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Transport",
+      text: "Designed for repetitive automated movement of industrial materials and loads.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Automation",
+      text: "Suitable for warehouse logistics, production areas and automated material flow.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor industrial transport.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Industrial Applications",
+      text: "Designed for demanding factory and intralogistics environments.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material transport",
+    "Factory intralogistics",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial load transport",
+  ],
+},
+"jdd3": {
+  name: "JDD3",
+  shortName: "JDD3",
+
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport, pallet movement and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd3.png",
+      alt: "JDD3 Automated Guided Pallet Handling Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive system",
+    "Industrial AGV construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated material movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd18b-12": {
+  name: "JDD18B-12",
+  shortName: "JDD18B-12",
+
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport, pallet movement and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd18b-12.png",
+      alt: "JDD18B-12 Automated Guided Pallet Handling Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive system",
+    "Industrial AGV construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated material movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"agv1": {
+  name: "AGV1",
+  shortName: "AGV1",
+
+  description:
+    "Compact electric automated guided pallet vehicle designed for warehouse transport, pallet handling and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/agv1.png",
+      alt: "AGV1 Automated Guided Pallet Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Compact automated vehicle design",
+    "Electric drive system",
+    "Automated pallet handling",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated warehouse and factory material movement.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd10-15": {
+  name: "JDD10-15",
+  shortName: "JDD10-15",
+
+  description:
+    "Compact electric automated guided pallet truck designed for warehouse transport, pallet handling and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd10-15.png",
+      alt: "JDD10-15 Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Compact automated pallet truck design",
+    "Electric drive system",
+    "Automated pallet handling",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated pallet movement and indoor logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd10b-18": {
+  name: "JDD10B-18",
+  shortName: "JDD10B-18",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet transport, lifting and industrial warehouse logistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd10b-18.png",
+      alt: "JDD10B-18 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Compact industrial construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Mast and fork system designed for pallet pickup, lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Designed for repetitive automated material movement in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and lifting functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and industrial intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd14-16": {
+  name: "JDD14-16",
+  shortName: "JDD14-16",
+
+  description:
+    "Compact electric automated guided pallet truck designed for warehouse transport, pallet handling and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd14-16.png",
+      alt: "JDD14-16 Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Compact AGV pallet truck design",
+    "Automated pallet handling",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated pallet movement and indoor logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd30b-15": {
+  name: "JDD30B-15",
+  shortName: "JDD30B-15",
+
+  description:
+    "Heavy-duty electric automated guided pallet vehicle designed for industrial transport, pallet handling and warehouse intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd30b-15.png",
+      alt: "JDD30B-15 Automated Guided Pallet Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty AGV construction",
+    "Automated pallet handling",
+    "Electric drive system",
+    "Designed for industrial intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated load movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Industrial Applications",
+      text: "Designed for factories, warehouses and demanding intralogistics operations.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd15-45": {
+  name: "JDD15-45",
+  shortName: "JDD15-45",
+
+  description:
+    "Electric automated guided vehicle designed for industrial material handling, warehouse transport and intralogistics applications.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd15-45.png",
+      alt: "JDD15-45 Automated Guided Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated material handling",
+    "Electric drive system",
+    "Industrial AGV construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Designed for repetitive automated movement of materials in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and industrial intralogistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material transport.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Industrial Design",
+      text: "Built for demanding factory and material handling applications.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material transport",
+    "Factory intralogistics",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial load handling",
+  ],
+},
+"jdd15j-14": {
+  name: "JDD15J-14",
+  shortName: "JDD15J-14",
+
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd15j-14.png",
+      alt: "JDD15J-14 Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Compact automated pallet truck design",
+    "Electric drive system",
+    "Automated pallet handling",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated pallet movement and indoor logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd20-16": {
+  name: "JDD20-16",
+  shortName: "JDD20-16",
+
+  description:
+    "Heavy-duty electric automated guided pallet transporter designed for industrial pallet movement, warehouse logistics and intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd20-16.png",
+      alt: "JDD20-16 Automated Guided Pallet Transporter",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty pallet transport",
+    "Automated material handling",
+    "Electric drive system",
+    "Designed for industrial intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Transport",
+      text: "Designed for transporting and positioning palletized loads in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated material movement and warehouse logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd15-46": {
+  name: "JDD15-46",
+  shortName: "JDD15-46",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd15-46.png",
+      alt: "JDD15-46 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Heavy-duty mast construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Mast and fork system designed for pallet lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and lifting functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd30-28": {
+  name: "JDD30-28",
+  shortName: "JDD30-28",
+
+  description:
+    "Heavy-duty electric automated guided pallet stacker designed for industrial pallet handling, warehouse transport and intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd30-28.png",
+      alt: "JDD30-28 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty automated pallet handling",
+    "Electric drive and lifting system",
+    "Industrial mast construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Mast and fork system designed for pallet lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and industrial logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and lifting functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd30b-16": {
+  name: "JDD30B-16",
+  shortName: "JDD30B-16",
+
+  description:
+    "Heavy-duty electric automated guided pallet stacker designed for industrial pallet handling, warehouse transport and intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd30b-16.png",
+      alt: "JDD30B-16 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty automated pallet handling",
+    "Electric drive and lifting system",
+    "Industrial mast construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Mast and fork system designed for pallet lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and industrial logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and lifting functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jqd30-60": {
+  name: "JQD30-60",
+  shortName: "JQD30-60",
+
+  description:
+    "Heavy-duty electric automated guided vehicle designed for industrial material handling, warehouse transport and intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jqd30-60.png",
+      alt: "JQD30-60 Automated Guided Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty automated material handling",
+    "Electric drive system",
+    "Industrial AGV construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Designed for repetitive automated transport and industrial material movement.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories and intralogistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor industrial transport.",
+    },
+    {
+      icon: "mdi:factory",
+      title: "Industrial Design",
+      text: "Built for demanding material handling and factory environments.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material transport",
+    "Factory intralogistics",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial load handling",
+  ],
+},
+"jdd13b-05": {
+  name: "JDD13B-05",
+  shortName: "JDD13B-05",
+
+  description:
+    "Compact electric automated guided pallet stacker designed for pallet handling, warehouse transport and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd13b-05.png",
+      alt: "JDD13B-05 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Compact industrial construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Handling",
+      text: "Fork and mast system designed for pallet pickup, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated material movement in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and lifting functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and industrial intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd13b-23": {
+  name: "JDD13B-23",
+  shortName: "JDD13B-23",
+
+  description:
+    "Compact electric automated guided pallet stacker designed for pallet handling, warehouse transport and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd13b-23.png",
+      alt: "JDD13B-23 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Compact industrial construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Handling",
+      text: "Fork and mast system designed for pallet pickup, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated material movement in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and lifting functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and industrial intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd20-30": {
+  name: "JDD20-30",
+  shortName: "JDD20-30",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet handling, warehouse transport and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd20-30.png",
+      alt: "JDD20-30 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Industrial mast construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Handling",
+      text: "Fork and mast system designed for pallet pickup, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated material movement in warehouse and factory environments.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and lifting functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, production areas and industrial intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd03b20": {
+  name: "JDD03B20",
+  shortName: "JDD03B20",
+
+  description:
+    "Heavy-duty electric automated guided pallet transporter designed for industrial pallet movement, warehouse logistics and intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd03b20.png",
+      alt: "JDD03B20 Automated Guided Pallet Transporter",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty pallet transport",
+    "Automated material handling",
+    "Electric drive system",
+    "Designed for industrial intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Transport",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd03b-30": {
+  name: "JDD03B-30",
+  shortName: "JDD03B-30",
+
+  description:
+    "Heavy-duty electric automated guided pallet transporter designed for industrial load handling, warehouse logistics and intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd03b-30.png",
+      alt: "JDD03B-30 Automated Guided Pallet Transporter",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty load transport",
+    "Automated material handling",
+    "Electric drive system",
+    "Designed for industrial intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Load Handling",
+      text: "Designed for industrial load pickup, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated load movement and warehouse logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse load transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated load movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd04b-12": {
+  name: "JDD04B-12",
+  shortName: "JDD04B-12",
+
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, material transport and warehouse intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd04b-12.png",
+      alt: "JDD04B-12 Automated Guided Pallet Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive and lifting system",
+    "Compact industrial construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Mast and fork system designed for pallet lifting, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and lifting functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Pallet lifting and positioning",
+  ],
+},
+"jdd15-12": {
+  name: "JDD15-12",
+  shortName: "JDD15-12",
+
+  description:
+    "Electric automated guided pallet handling vehicle designed for industrial transport, load positioning and warehouse intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd15-12.png",
+      alt: "JDD15-12 Automated Guided Pallet Handling Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated material handling",
+    "Electric drive system",
+    "Compact industrial construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Designed for automated transport and positioning of industrial loads.",
+    },
+    {
+      icon: "mdi:forklift",
+      title: "Load Positioning",
+      text: "Integrated lifting and positioning mechanism supports industrial load handling operations.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated load positioning",
+    "Industrial intralogistics",
+  ],
+},
+"jdd30b161": {
+  name: "JDD30B161",
+  shortName: "JDD30B161",
+
+  description:
+    "Heavy-duty electric automated guided load handling vehicle designed for industrial transport, positioning and warehouse intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd30b161.png",
+      alt: "JDD30B161 Automated Guided Load Handling Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty automated load handling",
+    "Electric drive system",
+    "Integrated load positioning mechanism",
+    "Suitable for industrial intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Designed for automated transport and positioning of industrial loads.",
+    },
+    {
+      icon: "mdi:forklift",
+      title: "Load Positioning",
+      text: "Integrated load handling mechanism supports precise movement of heavy loads.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient and stable indoor transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Industrial Applications",
+      text: "Suitable for factories, warehouses and automated intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material handling",
+    "Factory load transport",
+    "Automated load positioning",
+    "Production line logistics",
+    "Industrial intralogistics",
+  ],
+},
+"jbd20": {
+  name: "JBD20",
+  shortName: "JBD20",
+
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jbd20.png",
+      alt: "JBD20 Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet transport",
+    "Compact industrial design",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Transport",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories and production logistics environments.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd15j-22": {
+  name: "JDD15J-22",
+  shortName: "JDD15J-22",
+
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd15j-22.png",
+      alt: "JDD15J-22 Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet transport",
+    "Compact industrial design",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Transport",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd02-25": {
+  name: "JDD02-25",
+  shortName: "JDD02-25",
+
+  description:
+    "Electric automated guided load handling vehicle designed for industrial transport, load positioning and warehouse intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd02-25.png",
+      alt: "JDD02-25 Automated Guided Load Handling Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated load handling",
+    "Electric drive and lifting system",
+    "Specialized load attachment",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Load Handling",
+      text: "Integrated handling attachment designed for load pickup, transport and positioning.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated material movement in industrial environments.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered drive and handling functions support efficient indoor operation.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse material handling",
+    "Factory load transport",
+    "Production line logistics",
+    "Automated load positioning",
+    "Industrial intralogistics",
+  ],
+},
+"jdd20b-16": {
+  name: "JDD20B-16",
+  shortName: "JDD20B-16",
+
+  description:
+    "Heavy-duty electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd20b-16.png",
+      alt: "JDD20B-16 Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet transport",
+    "Heavy-duty industrial design",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Transport",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and industrial logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient and reliable indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Industrial Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd10-35": {
+  name: "JDD10-35",
+  shortName: "JDD10-35",
+
+  description:
+    "Electric automated guided stacker designed for pallet lifting, stacking, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd10-35.png",
+      alt: "JDD10-35 Automated Guided Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet lifting and stacking",
+    "High mast lifting design",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Designed for pallet lifting, stacking and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:arrow-up-bold",
+      title: "High Lift Capability",
+      text: "Equipped with a vertical mast system for lifting pallets to elevated storage positions.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet stacking",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet lifting",
+    "Industrial intralogistics",
+  ],
+},
+"jbd26": {
+  name: "JBD26",
+  shortName: "JBD26",
+
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jbd26.png",
+      alt: "JBD26 Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet transport",
+    "Compact industrial design",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Transport",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jdd20-15": {
+  name: "JDD20-15",
+  shortName: "JDD20-15",
+
+  description:
+    "Electric automated guided stacker designed for pallet lifting, stacking, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd20-15.png",
+      alt: "JDD20-15 Automated Guided Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet lifting and stacking",
+    "Heavy-duty industrial design",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Designed for pallet lifting, stacking and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:arrow-up-bold",
+      title: "High Lift Capability",
+      text: "Equipped with a vertical mast system for lifting pallets to elevated storage positions.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet stacking",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet lifting",
+    "Industrial intralogistics",
+  ],
+},
+"jdd20-13": {
+  name: "JDD20-13",
+  shortName: "JDD20-13",
+
+  description:
+    "Electric automated guided stacker designed for pallet lifting, positioning, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd20-13.png",
+      alt: "JDD20-13 Automated Guided Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet lifting and positioning",
+    "Heavy-duty industrial structure",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Handling",
+      text: "Designed for pallet lifting, positioning and transport in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient and reliable indoor material transport.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet handling",
+    "Factory material transport",
+    "Production line logistics",
+    "Automated pallet positioning",
+    "Industrial intralogistics",
+  ],
+},
+"jdd10-30": {
+  name: "JDD10-30",
+  shortName: "JDD10-30",
+
+  description:
+    "Electric automated guided stacker designed for pallet lifting, stacking, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd10-30.png",
+      alt: "JDD10-30 Automated Guided Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet lifting and stacking",
+    "Compact industrial design",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Designed for pallet lifting, stacking and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:arrow-up-bold",
+      title: "High Lift Capability",
+      text: "Equipped with a vertical mast system for lifting pallets to elevated storage positions.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet stacking",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet lifting",
+    "Industrial intralogistics",
+  ],
+},
+"jdd20-301": {
+  name: "JDD20-301",
+  shortName: "JDD20-301",
+
+  description:
+    "Electric automated guided stacker designed for pallet lifting, stacking, warehouse logistics and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd20-301.png",
+      alt: "JDD20-301 Automated Guided Stacker",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet lifting and stacking",
+    "Heavy-duty industrial design",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Pallet Lifting",
+      text: "Designed for pallet lifting, stacking and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:arrow-up-bold",
+      title: "High Lift Capability",
+      text: "Equipped with a vertical mast system for lifting pallets to elevated storage positions.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet stacking",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet lifting",
+    "Industrial intralogistics",
+  ],
+},
+"jbd03j": {
+  name: "JBD03J",
+  shortName: "JBD03J",
+
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, positioning and industrial material handling in narrow warehouse environments.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jbd03j.png",
+      alt: "JBD03J Automated Guided Pallet Truck",
+    },
+  ],
+
+  advantages: [
+    "Compact automated pallet transport",
+    "Slim industrial design",
+    "Electric drive system",
+    "Designed for narrow warehouse spaces",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Transport",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:arrow-collapse-horizontal",
+      title: "Compact Design",
+      text: "Compact structure supports material handling in narrow aisles and limited working spaces.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Narrow aisle material handling",
+    "Production line logistics",
+    "Automated pallet movement",
+    "Industrial intralogistics",
+  ],
+},
+"jqd30-30": {
+  name: "JQD30-30",
+  shortName: "JQD30-30",
+
+  description:
+    "Heavy-duty electric automated guided stacker designed for pallet lifting, stacking, positioning and industrial material handling.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jqd30-30.png",
+      alt: "JQD30-30 Automated Guided Stacker",
+    },
+  ],
+
+  advantages: [
+    "Heavy-duty pallet lifting and stacking",
+    "Automated industrial material handling",
+    "Electric drive system",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:forklift",
+      title: "Heavy-Duty Pallet Handling",
+      text: "Designed for pallet lifting, stacking and positioning in demanding industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Handling",
+      text: "Suitable for repetitive automated pallet movement and industrial logistics operations.",
+    },
+    {
+      icon: "mdi:arrow-up-bold",
+      title: "Stacking Capability",
+      text: "Equipped with a vertical mast system for lifting and stacking pallets in warehouse operations.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Industrial Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet stacking",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated pallet positioning",
+    "Industrial intralogistics",
+  ],
+},
 };
 
 

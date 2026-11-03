@@ -53,6 +53,369 @@ const products: Record<
     "Electric automated guided forklift designed for pallet handling, warehouse transport and industrial material movement.",
   image: "/products/agv-series/jqd20-25.png",
 },
+{
+  name: "JQD05-06",
+  slug: "jqd05-06",
+  description:
+    "Compact electric automated guided forklift designed for pallet handling, warehouse transport and indoor material movement.",
+  image: "/products/agv-series/jqd05-06.png",
+},
+{
+  name: "JDD25-50",
+  slug: "jdd25-50",
+  description:
+    "Heavy-duty automated guided pallet transporter designed for industrial material movement, pallet handling and warehouse logistics.",
+  image: "/products/agv-series/jdd25-50.png",
+},
+{
+  name: "JDD02B-20",
+  slug: "jdd02b-20",
+  description:
+    "Compact electric automated guided pallet stacker designed for pallet transport, lifting and indoor warehouse material handling.",
+  image: "/products/agv-series/jdd02b-20.png",
+},
+{
+  name: "JBD",
+  slug: "jbd",
+  description:
+    "Compact electric automated guided pallet transporter designed for low-level pallet movement, warehouse logistics and indoor material handling.",
+  image: "/products/agv-series/jbd.png",
+},
+{
+  name: "JDD-A",
+  slug: "jdd-a",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, transport and warehouse material handling.",
+  image: "/products/agv-series/jdd.png",
+},
+{
+  name: "JDD-B",
+  slug: "jdd-b",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, transport and warehouse material handling.",
+  image: "/products/agv-series/jdd-b.png",
+},
+{
+  name: "JDD-C",
+  slug: "jdd-c",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and intelligent material handling.",
+  image: "/products/agv-series/jdd-c.png",
+},
+{
+  name: "JDD-D",
+  slug: "jdd-d",
+  description:
+    "Heavy-duty electric automated guided vehicle designed for industrial material transport and warehouse intralogistics.",
+  image: "/products/agv-series/jdd-d.png",
+},
+{
+  name: "JDD-E",
+  slug: "jdd-e",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and industrial material handling.",
+  image: "/products/agv-series/jdd-e.png",
+},
+{
+  name: "JDD-F",
+  slug: "jdd-f",
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and indoor material handling.",
+  image: "/products/agv-series/jdd-f.png",
+},
+{
+  name: "JQD-A",
+  slug: "jqd-a",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and intelligent material handling.",
+  image: "/products/agv-series/jqd-a.png",
+},
+{
+  name: "JQD-B",
+  slug: "jqd-b",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and intelligent material handling.",
+  image: "/products/agv-series/jqd-b.png",
+},
+{
+  name: "JQD-C",
+  slug: "jqd-c",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and intelligent material handling.",
+  image: "/products/agv-series/jqd-c.png",
+},
+{
+  name: "JDD",
+  slug: "jdd",
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport and industrial intralogistics.",
+  image: "/products/agv-series/jdd.png",
+},
+{
+  name: "JDD10-16",
+  slug: "jdd10-16",
+  description:
+    "Compact electric automated guided vehicle designed for industrial material handling, load transport and warehouse intralogistics.",
+  image: "/products/agv-series/jdd10-16.png",
+},
+{
+  name: "JDD1",
+  slug: "jdd1",
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jdd1.png",
+},
+{
+  name: "JDD2",
+  slug: "jdd2",
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport, load positioning and industrial intralogistics.",
+  image: "/products/agv-series/jdd2.png",
+},
+{
+  name: "AGV",
+  slug: "agv",
+  description:
+    "Heavy-duty automated guided vehicle designed for industrial material transport, warehouse automation and intralogistics.",
+  image: "/products/agv-series/agv.png",
+},
+{
+  name: "JDD3",
+  slug: "jdd3",
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport, pallet movement and industrial intralogistics.",
+  image: "/products/agv-series/jdd3.png",
+},
+{
+  name: "JDD18B-12",
+  slug: "jdd18b-12",
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport, pallet movement and industrial intralogistics.",
+  image: "/products/agv-series/jdd18b-12.png",
+},
+{
+  name: "AGV1",
+  slug: "agv1",
+  description:
+    "Compact electric automated guided pallet vehicle designed for warehouse transport, pallet handling and industrial intralogistics.",
+  image: "/products/agv-series/agv1.png",
+},
+{
+  name: "JDD10-15",
+  slug: "jdd10-15",
+  description:
+    "Compact electric automated guided pallet truck designed for warehouse transport, pallet handling and industrial intralogistics.",
+  image: "/products/agv-series/jdd10-15.png",
+},
+{
+  name: "JDD10B-18",
+  slug: "jdd10b-18",
+  description:
+    "Electric automated guided pallet stacker designed for pallet transport, lifting and industrial warehouse logistics.",
+  image: "/products/agv-series/jdd10b-18.png",
+},
+{
+  name: "JDD14-16",
+  slug: "jdd14-16",
+  description:
+    "Compact electric automated guided pallet truck designed for warehouse transport, pallet handling and industrial intralogistics.",
+  image: "/products/agv-series/jdd14-16.png",
+},
+{
+  name: "JDD30B-15",
+  slug: "jdd30b-15",
+  description:
+    "Heavy-duty electric automated guided pallet vehicle designed for industrial transport, pallet handling and warehouse intralogistics.",
+  image: "/products/agv-series/jdd30b-15.png",
+},
+{
+  name: "JDD15-45",
+  slug: "jdd15-45",
+  description:
+    "Electric automated guided vehicle designed for industrial material handling, warehouse transport and intralogistics applications.",
+  image: "/products/agv-series/jdd15-45.png",
+},
+{
+  name: "JDD15J-14",
+  slug: "jdd15j-14",
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jdd15j-14.png",
+},
+{
+  name: "JDD20-16",
+  slug: "jdd20-16",
+  description:
+    "Heavy-duty electric automated guided pallet transporter designed for industrial pallet movement, warehouse logistics and intralogistics.",
+  image: "/products/agv-series/jdd20-16.png",
+},
+{
+  name: "JDD15-46",
+  slug: "jdd15-46",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, warehouse transport and industrial intralogistics.",
+  image: "/products/agv-series/jdd15-46.png",
+},
+{
+  name: "JDD30-28",
+  slug: "jdd30-28",
+  description:
+    "Heavy-duty electric automated guided pallet stacker designed for industrial pallet handling, warehouse transport and intralogistics.",
+  image: "/products/agv-series/jdd30-28.png",
+},
+{
+  name: "JDD30B-16",
+  slug: "jdd30b-16",
+  description:
+    "Heavy-duty electric automated guided pallet stacker designed for industrial pallet handling, warehouse transport and intralogistics.",
+  image: "/products/agv-series/jdd30b-16.png",
+},
+{
+  name: "JQD30-60",
+  slug: "jqd30-60",
+  description:
+    "Heavy-duty electric automated guided vehicle designed for industrial material handling, warehouse transport and intralogistics.",
+  image: "/products/agv-series/jqd30-60.png",
+},
+{
+  name: "JDD13B-05",
+  slug: "jdd13b-05",
+  description:
+    "Compact electric automated guided pallet stacker designed for pallet handling, warehouse transport and industrial intralogistics.",
+  image: "/products/agv-series/jdd13b-05.png",
+},
+{
+  name: "JDD13B-23",
+  slug: "jdd13b-23",
+  description:
+    "Compact electric automated guided pallet stacker designed for pallet handling, warehouse transport and industrial intralogistics.",
+  image: "/products/agv-series/jdd13b-23.png",
+},
+{
+  name: "JDD20-30",
+  slug: "jdd20-30",
+  description:
+    "Electric automated guided pallet stacker designed for pallet handling, warehouse transport and industrial intralogistics.",
+  image: "/products/agv-series/jdd20-30.png",
+},
+{
+  name: "JDD03B20",
+  slug: "jdd03b20",
+  description:
+    "Heavy-duty electric automated guided pallet transporter designed for industrial pallet movement, warehouse logistics and intralogistics.",
+  image: "/products/agv-series/jdd03b20.png",
+},
+{
+  name: "JDD03B-30",
+  slug: "jdd03b-30",
+  description:
+    "Heavy-duty electric automated guided pallet transporter designed for industrial load handling, warehouse logistics and intralogistics.",
+  image: "/products/agv-series/jdd03b-30.png",
+},
+{
+  name: "JDD04B-12",
+  slug: "jdd04b-12",
+  description:
+    "Electric automated guided pallet stacker designed for pallet lifting, material transport and warehouse intralogistics.",
+  image: "/products/agv-series/jdd04b-12.png",
+},
+{
+  name: "JDD15-12",
+  slug: "jdd15-12",
+  description:
+    "Electric automated guided pallet handling vehicle designed for industrial transport, load positioning and warehouse intralogistics.",
+  image: "/products/agv-series/jdd15-12.png",
+},
+{
+  name: "JDD30B161",
+  slug: "jdd30b161",
+  description:
+    "Heavy-duty electric automated guided load handling vehicle for industrial transport and positioning.",
+  image: "/products/agv-series/jdd30b161.png",
+},
+{
+  name: "JBD20",
+  slug: "jbd20",
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jbd20.png",
+},
+{
+  name: "JDD15J-22",
+  slug: "jdd15j-22",
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jdd15j-22.png",
+},
+{
+  name: "JDD02-25",
+  slug: "jdd02-25",
+  description:
+    "Electric automated guided load handling vehicle designed for industrial transport, load positioning and warehouse intralogistics.",
+  image: "/products/agv-series/jdd02-25.png",
+},
+{
+  name: "JDD20B-16",
+  slug: "jdd20b-16",
+  description: "Electric Heavy-Duty AGV Transport Vehicle",
+  image: "/products/agv-series/jdd20b-16.png",
+},
+{
+  name: "JDD10-35",
+  slug: "jdd10-35",
+  description:
+    "Electric automated guided stacker designed for pallet lifting, stacking, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jdd10-35.png",
+},
+{
+  name: "JBD26",
+  slug: "jbd26",
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jbd26.png",
+},
+{
+  name: "JDD20-15",
+  slug: "jdd20-15",
+  description:
+    "Electric automated guided stacker designed for pallet lifting, stacking, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jdd20-15.png",
+},
+{
+  name: "JDD20-13",
+  slug: "jdd20-13",
+  description:
+    "Electric automated guided stacker designed for pallet lifting, positioning, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jdd20-13.png",
+},
+{
+  name: "JDD10-30",
+  slug: "jdd10-30",
+  description:
+    "Electric automated guided stacker designed for pallet lifting, stacking, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jdd10-30.png",
+},
+{
+  name: "JDD20-301",
+  slug: "jdd20-301",
+  description:
+    "Electric automated guided stacker designed for pallet lifting, stacking, warehouse logistics and industrial material handling.",
+  image: "/products/agv-series/jdd20-301.png",
+},
+{
+  name: "JBD03J",
+  slug: "jbd03j",
+  description:
+    "Compact electric automated guided pallet truck designed for pallet transport, positioning and industrial material handling in narrow warehouse environments.",
+  image: "/products/agv-series/jbd03j.png",
+},
+{
+  name: "JQD30-30",
+  slug: "jqd30-30",
+  description:
+    "Heavy-duty electric automated guided stacker designed for pallet lifting, stacking, positioning and industrial material handling.",
+  image: "/products/agv-series/jqd30-30.png",
+},
 ],
   // =========================================================
   // ELECTRIC HEAVY-DUTY MOVERS
