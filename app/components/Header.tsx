@@ -327,11 +327,11 @@ const products: Record<
   image: "/products/agv-series/jdd15-12.png",
 },
 {
-  name: "JDD30B161",
-  slug: "jdd30b161",
+  name: "JDD30B-161",
+  slug: "jdd30b-161",
   description:
     "Heavy-duty electric automated guided load handling vehicle for industrial transport and positioning.",
-  image: "/products/agv-series/jdd30b161.png",
+  image: "/products/agv-series/jdd30b-161.png",
 },
 {
   name: "JBD20",

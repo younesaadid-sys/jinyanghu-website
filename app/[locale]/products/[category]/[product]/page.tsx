@@ -9634,9 +9634,9 @@ advantages: [
     "Industrial intralogistics",
   ],
 },
-"jdd30b161": {
-  name: "JDD30B161",
-  shortName: "JDD30B161",
+"jdd30b-161": {
+  name: "JDD30-161",
+  shortName: "JDD30-161",
 
   description:
     "Heavy-duty electric automated guided load handling vehicle designed for industrial transport, positioning and warehouse intralogistics.",
@@ -9646,8 +9646,8 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd30b161.png",
-      alt: "JDD30B161 Automated Guided Load Handling Vehicle",
+      src: "/products/agv-series/jdd30b-161.png",
+      alt: "JDD30-161 Automated Guided Load Handling Vehicle",
     },
   ],
 
