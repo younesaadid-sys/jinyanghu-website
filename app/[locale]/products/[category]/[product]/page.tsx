@@ -157,7 +157,7 @@ loadCapacity: "10T–100T",
 driveType: "Electric",
     gallery: [
       {
-        src: "/products/ja-series/ja-main.jpg",
+        src: "/products/ja-series/ja-main.webp",
         alt: "JA Series Electric Tank Transporter",
       },
       {
@@ -402,7 +402,7 @@ description:
 
     gallery: [
       {
-        src: "/products/ja-b-series/ja-b-main-v2.jpg",
+        src: "/products/ja-b-series/ja-b-main-v2.webp",
         alt: "JA-B Series Electric Tank Transporter",
       },
       {
@@ -638,7 +638,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/js-series/js-main.png",
+        src: "/products/js-series/js-main.webp",
         alt: "JS Series electric heavy-duty transporter",
       },
       {
@@ -1013,7 +1013,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/jd-series/jd-main.jpg",
+        src: "/products/jd-series/jd-main.webp",
         alt: "JD Series Electric Machinery Skate Dolly",
       },
       {
@@ -1248,7 +1248,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/jx-series/jx-main.jpg",
+        src: "/products/jx-series/jx-main.webp",
         alt: "JX Series Electric Machinery Skate Dolly",
       },
       {
@@ -1694,7 +1694,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/jz-series/jz-main.png",
+        src: "/products/jz-series/jz-main.webp",
         alt: "JZ Series Electric Pallet Truck",
       },
       {
@@ -1966,7 +1966,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/cra-series/cra-main.jpg",
+        src: "/products/cra-series/cra-main.webp",
         alt: "CRA Series Cargo Moving Skates",
       },
       {
@@ -2182,7 +2182,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/crd-series/crd-main.png",
+        src: "/products/crd-series/crd-main.webp",
         alt: "CRD Series hand-cranked machine skate",
       },
       {
@@ -2439,7 +2439,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/cwa-series/cwa-main.png",
+        src: "/products/cwa-series/cwa-main.webp",
         alt: "CWA Series Tank Transporters",
       },
       {
@@ -2803,7 +2803,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/cx-y-series/cx-y-main.png",
+        src: "/products/cx-y-series/cx-y-main.webp",
         alt: "CX+Y Series Tank Transporters",
       },
       {
@@ -3087,7 +3087,7 @@ specTable: {
 
     gallery: [
       {
-        src: "/products/crp-series/crp-main.png",
+        src: "/products/crp-series/crp-main.webp",
         alt: "CRP Series machinery moving skate",
       },
       {
@@ -4271,7 +4271,7 @@ specTable: {
 
    gallery: [
   {
-    src: "/products/ma-series/ma-main.png",
+    src: "/products/ma-series/ma-main.webp",
     alt: "MA Series Dual-Purpose Claw Jack",
   },
   {
@@ -4524,7 +4524,7 @@ specTable: {
 
   gallery: [
   {
-    src: "/products/mb-series/mb-main.png",
+    src: "/products/mb-series/mb-main.webp",
     alt: "MB Series Multi-Stage Claw Jack",
   },
   {
@@ -4736,7 +4736,7 @@ specTable: {
 
   gallery: [
     {
-      src: "/products/mc-series/mc-main.png",
+      src: "/products/mc-series/mc-main.webp",
       alt: "MC Series Single-Stage Claw Jack",
     },
     {
@@ -4999,7 +4999,7 @@ specTable: {
 
   gallery: [
     {
-      src: "/products/md-series/md-main.png",
+      src: "/products/md-series/md-main.webp",
       alt: "MD Series Manual Claw Jack",
     },
     {
@@ -5194,7 +5194,7 @@ specTable: {
 
   gallery: [
     {
-      src: "/products/me-series/me-main.png",
+      src: "/products/me-series/me-main.webp",
       alt: "ME Series remote-operated claw jack main product",
     },
     {
@@ -7307,7 +7307,7 @@ specTable: {
       alt: "JCV Series heavy-duty electric flatbed trolley",
     },
     {
-      src: "/products/jcv-series/jcv-dual-braking.png",
+      src: "/products/jcv-series/jcv-dual-braking.webp",
       alt: "JCV Series dual braking system",
     },
     {
@@ -7380,19 +7380,19 @@ loadCapacity: "Model Specific",
 driveType: "Electric / AGV",
 gallery: [
   {
-    src: "/products/agv-series/jdd10-12-5.png",
+    src: "/products/agv-series/jdd10-12-5.webp",
     alt: "JDD10-12.5 Automated Guided Vehicle",
   },
   {
-    src: "/products/agv-series/jdd10-12-5-side.png",
+    src: "/products/agv-series/jdd10-12-5-side.webp",
     alt: "JDD10-12.5 Automated Guided Vehicle side view",
   },
   {
-    src: "/products/agv-series/jdd10-12-5-front-angle.png",
+    src: "/products/agv-series/jdd10-12-5-front-angle.webp",
     alt: "JDD10-12.5 Automated Guided Vehicle front angle view",
   },
   {
-    src: "/products/agv-series/jdd10-12-5-front.png",
+    src: "/products/agv-series/jdd10-12-5-front.webp",
     alt: "JDD10-12.5 Automated Guided Vehicle front view",
   },
 ],
@@ -7446,7 +7446,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jqd20-25.png",
+      src: "/products/agv-series/jqd20-25.webp",
       alt: "JQD20-25 Automated Guided Forklift",
     },
   ],
@@ -7501,7 +7501,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jqd05-06.png",
+      src: "/products/agv-series/jqd05-06.webp",
       alt: "JQD05-06 Automated Guided Forklift",
     },
   ],
@@ -7556,7 +7556,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd25-50.png",
+      src: "/products/agv-series/jdd25-50.webp",
       alt: "JDD25-50 Automated Guided Pallet Transporter",
     },
   ],
@@ -7611,7 +7611,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd02b-20.png",
+      src: "/products/agv-series/jdd02b-20.webp",
       alt: "JDD02B-20 Automated Guided Pallet Stacker",
     },
   ],
@@ -7666,7 +7666,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jbd.png",
+      src: "/products/agv-series/jbd.webp",
       alt: "JBD Automated Guided Pallet Transporter",
     },
   ],
@@ -7721,7 +7721,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd.png",
+      src: "/products/agv-series/jdd.webp",
       alt: "JDD Automated Guided Pallet Stacker",
     },
   ],
@@ -7776,7 +7776,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd-b.png",
+      src: "/products/agv-series/jdd-b.webp",
       alt: "JDD-B Automated Guided Pallet Stacker",
     },
   ],
@@ -7831,7 +7831,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd-c.png",
+      src: "/products/agv-series/jdd-c.webp",
       alt: "JDD-C Automated Guided Pallet Stacker",
     },
   ],
@@ -7886,7 +7886,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd-d.png",
+      src: "/products/agv-series/jdd-d.webp",
       alt: "JDD-D Automated Guided Vehicle",
     },
   ],
@@ -7941,7 +7941,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd-e.png",
+      src: "/products/agv-series/jdd-e.webp",
       alt: "JDD-E Automated Guided Pallet Stacker",
     },
   ],
@@ -7996,7 +7996,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd-f.png",
+      src: "/products/agv-series/jdd-f.webp",
       alt: "JDD-F Automated Guided Pallet Truck",
     },
   ],
@@ -8051,7 +8051,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jqd-a.png",
+      src: "/products/agv-series/jqd-a.webp",
       alt: "JQD-A Automated Guided Pallet Stacker",
     },
   ],
@@ -8106,7 +8106,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jqd-b.png",
+      src: "/products/agv-series/jqd-b.webp",
       alt: "JQD-B Automated Guided Pallet Stacker",
     },
   ],
@@ -8161,7 +8161,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jqd-c.png",
+      src: "/products/agv-series/jqd-c.webp",
       alt: "JQD-C Automated Guided Pallet Stacker",
     },
   ],
@@ -8216,7 +8216,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd.png",
+      src: "/products/agv-series/jdd.webp",
       alt: "JDD Automated Guided Vehicle",
     },
   ],
@@ -8271,7 +8271,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd10-16.png",
+      src: "/products/agv-series/jdd10-16.webp",
       alt: "JDD10-16 Automated Guided Vehicle",
     },
   ],
@@ -8326,7 +8326,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd1.png",
+      src: "/products/agv-series/jdd1.webp",
       alt: "JDD1 Automated Guided Pallet Truck",
     },
   ],
@@ -8381,7 +8381,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd2.png",
+      src: "/products/agv-series/jdd2.webp",
       alt: "JDD2 Automated Guided Pallet Handling Vehicle",
     },
   ],
@@ -8436,7 +8436,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/agv.png",
+      src: "/products/agv-series/agv.webp",
       alt: "Automated Guided Vehicle",
     },
   ],
@@ -8491,7 +8491,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd3.png",
+      src: "/products/agv-series/jdd3.webp",
       alt: "JDD3 Automated Guided Pallet Handling Vehicle",
     },
   ],
@@ -8546,7 +8546,7 @@ advantages: [
 
   gallery: [
   {
-    src: "/products/agv-series/jdd18b-12.png",
+    src: "/products/agv-series/jdd18b-12.webp",
     alt: "JDD18B-12 Automated Guided Pallet Vehicle",
   },
 ],
@@ -8601,7 +8601,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/agv1.png",
+      src: "/products/agv-series/agv1.webp",
       alt: "AGV1 Automated Guided Pallet Vehicle",
     },
   ],
@@ -8656,7 +8656,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd10-15.png",
+      src: "/products/agv-series/jdd10-15.webp",
       alt: "JDD10-15 Automated Guided Pallet Truck",
     },
   ],
@@ -8711,7 +8711,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd10b-18.png",
+      src: "/products/agv-series/jdd10b-18.webp",
       alt: "JDD10B-18 Automated Guided Pallet Stacker",
     },
   ],
@@ -8766,7 +8766,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd14-16.png",
+      src: "/products/agv-series/jdd14-16.webp",
       alt: "JDD14-16 Automated Guided Pallet Truck",
     },
   ],
@@ -8821,7 +8821,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd30b-15.png",
+      src: "/products/agv-series/jdd30b-15.webp",
       alt: "JDD30B-15 Automated Guided Pallet Vehicle",
     },
   ],
@@ -8876,7 +8876,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd15-45.png",
+      src: "/products/agv-series/jdd15-45.webp",
       alt: "JDD15-45 Automated Guided Vehicle",
     },
   ],
@@ -8931,7 +8931,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd15j-14.png",
+      src: "/products/agv-series/jdd15j-14.webp",
       alt: "JDD15J-14 Automated Guided Pallet Truck",
     },
   ],
@@ -8986,7 +8986,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd20-16.png",
+      src: "/products/agv-series/jdd20-16.webp",
       alt: "JDD20-16 Automated Guided Pallet Transporter",
     },
   ],
@@ -9041,7 +9041,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd15-46.png",
+      src: "/products/agv-series/jdd15-46.webp",
       alt: "JDD15-46 Automated Guided Pallet Stacker",
     },
   ],
@@ -9096,7 +9096,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd30-28.png",
+      src: "/products/agv-series/jdd30-28.webp",
       alt: "JDD30-28 Automated Guided Pallet Stacker",
     },
   ],
@@ -9151,7 +9151,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd30b-16.png",
+      src: "/products/agv-series/jdd30b-16.webp",
       alt: "JDD30B-16 Automated Guided Pallet Stacker",
     },
   ],
@@ -9206,7 +9206,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jqd30-60.png",
+      src: "/products/agv-series/jqd30-60.webp",
       alt: "JQD30-60 Automated Guided Vehicle",
     },
   ],
@@ -9261,7 +9261,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd13b-05.png",
+      src: "/products/agv-series/jdd13b-05.webp",
       alt: "JDD13B-05 Automated Guided Pallet Stacker",
     },
   ],
@@ -9316,7 +9316,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd13b-23.png",
+      src: "/products/agv-series/jdd13b-23.webp",
       alt: "JDD13B-23 Automated Guided Pallet Stacker",
     },
   ],
@@ -9371,7 +9371,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd20-30.png",
+      src: "/products/agv-series/jdd20-30.webp",
       alt: "JDD20-30 Automated Guided Pallet Stacker",
     },
   ],
@@ -9426,7 +9426,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd03b20.png",
+      src: "/products/agv-series/jdd03b20.webp",
       alt: "JDD03B20 Automated Guided Pallet Transporter",
     },
   ],
@@ -9481,7 +9481,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd03b-30.png",
+      src: "/products/agv-series/jdd03b-30.webp",
       alt: "JDD03B-30 Automated Guided Pallet Transporter",
     },
   ],
@@ -9536,7 +9536,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd04b-12.png",
+      src: "/products/agv-series/jdd04b-12.webp",
       alt: "JDD04B-12 Automated Guided Pallet Stacker",
     },
   ],
@@ -9591,7 +9591,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd15-12.png",
+      src: "/products/agv-series/jdd15-12.webp",
       alt: "JDD15-12 Automated Guided Pallet Handling Vehicle",
     },
   ],
@@ -9646,7 +9646,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd30b-161.png",
+      src: "/products/agv-series/jdd30b-161.webp",
       alt: "JDD30-161 Automated Guided Load Handling Vehicle",
     },
   ],
@@ -9701,7 +9701,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jbd20.png",
+      src: "/products/agv-series/jbd20.webp",
       alt: "JBD20 Automated Guided Pallet Truck",
     },
   ],
@@ -9756,7 +9756,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd15j-22.png",
+      src: "/products/agv-series/jdd15j-22.webp",
       alt: "JDD15J-22 Automated Guided Pallet Truck",
     },
   ],
@@ -9811,7 +9811,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd02-25.png",
+      src: "/products/agv-series/jdd02-25.webp",
       alt: "JDD02-25 Automated Guided Load Handling Vehicle",
     },
   ],
@@ -9866,7 +9866,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd20b-16.png",
+      src: "/products/agv-series/jdd20b-16.webp",
       alt: "JDD20B-16 Automated Guided Pallet Truck",
     },
   ],
@@ -9921,7 +9921,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd10-35.png",
+      src: "/products/agv-series/jdd10-35.webp",
       alt: "JDD10-35 Automated Guided Stacker",
     },
   ],
@@ -9976,7 +9976,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jbd26.png",
+      src: "/products/agv-series/jbd26.webp",
       alt: "JBD26 Automated Guided Pallet Truck",
     },
   ],
@@ -10031,7 +10031,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd20-15.png",
+      src: "/products/agv-series/jdd20-15.webp",
       alt: "JDD20-15 Automated Guided Stacker",
     },
   ],
@@ -10086,7 +10086,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd20-13.png",
+      src: "/products/agv-series/jdd20-13.webp",
       alt: "JDD20-13 Automated Guided Stacker",
     },
   ],
@@ -10141,7 +10141,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd10-30.png",
+      src: "/products/agv-series/jdd10-30.webp",
       alt: "JDD10-30 Automated Guided Stacker",
     },
   ],
@@ -10196,7 +10196,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd20-301.png",
+      src: "/products/agv-series/jdd20-301.webp",
       alt: "JDD20-301 Automated Guided Stacker",
     },
   ],
@@ -10251,7 +10251,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jbd03j.png",
+      src: "/products/agv-series/jbd03j.webp",
       alt: "JBD03J Automated Guided Pallet Truck",
     },
   ],
@@ -10306,7 +10306,7 @@ advantages: [
 
   gallery: [
     {
-      src: "/products/agv-series/jqd30-30.png",
+      src: "/products/agv-series/jqd30-30.webp",
       alt: "JQD30-30 Automated Guided Stacker",
     },
   ],

@@ -24,7 +24,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/ja-series/ja-main.jpg",
+        src: "/products/ja-series/ja-main.webp",
         alt: "JA Series Electric Tank Transporter",
       },
       {
@@ -123,7 +123,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/ja-b-series/ja-b-main-v2.jpg",
+        src: "/products/ja-b-series/ja-b-main-v2.webp",
         alt: "JA-B Series Electric Tank Transporter",
       },
       {
@@ -260,7 +260,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/js-series/js-main.png",
+        src: "/products/js-series/js-main.webp",
         alt: "JS Series electric heavy-duty transporter",
       },
       {
@@ -355,7 +355,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/jd-series/jd-main.jpg",
+        src: "/products/jd-series/jd-main.webp",
         alt: "JD Series Electric Machinery Skate Dolly",
       },
       {
@@ -450,7 +450,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/jx-series/jx-main.jpg",
+        src: "/products/jx-series/jx-main.webp",
         alt: "JX Series Electric Machinery Skate Dolly",
       },
       {
@@ -549,7 +549,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/jz-series/jz-main.png",
+        src: "/products/jz-series/jz-main.webp",
         alt: "JZ Series Electric Pallet Truck",
       },
       {
@@ -644,7 +644,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/cra-series/cra-main.jpg",
+        src: "/products/cra-series/cra-main.webp",
         alt: "CRA Series Cargo Moving Skates",
       },
       {
@@ -739,7 +739,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/crd-series/crd-main.png",
+        src: "/products/crd-series/crd-main.webp",
         alt: "CRD Series hand-cranked machine skate",
       },
       {
@@ -838,7 +838,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/cwa-series/cwa-main.png",
+        src: "/products/cwa-series/cwa-main.webp",
         alt: "CWA Series Tank Transporters",
       },
       {
@@ -933,7 +933,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/cx-y-series/cx-y-main.png",
+        src: "/products/cx-y-series/cx-y-main.webp",
         alt: "CX+Y Series Tank Transporters",
       },
       {
@@ -1032,7 +1032,7 @@ const productData = {
 
     gallery: [
       {
-        src: "/products/crp-series/crp-main.png",
+        src: "/products/crp-series/crp-main.webp",
         alt: "CRP Series machinery moving skate",
       },
       {
@@ -1139,7 +1139,7 @@ const productData = {
         alt: "CRQ Series key construction details",
       },
       {
-        src: "/products/crq-series/crq-product-view.png",
+        src: "/products/crq-series/crq-product-view.webp",
         alt: "CRQ Series detailed product view",
       },
       {
@@ -1523,7 +1523,7 @@ const productData = {
 
    gallery: [
   {
-    src: "/products/ma-series/ma-main.png",
+    src: "/products/ma-series/ma-main.webp",
     alt: "MA Series Dual-Purpose Claw Jack",
   },
   {
@@ -1616,7 +1616,7 @@ features: [
 
   gallery: [
   {
-    src: "/products/mb-series/mb-main.png",
+    src: "/products/mb-series/mb-main.webp",
     alt: "MB Series Multi-Stage Claw Jack",
   },
   {
@@ -1636,7 +1636,7 @@ features: [
     alt: "MB Series heavy-duty multi-stage adjustable top",
   },
   {
-    src: "/products/mb-series/mb-product-view.png",
+    src: "/products/mb-series/mb-product-view.webp",
     alt: "MB Series product view",
   },
 ],
@@ -1710,7 +1710,7 @@ features: [
 
   gallery: [
     {
-      src: "/products/mc-series/mc-main.png",
+      src: "/products/mc-series/mc-main.webp",
       alt: "MC Series Single-Stage Claw Jack",
     },
     {
@@ -1804,7 +1804,7 @@ features: [
 
   gallery: [
     {
-      src: "/products/md-series/md-main.png",
+      src: "/products/md-series/md-main.webp",
       alt: "MD Series Manual Claw Jack",
     },
     {
@@ -1895,7 +1895,7 @@ features: [
 
   gallery: [
     {
-      src: "/products/me-series/me-main.png",
+      src: "/products/me-series/me-main.webp",
       alt: "ME Series remote-operated claw jack main product",
     },
     {
@@ -3124,7 +3124,7 @@ features: [
       alt: "JCV Series heavy-duty electric flatbed trolley",
     },
     {
-      src: "/products/jcv-series/jcv-dual-braking.png",
+      src: "/products/jcv-series/jcv-dual-braking.webp",
       alt: "JCV Series dual braking system",
     },
     {
@@ -3198,7 +3198,7 @@ features: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd10-12-5.png",
+      src: "/products/agv-series/jdd10-12-5.webp",
       alt: "JDD10-12.5 Automated Guided Vehicle",
     },
   ],
@@ -3253,7 +3253,7 @@ features: [
 
   gallery: [
     {
-      src: "/products/agv-series/jdd18b-12.png",
+      src: "/products/agv-series/jdd18b-12.webp",
       alt: "JDD18B-12 Automated Guided Pallet Vehicle",
     },
   ],

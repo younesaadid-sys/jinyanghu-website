@@ -278,7 +278,7 @@ export default async function Home() {
         >
           <div className="relative h-[220px] bg-white">
             <Image
-              src="/products/ja-series/ja-main.jpg"
+              src="/products/ja-series/ja-main.webp"
               alt="JA Series"
               fill
               unoptimized
@@ -307,7 +307,7 @@ export default async function Home() {
         >
            <div className="relative h-[220px] bg-white">
             <Image
-              src="/products/ja-b-series/ja-b-main-v2.jpg"
+              src="/products/ja-b-series/ja-b-main-v2.webp"
               alt="JA-B Series"
               fill
               unoptimized
@@ -336,7 +336,7 @@ export default async function Home() {
         >
            <div className="relative h-[220px] bg-white">
             <Image
-              src="/products/js-series/js-main.png"
+              src="/products/js-series/js-main.webp"
               alt="JS Series"
               fill
               unoptimized
@@ -365,7 +365,7 @@ export default async function Home() {
         >
           <div className="relative h-[220px] bg-white">
             <Image
-              src="/products/jd-series/jd-main.jpg"
+              src="/products/jd-series/jd-main.webp"
               alt="JD Series"
               fill
               unoptimized
@@ -394,7 +394,7 @@ export default async function Home() {
         >
           <div className="relative h-[220px] bg-white">
             <Image
-              src="/products/jx-series/jx-main.jpg"
+              src="/products/jx-series/jx-main.webp"
               alt="JX Series"
               fill
               unoptimized
@@ -444,11 +444,11 @@ export default async function Home() {
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
 
         {[
-          ["CRA Series", "/products/cra-series/cra-main.jpg", "cra-series-tank-transporters"],
-          ["CWA Series", "/products/cwa-series/cwa-main.png", "cwa-series-tank-transporters"],
-          ["CRD Series", "/products/crd-series/crd-main.png", "crd-series-tank-transporters"],
-          ["CX+Y Series", "/products/cx-y-series/cx-y-main.png", "cx-y-series-tank-transporters"],
-          ["CRP Series", "/products/crp-series/crp-main.png", "crp-series-tank-transporters"],
+          ["CRA Series", "/products/cra-series/cra-main.webp", "cra-series-tank-transporters"],
+          ["CWA Series", "/products/cwa-series/cwa-main.webp", "cwa-series-tank-transporters"],
+          ["CRD Series", "/products/crd-series/crd-main.webp", "crd-series-tank-transporters"],
+          ["CX+Y Series", "/products/cx-y-series/cx-y-main.webp", "cx-y-series-tank-transporters"],
+          ["CRP Series", "/products/crp-series/crp-main.webp", "crp-series-tank-transporters"],
         ].map(([name, image, slug]) => (
           <a
             key={slug}
@@ -510,11 +510,11 @@ export default async function Home() {
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
 
         {[
-          ["MA Series", "/products/ma-series/ma-main.png", "ma-series-dual-purpose-claw-jacks"],
-          ["MB Series", "/products/mb-series/mb-main.png", "mb-series-multi-stage-claw-jacks"],
-          ["MC Series", "/products/mc-series/mc-main.png", "mc-series-single-stage-claw-jacks"],
-          ["MD Series", "/products/md-series/md-main.png", "md-series-manual-claw-jacks"],
-          ["ME Series", "/products/me-series/me-main.png", "me-series-remote-operated-claw-jacks"],
+          ["MA Series", "/products/ma-series/ma-main.webp", "ma-series-dual-purpose-claw-jacks"],
+          ["MB Series", "/products/mb-series/mb-main.webp", "mb-series-multi-stage-claw-jacks"],
+          ["MC Series", "/products/mc-series/mc-main.webp", "mc-series-single-stage-claw-jacks"],
+          ["MD Series", "/products/md-series/md-main.webp", "md-series-manual-claw-jacks"],
+          ["ME Series", "/products/me-series/me-main.webp", "me-series-remote-operated-claw-jacks"],
         ].map(([name, image, slug]) => (
           <a
             key={slug}
