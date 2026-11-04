@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 type GalleryImage = {
@@ -17,7 +17,20 @@ export default function ProductGallery({
   images,
   hideThumbnails = false,
 }: ProductGalleryProps) {
-  const [selectedImage, setSelectedImage] = useState(images[0]);
+  const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(
+    images[0] ?? null
+  );
+
+  // Sync selected image whenever the product/gallery changes
+  useEffect(() => {
+    setSelectedImage(images[0] ?? null);
+  }, [images]);
+
+  if (!selectedImage) {
+    return (
+      <div className="relative aspect-square overflow-hidden rounded-3xl bg-white" />
+    );
+  }
 
   return (
     <div>
@@ -29,12 +42,13 @@ export default function ProductGallery({
           fill
           priority
           unoptimized
+          sizes="(max-width: 768px) 100vw, 50vw"
           className="object-contain"
         />
       </div>
 
       {/* THUMBNAILS */}
-      {!hideThumbnails && (
+      {!hideThumbnails && images.length > 1 && (
         <div className="mt-4 grid grid-cols-4 gap-3 sm:grid-cols-7">
           {images.map((image) => {
             const active = selectedImage.src === image.src;
@@ -55,7 +69,8 @@ export default function ProductGallery({
                   alt={image.alt}
                   width={180}
                   height={180}
-                  className="aspect-square h-full w-full object-cover"
+                  unoptimized
+                  className="aspect-square h-full w-full object-contain"
                 />
               </button>
             );
