@@ -10618,10 +10618,13 @@ const t = await getTranslations("home");
   alt={currentProduct.gallery[0]?.alt}
   className="h-[500px] w-full rounded-3xl bg-white object-contain"
 />
-          <ProductGallery
-  images={currentProduct.gallery}
-  hideThumbnails={category === "agv-automated-guided-vehicle"}
-/>
+          <div className="relative aspect-square overflow-hidden rounded-3xl bg-white">
+  <img
+    src="/products/agv-series/jdd18b-12.png"
+    alt="JDD18B-12"
+    className="h-full w-full object-contain"
+  />
+</div>
 
           {/* RIGHT */}
           <div className="lg:pt-4">
