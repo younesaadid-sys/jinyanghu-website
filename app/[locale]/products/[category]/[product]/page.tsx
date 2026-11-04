@@ -10473,6 +10473,18 @@ const productOrder: Record<string, string[]> = {
     "mj-series-low-profile-hand-operated-toe-jacks",
     "mk-series-multi-position-adjustable-toe-jacks",
   ],
+    "agv-automated-guided-vehicle": [
+    "jdd2",
+    "agv",
+    "jdd3",
+    "jdd18b-12",
+    "agv1",
+    "jdd10-15",
+    "jdd10b-18",
+    "jdd14-16",
+    "jdd30b-15",
+    "jdd10-12-5",
+  ],
 };
 export default async function ProductPage({
   params,
