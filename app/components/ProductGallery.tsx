@@ -36,16 +36,12 @@ export default function ProductGallery({
     <div>
       {/* MAIN IMAGE */}
       <div className="relative aspect-square overflow-hidden rounded-3xl bg-white">
-        <Image
-          src={selectedImage.src}
-          alt={selectedImage.alt}
-          fill
-          priority
-          unoptimized
-          sizes="(max-width: 768px) 100vw, 50vw"
-          className="object-contain"
-        />
-      </div>
+        <img
+    src={selectedImage.src}
+    alt={selectedImage.alt}
+    className="absolute inset-0 h-full w-full object-contain"
+  />
+</div>
 
       {/* THUMBNAILS */}
       {!hideThumbnails && images.length > 1 && (
