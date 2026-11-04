@@ -693,23 +693,34 @@ const searchResults = normalizedSearch
 
           {/* PRODUCTS */}
           <div
-            className="relative"
-            onMouseEnter={() => {
+  className="relative"
+  onMouseEnter={() => {
   setMenuOpen(true);
-  setActiveCategory(categories[0].slug);
+activeCategory
+  if (!activeCategory) {
+    setActiveCategory(categories[0].slug);
+  }
 }}
-            onMouseLeave={() => setMenuOpen(false)}
-          >
+  onMouseLeave={() => setMenuOpen(false)}
+>
             <button
-              type="button"
-              className="text-sm font-semibold text-zinc-900"
-            >
-              {t("products")}
-              <span className="text-xs">▼</span>
-            </button>
+  type="button"
+  onMouseEnter={() => setMenuOpen(true)}
+  onFocus={() => {
+    setMenuOpen(true);
+
+    if (!activeCategory) {
+      setActiveCategory(categories[0].slug);
+    }
+  }}
+  className="flex items-center gap-1 text-sm font-semibold text-zinc-900"
+>
+  {t("products")}
+  <span className="text-[10px]">▼</span>
+</button>
 
             {menuOpen && (
-              <div className="absolute left-1/2 top-full z-[100] w-[960px] -translate-x-1/2 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl">
+              <div className="absolute left-1/2 top-full z-[9999] w-[960px] -translate-x-1/2 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl">
                 <div className="grid grid-cols-[320px_1fr]">
                   {/* LEFT CATEGORIES */}
                   <div className="border-r border-zinc-200 bg-zinc-50 p-4">
