@@ -3241,6 +3241,61 @@ features: [
     "Industrial pallet movement",
   ],
 },
+"jdd18b-12": {
+  name: "JDD18B-12",
+  shortName: "JDD18B-12",
+
+  description:
+    "Electric automated guided pallet handling vehicle designed for warehouse transport, pallet movement and industrial intralogistics.",
+
+  loadCapacity: "Model Specific",
+  driveType: "Electric / AGV",
+
+  gallery: [
+    {
+      src: "/products/agv-series/jdd18b-12.png",
+      alt: "JDD18B-12 Automated Guided Pallet Vehicle",
+    },
+  ],
+
+  advantages: [
+    "Automated pallet handling",
+    "Electric drive system",
+    "Industrial AGV construction",
+    "Designed for warehouse intralogistics",
+  ],
+
+  features: [
+    {
+      icon: "mdi:pallet",
+      title: "Pallet Handling",
+      text: "Designed for pallet pickup, transport and positioning in industrial environments.",
+    },
+    {
+      icon: "mdi:robot-industrial",
+      title: "Automated Material Transport",
+      text: "Suitable for repetitive automated material movement and warehouse logistics.",
+    },
+    {
+      icon: "mdi:battery-charging",
+      title: "Electric Operation",
+      text: "Electric-powered operation supports efficient indoor material handling.",
+    },
+    {
+      icon: "mdi:warehouse",
+      title: "Warehouse Applications",
+      text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
+    },
+  ],
+
+  applications: [
+    "Warehouse pallet transport",
+    "Factory material handling",
+    "Production line logistics",
+    "Automated material movement",
+    "Industrial intralogistics",
+  ],
+},
 };
 
 
