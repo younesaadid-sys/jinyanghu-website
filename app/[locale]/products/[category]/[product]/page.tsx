@@ -8545,11 +8545,11 @@ advantages: [
   driveType: "Electric / AGV",
 
   gallery: [
-    {
-      src: "/products/agv-series/jdd18b-12.png",
-      alt: "JDD18B-12 Automated Guided Pallet Handling Vehicle",
-    },
-  ],
+  {
+    src: "/products/agv-series/jdd18b-12.png",
+    alt: "JDD18B-12 Automated Guided Pallet Vehicle",
+  },
+],
 
   advantages: [
     "Automated pallet handling",
@@ -9496,28 +9496,28 @@ advantages: [
   features: [
     {
       icon: "mdi:pallet",
-      title: "Load Handling",
-      text: "Designed for industrial load pickup, transport and positioning.",
+      title: "Heavy-Duty Transport",
+      text: "Designed for industrial pallet and material transport in demanding working environments.",
     },
     {
       icon: "mdi:robot-industrial",
       title: "Automated Material Handling",
-      text: "Suitable for repetitive automated load movement and warehouse logistics operations.",
+      text: "Suitable for repetitive automated load movement and warehouse logistics.",
     },
     {
       icon: "mdi:battery-charging",
       title: "Electric Operation",
-      text: "Electric-powered operation supports efficient indoor material transport.",
+      text: "Electric-powered operation supports efficient indoor industrial transport.",
     },
     {
       icon: "mdi:warehouse",
-      title: "Warehouse Applications",
+      title: "Industrial Applications",
       text: "Suitable for warehouses, factories, production areas and intralogistics systems.",
     },
   ],
 
   applications: [
-    "Warehouse load transport",
+    "Heavy-duty pallet transport",
     "Factory material handling",
     "Production line logistics",
     "Automated load movement",
