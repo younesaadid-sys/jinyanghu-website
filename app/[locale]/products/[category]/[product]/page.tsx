@@ -8536,7 +8536,7 @@ advantages: [
 },
 "jdd18b-12": {
   name: "JDD18B-12",
-  shortName: "JDD18b-12",
+  shortName: "JDD18B-12",
 
   description:
     "Electric automated guided pallet handling vehicle designed for warehouse transport, pallet movement and industrial intralogistics.",
