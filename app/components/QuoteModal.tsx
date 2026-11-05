@@ -1,241 +1,320 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { createPortal } from "react-dom";
-import { Icon } from "@iconify/react";
-import { useTranslations } from "next-intl";
+import {
+  FormEvent,
+  useEffect,
+  useState,
+} from "react";
 
 type QuoteModalProps = {
   buttonText?: string;
   product?: string;
   capacity?: string;
+
+  // Optional controlled mode
+  open?: boolean;
+  onClose?: () => void;
 };
 
 export default function QuoteModal({
-  buttonText,
+  buttonText = "Request a Quote",
   product = "",
   capacity = "",
+  open,
+  onClose,
 }: QuoteModalProps) {
-  const [open, setOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
+  const [internalOpen, setInternalOpen] = useState(false);
 
-  const t = useTranslations("nav");
+  const isControlled = typeof open === "boolean";
+  const isOpen = isControlled ? open : internalOpen;
 
-  const finalButtonText = buttonText || t("quote");
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (open) {
-      document.body.style.overflow = "hidden";
+  const closeModal = () => {
+    if (isControlled) {
+      onClose?.();
     } else {
-      document.body.style.overflow = "";
+      setInternalOpen(false);
     }
+  };
 
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [open]);
+  const openModal = () => {
+    if (!isControlled) {
+      setInternalOpen(true);
+    }
+  };
 
-  const isPriceRequest = finalButtonText.toLowerCase().includes("price");
+  const [form, setForm] = useState({
+    name: "",
+    company: "",
+    email: "",
+    phone: "",
+    product,
+    capacity,
+    message: "",
+  });
 
-  const modal =
-    open && mounted ? (
-      <div
-        className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/70 p-4"
-        onClick={() => setOpen(false)}
-      >
-        <div
-          className="relative max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-2xl bg-white p-6 shadow-2xl md:p-8"
-          onClick={(e) => e.stopPropagation()}
-        >
-          {/* CLOSE BUTTON */}
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            className="absolute right-5 top-5 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-zinc-100 text-zinc-500 transition hover:bg-zinc-200 hover:text-black"
-            aria-label="Close"
-          >
-            <Icon icon="mdi:close" className="text-2xl" />
-          </button>
+  const [sending, setSending] = useState(false);
 
-          {/* HEADER */}
-          <div className="mb-7 pr-12">
-            <p className="text-sm font-semibold uppercase tracking-wider text-orange-500">
-              {isPriceRequest ? "Price Inquiry" : "Business Inquiry"}
-            </p>
+  const [status, setStatus] = useState<{
+    type: "success" | "error" | "";
+    message: string;
+  }>({
+    type: "",
+    message: "",
+  });
 
-            <h2 className="mt-2 text-3xl font-black text-zinc-900">
-              {finalButtonText}
-            </h2>
+  useEffect(() => {
+    setForm((prev) => ({
+      ...prev,
+      product,
+      capacity,
+    }));
+  }, [product, capacity]);
 
-            <p className="mt-3 leading-7 text-zinc-600">
-              {isPriceRequest
-                ? "Your selected product configuration is already included below. Complete your contact details and our sales team will contact you with pricing and availability."
-                : "Tell us what equipment you need and our sales team will contact you with product recommendations and quotation details."}
-            </p>
-          </div>
+  const updateField = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setForm((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
 
-          {/* SELECTED CONFIGURATION */}
-          {(product || capacity) && (
-            <div className="mb-7 rounded-2xl border border-orange-200 bg-orange-50 p-5">
-              <div className="flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-orange-600">
-                <Icon icon="mdi:check-circle-outline" className="text-xl" />
-                Selected Configuration
-              </div>
+  const handleSubmit = async (
+    e: FormEvent<HTMLFormElement>
+  ) => {
+    e.preventDefault();
 
-              <div className="mt-4 grid gap-4 sm:grid-cols-2">
-                {product && (
-                  <div>
-                    <div className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
-                      Product
-                    </div>
+    setSending(true);
 
-                    <div className="mt-1 font-bold text-zinc-900">
-                      {product}
-                    </div>
-                  </div>
-                )}
+    setStatus({
+      type: "",
+      message: "",
+    });
 
-                {capacity && (
-                  <div>
-                    <div className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
-                      Load Capacity
-                    </div>
+    try {
+      const response = await fetch("/api/quote", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
 
-                    <div className="mt-1 text-xl font-black text-orange-500">
-                      {capacity}
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
+      const data = await response.json();
 
-          {/* FORM */}
-          <form
-            className="grid gap-5 md:grid-cols-2"
-            onSubmit={(e) => e.preventDefault()}
-          >
-            <div>
-              <label className="mb-2 block text-sm font-semibold text-zinc-700">
-                Name *
-              </label>
+      if (!response.ok) {
+        throw new Error(
+          data.message || "Unable to send request."
+        );
+      }
 
-              <input
-                type="text"
-                required
-                placeholder="Your name"
-                className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-orange-500"
-              />
-            </div>
+      setStatus({
+        type: "success",
+        message:
+          "Thank you. Your quote request has been sent successfully.",
+      });
 
-            <div>
-              <label className="mb-2 block text-sm font-semibold text-zinc-700">
-                Company
-              </label>
-
-              <input
-                type="text"
-                placeholder="Company name"
-                className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-orange-500"
-              />
-            </div>
-
-            <div>
-              <label className="mb-2 block text-sm font-semibold text-zinc-700">
-                Email *
-              </label>
-
-              <input
-                type="email"
-                required
-                placeholder="name@company.com"
-                className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-orange-500"
-              />
-            </div>
-
-            <div>
-              <label className="mb-2 block text-sm font-semibold text-zinc-700">
-                Phone / WhatsApp
-              </label>
-
-              <input
-                type="text"
-                placeholder="+86..."
-                className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-orange-500"
-              />
-            </div>
-
-            <div>
-              <label className="mb-2 block text-sm font-semibold text-zinc-700">
-                Product / Model
-              </label>
-
-              <input
-                type="text"
-                defaultValue={product}
-                placeholder="e.g. JA Series"
-                className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-orange-500"
-              />
-            </div>
-
-            <div>
-              <label className="mb-2 block text-sm font-semibold text-zinc-700">
-                Required Load Capacity
-              </label>
-
-              <input
-                type="text"
-                defaultValue={capacity}
-                placeholder="e.g. 20 tons"
-                className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-orange-500"
-              />
-            </div>
-
-            <div className="md:col-span-2">
-              <label className="mb-2 block text-sm font-semibold text-zinc-700">
-                Message *
-              </label>
-
-              <textarea
-                required
-                rows={4}
-                placeholder="Tell us about your application, quantity and requirements..."
-                className="w-full resize-none rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-orange-500"
-              />
-            </div>
-
-            <div className="md:col-span-2">
-              <button
-                type="submit"
-                className="flex w-full items-center justify-center gap-2 rounded-lg bg-orange-500 px-6 py-4 font-bold text-white transition hover:bg-orange-600"
-              >
-                <Icon icon="mdi:send-outline" className="text-xl" />
-
-                {isPriceRequest
-                  ? `Send Price Request${capacity ? ` for ${capacity}` : ""}`
-                  : "Send Quote Request"}
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    ) : null;
+      setForm({
+        name: "",
+        company: "",
+        email: "",
+        phone: "",
+        product,
+        capacity,
+        message: "",
+      });
+    } catch (error) {
+      setStatus({
+        type: "error",
+        message:
+          error instanceof Error
+            ? error.message
+            : "Something went wrong. Please try again.",
+      });
+    } finally {
+      setSending(false);
+    }
+  };
 
   return (
     <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="rounded-md bg-orange-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-orange-600"
-      >
-        {finalButtonText}
-      </button>
+      {/* BUTTON */}
+      {!isControlled && (
+        <button
+          type="button"
+          onClick={openModal}
+          className="inline-flex items-center justify-center rounded-xl bg-orange-500 px-6 py-3 font-bold text-white transition hover:bg-orange-600"
+        >
+          {buttonText}
+        </button>
+      )}
 
-      {mounted && modal ? createPortal(modal, document.body) : null}
+      {/* MODAL */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/65 p-4 backdrop-blur-sm"
+          onMouseDown={(e) => {
+            if (e.target === e.currentTarget) {
+              closeModal();
+            }
+          }}
+        >
+          <div className="relative max-h-[95vh] w-full max-w-2xl overflow-y-auto rounded-3xl bg-white p-7 text-zinc-900 shadow-2xl md:p-9">
+            <button
+              onClick={closeModal}
+              type="button"
+              className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-full bg-zinc-100 text-2xl text-zinc-500 transition hover:bg-zinc-200 hover:text-black"
+            >
+              ×
+            </button>
+
+            <div className="mb-7">
+              <div className="text-sm font-bold uppercase tracking-wider text-orange-600">
+                Business Inquiry
+              </div>
+
+              <h2 className="mt-2 text-3xl font-black">
+                Request a Quote
+              </h2>
+
+              <p className="mt-3 max-w-xl leading-7 text-zinc-500">
+                Tell us what equipment you need and our
+                sales team will contact you with product
+                recommendations and quotation details.
+              </p>
+            </div>
+
+            <form onSubmit={handleSubmit}>
+              <div className="grid gap-5 md:grid-cols-2">
+                <label className="block">
+                  <span className="mb-2 block text-sm font-semibold">
+                    Name *
+                  </span>
+
+                  <input
+                    name="name"
+                    value={form.name}
+                    onChange={updateField}
+                    required
+                    placeholder="Your name"
+                    className="w-full rounded-xl border border-zinc-300 px-4 py-3.5 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                  />
+                </label>
+
+                <label className="block">
+                  <span className="mb-2 block text-sm font-semibold">
+                    Company
+                  </span>
+
+                  <input
+                    name="company"
+                    value={form.company}
+                    onChange={updateField}
+                    placeholder="Company name"
+                    className="w-full rounded-xl border border-zinc-300 px-4 py-3.5 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                  />
+                </label>
+
+                <label className="block">
+                  <span className="mb-2 block text-sm font-semibold">
+                    Email *
+                  </span>
+
+                  <input
+                    type="email"
+                    name="email"
+                    value={form.email}
+                    onChange={updateField}
+                    required
+                    placeholder="name@company.com"
+                    className="w-full rounded-xl border border-zinc-300 px-4 py-3.5 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                  />
+                </label>
+
+                <label className="block">
+                  <span className="mb-2 block text-sm font-semibold">
+                    Phone / WhatsApp
+                  </span>
+
+                  <input
+                    name="phone"
+                    value={form.phone}
+                    onChange={updateField}
+                    placeholder="+86..."
+                    className="w-full rounded-xl border border-zinc-300 px-4 py-3.5 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                  />
+                </label>
+
+                <label className="block">
+                  <span className="mb-2 block text-sm font-semibold">
+                    Product / Model
+                  </span>
+
+                  <input
+                    name="product"
+                    value={form.product}
+                    onChange={updateField}
+                    placeholder="e.g. JA Series"
+                    className="w-full rounded-xl border border-zinc-300 px-4 py-3.5 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                  />
+                </label>
+
+                <label className="block">
+                  <span className="mb-2 block text-sm font-semibold">
+                    Required Load Capacity
+                  </span>
+
+                  <input
+                    name="capacity"
+                    value={form.capacity}
+                    onChange={updateField}
+                    placeholder="e.g. 20 tons"
+                    className="w-full rounded-xl border border-zinc-300 px-4 py-3.5 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                  />
+                </label>
+              </div>
+
+              <label className="mt-5 block">
+                <span className="mb-2 block text-sm font-semibold">
+                  Message *
+                </span>
+
+                <textarea
+                  name="message"
+                  value={form.message}
+                  onChange={updateField}
+                  required
+                  rows={5}
+                  placeholder="Tell us about your application, quantity and requirements..."
+                  className="w-full resize-none rounded-xl border border-zinc-300 px-4 py-3.5 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                />
+              </label>
+
+              {status.message && (
+                <div
+                  className={`mt-5 rounded-xl px-4 py-3 text-sm font-semibold ${
+                    status.type === "success"
+                      ? "bg-green-50 text-green-700"
+                      : "bg-red-50 text-red-700"
+                  }`}
+                >
+                  {status.message}
+                </div>
+              )}
+
+              <button
+                type="submit"
+                disabled={sending}
+                className="mt-6 flex w-full items-center justify-center rounded-xl bg-orange-500 px-6 py-4 font-bold text-white transition hover:bg-orange-600 disabled:cursor-not-allowed disabled:opacity-60"
+              >
+                {sending
+                  ? "Sending..."
+                  : "✈ Send Quote Request"}
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
     </>
   );
 }
