@@ -844,7 +844,12 @@ activeCategory
               </div>
             )}
           </div>
-
+<Link
+  href="/product-videos"
+  className="text-sm font-semibold text-zinc-900"
+>
+  {t("productVideos")}
+</Link>
           <Link
             href="/#about"
             className="text-sm font-semibold text-zinc-900"
