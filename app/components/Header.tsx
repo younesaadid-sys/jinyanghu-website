@@ -20,7 +20,7 @@ const categories = [
     slug: "equipment-jacks",
   },
   {
-    name: "Heavy-Duty Load Skates",
+    name: "Electric Stair-Climbing Machine",
     slug: "heavy-duty-load-skates",
   },
   {

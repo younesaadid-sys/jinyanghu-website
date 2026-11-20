@@ -1,6 +1,6 @@
 const videos = [
   {
-    title: "Electric Heavy-Duty Load Skates",
+    title: "Electric Stair-Climbing Machine",
     category: "Heavy Load Moving",
     src: "/videos/company-factory.mp4",
   },
