@@ -143,7 +143,7 @@ export default function QuoteModal({
         <button
           type="button"
           onClick={openModal}
-          className="inline-flex items-center justify-center rounded-xl bg-orange-500 px-6 py-3 font-bold text-white transition hover:bg-orange-600"
+          className="inline-flex items-center justify-center whitespace-nowrap rounded-xl bg-orange-500 px-6 py-3 font-bold text-white transition hover:bg-orange-600"
         >
           {buttonText}
         </button>

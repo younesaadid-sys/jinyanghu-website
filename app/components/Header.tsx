@@ -663,9 +663,9 @@ const searchResults = normalizedSearch
   : [];
   return (
     <header className="sticky top-0 z-50 hidden border-b border-zinc-200 bg-white md:block">
-      <div className="relative mx-auto flex max-w-[1450px] items-center justify-between gap-5 px-6 py-5">
+      <div className="relative mx-auto flex max-w-[1450px] items-center justify-between gap-5 px-10 py-5">
         {/* LOGO */}
- <div className="flex items-center gap-4">
+ <div className="flex shrink-0 items-center gap-4">
   <a href="/" className="shrink-0">
     <Image
       src="/jin-yang-hu-logo.png"
@@ -683,7 +683,7 @@ const searchResults = normalizedSearch
 </div>
 
         {/* NAVIGATION */}
-        <nav className="flex items-center gap-6 whitespace-nowrap text-base font-medium text-zinc-900">
+        <nav className="ml-10 flex items-center gap-6 whitespace-nowrap text-base font-medium text-zinc-900">
           <Link
             href="/"
             className="text-sm font-semibold text-zinc-900"
